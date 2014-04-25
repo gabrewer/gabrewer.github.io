@@ -7,22 +7,30 @@ categories: [Links]
 ---
 
 Angular
+-------
 [Canceling $http Requests in AngularJS](http://odetocode.com/blogs/scott/archive/2014/04/24/canceling-http-requests-in-angularjs.aspx)
 
 Testing
+-------
 [JavaScript Unit Tests and Code Coverage Tracking using Venus.js](http://ariya.ofilabs.com/2014/04/javascript-unit-tests-and-code-coverage-tracking-using-venus-js.html)
 
 Browserify
+----------
 [Gulp + Browserify: The Everything Post](http://viget.com/extend/gulp-browserify-starter-faq)
+
 [Journey From RequireJS to Browserify ](http://esa-matti.suuronen.org/blog/2013/03/22/journey-from-requirejs-to-browserify/)
+
 [My strategy for client-side package managers (choosing between npm, bower, and component)](http://superbigtree.tumblr.com/post/58075340096/my-strategy-for-client-side-package-managers-choosing)
 
 Sublime Text
+------------
 [Configuring Sublime Text](http://www.granneman.com/webdev/editors/sublime-text/configuring-sublime-text/#markdown)
 
 Visual Studio
+-------------
 [Visual Studio extensions for web developers](http://madskristensen.net/post/visual-studio-extensions-for-web-developers)
 
 WebAPI
+------
 [Ignoring routes in ASP.NET Web API](http://www.strathweb.com/2014/04/ignoring-routes-asp-net-web-api/)
 
