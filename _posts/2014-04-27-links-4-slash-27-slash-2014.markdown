@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Links - 4/27/2014"
+date: 2014-04-27 23:10:14 -0400
+comments: true
+categories: [Links]
+---
+
+Web Design
+----------
+[{wrap}bootstrap](https://wrapbootstrap.com/)
+
+Windows Azure
+-------------
+[Getting user information on Azure Mobile Services](http://blogs.msdn.com/b/carlosfigueira/archive/2012/10/25/getting-user-information-on-azure-mobile-services.aspx)
+
+[Accessing Twitter API v1.1 from Mobile Services Scripts ](http://chrisrisner.com/Accessing-Twitter-API-v1-1-from-Mobile-Services-Scripts)
