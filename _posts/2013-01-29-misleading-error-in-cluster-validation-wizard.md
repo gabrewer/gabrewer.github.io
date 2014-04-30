@@ -4,7 +4,7 @@ title: Misleading error in Cluster Validation Wizard
 date: 2013-01-29 01:26
 author: gabrewer
 comments: true
-categories: [Clustering, Hardware, HP, Hyper-V, Hyper-V]
+categories: [Clustering, Hardware, Hyper-V]
 ---
 <p>This weekend we were migrating a Hyper-V cluster form Windows Server 2008 R2 to Windows Server 2012.&nbsp; Our hosts were HP DL360p Gen 8 servers connected to a HP P2000 G3 MSA iSCSI storage array.&nbsp; </p> <p>After getting our hosts all configured and connected to the SAN we were ready to install the cluster.&nbsp; When we ran the Cluster Validation Wizard we received some warnings.&nbsp; One of warnings seemed quite troubling.&nbsp; </p> <p><font face="Consolas">Test Disk 0 does not support SCSI-3 Persistent Reservations commands needed to support clustered Storage Pools. Some storage devices require specific firmware versions or settings to function properly with failover clusters. Please contact your storage administrator or storage vendor to check the configuration of the storage to allow it to function properly with failover clusters.</font></p> <style type="text/css">.csharpcode, .csharpcode pre
 {
