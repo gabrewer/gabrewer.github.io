@@ -6,18 +6,15 @@ comments: true
 categories: [Links]
 ---
 
-Testing
--------
+####Testing
 [Want to introduce fewer bugs? Test through these five cases.](http://ht.ly/wkg96)
 
-Web Development
----------------
+####Web Development
 [JSON Web Tokens, OWIN and AngularJS](http://mikehadlow.blogspot.com/2014/04/json-web-tokens-owin-and-angularjs.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+CodeRant+%28Code+rant%29)
 
 [Why we decided to move from plain JavaScript to TypeScript for Babylon.js](http://blogs.msdn.com/b/eternalcoding/archive/2014/04/28/why-we-decided-to-move-from-plain-javascript-to-typescript-for-babylon-js.aspx)
 
-.Net
-----
+####.Net
 [FubuMVC Lessons Learned — Strong Naming Woes and Workarounds](http://jeremydmiller.com/2014/04/28/fubumvc-lessons-learned-strong-naming-woes-and-workarounds/)
 
 [Back to Basics: Using Fusion Log Viewer to Debug Obscure Loader Errors](http://www.hanselman.com/blog/BackToBasicsUsingFusionLogViewerToDebugObscureLoaderErrors.aspx)

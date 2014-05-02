@@ -6,31 +6,25 @@ comments: true
 categories: [Links]
 ---
 
-Testing
--------
+####Testing
 [When TDD doesn't work.](http://ht.ly/wkapl)
 
 
-Leadership/Management
----------------------
+####Leadership/Management
 [Ten Things Every Leader Should Always Teach](http://www.leadersbeacon.com/ten-things-every-leader-always-teaching/)
 
-Window Phone
-------------
+####Window Phone
 [Windows Phone 8.1 for Developers" series with 19 posts so far...](http://coolthingoftheday.blogspot.co.uk/2014/04/phone-81-for-developers-series-with-19.html)
 
-Software Development
---------------------
+####Software Development
 [TIL: Arrowhead Anti-Pattern](http://frazzleddad.blogspot.com/2014/04/til-arrowhead-anti-pattern.html)
 
 
-Web Development
----------------
+####Web Development
 [Toastr 2.0.2 Now Available on NuGet, Bower and CDNJS](http://www.johnpapa.net/toastr-2-0-2-now-available-on-nuget-bower-and-cdnjs/)
 
 
-Angular
--------
+####Angular
 [Preventing default action for an element in AngularJS](http://blog.falafel.com/Blogs/venkatakoppaka/venkata-koppaka/2014/04/28/preventing-default-action-for-an-element-in-angularjs)
 
 [Service Providers in AngularJS and Logger Implementation](http://www.webdeveasy.com/service-providers-in-angularjs-and-logger-implementation/)
@@ -38,31 +32,25 @@ Angular
 [Seven Reasons to Love Duck Angular](http://kylehodgson.com/2014/04/29/seven-reasons-to-love-duck-angular/)
 
 
-Web Design
-----------
+####Web Design
 [Refactoring your CSS with LESS in Visual Studio Web Essentials](http://blogs.msdn.com/b/cdndevs/archive/2014/04/29/refactoring-your-css-with-less-in-visual-studio-web-essentials.aspx)
 
 
-Windows Azure
--------------
+####Windows Azure
 [Azure: 99.95% SQL Database SLA, 500 GB DB Size, Improved Performance Self-Service Restore, and Business Continuity](http://weblogs.asp.net/scottgu/archive/2014/04/29/azure-99-95-sql-database-sla-500-gb-db-size-improved-performance-self-service-restore-and-business-continuity.aspx)
 
 
-.Net
-----
+####.Net
 [PUrify - Your Uris have been PUrified!](https://github.com/Purify-net/PUrify)
 
 
-Softwaare
----------
+####Software
 [30 Cool Open Source Software I Discovered in 2013](http://www.cyberciti.biz/open-source/30-cool-best-open-source-softwares-of-2013/)
 
 
-Gadgets
--------
+####Gadgets
 [Gibson has crammed a digital recorder inside a guitar cable](http://www.engadget.com/2014/04/29/gibson-memory-cable/?ncid=rss_truncated)
 
 
-Podcasts, Conferences, Events
------------------------------
+####Podcasts, Conferences, Events
 [Polymorphic Podcast - How to Market Yourself as a Software Developer](http://polymorphicpodcast.com/shows/market)
