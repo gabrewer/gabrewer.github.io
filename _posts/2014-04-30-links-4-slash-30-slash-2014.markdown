@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Links - 4/30/2014"
+title: "Links - 04/30/2014"
 date: 2014-04-30 13:10:14 -0400
 comments: true
 categories: [Links]
