@@ -70,7 +70,7 @@
               {% if category contains 'links' %}
               {% else %}
                   <span style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 130 }}%">
-                      <a href="/{{ category | first | slugize }}/">
+                      <a href="/archives/{{ category | first | slugize }}/">
                           {{ category | first }}
                       </a>
                   </span>
