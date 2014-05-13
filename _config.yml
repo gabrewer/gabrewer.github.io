@@ -2,7 +2,7 @@ name: gabrewer.com
 markdown: redcarpet
 pygments: true
 
-url: http://gabrewer.github.io
+url: http://gabrewer.com
 title: gabrewer.com
 subtitle: Life is too important to be taken seriously.
 author: Gregory A Brewer
@@ -17,6 +17,7 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
+subscribe_rss_link: /atomlinks.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:

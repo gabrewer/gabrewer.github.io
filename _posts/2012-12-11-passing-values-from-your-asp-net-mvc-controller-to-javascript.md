@@ -28,7 +28,7 @@ categories: [ASP.NET, Development, JavaScript, MVC]
 .csharpcode .asp { background-color: #ffff00; }
 .csharpcode .html { color: #800000; }
 .csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
+.csharpcode .alt
 {
 	background-color: #f4f4f4;
 	width: 100%;
@@ -59,7 +59,7 @@ categories: [ASP.NET, Development, JavaScript, MVC]
 .csharpcode .asp { background-color: #ffff00; }
 .csharpcode .html { color: #800000; }
 .csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
+.csharpcode .alt
 {
 	background-color: #f4f4f4;
 	width: 100%;
@@ -99,7 +99,7 @@ categories: [ASP.NET, Development, JavaScript, MVC]
 .csharpcode .asp { background-color: #ffff00; }
 .csharpcode .html { color: #800000; }
 .csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
+.csharpcode .alt
 {
 	background-color: #f4f4f4;
 	width: 100%;
@@ -110,10 +110,10 @@ categories: [ASP.NET, Development, JavaScript, MVC]
 
 <div class="csharpcode">&nbsp;</div>
 <p>And then I can just use the ngon object like this in my JavaScript</p><pre class="csharpcode">activate = function (callback) {
- 
+
    config.currentUserId = ngon.CurrentUserId;
    config.currentUser = function () { <span class="kwrd">return</span> { id: function () { <span class="kwrd">return</span> ngon.CurrentUserId; } }; };
- 
+
     messenger.publish.viewModelActivated({ canleaveCallback: canLeave });
     getActivityItems(callback);
 },</pre>
@@ -134,7 +134,7 @@ categories: [ASP.NET, Development, JavaScript, MVC]
 .csharpcode .asp { background-color: #ffff00; }
 .csharpcode .html { color: #800000; }
 .csharpcode .attr { color: #ff0000; }
-.csharpcode .alt 
+.csharpcode .alt
 {
 	background-color: #f4f4f4;
 	width: 100%;
