@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Links - 05/12/2014"
+date: 2014-05-12 13:10:14 -0400
+comments: true
+categories: [Links]
+---
+
+####Leadership/Management
+[Worst Employee Ever](http://www.vladville.com/2014/05/the-worst-employee-ever.html)
+
+[Why Pluralsight is important for my career](http://www.danlmoyer.com/?p=412)
+
+[High-Performance Patterns: Find Your Personal High-Performance Pattern](http://blogs.msdn.com/b/jmeier/archive/2014/05/08/high-performance-patterns-find-your-personal-high-performance-pattern.aspx)
+
+[Git Workflows For Successful Deployment](http://bocoup.com/weblog/git-workflows-for-successful-deployment)
+
+####Angular
+[Creating Custom AngularJS Directives Part 2 - Isolate Scope ](http://weblogs.asp.net/dwahlin/archive/2014/05/11/creating-custom-angularjs-directives-part-2-isolate-scope.aspx)
+
+[AngularJS Promises - The Definitive Guide](http://www.codeproject.com/Articles/770325/AngularJS-Promises-The-Definitive-Guide)
+
+[Visual Studio Image Library updated, now includes VS 2013 style and is now over 10,000+ images](http://coolthingoftheday.blogspot.com/2014/05/visual-studio-image-library-updated-now.html)
+
+####Web Design
+[Bootstrap 3 Tips and Tricks You Might Not Know](http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know)
+
+####Database
+[RavenDB Conf Videos: RavenDB 3.0](http://ayende.com/blog/166597/ravendb-conf-videos-ravendb-3-0)
+
+####.Net
+[Fixing System.Core 2.0.5 FileLoadException, Portable Libraries and Windows XP support](http://www.hanselman.com/blog/FixingSystemCore205FileLoadExceptionPortableLibrariesAndWindowsXPSupport.aspx)
+
+[Introducing ASP.NET vNext](http://www.hanselman.com/blog/IntroducingASPNETVNext.aspx)
+
+[Visual Studio 2013 Update 2](http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#d-visual-studio-2013-update)
+
+[The Next Generation of .NET - ASP.NET vNext](http://blogs.msdn.com/b/dotnet/archive/2014/05/12/the-next-generation-of-net-asp-net-vnext.aspx)
+
+[Announcing new Web Features in Visual Studio 2013 Update 2 RTM](http://blogs.msdn.com/b/webdev/archive/2014/05/12/announcing-new-web-features-in-visual-studio-2013-update-2-rtm.aspx)
+
+[LINQ Obscura: outer join a base class table to a subclass table](http://blog.falafel.com/Blogs/AdamAnderson/adam-anderson/2014/05/08/linq-obscura-outer-join-a-base-class-table-to-a-subclass-table)
