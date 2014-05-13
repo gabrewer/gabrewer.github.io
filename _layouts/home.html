@@ -56,15 +56,18 @@
               </div>
               <div>
               {% for category in site.categories %}
+              {% if category contains 'links' %}
+              {% else %}
                   <span style="font-size: {{ category | last | size | times: 100 | divided_by: site.categories.size | plus: 130 }}%">
-                      <a href="/archives/{{ category | first | slugize }}/">
+                      <a href="/{{ category | first | slugize }}/">
                           {{ category | first }}
                       </a>
                   </span>
+              {% endif %}
               {% endfor %}
               </div>
               <div class="sidebar-module">
-                <h4>@gabrewer</h4>      
+                <h4>@gabrewer</h4>
                 <div class="textwidget">
                       <a class="twitter-timeline" href="https://twitter.com/gbrewer"
                         onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','http://twitter.com']);"
