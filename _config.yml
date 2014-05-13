@@ -23,6 +23,14 @@ subscribe_email:
 email:
 
 
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Useful Links
+   url: /links/index.html
+ - title: Archives
+   url: /archives/index.html
+
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #

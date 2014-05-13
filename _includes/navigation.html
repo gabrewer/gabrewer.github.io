@@ -2,9 +2,14 @@
 <div class="blog-masthead">
   <div class="container">
     <nav class="blog-nav">
-      <a class="blog-nav-item active" href="{{ root_url }}/">Home</a>
-      <a class="blog-nav-item" href="{{ root_url }}/links">Useful Links</a>
-      <a class="blog-nav-item" href="{{ root_url }}/archives">Archives</a>
+      {% for link in site.navigation %}
+        {% assign current = nil %}
+        {% if page.url == link.url %}
+            {% assign current = 'active' %}
+        {% endif %}
+        <a class="blog-nav-item {{ current }}" href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
     </nav>
   </div>
 </div>
+
