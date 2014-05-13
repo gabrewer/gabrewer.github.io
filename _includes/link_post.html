@@ -2,7 +2,7 @@
   <div class="blog-post">
     <!-- <p class="blog-post-meta">{{post.date | date: "%a, %b %d, %y"}}</p> -->
     {% if index %}
-      <h3 class="blog-post-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+      <h3 class="blog-post-title">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}
       </h3>
     {% else %}
       <h3 class="blog-post-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h3>
