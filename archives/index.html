@@ -7,18 +7,19 @@ footer: false
 <div id="blog-archives">
 {% for post in site.posts reverse %}
 
-{% if post.categories contains 'links' %}
-{% else %}
-{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-{% unless year == this_year %}
-  {% assign year = this_year %}
-  <h2>{{ year }}</h2>
-{% endunless %}
-<article>
-  {% include archive_post.html %}
-</article>
+  {% if post.categories contains 'links' %}
+  {% else %}
 
-{% endif %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless year == this_year %}
+      {% assign year = this_year %}
+      <h2>{{ year }}</h2>
+    {% endunless %}
+    <article>
+      {% include archive_post.html %}
+    </article>
+
+  {% endif %}
 
 {% endfor %}
 </div>
