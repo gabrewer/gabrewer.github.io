@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Links - 05/13/2014"
+date: 2014-05-13 13:10:14 -0400
+comments: true
+categories: [Links]
+---
+
+####Quote of the Day
+<blockquote>To succeed in life, you need two things: ignorance and confidence.
+<br>
+-- Mark Twain
+</blockquote>
+
+####Leadership/Management
+[Writing a Better Abstract](http://www.wekeroad.com/2014/05/13/writing-a-better-abstract/)
+
+####Angular
+[AngularJS CRUD Grid v4: Sorting, AngularJS 1.2.0 & Bootstrap 3](http://blog.jongallant.com/2013/09/angularjs-crud-grid-v4.html#.UkvIVoafgRM)
+
+####.Net
+[A 30 Minute Look At ASP.NET vNext](http://weblogs.asp.net/jgalloway/archive/2014/05/13/a-30-minute-look-at-asp-net-vnext.aspx)
+
+[A less terrible .NET project build with NuGet](http://haacked.com/archive/2014/04/15/nuget-build-dependencies/)
+
+[20 .NET Developers to Follow Online](http://blog.newrelic.com/2014/03/12/20-net-developers-follow-online/)
