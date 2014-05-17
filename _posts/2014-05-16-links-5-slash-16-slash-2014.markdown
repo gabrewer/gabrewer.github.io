@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Links - 05/16/2014"
+date: 2014-05-16 13:10:14 -0400
+comments: true
+categories: [Links]
+---
+
+####Quote of the Day
+<blockquote>A man doesn't know what he knows until he knows what he doesn't know.<br>
+-- Laurence J. Peter
+</blockquote>
+
+####Testing
+[TDD Chess Game Part 6: Starting with More Pieces](http://www.daedtech.com/tdd-chess-game-part-6-starting-with-more-pieces)
+
+####Security
+[Our password hashing has no clothes](http://www.troyhunt.com/2012/06/our-password-hashing-has-no-clothes.html)
+
+[The “Cobra Effect” that is disabling paste on password fields](http://www.troyhunt.com/2014/05/the-cobra-effect-that-is-disabling.html)
+
+####Web Design
+[Tablesaw - A set of plugins for responsive tables.](https://github.com/filamentgroup/tablesaw)
