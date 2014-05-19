@@ -14,6 +14,9 @@ categories: [Links]
 ####I dont know where this goes but it is good
 [Deepity](http://rationalwiki.org/wiki/Deepity)
 
+####Everyones got one...
+[No more JS frameworks](http://bitworking.org/news/2014/05/zero_framework_manifesto)
+
 ####Testing
 [Hexagonal Rails and The Ludicrous Terminal Application](http://pivotallabs.com/hexagonal-rails-and-the-ludicrous-terminal-application/)
 
@@ -23,9 +26,6 @@ categories: [Links]
 [An Introduction to IndexedDB](http://dev.opera.com/articles/introduction-to-indexeddb/)
 
 [Introducing the WebKit FTL JIT](https://www.webkit.org/blog/3362/introducing-the-webkit-ftl-jit/)
-
-Everyones got one...
-[No more JS frameworks](http://bitworking.org/news/2014/05/zero_framework_manifesto)
 
 ####Angular
 [10 Angular Tips from TechEd 2014](http://www.johnpapa.net/10-angular-tips-from-teched-2014)
