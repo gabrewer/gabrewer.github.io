@@ -23,7 +23,7 @@ categories: [Links]
 
 [Second "Is TDD Dead" Hangout video and audio available, third hangout scheduled](http://martinfowler.com/snips/2014-is-tdd-hangout-2-video.html)
 
-#####JavaScriapt
+#####JavaScript
 [Screencast on Getting started with Koa Js](http://www.marcusoft.net/2014/05/screencast-on-getting-started-with-koa.html)
 
 ####Software Development

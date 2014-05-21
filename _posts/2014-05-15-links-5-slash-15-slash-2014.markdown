@@ -14,7 +14,7 @@ categories: [Links]
 #### Business
 [How does Microsoft compete in this new world?](http://www.lhotka.net/weblog/HowDoesMicrosoftCompeteInThisNewWorld.aspx)
 
-#####JavaScriapt
+#####JavaScript
 [Write Object-Oriented JavaScript with TypeScript](http://rachelappel.com/write-object-oriented-javascript-with-typescript)
 
 ####Database
