@@ -4,12 +4,10 @@ title: Useful Links
 ---
 
 {% assign index = true %}
-{% for post in site.posts %}
-{% if post.categories contains 'links' %}
+{% for post in site.useful_links %}
   <!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
   {% assign content = post.content %}
   <article>
       {% include link_post.html %}
     </article>
-{% endif %}
 {% endfor %}
