@@ -7,7 +7,7 @@ categories: [Links]
 ---
 
 ####Quote of the Day
-<blockquote>A man can fail many times, but he isn't a failure until he begins to blame somebody else.<br>
+<blockquote>"A man can fail many times, but he isn't a failure until he begins to blame somebody else."<br>
 -- John Burroughs
 </blockquote>
 

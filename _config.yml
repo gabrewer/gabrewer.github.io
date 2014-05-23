@@ -1,6 +1,6 @@
 name: gabrewer.com
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 url: http://gabrewer.com
 title: gabrewer.com
@@ -22,6 +22,9 @@ subscribe_email:
 # RSS feeds can list your email address if you like
 email:
 
+collections:
+    useful_links:
+        output: true
 
 navigation:
  - title: Home

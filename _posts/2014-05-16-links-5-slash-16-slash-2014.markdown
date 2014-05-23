@@ -7,7 +7,7 @@ categories: [Links]
 ---
 
 ####Quote of the Day
-<blockquote>A man doesn't know what he knows until he knows what he doesn't know.<br>
+<blockquote>"A man doesn't know what he knows until he knows what he doesn't know."<br>
 -- Laurence J. Peter
 </blockquote>
 
