@@ -1,0 +1,61 @@
+---
+layout: post
+title: "Links - 05/29/2014"
+date: 2014-05-29 13:10:14 -0400
+comments: true
+categories: [Links]
+---
+
+####Quote of the Day
+<blockquote>"Go for it now. The future is promised to no one."<br>
+-- Wayne Dyer
+</blockquote>
+
+####I dont know where this goes but it is good
+[10 Universal Truths That Will Set You Free](http://www.dumblittleman.com/2014/05/10-universal-truths-will-set-free.html)
+
+####Everyones got one...
+[Taking Back Agile](http://www.infoq.com/articles/taking-back-agile)
+
+[The Siren Song of Backwards Compatibility](haacked.com/archive/2014/05/27/backwards-compatibility/)
+
+####Testing
+[Goto Fail, Heartbleed, and Unit Testing Culture](visualstudiomagazine.com/blogs/tool-tracker/2014/05/generic-classes-and-constraints.aspx)
+
+####IDEs/Editors
+[Code Lens for Git in Visual Studio 2013 Ultimate Update 3](http://blogs.msdn.com/b/visualstudioalm/archive/2014/05/23/code-lens-for-git-in-visual-studio-2013-ultimate-update-3.aspx)
+
+####Web Development
+[Microsoft Plans To Bring HTTP/2, Web Audio And JavaScript Promises To The Next Version Of IE](http://techcrunch.com/2014/05/28/microsoft-plans-to-bring-http2-web-audio-and-javascript-promises-to-the-next-version-of-ie)
+
+####Angular
+[Building Multiple Filters with Lo-Dash and AngularJS](http://odetocode.com/blogs/scott/archive/2014/05/29/building-multiple-filters-with-lo-dash-and-angularjs.aspx)
+
+[Easy Fix to a Common Angular Module Error](http://www.johnpapa.net/easy-fix-to-a-common-angular-module-error/)
+
+####Software Development
+[Software architecture vs code](http://www.codingthearchitecture.com/2014/05/29/software_architecture_vs_code.html)
+
+####Database
+[Working on the Uber Profiler 3.0](http://ayende.com/blog/166849/working-on-the-uber-profiler-3-0)
+
+####.Net
+[Couchbase Lite for .NET in Beta](http://visualstudiomagazine.com/blogs/data-driver/2014/05/couchbase-lite-for-net.aspx)
+
+[The first Rangers guide emerges from new copy-edit program … worth it?](blogs.msdn.com/b/willy-peter_schaub/archive/2014/05/23/the-first-rangers-guide-emerges-from-new-copy-edit-program-worth-it.aspx)
+
+[New features and improvements in Deedle v1.0](http://tomasp.net/blog/2014/deedle-v1/)
+
+[3 Tips for Using Telerik Data Access and AutoMapper](http://blogs.telerik.com/openaccessteam/posts/14-05-27/3-tips-for-using-telerik-data-access-and-automapper)
+
+[Making Generic Classes Useful with Constraints](visualstudiomagazine.com/blogs/tool-tracker/2014/05/generic-classes-and-constraints.aspx)
+
+[ASP.NET Moving Parts: IBuilder](http://whereslou.com/2014/05/28/asp-net-moving-parts-ibuilder/)
+
+####Mobile Development
+[Windows Phone 8.1, “Do Not Launch, But Debug My Code When It Starts”](http://mtaulty.com/CommunityServer/blogs/mike_taultys_blog/archive/2014/05/27/windows-phone-8-1-do-not-launch-but-debug-my-code-when-it-starts.aspx)
+
+[Xamarin.Forms - Write Once, Run Everywhere, AND Be Native?](www.hanselman.com/blog/XamarinFormsWriteOnceRunEverywhereANDBeNative.aspx)
+
+####Podcasts, Conferences, Events
+[James Whittaker on the art of making truly killer presentations](http://blogs.technet.com/b/microsoft_blog/archive/2014/05/29/james-whittaker-on-the-art-of-making-killer-presentations.aspx)
