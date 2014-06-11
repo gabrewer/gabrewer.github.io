@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Links - 06/11/2014"
+date: 2014-06-11 13:10:14 -0400
+comments: true
+categories: [Links]
+---
+
+####Quote of the Day
+<blockquote>"I'd rather regret the things I've done than regret the things I haven't done."<br>
+-- Lucille Ball
+</blockquote>
+
+####I dont know where this goes but it is good
+[Ever Wished That Calvin and Hobbes Creator Bill Watterson Would Return to the Comics Page? Well, He Just Did.](http://stephanpastis.wordpress.com/2014/06/07/ever-wished-that-calvin-and-hobbes-creator-bill-watterson-would-return-to-the-comics-page-well-he-just-did/)
+
+####Testing
+[Test Has Lost Its Way](http://blogs.msdn.com/b/steverowe/archive/2014/06/09/test-has-lost-its-way.aspx)
+
+####Business
+[How Samuel Hulick made over $37,000 with his self-published book](http://nathanbarry.com/samuel-hulick-37000-self-published-book/)
+
+[Engineer Your Own Luck](http://blogs.msdn.com/b/jmeier/archive/2014/06/08/engineer-your-own-luck.aspx)
+
+####Leadership/Management
+[How to never worry about making the wrong decisions again](https://popforms.com/decisions-post-mortems/)
+
+[Develop Flexible Leadership Skills for Better Business Relationships](http://blogs.technet.com/b/work/archive/2014/06/09/develop-flexible-leadership-skills-for-better-business-relationships.aspx)
+
+[Why Programming is a Part-Time Job : Breaks Make You More Productive](http://open.bufferapp.com/programming-part-time-job)
+
+####Web Development
+[Firebug 2.0](https://blog.getfirebug.com/2014/06/10/firebug-2-0)
+
+####Web Services (REST, HyperMedia, WebAPI, SignalR)
+
+#####JavaScript
+[RxJS Reactive Extensions for JavaScript](http://reactive-extensions.github.io/RxJS/)
+
+####Angular
+[Rethinking AngularJS Controllers](http://toddmotto.com/rethinking-angular-js-controllers/)
+
+[ Token Based Authentication using ASP.NET Web API 2, Owin, and Identity](http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/)
+
+[AngularJS Token Authentication using ASP.NET Web API 2, Owin, and Identity](http://www.codeproject.com/Articles/784106/AngularJS-Token-Authentication-using-ASP-NET-Web-A)
+
+[KendoNg–Part 2–Data](http://blog.falafel.com/Blogs/jesseliberty/jesse-liberty/2014/06/08/kendong-part-2-data)
+
+[Helper Functions for Doing Rx in Angular](http://hueypetersen.com/posts/2013/06/26/helper-functions-for-rx-and-angular/)
+
+[Model Options and Pristine Forms In AngularJS](http://odetocode.com/blogs/scott/archive/2014/06/10/model-options-and-pristine-forms-in-angularjs.aspx)
+
+####Web Design
+[linkedin/archetype · GitHub](https://github.com/linkedin/archetype)
+
+####Windows Azure
+[Simplified Setup and Use of Docker on Microsoft Azure](http://msopentech.com/blog/2014/06/09/docker-on-microsoft-azure/)
+
+####.Net
+[ASP.NET vNext Moving Parts: OWIN](http://whereslou.com/2014/06/10/asp-net-vnext-moving-parts-owin/)
+
+####Mobile Development
+[Shut up and ship: A basic app](http://blog.mrlacey.co.uk/2014/06/shut-up-and-ship-basic-app.html)
+
+####Podcasts, Conferences, Events
+[NDC Oslo Videos Are Online](http://geekswithblogs.net/brians/archive/2014/06/07/ndc-oslo-videos-are-online.aspx)
