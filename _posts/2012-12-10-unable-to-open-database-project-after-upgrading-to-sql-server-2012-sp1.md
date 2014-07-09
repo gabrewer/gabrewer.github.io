@@ -8,7 +8,7 @@ categories: [Development, SQL Server, Visual Studio]
 ---
 I recently upgraded SQL Server 2012 on my development machine to SP1.  Once it was installed, my solutions with SQL Server Database Projects complain that the version of SQL Server Data Tools is not compatible with the database runtime components install on this computer.
 
-<a href="http://gabrewer.azurewebsites.net/?attachment_id=461" rel="attachment wp-att-461"><img class="alignnone size-medium wp-image-461" alt="ssdt3" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/ssdt3-300x253.jpg" width="300" height="253" /></a>
+<img class="alignnone size-medium wp-image-461" alt="ssdt3" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/ssdt3-300x253.jpg" width="300" height="253" />
 
 Both the “Learn more…” and “Get the latest version of SQL Server Data Tools…” links do not currently resolve to an active page.
 

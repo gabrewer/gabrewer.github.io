@@ -10,14 +10,14 @@ The other day I needed to test the Mail functionality of an application I was de
 
 smtp4dev captures emails that are sent to localhost on whatever port you configure smtp4dev to listen on.  You can then inspect the formatting and content by choosing an entry in the list and selecting Inspect or View.
 
-<a href="http://gabrewer.azurewebsites.net/?attachment_id=141" rel="attachment wp-att-141"><img class="alignnone size-medium wp-image-141" alt="smtp4dev main screen" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/image_4-300x217.png" width="300" height="217" /></a>
+<img class="alignnone size-medium wp-image-141" alt="smtp4dev main screen" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/image_4-300x217.png" width="300" height="217" />
 
 Inspect shows a window that lets you see the MIME parts (Source, Headers, Body) and the raw Message Source. View opens the email message in your default email program.
 
-<a href="http://gabrewer.azurewebsites.net/?attachment_id=151" rel="attachment wp-att-151"><img class="alignnone size-medium wp-image-151" alt="Message Inspect Window" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/image_16-300x164.png" width="300" height="164" /></a>
+<img class="alignnone size-medium wp-image-151" alt="Message Inspect Window" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/image_16-300x164.png" width="300" height="164" />
 
 smtp4dev even supports SSL/TTL allowing you to specify a certificate to use for the secure connection.
 
-<a href="http://gabrewer.azurewebsites.net/?attachment_id=161" rel="attachment wp-att-161"><img class="alignnone size-medium wp-image-161" alt="smtp4dev options" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/image_6-300x272.png" width="300" height="272" /></a>
+<img class="alignnone size-medium wp-image-161" alt="smtp4dev options" src="http://gabrewer.azurewebsites.net/wp-content/uploads/2013/01/image_6-300x272.png" width="300" height="272" />
 
 smtp4dev is an easy to use utility that provides some powerful capabilities that can make integration testing email functionality in your apps easier.
