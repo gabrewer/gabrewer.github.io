@@ -23,7 +23,7 @@ categories: [Links]
 
 [Breaking the Ice](http://www.stuartselbst.com/2014/07/02/breaking-the-ice/)
 
-#####JavaScript
+####JavaScript
 [Cancelling Long Promise Chains](http://openmymind.net/Cancelling-Long-Promise-Chains)
 
 [API Testing and Monitoring with Frisby.js - SF Node.JS talk by Garland Kan](https://www.youtube.com/watch?v=8zcWQVdh3SQ)
