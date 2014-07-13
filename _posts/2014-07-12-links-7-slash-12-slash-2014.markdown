@@ -1,0 +1,56 @@
+---
+title: "Links - 07/12/2014"
+date: 2014-07-12 09:09:40 -04:00
+comments: true
+categories: [Links]
+---
+
+####Quote of the Day
+<blockquote>"The surest way not to fail is to determine to succeed."<br>
+-- Richard Brinsley Sheridan
+</blockquote>
+
+####Everyones got one...
+[JSON: The Good, The Bad And The Ugly](http://java.dzone.com/articles/json-good-bad-and-ugly)
+
+####Testing
+[Capturing Traffic via Virtual Router](http://blogs.telerik.com/fiddler/posts/14-07-10/capturing-traffic-via-virtual-router)
+
+####Security
+[Introduction to PoshSec](http://www.powershellmagazine.com/2014/07/10/introduction-to-poshsec/)
+
+####Builds
+[Introducing a simpler, faster GitHub for Mac · GitHub](https://github.com/blog/1862-introducing-a-simpler-faster-github-for-mac)
+
+####Web Development
+[10 essential resources for front end web developers](http://blog.pluralsight.com/tips-for-front-end-developers)
+[Google I/O 2014 - Polymer and Web Components change everything you know about Web development](https://www.youtube.com/watch?v=8OJ7ih8EE7s)
+
+####Web Services (REST, HyperMedia, WebAPI, SignalR)
+[Building a strongly typed route provider for ASP.NET Web API](http://www.strathweb.com/2014/07/building-strongly-typed-route-provider-asp-net-web-api/)
+
+####JavaScript
+[Patterns for Asynchronous Programming with Promises](http://www.joezimjs.com/javascript/patterns-asynchronous-programming-promises/)
+
+####Angular
+[Angular ng-grid Quick Tip](http://msmvps.com/blogs/deborahk/archive/2014/07/10/angular-ng-grid-quick-tip.aspx)
+
+####Software Development
+[CQRS: Command Query Responsibility Segregation Design Pattern](http://pietschsoft.com/post/2014/06/15/CQRS-Command-Query-Responsibility-Segregation-Design-Pattern)
+
+####Database
+[Async event loops in C#](http://ayende.com/blog/167299/async-event-loops-in-c?Key=7966ff8a-941a-4df2-a352-33ea3724e3d2&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AyendeRahien+%28Ayende+%40+Rahien%29)
+
+####.Net
+[Release Candidate for Katana 3 and the ASP.NET Security Components](http://blogs.msdn.com/b/webdev/archive/2014/07/10/release-candidate-for-katana-3-and-the-asp-net-security-components.aspx)
+
+####Software
+[paint.net 4.0 is now available!](http://blog.getpaint.net/2014/06/24/paint-net-4-0-is-now-available/)
+
+####Gadgets
+[MondoHub: 28 USB Ports & One Hub To Rule Them All](https://stacksocial.com/sales/mondohub-28-usb-ports-one-hub-to-rule-them-all?aid=a-23fkec3s&utm_source=pcmag&utm_medium=editorial&utm_campaign=mondohub)
+
+####Podcasts, Conferences, Events
+[Yet Another Podcast Show 126–Mike Bluestein from Xamarin](http://jesseliberty.com/2014/07/10/yet-another-podcast-show-126mike-bluestein-from-xamarin/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+JesseLiberty-SilverlightGeek+%28Jesse+Liberty%29)
+
+[Domain-Driven Design Fundamentals](http://pluralsight.com/training/Courses/TableOfContents/domain-driven-design-fundamentals)

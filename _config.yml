@@ -1,6 +1,7 @@
 name: gabrewer.com
 markdown: redcarpet
 highlighter: pygments
+safe: true
 
 url: http://gabrewer.com
 title: gabrewer.com
