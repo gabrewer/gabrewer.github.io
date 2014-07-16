@@ -1,0 +1,40 @@
+---
+title: "Links - 07/13/2014"
+date: 2014-07-13 09:42:20 -04:00
+comments: true
+categories: [Links]
+---
+
+####Quote of the Day
+<blockquote>""<br>
+-- 
+</blockquote>
+
+####IDEs/Editors
+[10 Essential Sublime Text Plugins for Full-Stack Developers](http://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/?utm_content=buffer3dd4e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
+####Business
+[Auth0 and the new pay to play](http://stevecoast.com/2014/07/11/auth0-and-the-new-pay-to-play/)
+
+####JavaScript
+[Getting Started with Browserify](http://www.sitepoint.com/getting-started-browserify/?utm_content=buffer226b2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
+[lazy.js](http://danieltao.com/lazy.js/)
+
+####Software Development
+[Semantic Versioning: Why You Should Be Using it](http://www.sitepoint.com/semantic-versioning-why-you-should-using/?utm_content=bufferca3d2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
+[Scaling Agile Across the Enterprise](http://www.Microsoft.com/visualstudio/stories/scaling-agile-across-the-enterprise)
+
+[CQRS: Command Query Responsibility Segregation Design Pattern](http://pietschsoft.com/post/2014/06/15/CQRS-Command-Query-Responsibility-Segregation-Design-Pattern)
+
+####Web Design
+[Useful Compass Extensions That are Worth a Try](http://www.sitepoint.com/compass-extensions-worth-a-try/?utm_content=bufferbb698&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
+####Podcasts, Conferences, Events
+[MNUG 2014.07.09 - Building JavaScript applications based on DDD, CQRS and EventSourcing](http://www.youtube.com/watch?v=XSc7NPedAxw)
+
+[Three Great Talks from self.conference 2014](http://spin.atomicobject.com/2014/07/12/self-conference-2014/)
+
+[Pluralsight Enterprise](http://ww2.pluralsight.com/Creating-Custom-Directives-for-AngularJS)
+
