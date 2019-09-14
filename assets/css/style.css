@@ -89,13 +89,13 @@ body { margin: 0; display: grid; grid-template-columns: auto 970px auto; grid-te
 
 nav { grid-area: nav; }
 
-header { grid-area: header; display: grid; grid-template-columns: auto 245px; grid-template-areas: "header-title header-side"; }
+header { grid-area: header; display: grid; grid-template-columns: 725px 245px; grid-template-areas: "header-title header-side"; }
 
 .header-title { grid-area: header-title; padding-top: 20px; padding-bottom: 20px; }
 
 .header-side { grid-area: header-side; margin-top: 70px; margin-bottom: 0; }
 
-main { grid-area: main; display: grid; grid-template-columns: auto 245px; grid-template-areas: "home sidebar"; }
+main { grid-area: main; display: grid; grid-template-columns: 725px 245px; grid-template-areas: "home sidebar"; }
 
 .home { grid-area: home; }
 
