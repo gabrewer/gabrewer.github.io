@@ -1,16 +1,538 @@
----
-layout: home
-title: gabrewer.com
----
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Home | gabrewer.com</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Home" />
+<meta name="author" content="Greg Brewer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Life is too important to be take seriously." />
+<meta property="og:description" content="Life is too important to be take seriously." />
+<link rel="canonical" href="https://www.gabrewer.com/" />
+<meta property="og:url" content="https://www.gabrewer.com/" />
+<meta property="og:site_name" content="gabrewer.com" />
+<link rel="next" href="https://www.gabrewer.com/page/2/index.html" />
+<script type="application/ld+json">
+{"@type":"WebSite","url":"https://www.gabrewer.com/","name":"gabrewer.com","headline":"Home","author":{"@type":"Person","name":"Greg Brewer"},"description":"Life is too important to be take seriously.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://www.gabrewer.com/feed.xml" title="gabrewer.com" /></head>
+<body><nav role="navigation" class="blog-masthead">
+  <div class="container"><div  class="blog-nav"><a class="blog-nav-item active" href="/index.html">Home</a><a class="blog-nav-item" href="/useful_links/index.html">Useful Links</a><a class="blog-nav-item" href="/archives/">Blog Archives</a><a class="blog-nav-item" href="/about/">About</a></div></div>
+</nav>
+<header>
+    <div class="header-title">
+        <h1 class="blog-title">
+            <a href="/">gabrewer.com</a>
+        </h1>
+        
+        <p class="lead blog-description">Life is too important to be take seriously.</p>
+        
+    </div>
+    <div class="header-side">
+        <ul class="subscription" data-subscription="rss">
+            <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+            <li><a href="/atomlinks.xml" rel="subscribe_rss_link" title="subscribe via RSS">RSS Useful Links</a></li>
+        
+        </ul>
+          
+        
+        <form action="https://www.google.com/search" method="get">
+            <fieldset role="search">
+            <input type="hidden" name="q" value="site:https://www.gabrewer.com" />
+            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+            </fieldset>
+        </form>
+        
+    </div>
+</header>
+<main class="page-content" aria-label="Content">
+        <div class="home blog-main">
+  
 
-{% assign index = true %}
-{% for post in site.posts %}
-{% if post.categories contains 'links' %}
-{% else %}
-  <!-- <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li> -->
-  {% assign content = post.content %}
-  <article>
-      {% include article.html %}
+
+  
+  
+  
+    <!-- <li><span>23 May 2014</span> &raquo; <a href="/2014/05/cool-development-utility-xip-io/">Cool Development Utility - xip.io</a></li> -->
+    
+    <article>
+        
+<div class="blog-post">
+  <p class="blog-post-meta">Fri, May 23, 14</p>
+  
+  <h3 class="blog-post-title">
+    <a href="/2014/05/cool-development-utility-xip-io/">
+      
+        Cool Development Utility - xip.io
+      
+    </a>
+  </h3>
+   
+  <p class="blog-post-meta">
+    
+
+
+
+
+
+
+
+
+
+<time datetime="2014-05-23T17:38:00-07:00" pubdate data-updated="true"></time> 
+     |
+    <a href="
+    /2014/05/cool-development-utility-xip-io/#disqus_thread"
+      data-disqus-identifier="
+        https://www.gabrewer.com/2014/05/cool-development-utility-xip-io/
+      ">Comments</a
+    >
+    
+  </p>
+    
+  <div class="entry-content"><p>I stumbled across a mention of a free service <a href="http://xip.io/">xip.io</a> that spared developers the hassle of editing their host file for every new development web site they needed to setup.  Having had to edit the host file many times this really appealed to me.  So I went to find out what type of black magic enabled this.</p>
+
+<p>What I found was a very simple and brilliant solution from <a href="https://basecamp.com">Basecamp</a> (formally <a href="http://37signals.com">37signals</a>.  xip.io is a public custom dns service that given a [<strong>domain name</strong>].[<strong>ip address</strong>].xip.io returns the <strong>ip address</strong> specified.</p>
+
+<p>For example</p>
+
+<p><strong>www.gabrewer.com.192.168.1.10.xip.io</strong> resolves to <strong>192.168.1.10</strong><br />
+<strong>dev.gabrewer.com.192.168.1.10.xip.io</strong> resolves to <strong>192.168.1.10</strong><br />
+<strong>dev.www.gabrewer.com.192.168.1.10.xip.io</strong> returns <strong>192.168.1.10</strong></p>
+
+<p>Since this is a hosted service it works for all devices that have an Internet connection including tables, phones and other Internet connected devices.</p>
+
+<p>I always love it when I find a nice piece of engineering that simplifies my development experience.</p>
+</div>
+    
+</div>
+
     </article>
-{% endif %}
-{% endfor %}
+  
+  
+  
+    <!-- <li><span>17 Aug 2013</span> &raquo; <a href="/2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/">My first pull request - WebApiContrib.Formatting.CollectionJson</a></li> -->
+    
+    <article>
+        
+<div class="blog-post">
+  <p class="blog-post-meta">Sat, Aug 17, 13</p>
+  
+  <h3 class="blog-post-title">
+    <a href="/2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/">
+      
+        My first pull request - WebApiContrib.Formatting.CollectionJson
+      
+    </a>
+  </h3>
+   
+  <p class="blog-post-meta">
+    
+
+
+
+
+
+
+
+
+
+<time datetime="2013-08-17T16:39:00-07:00" pubdate data-updated="true"></time> 
+     |
+    <a href="
+    /2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/#disqus_thread"
+      data-disqus-identifier="
+        https://www.gabrewer.com/2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/
+      ">Comments</a
+    >
+    
+  </p>
+    
+  <div class="entry-content"><p>In my latest project I am using the great <a href="http://amundsen.com/media-types/collection/" target="_blank">Collection+Json</a> ASP.NET Web API <a href="http://amundsen.com/media-https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson" target="_blank">library</a> that Glenn Block put up on GitHub a while ago.&nbsp; After using it for a while I decided to refactor my code and use something other than an int for my type identifiers.&nbsp; When I changed to use the generic type, I discovered an issue with the code that had added the generic identifier capability to the library.&nbsp; The Create method was still retuning an int instead of the generic TId.</p>
+<p>So I wrote up the issue on GitHub and Glenn Block immediately responded asking if I was going to submit a Pull Request.&nbsp; I am still relatively new to git and am still trying to grok it.&nbsp; But since I had already forked the repository and updated the code, I figured this would be as good time as any to figure how to submit a pull request.&nbsp; </p>
+<p>Even though it was a one line change to the return type of the Create method, I realized that there were no unit tests for the CollectionJsonController class taking a generic identifier value.&nbsp; So I decided I should fix that as well and created a XUnit test for this scenario by cloning the existing tests with just a Controller that used a string for the identifier.&nbsp; Once I had the tests and the code working, I went about figure out how to submit my first pull request.</p>
+<p>I found an excellent resource that made the process relativity straight forward and painless.&nbsp; <a href="https://www.openshift.com/wiki/github-workflow-for-submitting-pull-requests">https://www.openshift.com/wiki/github-workflow-for-submitting-pull-requests</a>&nbsp;</p>
+<p>You can find my first pull request (modest as it may be) at</p>
+<p><a title="https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387" href="https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387">https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387</a></p>
+</div>
+    
+</div>
+
+    </article>
+  
+  
+  
+    <!-- <li><span>06 Apr 2013</span> &raquo; <a href="/2013/04/nice-javascript-library-for-formating-numbers-and-currency/">Nice JavaScript library for formating numbers and currency</a></li> -->
+    
+    <article>
+        
+<div class="blog-post">
+  <p class="blog-post-meta">Sat, Apr 06, 13</p>
+  
+  <h3 class="blog-post-title">
+    <a href="/2013/04/nice-javascript-library-for-formating-numbers-and-currency/">
+      
+        Nice JavaScript library for formating numbers and currency
+      
+    </a>
+  </h3>
+   
+  <p class="blog-post-meta">
+    
+
+
+
+
+
+
+
+
+
+<time datetime="2013-04-06T15:56:00-07:00" pubdate data-updated="true"></time> 
+     |
+    <a href="
+    /2013/04/nice-javascript-library-for-formating-numbers-and-currency/#disqus_thread"
+      data-disqus-identifier="
+        https://www.gabrewer.com/2013/04/nice-javascript-library-for-formating-numbers-and-currency/
+      ">Comments</a
+    >
+    
+  </p>
+    
+  <div class="entry-content"><p>In my continuing effort to really learn JavaScript, I was working on putting together a shopping cart application using JavaScript.&nbsp; One of the things I needed to do was format some of values as currency.&nbsp; </p>
+<p>So I started looking around at the various techniques to accomplish this and ran across <a href="http://josscrowcroft.github.com/accounting.js/" target="_blank">accounting.js</a> a tiny JavaScript for number, money and currency formatting that seemed to fit the bill nicely.&nbsp; </p>
+<p>Now I can just do this.</p>
+<pre class="csharpcode">accounting.formatMoney(12345678);    <span class="rem">// $12,345,678.00</span>
+</pre>
+<p><a href="http://josscrowcroft.github.com/accounting.js/">http://josscrowcroft.github.com/accounting.js/</a></p>
+</div>
+    
+</div>
+
+    </article>
+  
+  
+  
+    <!-- <li><span>03 Mar 2013</span> &raquo; <a href="/2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/">Cisco Nexus 1000V for Microsoft Hyper-V Beta Program and Webinar</a></li> -->
+    
+    <article>
+        
+<div class="blog-post">
+  <p class="blog-post-meta">Sun, Mar 03, 13</p>
+  
+  <h3 class="blog-post-title">
+    <a href="/2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/">
+      
+        Cisco Nexus 1000V for Microsoft Hyper-V Beta Program and Webinar
+      
+    </a>
+  </h3>
+   
+  <p class="blog-post-meta">
+    
+
+
+
+
+
+
+
+
+
+<time datetime="2013-03-03T11:52:00-07:00" pubdate data-updated="true"></time> 
+     |
+    <a href="
+    /2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/#disqus_thread"
+      data-disqus-identifier="
+        https://www.gabrewer.com/2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/
+      ">Comments</a
+    >
+    
+  </p>
+    
+  <div class="entry-content"><p>I just found this <a href="http://www.aidanfinn.com/?p=14200" target="_blank">post</a> from <a href="http://www.aidanfinn.com/" target="_blank">Aidan Finn</a> via <a href="http://www.damianflynn.com/" target="_blank">Damian Flynn’s</a> <a href="http://www.damianflynn.com/2013/03/01/cisco-nexus-1000v-public-beta-program/" target="_blank">blog</a> post regarding the webinar and beta program for the <a href="https://communities.cisco.com/community/technology/datacenter/nexus1000v" target="_blank">Cisco Nexus 1000V switch</a> for Microsoft Hyper-V on March 6th at 12pm EST.&nbsp; </p>
+<p>I am interested in learning what features the Nexus 1000V will provide leveraging the Hyper-V Extensible Switch.&nbsp; We are currently using the <a href="http://host-sflow.sourceforge.net/documentation.php" target="_blank">SFlow Agent</a> for Window Server 2012 Hyper-V to monitor our VM traffic and it is great for getting insight into the network utilization of the individual VMs.</p>
+<p><a href="http://www.damianflynn.com/2013/03/01/cisco-nexus-1000v-public-beta-program/" target="_blank">Damian Flynn - Cisco Nexus 1000v Public Beta Program</a></p>
+<p><a href="http://www.aidanfinn.com/?p=14200" target="_blank">Aidan Finn - Unveil Of Cisco Nexus 1000V Distributed Switch For Windows Server 2012 Hyper-V</a></p>
+</div>
+    
+</div>
+
+    </article>
+  
+  
+  
+    <!-- <li><span>18 Feb 2013</span> &raquo; <a href="/2013/02/asp-net-and-web-tool-2012-2-released-today/">ASP.NET and Web Tool 2012.2 Released Today</a></li> -->
+    
+    <article>
+        
+<div class="blog-post">
+  <p class="blog-post-meta">Mon, Feb 18, 13</p>
+  
+  <h3 class="blog-post-title">
+    <a href="/2013/02/asp-net-and-web-tool-2012-2-released-today/">
+      
+        ASP.NET and Web Tool 2012.2 Released Today
+      
+    </a>
+  </h3>
+   
+  <p class="blog-post-meta">
+    
+
+
+
+
+
+
+
+
+
+<time datetime="2013-02-18T17:19:00-07:00" pubdate data-updated="true"></time> 
+     |
+    <a href="
+    /2013/02/asp-net-and-web-tool-2012-2-released-today/#disqus_thread"
+      data-disqus-identifier="
+        https://www.gabrewer.com/2013/02/asp-net-and-web-tool-2012-2-released-today/
+      ">Comments</a
+    >
+    
+  </p>
+    
+  <div class="entry-content"><p>The ASP.NET and Web Tools 2012.2 update was released today.&nbsp; There were many updates including some big additions like OData support and SignalR.&nbsp;&nbsp; Some of the things that jump out at me form the release notes.</p>
+<p>“Paste JSON as a .NET class. Using this Special Paste command to paste JSON into a C# or VB.NET code file, and Visual Studio will automatically generate .NET classes inferred from the JSON.”</p>
+<p>“Mobile Emulator support adds extensibility hooks so that third-party emulators can be installed as a VSIX. The installed emulators will show up in the F5 dropdown, so that developers can preview their websites on a variety of mobile devices. Read more about this feature in Scott Hanselman’s blog entry on <a href="http://www.hanselman.com/blog/CrossBrowserDebuggingIntegratedIntoVisualStudioWithBrowserStack.aspx">the new BrowserStack integration with Visual Studio</a>.”</p>
+<p>“<strong>ASP.NET Web API OData</strong></p>
+<p>ASP.NET Web API OData gives you the flexibility you need to build OData endpoints with rich business logic over any data source” <h5>“ASP.NET SignalR</h5> <p>ASP.NET SignalR makes it simple to add real-time web capabilities to your ASP.NET application, using WebSockets if available and automatically falling back to other techniques when it isn’t.” <p>Related Blog Posts</p> <p><a href="http://www.asp.net/vnext/overview/fall-2012-update/aspnet-and-web-tools-20122-release-notes-rtw" target="_blank">ASP.NET and Web Tools 2012.2 Release Notes</a><br /><a href="http://weblogs.asp.net/scottgu/archive/2013/02/18/announcing-release-of-asp-net-and-web-tools-2012-2-update.aspx" target="_blank">ScottGu - Announcing release of ASP.NET and Web Tools 2012.2 Update</a><br /><a href="http://www.hanselman.com/blog/ReleasedASPNETAndWebTools20122InContext.aspx" target="_blank">Scott Hanselman - Released: ASP.NET and Web Tools 2012.2 in Context</a><br /><a href="http://weblogs.asp.net/jgalloway/archive/2013/02/18/announcing-the-asp-net-and-web-tools-2012-2-release.aspx" target="_blank">Jon Galloway - Announcing the ASP.NET and Web Tools 2012.2 Release!</a><br /><a href="http://madskristensen.net/post/Web-Tools-20122-and-Web-Essentials.aspx" target="_blank">Web Tools 2012.2 and Web Essentials</a></p>
+</p></p>
+</div>
+    
+</div>
+
+    </article>
+  
+  
+  <ul class="pager">
+      
+      
+      <li class="next">
+          <a href="/page/2/index.html">Older Posts &rarr;</a>
+      </li>
+      
+  </ul>
+
+</div><div class="sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <div class="contact">
+      <p>
+        Gregory A Brewer<br />
+        Proud Step Father, Software Engineer, Poker Player, Wolverine<br />
+        <a href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/gabrewer">github.com/gabrewer</a><br />
+        <a href="https://twitter.com/gbrewer">twitter.com/gbrewer</a><br />
+      </p>
+    </div>
+  </div>
+
+  <div class="categories">
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/PowerShell/">
+        PowerShell
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 182%">
+      <a href="/archives/category/Development/">
+        Development
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/Tools/">
+        Tools
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/ASP.NET/">
+        ASP.NET
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/WCF/">
+        WCF
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/WEBAPI/">
+        WEBAPI
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Software/">
+        Software
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/Visual Studio/">
+        Visual Studio
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Windows Server/">
+        Windows Server
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/Hardware/">
+        Hardware
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Lenovo/">
+        Lenovo
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/SQL Server/">
+        SQL Server
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/JavaScript/">
+        JavaScript
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/MVC/">
+        MVC
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Clustering/">
+        Clustering
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/Hyper-V/">
+        Hyper-V
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Node.js/">
+        Node.js
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/IIS/">
+        IIS
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/WordPress/">
+        WordPress
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Networking/">
+        Networking
+      </a>
+    </span>
+     
+     
+     
+     
+    
+  </div>
+
+  <div class="sidebar-module">
+    <div class="textwidget">
+      <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
+        Tweets by gbrewer
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+    </main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-left">
+        <h2 class="footer-heading">gabrewer.com</h2>
+        <h3 class="blog-description">Life is too important to be take seriously.</h3>
+        <ul class="contact-list">
+          <li class="p-name">Greg Brewer</li><li>
+            <a class="u-email" href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+          </li></ul>
+      </div>
+      <div class="footer-right">
+        <p class="blog-description">Life is too important to be take seriously.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>

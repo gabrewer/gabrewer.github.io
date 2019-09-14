@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Passing values from your ASP.NET MVC Controller to Javascript | gabrewer.com</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Passing values from your ASP.NET MVC Controller to Javascript" />
+<meta name="author" content="gabrewer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Inspired by John Papa’s Single Page Application series on Pluralsight, in my latest project I am making heavy use of the JavaScript MVVM pattern.&nbsp; Since my application isn&#39;t a true single page application I found myself in some cases needing use values from my Controller in my JavaScript methods. After doing some research I came across this post from A. Friedman about Ngon a port he created of the Ruby Gon gem.&nbsp; Ngon allows you to add a value to a ViewBag NGon property and then consume it in your JavaScript. To use Ngon I can just add the NGonActionFilterAttribute to my RegisterGlobalFilters public static void RegisterGlobalFilters(GlobalFilterCollection filters) { filters.Add(new NGonActionFilterAttribute()); filters.Add(new HandleErrorAttribute()); } So in my controller action I just set the Ngon values. if (User.Identity.IsAuthenticated) { ViewBag.NGon.UserName = User.Identity.Name; ViewBag.NGon.CurrentUserId = WebSecurity.CurrentUserId; } In my _Layout.cshtml file I added a @using NGon and a @Html.IncludeNGon() to the &lt;head&gt; section. @using NGon &lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;utf-8&quot; /&gt; &lt;title&gt;@ViewBag.Title - My ASP.NET MVC Application&lt;/title&gt; &lt;link href=&quot;~/favicon.ico&quot; rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; /&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt; @Html.IncludeNGon() @Styles.Render(&quot;~/Content/css&quot;) @Scripts.Render(&quot;~/bundles/modernizr&quot;) &lt;/head&gt; &lt;body&gt; ... &nbsp; And then I can just use the ngon object like this in my JavaScript activate = function (callback) { config.currentUserId = ngon.CurrentUserId; config.currentUser = function () { return { id: function () { return ngon.CurrentUserId; } }; }; messenger.publish.viewModelActivated({ canleaveCallback: canLeave }); getActivityItems(callback); }, Very elegant solution to the problem.&nbsp; Ngon is now available as a Nuget package." />
+<meta property="og:description" content="Inspired by John Papa’s Single Page Application series on Pluralsight, in my latest project I am making heavy use of the JavaScript MVVM pattern.&nbsp; Since my application isn&#39;t a true single page application I found myself in some cases needing use values from my Controller in my JavaScript methods. After doing some research I came across this post from A. Friedman about Ngon a port he created of the Ruby Gon gem.&nbsp; Ngon allows you to add a value to a ViewBag NGon property and then consume it in your JavaScript. To use Ngon I can just add the NGonActionFilterAttribute to my RegisterGlobalFilters public static void RegisterGlobalFilters(GlobalFilterCollection filters) { filters.Add(new NGonActionFilterAttribute()); filters.Add(new HandleErrorAttribute()); } So in my controller action I just set the Ngon values. if (User.Identity.IsAuthenticated) { ViewBag.NGon.UserName = User.Identity.Name; ViewBag.NGon.CurrentUserId = WebSecurity.CurrentUserId; } In my _Layout.cshtml file I added a @using NGon and a @Html.IncludeNGon() to the &lt;head&gt; section. @using NGon &lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;utf-8&quot; /&gt; &lt;title&gt;@ViewBag.Title - My ASP.NET MVC Application&lt;/title&gt; &lt;link href=&quot;~/favicon.ico&quot; rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; /&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt; @Html.IncludeNGon() @Styles.Render(&quot;~/Content/css&quot;) @Scripts.Render(&quot;~/bundles/modernizr&quot;) &lt;/head&gt; &lt;body&gt; ... &nbsp; And then I can just use the ngon object like this in my JavaScript activate = function (callback) { config.currentUserId = ngon.CurrentUserId; config.currentUser = function () { return { id: function () { return ngon.CurrentUserId; } }; }; messenger.publish.viewModelActivated({ canleaveCallback: canLeave }); getActivityItems(callback); }, Very elegant solution to the problem.&nbsp; Ngon is now available as a Nuget package." />
+<link rel="canonical" href="https://www.gabrewer.com/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/" />
+<meta property="og:url" content="https://www.gabrewer.com/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/" />
+<meta property="og:site_name" content="gabrewer.com" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-12-11T00:05:00-07:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"https://www.gabrewer.com/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/","headline":"Passing values from your ASP.NET MVC Controller to Javascript","dateModified":"2012-12-11T00:05:00-07:00","datePublished":"2012-12-11T00:05:00-07:00","author":{"@type":"Person","name":"gabrewer"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.gabrewer.com/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/"},"description":"Inspired by John Papa’s Single Page Application series on Pluralsight, in my latest project I am making heavy use of the JavaScript MVVM pattern.&nbsp; Since my application isn&#39;t a true single page application I found myself in some cases needing use values from my Controller in my JavaScript methods. After doing some research I came across this post from A. Friedman about Ngon a port he created of the Ruby Gon gem.&nbsp; Ngon allows you to add a value to a ViewBag NGon property and then consume it in your JavaScript. To use Ngon I can just add the NGonActionFilterAttribute to my RegisterGlobalFilters public static void RegisterGlobalFilters(GlobalFilterCollection filters) { filters.Add(new NGonActionFilterAttribute()); filters.Add(new HandleErrorAttribute()); } So in my controller action I just set the Ngon values. if (User.Identity.IsAuthenticated) { ViewBag.NGon.UserName = User.Identity.Name; ViewBag.NGon.CurrentUserId = WebSecurity.CurrentUserId; } In my _Layout.cshtml file I added a @using NGon and a @Html.IncludeNGon() to the &lt;head&gt; section. @using NGon &lt;!DOCTYPE html&gt; &lt;html lang=&quot;en&quot;&gt; &lt;head&gt; &lt;meta charset=&quot;utf-8&quot; /&gt; &lt;title&gt;@ViewBag.Title - My ASP.NET MVC Application&lt;/title&gt; &lt;link href=&quot;~/favicon.ico&quot; rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; /&gt; &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt; @Html.IncludeNGon() @Styles.Render(&quot;~/Content/css&quot;) @Scripts.Render(&quot;~/bundles/modernizr&quot;) &lt;/head&gt; &lt;body&gt; ... &nbsp; And then I can just use the ngon object like this in my JavaScript activate = function (callback) { config.currentUserId = ngon.CurrentUserId; config.currentUser = function () { return { id: function () { return ngon.CurrentUserId; } }; }; messenger.publish.viewModelActivated({ canleaveCallback: canLeave }); getActivityItems(callback); }, Very elegant solution to the problem.&nbsp; Ngon is now available as a Nuget package.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://www.gabrewer.com/feed.xml" title="gabrewer.com" /></head>
+<body><nav role="navigation" class="blog-masthead">
+  <div class="container"><div  class="blog-nav"><a class="blog-nav-item" href="/index.html">Home</a><a class="blog-nav-item" href="/useful_links/index.html">Useful Links</a><a class="blog-nav-item" href="/archives/">Blog Archives</a><a class="blog-nav-item" href="/about/">About</a></div></div>
+</nav>
+<header>
+    <div class="header-title">
+        <h1 class="blog-title">
+            <a href="/">gabrewer.com</a>
+        </h1>
+        
+        <p class="lead blog-description">Life is too important to be take seriously.</p>
+        
+    </div>
+    <div class="header-side">
+        <ul class="subscription" data-subscription="rss">
+            <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+            <li><a href="/atomlinks.xml" rel="subscribe_rss_link" title="subscribe via RSS">RSS Useful Links</a></li>
+        
+        </ul>
+          
+        
+        <form action="https://www.google.com/search" method="get">
+            <fieldset role="search">
+            <input type="hidden" name="q" value="site:https://www.gabrewer.com" />
+            <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+            </fieldset>
+        </form>
+        
+    </div>
+</header>
+<main class="page-content" aria-label="Content">
+        <div class="post">
+  <h2>Passing values from your ASP.NET MVC Controller to Javascript</h2>
+  <p class="meta">11 Dec 2012</p>
+
+  <p>Inspired by <a href="http://www.johnpapa.net/building-single-page-apps-with-knockout-jquery-and-web-api-ndash-the-story-begins" target="_blank">John Papa’s Single Page Application</a> series on <a href="http://www.pluralsight.com/training" target="_blank">Pluralsight</a>, in my latest project I am making heavy use of the JavaScript MVVM pattern.&nbsp; Since my application isn't a true single page application I found myself in some cases needing use values from my Controller in my JavaScript methods. </p>
+<p>After doing some research I came across this <a href="http://crazorsharp.blogspot.com/2012/02/passing-variables-from-your-controller.html" target="_blank">post from A. Friedman</a> about <a href="https://github.com/brooklynDev/NGon" target="_blank">Ngon</a> a port he created of the Ruby <a href="https://github.com/gazay/gon" target="_blank">Gon</a> gem.&nbsp; Ngon allows you to add a value to a ViewBag NGon property and then consume it in your JavaScript.</p>
+<p>To use Ngon I can just add the NGonActionFilterAttribute to my RegisterGlobalFilters</p>
+<pre class="csharpcode"><span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">void</span> RegisterGlobalFilters(GlobalFilterCollection filters)
+{
+   filters.Add(<span class="kwrd">new</span> NGonActionFilterAttribute());
+   filters.Add(<span class="kwrd">new</span> HandleErrorAttribute());
+}</pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+
+<p>So in my controller action I just set the Ngon values. </p>
+<pre class="csharpcode"><span class="kwrd">if</span> (User.Identity.IsAuthenticated)
+{
+   ViewBag.NGon.UserName = User.Identity.Name;
+   ViewBag.NGon.CurrentUserId = WebSecurity.CurrentUserId;
+}</pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+
+<p>In my _Layout.cshtml file I added a @using NGon and a @Html.IncludeNGon() to the &lt;head&gt; section.</p>
+<pre class="csharpcode">@<span class="kwrd">using</span> NGon
+&lt;!DOCTYPE html&gt;
+&lt;html lang=<span class="str">"en"</span>&gt;
+    &lt;head&gt;
+        &lt;meta charset=<span class="str">"utf-8"</span> /&gt;
+        &lt;title&gt;@ViewBag.Title - My ASP.NET MVC Application&lt;/title&gt;
+        &lt;link href=<span class="str">"~/favicon.ico"</span> rel=<span class="str">"shortcut icon"</span> type=<span class="str">"image/x-icon"</span> /&gt;
+        &lt;meta name=<span class="str">"viewport"</span> content=<span class="str">"width=device-width"</span> /&gt;
+        @Html.IncludeNGon()
+        @Styles.Render(<span class="str">"~/Content/css"</span>)
+        @Scripts.Render(<span class="str">"~/bundles/modernizr"</span>)
+    &lt;/head&gt;
+    &lt;body&gt;
+...</pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+
+<div class="csharpcode">&nbsp;</div>
+<p>And then I can just use the ngon object like this in my JavaScript</p>
+<pre class="csharpcode">activate = function (callback) {
+
+   config.currentUserId = ngon.CurrentUserId;
+   config.currentUser = function () { <span class="kwrd">return</span> { id: function () { <span class="kwrd">return</span> ngon.CurrentUserId; } }; };
+
+    messenger.publish.viewModelActivated({ canleaveCallback: canLeave });
+    getActivityItems(callback);
+},</pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+
+<p>Very elegant solution to the problem.&nbsp; Ngon is now available as a <a href="https://nuget.org/packages/NGon" target="_blank">Nuget</a> package. </p>
+
+
+  
+    <section>
+      <h1>Comments</h1>
+      <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+    </section>
+  
+</div><div class="sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <div class="contact">
+      <p>
+        Gregory A Brewer<br />
+        Proud Step Father, Software Engineer, Poker Player, Wolverine<br />
+        <a href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/gabrewer">github.com/gabrewer</a><br />
+        <a href="https://twitter.com/gbrewer">twitter.com/gbrewer</a><br />
+      </p>
+    </div>
+  </div>
+
+  <div class="categories">
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/PowerShell/">
+        PowerShell
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 182%">
+      <a href="/archives/category/Development/">
+        Development
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/Tools/">
+        Tools
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/ASP.NET/">
+        ASP.NET
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/WCF/">
+        WCF
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/WEBAPI/">
+        WEBAPI
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Software/">
+        Software
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 144%">
+      <a href="/archives/category/Visual Studio/">
+        Visual Studio
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Windows Server/">
+        Windows Server
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/Hardware/">
+        Hardware
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Lenovo/">
+        Lenovo
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/SQL Server/">
+        SQL Server
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/JavaScript/">
+        JavaScript
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/MVC/">
+        MVC
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Clustering/">
+        Clustering
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 139%">
+      <a href="/archives/category/Hyper-V/">
+        Hyper-V
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Node.js/">
+        Node.js
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/IIS/">
+        IIS
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/WordPress/">
+        WordPress
+      </a>
+    </span>
+     
+     
+    
+    <span style="font-size: 134%">
+      <a href="/archives/category/Networking/">
+        Networking
+      </a>
+    </span>
+     
+     
+     
+     
+    
+  </div>
+
+  <div class="sidebar-module">
+    <div class="textwidget">
+      <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
+        Tweets by gbrewer
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+    </main><footer class="site-footer">
+  <div class="container">
+    <div class="footer-wrapper">
+      <div class="footer-left">
+        <h2 class="footer-heading">gabrewer.com</h2>
+        <h3 class="blog-description">Life is too important to be take seriously.</h3>
+        <ul class="contact-list">
+          <li class="p-name">Greg Brewer</li><li>
+            <a class="u-email" href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+          </li></ul>
+      </div>
+      <div class="footer-right">
+        <p class="blog-description">Life is too important to be take seriously.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://www.gabrewer.com/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/";
+    this.page.identifier = "https://www.gabrewer.com/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/";
+  };
+
+  (function() {
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://gabrewer.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript" rel="nofollow"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+  </body>
+</html>
