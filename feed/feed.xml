@@ -4,7 +4,7 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feed.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-04-18T22:59:07Z</updated>
+    <updated>2023-04-18T23:10:25Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
@@ -59,11 +59,11 @@
             <updated>2015-05-17T03:39:00Z</updated>
             <id>/2015/05/visualstudio-code-fix-for-icons-not-appearing/</id>
             <content type="html">&lt;p&gt;When VisualStudio code was announced I went out and installed it right away on my Mac and Windows machines.  One my home development machine I was unable to see the icons.  I was thinking that it was due to my 4K display and an High DPI issue but it turns out not to be the case.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/image.png&quot;&gt;&lt;img src=&quot;/images/image_thumb.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb.png&quot;&gt;&lt;img src=&quot;/images/image_thumb.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In reading the &lt;a href=&quot;https://web.archive.org/web/20160114174126/http://blogs.msdn.com/b/vscode/archive/2015/05/13/reacting-to-feedback-common-issues-and-our-first-update.aspx&quot;&gt;Reacting to feedback, common issues, and our first update&lt;/a&gt; post on the Visual Studio Code bug it was due to the svg file extension being associated to something other than image/svg+xml in my case due to &lt;a href=&quot;https://web.archive.org/web/20160114174126/https://inkscape.org/en/&quot;&gt;Inkscape&lt;/a&gt; it was set to application/svg.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/images/svg_thumb.png&quot;&gt;&lt;img src=&quot;/images/svg_thumb.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Changing the Content Type to image/svg+xml made the icons visible.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/image_thumb1&quot;&gt;&lt;img src=&quot;/images/image_thumb1.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb1.png&quot;&gt;&lt;img src=&quot;/images/image_thumb1.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;There is a FAQ with several fixes and workarounds for Visual Studio Code at &lt;a href=&quot;https://web.archive.org/web/20160114174126/https://code.visualstudio.com/Docs/FAQ&quot; title=&quot;https://code.visualstudio.com/Docs/FAQ&quot;&gt;https://code.visualstudio.com/Docs/FAQ&lt;/a&gt;&lt;/p&gt;
 </content>          
         </entry>
@@ -384,7 +384,7 @@ publish the packages I currently have installed.&lt;/p&gt;
             <id>/2014/11/display-collection+json-in-the-browser/</id>
             <content type="html">&lt;p&gt;In the last year I have become enamored with Hypermedia APIs and the Collection+JSON API in particular that I first came across in &lt;a href=&quot;https://web.archive.org/web/20150504224635/http://www.amundsen.com/&quot;&gt;Mike Amundsen’s&lt;/a&gt; book &lt;a href=&quot;https://web.archive.org/web/20150504224635/http://www.amazon.com/gp/product/1449306578/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=1449306578&amp;amp;linkCode=as2&amp;amp;tag=gabrewercom-20&amp;amp;linkId=KMQMXVBUV5L3CBI5&quot;&gt;Building Hypermedia APIs with HTML5 and Node&lt;/a&gt;&lt;img src=&quot;https://web.archive.org/web/20150504224635im_/http://ir-na.amazon-adsystem.com/e/ir?t=gabrewercom-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=1449306578&quot; alt=&quot;&quot; /&gt;.  It seems to be a perfect fit for many of the APIs that I have been working on.  Glenn Block created the &lt;a href=&quot;https://web.archive.org/web/20150504224635/https://github.com/WebApiContrib/CollectionJson.Net&quot;&gt;CollectionJson.Net&lt;/a&gt; library to make it easy to create Collection+JSON based ASP.NET Web APIs.&lt;/p&gt;
 &lt;p&gt;However when I browse to a WebAPI endpoint that returns a Collection+JSON result in Internet Explorer or Firefox I get a prompt to download the file.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;collectionjson_thumb1.png&quot;&gt;&lt;img src=&quot;/images/collectionjson_thumb1.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/collectionjson_thumb1.png&quot;&gt;&lt;img src=&quot;/images/collectionjson_thumb1.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/images/collectionjson_thumb2.png&quot;&gt;&lt;img src=&quot;/images/collectionjson_thumb2.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Chrome displays the raw JSON result in a more friendly manner.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/images/image_thumb2.png&quot;&gt;&lt;img src=&quot;/images/image_thumb2.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -403,15 +403,15 @@ publish the packages I currently have installed.&lt;/p&gt;
 “Encoding”=hex:08,00,00,00
 
 &lt;/pre&gt;
-&lt;p&gt;&lt;a href=&quot;/images/image3.png&quot;&gt;&lt;img src=&quot;/images/image_thumb3.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb3.png&quot;&gt;&lt;img src=&quot;/images/image_thumb3.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Now Collection_JSON results will display directly in Internet Explorer.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/image4.png&quot;&gt;&lt;img src=&quot;/images/image_thumb4.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb4.png&quot;&gt;&lt;img src=&quot;/images/image_thumb4.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For Firefox it was just a matter of specifying the application to open the media type as Firefox.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/image5.png&quot;&gt;&lt;img src=&quot;/images/image_thumb5.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb5.png&quot;&gt;&lt;img src=&quot;/images/image_thumb5.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This adds the application/vnd.collection+json media type to the Applications list in the Firefox Options dialog.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/image6.png&quot;&gt;&lt;img src=&quot;/images/image_thumb6.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb6.png&quot;&gt;&lt;img src=&quot;/images/image_thumb6.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And now Collection+JSON results will display directly in the Firefox window.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/images/image7.png&quot;&gt;&lt;img src=&quot;/images/image_thumb7.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb7.png&quot;&gt;&lt;img src=&quot;/images/image_thumb7.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This technique will work for other types of +json media types as well such as Mason (application/vnd.mason+json) and HAL (application/vnd.hal+json).&lt;/p&gt;
 </content>          
         </entry>
