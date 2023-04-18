@@ -11,7 +11,7 @@ In the last year I have become enamored with Hypermedia APIs and the Collection+
 
 However when I browse to a WebAPI endpoint that returns a Collection+JSON result in Internet Explorer or Firefox I get a prompt to download the file.
 
-[![image](/images/collectionjson_thumb1.png "image")](collectionjson_thumb1.png)
+[![image](/images/collectionjson_thumb1.png "image")](/images/collectionjson_thumb1.png)
 
 [![image](/images/collectionjson_thumb2.png "image")](/images/collectionjson_thumb2.png)
 
@@ -39,22 +39,22 @@ Create a new application/vnd.collection+json key in:
 
 </pre>
 
-[![image](/images/image_thumb3.png "image")](/images/image3.png)
+[![image](/images/image_thumb3.png "image")](/images/image_thumb3.png)
 
 Now Collection_JSON results will display directly in Internet Explorer.
 
-[![image](/images/image_thumb4.png "image")](/images/image4.png)
+[![image](/images/image_thumb4.png "image")](/images/image_thumb4.png)
 
 For Firefox it was just a matter of specifying the application to open the media type as Firefox.
 
-[![image](/images/image_thumb5.png "image")](/images/image5.png)
+[![image](/images/image_thumb5.png "image")](/images/image_thumb5.png)
 
 This adds the application/vnd.collection+json media type to the Applications list in the Firefox Options dialog.
 
-[![image](/images/image_thumb6.png "image")](/images/image6.png)
+[![image](/images/image_thumb6.png "image")](/images/image_thumb6.png)
 
 And now Collection+JSON results will display directly in the Firefox window.
 
-[![image](/images/image_thumb7.png "image")](/images/image7.png)
+[![image](/images/image_thumb7.png "image")](/images/image_thumb7.png)
 
 This technique will work for other types of +json media types as well such as Mason (application/vnd.mason+json) and HAL (application/vnd.hal+json).
