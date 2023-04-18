@@ -1,0 +1,22 @@
+{% if pagination.pageLinks.length > 1 %}
+  <nav class="w-full flex justify-between">
+    <span>{{ pagination.pageNumber | plus: 1 }} / {{ pagination.pageLinks.length }}</span>
+    <ul class="flex items-center">
+      <li class="mr-2">
+        {% if pagination.previousPageLink %}
+          <a class="pagination__item" href="{{ pagination.href.previous | url }}">&larr; Newer Posts</a>
+        {% else %}
+          <span class="pagination__item">Newer Articles</span>
+        {% endif %}
+      </li>
+      <span> | </span>
+      <li class="ml-2">
+        {% if pagination.nextPageLink %}
+          <a class="pagination__item" href="{{ pagination.href.next | url }}">Older Posts &rarr;</a>
+        {% else %}
+          <span class="pagination__item">Older Articles</span>
+        {% endif %}
+      </li>
+    </ul>
+  </nav>
+{% endif %}

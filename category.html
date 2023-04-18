@@ -1,0 +1,19 @@
+---
+layout: default.html
+pagination:
+  data: collections.postsByCategory
+  size: 1
+  alias: category
+permalink: /category/{{ category }}/
+---
+<div id="blog-archives">
+  <h1>Archive of posts with “{{ category }}”</h1>
+
+
+  {% for post in collections.postsByCategory[ category ] | reverse %}
+  <article class="post">
+    <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+    <a class="post-link" href="{{ post.url }}">{{ post.data.title }}</a>
+  </article>
+  {% endfor %}
+</div>

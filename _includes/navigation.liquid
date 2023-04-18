@@ -1,0 +1,20 @@
+<nav role="navigation" class="blog-masthead">
+  <div class="container">
+    {% assign navPages = collections.all | eleventyNavigation %}
+    {% if navPages.length > 0 %}
+      <div class="blog-nav">
+        {% for entry in navPages %}
+          {% assign state = '' %}
+          {% if entry.url == page.url %}
+            {% assign state = ' active' %}
+          {% endif %}
+          {% if entry.title %}
+            <a class="blog-nav-item{{state}}" href="{{ entry.url }}">
+              {{ entry.title }}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</nav>

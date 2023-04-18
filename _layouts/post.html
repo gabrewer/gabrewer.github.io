@@ -1,0 +1,15 @@
+---
+layout: default
+comments: true
+---
+
+<div class="post">
+  <h2>{{ title }}</h2>
+  <p class="meta">{{ page.date | asPostDate }}</p>
+
+  {{ content }}
+
+  {%- include "comments.liquid" -%}
+</div>
+
+{%- include "sidebar.liquid" -%}

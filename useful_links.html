@@ -1,26 +1,27 @@
 ---
-title: Home
+title: Useful Links
 layout: default.html
 eleventyImport:
-  collections: ["post"]
+  collections: ["links"]
 eleventyNavigation:
-  key: Home
-  order: 1
+  key: Useful Links
+  order: 2
 pagination:
-  data: collections.post 
-  size: 6
+  data: collections.links 
+  size: 3
   reverse: true
-  alias: posts
+  alias: links
   addAllPagesToCollections: false
 ---
 <div>
-{% for post in posts %}
-    <article>
-        {% include "article.liquid" %}
-    </article>
+{% for post in links %}
+  <article>
+    {% include "article.liquid" %}
+  </article>
 {% endfor %}
 
 {%- include "pagination_navigation.liquid" -%}
 </div>
 
 {%- include "sidebar.liquid" -%}
+

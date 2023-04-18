@@ -1,0 +1,16 @@
+{% capture category %}{{ post.data.categories | size }}{% endcapture %}
+{{- post.date | | date: '%a, %b %d, %y' -}}
+<h3>
+  <a href="{{ post.url }}">{{ post.data.title }}</a>
+</h3>
+{% if category != '0' %}
+  <div class="archive-footer">
+    <span class="categories"
+      >posted in
+      {% for category in post.data.categories %}
+        {{ category }}&nbsp;
+      {% endfor %}
+    </span>
+  </div>
+{% endif %}
+<br>

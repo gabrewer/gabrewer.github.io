@@ -1,0 +1,28 @@
+{
+    "title": "gabrewer.com",
+    "subtitle": "Life is too important to be take seriously.",
+    "description": "",
+    "baseurl": "https://gabrewer.com/",
+    "url": "https://gabrewer.com/",
+	"disqus_short_name": "gabrewer",
+	"disqus_show_comment_count": true,
+	"simple_search": "https://www.google.com/search",
+    "author": {
+		"name": "Greg Brewer",
+		"email": "greg@gabrewer.com",
+		"url": "https://gabrewer.com/"
+	},
+	"feed": {
+		"filename": "feed.xml",
+		"path": "/feed/feed.xml",
+		"url": "https://gabrewer.com/feed/feed.xml",
+		"id": "https://gabrewer.com/"
+	},
+	"feedlinks": {
+		"filename": "feedlinks.xml",
+		"path": "/feed/feedlinks.xml",
+		"url": "https://gabrewer.com/feed/feedlink.xml",
+		"id": "https://gabrewer.com/"
+	}
+}
+

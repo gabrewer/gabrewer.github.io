@@ -1,26 +1,32 @@
 ---
-title: Home
+title: Blog Archives
 layout: default.html
 eleventyImport:
   collections: ["post"]
 eleventyNavigation:
-  key: Home
-  order: 1
+  key: Blog Archives
+  order: 3
 pagination:
   data: collections.post 
-  size: 6
+  size: 20
   reverse: true
   alias: posts
   addAllPagesToCollections: false
 ---
 <div>
 {% for post in posts %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% unless year == this_year %}
+    {% assign year = this_year %}
+    <h2>{{ year }}</h2>
+    {% endunless %}
     <article>
-        {% include "article.liquid" %}
+        {% include "archive_post.liquid" %}
     </article>
 {% endfor %}
 
 {%- include "pagination_navigation.liquid" -%}
+
 </div>
 
 {%- include "sidebar.liquid" -%}
