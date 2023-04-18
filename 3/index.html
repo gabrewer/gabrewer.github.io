@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/output.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><nav role="navigation" class="blog-masthead">
+  <div class="container">
+    
+    
+      <div class="blog-nav">
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/">
+              Home
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/useful_links/">
+              Useful Links
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/archive/">
+              Blog Archives
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</nav>
+<header class="container w-full py-10">
+  <div class="w-full">
+    <div class="flex flex-col md:flex-row justify-between w-full">
+      <div class="md:w-auto mb-4 md:mb-0">
+        <h1 class="text-6xl font-normal mb-4">
+          <a href="/" class="text-blue-550">gabrewer.com</a>
+        </h1>
+        
+          <p class="text-xl text-neutral-400">Life is too important to be take seriously.</p>
+        
+      </div>
+      <div class="w-full md:w-auto flex flex-col items-end">
+        <ul class="">
+          <li>
+            <a
+              href="/feed/feed.xml"
+              rel="subscribe-rss"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="/feed/feedlinks.xml"
+              rel="subscribe_rss_link"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS Useful Links</a
+            >
+          </li>
+          
+        </ul>
+        
+          <form action="https://www.google.com/search" method="get">
+            <fieldset role="search" class="border border-solid border-black">
+              <input type="hidden" name="q" value="site:https://gabrewer.com/">
+              <input type="text" name="q" results="0" placeholder="Search" class="w-full p-2">
+            </fieldset>
+          </form>
+        
+      </div>
+    </div>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+            <div>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Saturday, May 12, 2012 at 3:42 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2012/05/visual-studio-11-beta-dark-theme-using-white-background-fix/">
+      Visual Studio 11 Beta - Dark Theme using White Background - Fix
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2012/05/visual-studio-11-beta-dark-theme-using-white-background-fix/#disqus_thread" data-disqus-identifier="2012-05-visual-studio-11-beta-dark-theme-using-white-background-fix">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>Last night I was playing around with the Visual Studio 11 settings and something I did caused the dark theme to use a white background.  Reselecting the dark theme did not reset the background.  After consulting Bing, I found the fix.  This is a known issue with a simple fix.</p>
+<p><a href="http://blogs.msdn.com/b/davedev/archive/2012/05/07/help-visual-studio-11-beta-dark-theme-incorrectly-using-white-background.aspx">http://blogs.msdn.com/b/davedev/archive/2012/05/07/help-visual-studio-11-beta-dark-theme-incorrectly-using-white-background.aspx</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Monday, February 27, 2012 at 3:37 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2012/02/cool-development-utility-smtp4dev/">
+      Cool Development Utility - smtp4dev
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2012/02/cool-development-utility-smtp4dev/#disqus_thread" data-disqus-identifier="2012-02-cool-development-utility-smtp4dev">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>The other day I needed to test the Mail functionality of an application I was developing on Windows 7 and I realized that the built in SMTP server had been removed.  I initially thought about just installing the free version of SmarterMail and configuring that but I decided to take a look and see what else I could find.  I ran across smtp4dev on CodePlex.  <a href="http://smtp4dev.codeplex.com/">Codeplex Link</a></p>
+<p>smtp4dev captures emails that are sent to localhost on whatever port you configure smtp4dev to listen on.  You can then inspect the formatting and content by choosing an entry in the list and selecting Inspect or View.</p>
+<img class="alignnone size-medium wp-image-141" alt="smtp4dev main screen" src="/images/image_4-300x217.png" width="300" height="217" />
+<p>Inspect shows a window that lets you see the MIME parts (Source, Headers, Body) and the raw Message Source. View opens the email message in your default email program.</p>
+<img class="alignnone size-medium wp-image-151" alt="Message Inspect Window" src="/images/image_16-300x164.png" width="300" height="164" />
+<p>smtp4dev even supports SSL/TTL allowing you to specify a certificate to use for the secure connection.</p>
+<img class="alignnone size-medium wp-image-161" alt="smtp4dev options" src="/images/image_6-300x272.png" width="300" height="272" />
+<p>smtp4dev is an easy to use utility that provides some powerful capabilities that can make integration testing email functionality in your apps easier.</p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Monday, February 27, 2012 at 3:33 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2012/02/powershell-quick-reference-guides-and-cheat-sheets/">
+      PowerShell Quick Reference Guides and Cheat Sheets
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2012/02/powershell-quick-reference-guides-and-cheat-sheets/#disqus_thread" data-disqus-identifier="2012-02-powershell-quick-reference-guides-and-cheat-sheets">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>Becoming effective with PowerShell is quickly becoming essential to working effectively with Windows Server products.  With PowerShell modules for so many products it is getting hard to keep track of all the command lets.  Luckily Jonathan Noble has put together a list of PowerShell Quick Reference Guides and Cheat Sheets for various products.</p>
+<p><a href="http://www.jonoble.com/blog/2011/12/12/powershell-quick-reference-guides-and-cheat-sheets.html">http://www.jonoble.com/blog/2011/12/12/powershell-quick-reference-guides-and-cheat-sheets.html</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Monday, February 27, 2012 at 3:33 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2012/02/asp-net-web-api-replaces-wcf-web-api/">
+      ASP.NET Web API replaces WCF Web API
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2012/02/asp-net-web-api-replaces-wcf-web-api/#disqus_thread" data-disqus-identifier="2012-02-asp-net-web-api-replaces-wcf-web-api">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>The new MVC 4 beta was released last Thursday / Friday.  One of the big changes is the moving of the WCF Web API into the ASP.NET MVC code stream.</p>
+<p>Get the bits and the initial documentation on the ASP.NET Web API page at <a href="http://www.asp.net/web-api">http://www.asp.net/web-api</a></p>
+<p>The team has provided some initial guidance on migrating from the WCF Web API to ASP.NET Web API on the <a href="http://wcf.codeplex.com/wikipage?title=How%20to%20Migrate%20from%20WCF%20Web%20API%20to%20ASP.NET%20Web%20API" target="_blank">WCF CodePlex site</a>.</p>
+<p>ScottGu has an overview on <a href="http://weblogs.asp.net/scottgu/archive/2012/02/19/asp-net-mvc-4-beta.aspx" target="_blank">his blog</a> along with a video of a presentation that he gave at the Belgium and Dutch TechReady events.</p>
+<p>Jon Galloway interviewed Brad Wilson about the ASP.NET MVC 4 release.  <a href="http://herdingcode.com/?p=396" target="_blank">Brad Wilson on ASP.NET 4 Beta and ASP.NET Web API</a></p>
+<p>Henrik Nielsen the Principal Architect on the WCF Team has a post on the new <a href="http://blogs.msdn.com/b/henrikn/archive/2012/02/16/httpclient-is-here.aspx" target="_blank">HttpClient</a> for ASP.NET Web API that has been back ported from .NET 4.5.</p>
+<p>I plan on migrating my current project using the WCF Web API and ASP.NET MVC 3 to the new ASP.NET Web API and ASP.NET MVC 4 API this week.  After spending a lot of time last week getting Ninject work work with the WCF Web API, it looks like the ASP.NET Web API makes it trivial.  But it was still a good learning experience right?</p>
+<p>I am also contemplating moving to the new .NET 4.5 beta when it is released.  It looks like the asynchronous support on C# 5 will be very useful with the new ASP.NET Web API.</p>
+</div>
+</div>
+
+    </article>
+
+  <nav class="w-full flex justify-between">
+    <span>4 / 4</span>
+    <ul class="flex items-center">
+      <li class="mr-2">
+        
+          <a class="pagination__item" href="/2/">&larr; Newer Posts</a>
+        
+      </li>
+      <span> | </span>
+      <li class="ml-2">
+        
+          <span class="pagination__item">Older Articles</span>
+        
+      </li>
+    </ul>
+  </nav>
+
+</div><div class="sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <div class="contact">
+      <p>
+        Gregory A Brewer<br>
+        Proud Step Father, Software Engineer, Poker Player, Wolverine<br>
+        <a href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/gabrewer">github.com/gabrewer</a><br>
+        <a href="https://twitter.com/gbrewer">twitter.com/gbrewer</a><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="categories">
+    
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/ASP.NET/"> ASP.NET</a>
+      </span>
+    
+      <span style="font-size: 182.38095238095238%">
+        <a href="/category/Development/"> Development</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WCF/"> WCF</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/WEBAPI/"> WEBAPI</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/PowerShell/"> PowerShell</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Tools/"> Tools</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Software/"> Software</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Visual Studio/"> Visual Studio</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Windows Server/"> Windows Server</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hardware/"> Hardware</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Lenovo/"> Lenovo</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/SQL Server/"> SQL Server</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/JavaScript/"> JavaScript</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/MVC/"> MVC</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Clustering/"> Clustering</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hyper-V/"> Hyper-V</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Node.js/"> Node.js</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/IIS/"> IIS</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WordPress/"> WordPress</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Networking/"> Networking</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Random/"> Random</a>
+      </span>
+    
+  </div>
+
+  <div class="sidebar-module">
+    <div class="textwidget">
+      <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
+        Tweets by gbrewer
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+        </main><footer class="bg-gray-300 py-3">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-2 gap-8">
+      <div class="">
+        <h2 class="text-3xl mb-2">gabrewer.com</h2>
+        <h3 class="text-xl text-neutral-400 mb-2">Life is too important to be take seriously.</h3>
+        <ul class="list-disc pl-6"><li class="list-item">
+              Greg Brewer
+            </li><li>
+              <a class="u-email text-blue-600 list-item" href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+            </li></ul>
+      </div>
+      <div class="">
+        <p class="text-xl text-gray-600"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="" async defer></script>
+        <script id="dsq-count-scr" src="//gabrewer.disqus.com/count.js" async></script>
+    </body>
+</html>

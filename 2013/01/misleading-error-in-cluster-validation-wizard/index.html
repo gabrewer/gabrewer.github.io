@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/output.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><nav role="navigation" class="blog-masthead">
+  <div class="container">
+    
+    
+      <div class="blog-nav">
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/">
+              Home
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/useful_links/">
+              Useful Links
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/archive/">
+              Blog Archives
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</nav>
+<header class="container w-full py-10">
+  <div class="w-full">
+    <div class="flex flex-col md:flex-row justify-between w-full">
+      <div class="md:w-auto mb-4 md:mb-0">
+        <h1 class="text-6xl font-normal mb-4">
+          <a href="/" class="text-blue-550">gabrewer.com</a>
+        </h1>
+        
+          <p class="text-xl text-neutral-400">Life is too important to be take seriously.</p>
+        
+      </div>
+      <div class="w-full md:w-auto flex flex-col items-end">
+        <ul class="">
+          <li>
+            <a
+              href="/feed/feed.xml"
+              rel="subscribe-rss"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="/feed/feedlinks.xml"
+              rel="subscribe_rss_link"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS Useful Links</a
+            >
+          </li>
+          
+        </ul>
+        
+          <form action="https://www.google.com/search" method="get">
+            <fieldset role="search" class="border border-solid border-black">
+              <input type="hidden" name="q" value="site:https://gabrewer.com/">
+              <input type="text" name="q" results="0" placeholder="Search" class="w-full p-2">
+            </fieldset>
+          </form>
+        
+      </div>
+    </div>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+            
+<div class="post">
+  <h2>Misleading error in Cluster Validation Wizard</h2>
+  <p class="meta">Tuesday, January 29, 2013 at 5:26 AM UTC</p>
+
+  <p>This weekend we were migrating a Hyper-V cluster form Windows Server 2008 R2 to Windows Server 2012.&nbsp; Our hosts were HP DL360p Gen 8 servers connected to a HP P2000 G3 MSA iSCSI storage array.&nbsp; </p> <p>After getting our hosts all configured and connected to the SAN we were ready to install the cluster.&nbsp; When we ran the Cluster Validation Wizard we received some warnings.&nbsp; One of warnings seemed quite troubling.&nbsp; </p> <p><font face="Consolas">Test Disk 0 does not support SCSI-3 Persistent Reservations commands needed to support clustered Storage Pools. Some storage devices require specific firmware versions or settings to function properly with failover clusters. Please contact your storage administrator or storage vendor to check the configuration of the storage to allow it to function properly with failover clusters.</font></p> <style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>   <p>This appears to be a big problem because SCSI-3 Persistent Reservations are very important to the cluster working correctly.&nbsp; </p><!--more--><p>We had been using this same model of array in our Windows Server 2008 R2 clusters so we knew that the P2000 support SCSI-3 Persistent Reservations.&nbsp; So we went off to google it with bing to find the answer to what was happening with the Windows Server 2012 cluster.&nbsp; We found several posts on the HP support forums that had no solutions and found that HP had no VSS or VDS providers for the P2000 for Windows Server 2012 yet.&nbsp; (Which means no hardware snapshots with DPM yet)</p> <p>Then we started to look at the warning more closely.&nbsp; One of things we realized was it was a warning and not an error.&nbsp; It seem like a SCSI-3 Persistent Reservation failure would have been a fatal error to the cluster validation error.&nbsp; Then we realized that there were two SCSI-3 Persistent Test in the Server 2012 Cluster validation tests.&nbsp; One was “Validate SCSI-3 Persistent Reservation” and the other was “Validate Storage Spaces Persistent Reservation”.&nbsp; The first one passed and it was the second one that failed. </p> <p>It turns out that the test that was failing was for the new&nbsp; Windows Server 2012 feature of clustered Storage Spaces which only works on direct connected SATA or SAS JBOD disks, no RAID, iSCSI or Fibre Channel disks will ever pass this test.&nbsp; So we went ahead and created the cluster and everything is working great.</p> <p><a href="http://social.technet.microsoft.com/wiki/contents/articles/11382.storage-spaces-frequently-asked-questions-faq.aspx#What_types_of_storage_arrays_can_I_use_with_Storage_Spaces" target="_blank">From TechNet</a></p> <h4><font face="Consolas">What types of drives can I use with Storage Spaces?</font></h4> <p><font face="Consolas">You can use commodity drives attached via Serial-Attached SCSI (SAS), Serial ATA (SATA), or USB. Storage layers that abstract the physical disks are not compatible with Storage Spaces. This includes VHDs and pass-through disks in a virtual machine, and storage subsystems that layer a RAID implementation on top of the physical disks. iSCSI and Fibre Channel controllers are not supported by Storage Spaces.</font> <p>We did later find one link on <a href="http://serverfault.com/questions/449083/windows-2012-cluster-on-p6300-scsi-3-persistent-reservation-issues" target="_blank">ServerFault</a> that validated our conclusion that the warning was benign.&nbsp; So the warning that seem scary really turn out to be nothing.&nbsp; It seems like the warning message is very misleading as to the root cause of the issue that triggered it.</p>
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = '/2013/01/misleading-error-in-cluster-validation-wizard/';
+      this.page.identifier = '/2013/01/misleading-error-in-cluster-validation-wizard/';
+    };
+
+    (function () {
+      var d = document,
+        s = d.createElement('script');
+      s.src = 'https://gabrewer.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+
+</div><div class="sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <div class="contact">
+      <p>
+        Gregory A Brewer<br>
+        Proud Step Father, Software Engineer, Poker Player, Wolverine<br>
+        <a href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/gabrewer">github.com/gabrewer</a><br>
+        <a href="https://twitter.com/gbrewer">twitter.com/gbrewer</a><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="categories">
+    
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/ASP.NET/"> ASP.NET</a>
+      </span>
+    
+      <span style="font-size: 182.38095238095238%">
+        <a href="/category/Development/"> Development</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WCF/"> WCF</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/WEBAPI/"> WEBAPI</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/PowerShell/"> PowerShell</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Tools/"> Tools</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Software/"> Software</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Visual Studio/"> Visual Studio</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Windows Server/"> Windows Server</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hardware/"> Hardware</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Lenovo/"> Lenovo</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/SQL Server/"> SQL Server</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/JavaScript/"> JavaScript</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/MVC/"> MVC</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Clustering/"> Clustering</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hyper-V/"> Hyper-V</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Node.js/"> Node.js</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/IIS/"> IIS</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WordPress/"> WordPress</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Networking/"> Networking</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Random/"> Random</a>
+      </span>
+    
+  </div>
+
+  <div class="sidebar-module">
+    <div class="textwidget">
+      <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
+        Tweets by gbrewer
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+        </main><footer class="bg-gray-300 py-3">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-2 gap-8">
+      <div class="">
+        <h2 class="text-3xl mb-2">gabrewer.com</h2>
+        <h3 class="text-xl text-neutral-400 mb-2">Life is too important to be take seriously.</h3>
+        <ul class="list-disc pl-6"><li class="list-item">
+              Greg Brewer
+            </li><li>
+              <a class="u-email text-blue-600 list-item" href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+            </li></ul>
+      </div>
+      <div class="">
+        <p class="text-xl text-gray-600"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="" async defer></script>
+        <script id="dsq-count-scr" src="//gabrewer.disqus.com/count.js" async></script>
+    </body>
+</html>

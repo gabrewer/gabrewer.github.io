@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>gabrewer.com</title>
+    <subtitle>Life is too important to be take seriously.</subtitle>
+    <link href="https://gabrewer.com/feed/feed.xml" rel="self"/>
+    <link href="https://gabrewer.com/"/>
+    <updated>2023-04-18T22:59:07Z</updated>
+    <id>https://gabrewer.com/</id>
+    <author>
+        <name>Greg Brewer</name>
+        <email>greg@gabrewer.com</email>
+    </author>
+        
+        <entry>
+            <title>Learning Current Angular Tool Best Practices</title>
+            <link href="/2018/08/learning-current-angular-tool-best-practices/"/>
+            <updated>2018-08-04T03:39:00Z</updated>
+            <id>/2018/08/learning-current-angular-tool-best-practices/</id>
+            <content type="html">&lt;p&gt;Over the last couple of weeks I have been diving back into Angular development using Angular 6 and ngrx.  One of the things that quickly became apparent is that now the best practices of installing JavaScript tools is to install them locally instead of globally to prevent version collisions.&lt;/p&gt;
+&lt;p&gt;When I first started I installed the angular cli globally and encountered this type of error when running many of the sample apps that I downloaded.&lt;/p&gt;
+&lt;p&gt;Your global Angular CLI version (6.0.8) is greater than your local version (1.7.3). The local Angular CLI version is used.&lt;/p&gt;
+&lt;p&gt;This didn’t seem to cause me an issues but still the error bugged me and when I was reading the book &lt;a href=&quot;https://web.archive.org/web/20180817225000/https://www.packtpub.com/web-development/angular-6-enterprise-ready-web-applications&quot;&gt;Angular 6 for Enterprise-Ready Web Applications&lt;/a&gt; by Doguhan Uluca he really drives home that you should keep the number of globally installed packages to a minimum.&lt;/p&gt;
+&lt;p&gt;I was able to find out what commands I had installed globally using this command&lt;/p&gt;
+&lt;pre class=&quot;highlight prettyprint&quot;&gt;npm list -g --depth=0&lt;/pre&gt;
+&lt;p&gt;Which showed I only had the angular cli and npm install globally.&lt;/p&gt;
+&lt;p&gt;So I was able to uninstall the global angular cli and get rid to the ugly warnings.&lt;/p&gt;
+&lt;p&gt;Doguhan also points our that you should use npm-windows-upgrade instead of using npm i -g npm to upgrade npm on Windows or you are going to run into npm corruption issues.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20180817225000/https://github.com/felixrieseberg/npm-windows-upgrade&quot; title=&quot;https://github.com/felixrieseberg/npm-windows-upgrade&quot;&gt;https://github.com/felixrieseberg/npm-windows-upgrade&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Random Stuff I want to remember</title>
+            <link href="/2016/05/random-stuff-i-want-to-remember/"/>
+            <updated>2016-05-25T03:39:00Z</updated>
+            <id>/2016/05/random-stuff-i-want-to-remember/</id>
+            <content type="html">&lt;h3 id=&quot;windows-10-home-password-expiration.&quot; tabindex=&quot;-1&quot;&gt;Windows 10 Home password expiration.&lt;/h3&gt;
+&lt;p&gt;Today I had a couple of Windows 10 Home machines had their passwords expire.&lt;/p&gt;
+&lt;p&gt;To turn off the Windows 10 password expiration&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;net accounts /maxpwage:0&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From &lt;a href=&quot;http://www.thewindowsclub.com/customizing-the-password-policy-in-windows-7&quot;&gt;http://www.thewindowsclub.com/customizing-the-password-policy-in-windows-7&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;upgrading-npm-on-windows&quot; tabindex=&quot;-1&quot;&gt;Upgrading npm on Windows&lt;/h3&gt;
+&lt;p&gt;I was installing jspm on a new machine and after I installed node 4.3.1 it was running npm I was trying to upgrade npm.  I tried a bunch of different commands I found on stack overflow but this command from the npm site (I feel like Colonel Sanders looking for the Nashville Hot Chicken Recipe) did the trick on both Windows and the Mac.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;npm install npm@latest –g&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From*:* &lt;a href=&quot;https://docs.npmjs.com/getting-started/installing-node&quot; title=&quot;https://docs.npmjs.com/getting-started/installing-node&quot;&gt;&lt;em&gt;https://docs.npmjs.com/getting-started/installing-node&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;http-server&quot; tabindex=&quot;-1&quot;&gt;http-server&lt;/h3&gt;
+&lt;p&gt;In my recent javascript library/framework exploration I found myself needing a quick way to server html without having to have gulp or more permanent web server.  I found http-server fits the bill nicely.&lt;/p&gt;
+&lt;p&gt;npm install –g http-server&lt;/p&gt;
+&lt;p&gt;http-server –o –c-1&lt;/p&gt;
+&lt;p&gt;-o opens browser window after starting the server&lt;/p&gt;
+&lt;p&gt;-c-1 disables caching&lt;/p&gt;
+&lt;p&gt;From: &lt;a href=&quot;https://github.com/indexzero/http-server&quot; title=&quot;https://github.com/indexzero/http-server&quot;&gt;https://github.com/indexzero/http-server&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>VisualStudio Code fix for icons not appearing</title>
+            <link href="/2015/05/visualstudio-code-fix-for-icons-not-appearing/"/>
+            <updated>2015-05-17T03:39:00Z</updated>
+            <id>/2015/05/visualstudio-code-fix-for-icons-not-appearing/</id>
+            <content type="html">&lt;p&gt;When VisualStudio code was announced I went out and installed it right away on my Mac and Windows machines.  One my home development machine I was unable to see the icons.  I was thinking that it was due to my 4K display and an High DPI issue but it turns out not to be the case.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image.png&quot;&gt;&lt;img src=&quot;/images/image_thumb.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In reading the &lt;a href=&quot;https://web.archive.org/web/20160114174126/http://blogs.msdn.com/b/vscode/archive/2015/05/13/reacting-to-feedback-common-issues-and-our-first-update.aspx&quot;&gt;Reacting to feedback, common issues, and our first update&lt;/a&gt; post on the Visual Studio Code bug it was due to the svg file extension being associated to something other than image/svg+xml in my case due to &lt;a href=&quot;https://web.archive.org/web/20160114174126/https://inkscape.org/en/&quot;&gt;Inkscape&lt;/a&gt; it was set to application/svg.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/svg_thumb.png&quot;&gt;&lt;img src=&quot;/images/svg_thumb.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Changing the Content Type to image/svg+xml made the icons visible.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb1&quot;&gt;&lt;img src=&quot;/images/image_thumb1.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is a FAQ with several fixes and workarounds for Visual Studio Code at &lt;a href=&quot;https://web.archive.org/web/20160114174126/https://code.visualstudio.com/Docs/FAQ&quot; title=&quot;https://code.visualstudio.com/Docs/FAQ&quot;&gt;https://code.visualstudio.com/Docs/FAQ&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Chocolatey Kickstarter Funded! A list of my current packages</title>
+            <link href="/2014/12/chocolatey-kickstarter-funded-a-list-of-my-current-packages/"/>
+            <updated>2014-12-15T03:39:00Z</updated>
+            <id>/2014/12/chocolatey-kickstarter-funded-a-list-of-my-current-packages/</id>
+            <content type="html">&lt;p&gt;The third (second successful) Kickstarter campaign that I pledged to the &lt;a href=&quot;https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum?ref=nav_search&quot;&gt;Chocolatey Kickstarter
+campaign&lt;/a&gt;
+was successfully funded.  I always like reading what tools other developers are using so to celebrate, I thought I would
+publish the packages I currently have installed.&lt;/p&gt;
+&lt;p&gt;I may have an issue with being obsessed with editors.&lt;/p&gt;
+&lt;h4 id=&quot;editors&quot; tabindex=&quot;-1&quot;&gt;Editors&lt;/h4&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;900&quot; border=&quot;0&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;Atom&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Cross platform editor from github. The official Windows installation is delivered via
+        Chocolatey.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;linqpad4.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;LinqPad essential editor for working with Linq and C# snippits.  It will be interesting to see if scriptcs can be integrated&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;SublimeText3.app&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;SublimeText3 my goto text editor.  This package includes Package Control&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;SublimeText3.PowershellAlias&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Installs a powershell subl alias for sublimtetext&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;vim&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Still trying to grok vim.  Probably still resent it from the late 80s.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;brackets&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Adobe open source editor.  Designed for web design.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;notepadplusplus.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Before I discovered SublimeText this was my text editor of choice.  Now I usually only use it when I have character encoding issues with files. &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Close behind my obsession with editors is my love to learn new programming languages.&lt;/p&gt;
+&lt;h4 id=&quot;languages&quot; tabindex=&quot;-1&quot;&gt;Languages&lt;/h4&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;900&quot; border=&quot;0&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;erlang&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;One of the three languages I am currently getting acquainted with.  Used in CouchDB and RabbitMQ.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;golang&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;One of the three languages I am currently getting acquainted with.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;rust&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;One of the three languages I am currently getting acquainted with.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;ruby&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;installs the current version of ruby.  Currently 2.1.3 mostly used for Sass&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;ruby1.9&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Installs the latest 1.9 version of ruby&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;pik&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Helps manage multiple versions of Ruby on Windows&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;python2&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Installs the latest version of python 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;python3&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Installs the latest version of python 3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;scriptcs&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Interesting REPL for C#.  Originally started by Glenn Block&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;pscx&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;PowerShell Community Extensions (PSCX) is aimed at providing a widely useful set of additional cmdlets, providers, aliases, filters, functions and scripts for Windows PowerShell that members of the community have expressed interest in.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;nodejs.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;latest version of node&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&quot;databases&quot; tabindex=&quot;-1&quot;&gt;Databases&lt;/h4&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;900&quot; border=&quot;0&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;mysql&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Latest version of mySql&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;mysql.workbench&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Latest version of mySql Workbench&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;mongodb&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Latest version of mongodb&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&quot;programming-utilities&quot; tabindex=&quot;-1&quot;&gt;Programming Utilities&lt;/h4&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;900&quot; border=&quot;0&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;baretail&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;great tool for viewing text log files on Windows&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;dependencywalker&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;oldie but still necessary when trying to track down missing dependencies in c++ dlls
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;beyondcompare&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;great cross platform file comparison tool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;git.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Latest version of git&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;githubforwindows&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Latest github for Windows&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;smtp4dev&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Utility for capturing emails sent during development&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;SourceCodePro&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;My new font of choice for code&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;fiddler4&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Essential tool for debugging and testing web services and monitoring web traffic&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;InnoSetup&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Free tool to create setup programs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;InstEd&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;MSI editor, Better than trying to find orca&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&quot;utilities&quot; tabindex=&quot;-1&quot;&gt;Utilities&lt;/h4&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;900&quot; border=&quot;0&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;ConEmu&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Great Windows console emulator.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;EthanBrown.ConEmuConfig&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Great initial settings for ConEmuConfig&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;7zip.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Free file archiver with support for unpacking most compression formats&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;7zip.commandline&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;command line utility for 7-zip&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;autohotkey.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Free open source macro creation and automation software&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;autoit.commandline&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;comes with github&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;scite4autohotkey&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;AutoHotkey script editor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;cdburnerxp&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Free CD/DVD burner application.  Also lets you create Isos&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;crystaldiskinfo&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Show the health status of hard drives&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;winsplit&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Utility that is great for managing windows on a 4K display&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;pidgin&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;multiple chat network client&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;ditto&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Advanced clipboard manager&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;dropbox&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;I mostly use OneDrive but occasionally use dropbox&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;filezilla&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Simple and full featured ftp client.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;flashplayerplugin&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Easy way to keep flash player updated&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;virtualbox&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;latest VirtualBox install&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;virtualbox.extensionpack&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;and extensions&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;windirstat&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;a good way to find out where all your space went.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;WindowsLiveWriter&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;still my favorite blog editor&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;PreCode.WLW&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;code formatting plugin for Windows Live Writer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;sumatrapdf.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Free pdf, epub, mobi, and other ebook reader&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;teamviewer&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Great cross platform remote access program&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;truecrypt&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Free open-source disk encryption software for Windows – 7.1a&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;vcredist2010&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Visual Studio runtime&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;yumi&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Universal multibook installer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;puretext&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Paste text as pure text&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&quot;media-utilities&quot; tabindex=&quot;-1&quot;&gt;Media Utilities&lt;/h4&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;2&quot; width=&quot;900&quot; border=&quot;0&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;Ghostscript.app&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;A package of apps to work with postscript files&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;audacity&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Free software for recording and editing sound files&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;handbrake.install&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;A tool for converting video from nearly any format to a selection of modern, widely
+        supported codecs.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;ffmpeg&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Converts any media file to any other media type&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;paint.net&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Replaces most of what I use Adobe Photoshop for. &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;gimp&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Still trying to get used to this program after all these years but since I decided to
+        cut my Adobe Creative Cloud Subscription it works well enough for the occasions when I need more than paint.net
+      &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;inkscape –pre&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Adobe Illustrator replacement&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;300&quot;&gt;vlc&lt;/td&gt;
+      &lt;td valign=&quot;top&quot; width=&quot;600&quot;&gt;Plays anything thrown at it&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Display Collection+JSON in the browser</title>
+            <link href="/2014/11/display-collection+json-in-the-browser/"/>
+            <updated>2014-11-19T03:39:00Z</updated>
+            <id>/2014/11/display-collection+json-in-the-browser/</id>
+            <content type="html">&lt;p&gt;In the last year I have become enamored with Hypermedia APIs and the Collection+JSON API in particular that I first came across in &lt;a href=&quot;https://web.archive.org/web/20150504224635/http://www.amundsen.com/&quot;&gt;Mike Amundsen’s&lt;/a&gt; book &lt;a href=&quot;https://web.archive.org/web/20150504224635/http://www.amazon.com/gp/product/1449306578/ref=as_li_tl?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=1449306578&amp;amp;linkCode=as2&amp;amp;tag=gabrewercom-20&amp;amp;linkId=KMQMXVBUV5L3CBI5&quot;&gt;Building Hypermedia APIs with HTML5 and Node&lt;/a&gt;&lt;img src=&quot;https://web.archive.org/web/20150504224635im_/http://ir-na.amazon-adsystem.com/e/ir?t=gabrewercom-20&amp;amp;l=as2&amp;amp;o=1&amp;amp;a=1449306578&quot; alt=&quot;&quot; /&gt;.  It seems to be a perfect fit for many of the APIs that I have been working on.  Glenn Block created the &lt;a href=&quot;https://web.archive.org/web/20150504224635/https://github.com/WebApiContrib/CollectionJson.Net&quot;&gt;CollectionJson.Net&lt;/a&gt; library to make it easy to create Collection+JSON based ASP.NET Web APIs.&lt;/p&gt;
+&lt;p&gt;However when I browse to a WebAPI endpoint that returns a Collection+JSON result in Internet Explorer or Firefox I get a prompt to download the file.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;collectionjson_thumb1.png&quot;&gt;&lt;img src=&quot;/images/collectionjson_thumb1.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/collectionjson_thumb2.png&quot;&gt;&lt;img src=&quot;/images/collectionjson_thumb2.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Chrome displays the raw JSON result in a more friendly manner.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image_thumb2.png&quot;&gt;&lt;img src=&quot;/images/image_thumb2.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span id=&quot;more-1201&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Although Fiddler or the browser debug tools make it fairly easy to see the results as JSON sometimes it is convenient to see the results rendered directly in the browser.&lt;/p&gt;
+&lt;p&gt;I found an &lt;a href=&quot;https://web.archive.org/web/20150504224635/http://weblog.west-wind.com/posts/2011/Apr/01/Displaying-JSON-in-your-Browser&quot;&gt;old post&lt;/a&gt; from Rick Strahl’s blog regarding how to display application/json.  He suggests using JSONView for Firefox and adding a registry entry for Internet Explorer.  I was able to easily tweak the Internet Explorer registry keys to handle vnd.collection+json.  Unfortunately JSONView for Firefox will not work for the application/vnd.collection+json media type. &lt;a href=&quot;https://web.archive.org/web/20150504224635/https://github.com/bhollis/jsonview/issues/7&quot; title=&quot;https://github.com/bhollis/jsonview/issues/7&quot;&gt;https://github.com/bhollis/jsonview/issues/7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For internet Explorer it is just a matter of changing the Content type entered in the registry from application/json to application/vnd.collection+json&lt;/p&gt;
+&lt;p&gt;Create a new application/vnd.collection+json key in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HKEY_CLASSES_ROOT\MIME\Database\ContentType**application/vnd.collection+json**&lt;/li&gt;
+&lt;li&gt;Add a string value of CLSID with a value of {25336920-03F9-11cf-8FD0-00AA00686F13} (the CLSID for the “Browse in place” action)&lt;/li&gt;
+&lt;li&gt;Add a DWORD value of Encoding with a hex value of 0x00080000&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;highlight prettyprint&quot;&gt;[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/vnd.collection+json]
+“CLSID”=”{25336920-03F9-11cf-8FD0-00AA00686F13}”
+“Encoding”=hex:08,00,00,00
+
+&lt;/pre&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image3.png&quot;&gt;&lt;img src=&quot;/images/image_thumb3.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now Collection_JSON results will display directly in Internet Explorer.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image4.png&quot;&gt;&lt;img src=&quot;/images/image_thumb4.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For Firefox it was just a matter of specifying the application to open the media type as Firefox.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image5.png&quot;&gt;&lt;img src=&quot;/images/image_thumb5.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This adds the application/vnd.collection+json media type to the Applications list in the Firefox Options dialog.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image6.png&quot;&gt;&lt;img src=&quot;/images/image_thumb6.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And now Collection+JSON results will display directly in the Firefox window.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/image7.png&quot;&gt;&lt;img src=&quot;/images/image_thumb7.png&quot; alt=&quot;image&quot; title=&quot;image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This technique will work for other types of +json media types as well such as Mason (application/vnd.mason+json) and HAL (application/vnd.hal+json).&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Setting an IP address using netsh instead of arp -s on Windows 8.1</title>
+            <link href="/2014/09/setting-an-ip-address-using-netsh/"/>
+            <updated>2014-09-12T03:39:00Z</updated>
+            <id>/2014/09/setting-an-ip-address-using-netsh/</id>
+            <content type="html">&lt;p&gt;I recently had to setup many Epson TM-T88V receipt printers for a POS installation and out of the box they are configured with a static address of 192.168.192.168.  Pressing the reset button for 3 seconds prints out the status of the printer including the MAC address so I though I would just use arp –s to configure the printers but I received an error.  So after a some googling with Bing I turned up this article that pointed me to the the fact that you need to use netsh with recent versions of Windows.&lt;/p&gt;
+&lt;p&gt;First you need to get the name of the interface that the device is connected to.  Then you execute the netsh interface ipv4 add neighbors command.&lt;/p&gt;
+&lt;pre class=&quot;highlight prettyprint&quot;&gt;netsh interface ipv4 show interfaces
+
+Idx     Met         MTU          State                Name
+---  ----------  ----------  ------------  ---------------------------
+  3          10        1500  connected     Ethernet
+  1          50  4294967295  connected     Loopback Pseudo-Interface 1
+ 63          10        1400  connected     vowire hosting
+ 10           5        1500  connected     vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch)
+ 29          10        1500  connected     vEthernet (VirtualBox Host-Only Ethernet Adapter Virtual Switch)
+
+netsh interface ipv4 add neighbors &quot;Ethernet&quot; 10.1.10.45 xx-xx-xx-xx-xx-xx
+
+&lt;/pre&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Cool Development Utility - xip.io</title>
+            <link href="/2014/05/cool-development-utility-xip-io/"/>
+            <updated>2014-05-23T21:38:00Z</updated>
+            <id>/2014/05/cool-development-utility-xip-io/</id>
+            <content type="html">&lt;p&gt;I stumbled across a mention of a free service &lt;a href=&quot;http://xip.io/&quot;&gt;xip.io&lt;/a&gt; that spared developers the hassle of editing their host file for every new development web site they needed to setup. Having had to edit the host file many times this really appealed to me. So I went to find out what type of black magic enabled this.&lt;/p&gt;
+&lt;p&gt;What I found was a very simple and brilliant solution from &lt;a href=&quot;https://basecamp.com&quot;&gt;Basecamp&lt;/a&gt; (formally &lt;a href=&quot;http://37signals.com&quot;&gt;37signals&lt;/a&gt;. xip.io is a public custom dns service that given a [&lt;strong&gt;domain name&lt;/strong&gt;].[&lt;strong&gt;ip address&lt;/strong&gt;].xip.io returns the &lt;strong&gt;ip address&lt;/strong&gt; specified.&lt;/p&gt;
+&lt;p&gt;For example&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;www.gabrewer.com.192.168.1.10.xip.io&lt;/strong&gt; resolves to &lt;strong&gt;192.168.1.10&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;dev.gabrewer.com.192.168.1.10.xip.io&lt;/strong&gt; resolves to &lt;strong&gt;192.168.1.10&lt;/strong&gt;&lt;br /&gt;
+&lt;strong&gt;dev.www.gabrewer.com.192.168.1.10.xip.io&lt;/strong&gt; returns &lt;strong&gt;192.168.1.10&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Since this is a hosted service it works for all devices that have an Internet connection including tables, phones and other Internet connected devices.&lt;/p&gt;
+&lt;p&gt;I always love it when I find a nice piece of engineering that simplifies my development experience.&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>My first pull request - WebApiContrib.Formatting.CollectionJson</title>
+            <link href="/2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/"/>
+            <updated>2013-08-17T20:39:00Z</updated>
+            <id>/2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/</id>
+            <content type="html">&lt;p&gt;In my latest project I am using the great &lt;a href=&quot;http://amundsen.com/media-types/collection/&quot; target=&quot;_blank&quot;&gt;Collection+Json&lt;/a&gt; ASP.NET Web API &lt;a href=&quot;http://amundsen.com/media-https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson&quot; target=&quot;_blank&quot;&gt;library&lt;/a&gt; that Glenn Block put up on GitHub a while ago.&amp;nbsp; After using it for a while I decided to refactor my code and use something other than an int for my type identifiers.&amp;nbsp; When I changed to use the generic type, I discovered an issue with the code that had added the generic identifier capability to the library.&amp;nbsp; The Create method was still retuning an int instead of the generic TId.&lt;/p&gt; &lt;p&gt;So I wrote up the issue on GitHub and Glenn Block immediately responded asking if I was going to submit a Pull Request.&amp;nbsp; I am still relatively new to git and am still trying to grok it.&amp;nbsp; But since I had already forked the repository and updated the code, I figured this would be as good time as any to figure how to submit a pull request.&amp;nbsp; &lt;/p&gt; &lt;p&gt;Even though it was a one line change to the return type of the Create method, I realized that there were no unit tests for the CollectionJsonController class taking a generic identifier value.&amp;nbsp; So I decided I should fix that as well and created a XUnit test for this scenario by cloning the existing tests with just a Controller that used a string for the identifier.&amp;nbsp; Once I had the tests and the code working, I went about figure out how to submit my first pull request.&lt;/p&gt; &lt;p&gt;I found an excellent resource that made the process relativity straight forward and painless.&amp;nbsp; &lt;a href=&quot;https://www.openshift.com/wiki/github-workflow-for-submitting-pull-requests&quot;&gt;https://www.openshift.com/wiki/github-workflow-for-submitting-pull-requests&lt;/a&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;You can find my first pull request (modest as it may be) at&lt;/p&gt; &lt;p&gt;&lt;a title=&quot;https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387&quot; href=&quot;https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387&quot;&gt;https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Nice JavaScript library for formating numbers and currency</title>
+            <link href="/2013/04/nice-javascript-library-for-formating-numbers-and-currency/"/>
+            <updated>2013-04-06T19:56:00Z</updated>
+            <id>/2013/04/nice-javascript-library-for-formating-numbers-and-currency/</id>
+            <content type="html">&lt;p&gt;In my continuing effort to really learn JavaScript, I was working on putting together a shopping cart application using JavaScript.&amp;nbsp; One of the things I needed to do was format some of values as currency.&amp;nbsp; &lt;/p&gt; &lt;p&gt;So I started looking around at the various techniques to accomplish this and ran across &lt;a href=&quot;http://josscrowcroft.github.com/accounting.js/&quot; target=&quot;_blank&quot;&gt;accounting.js&lt;/a&gt; a tiny JavaScript for number, money and currency formatting that seemed to fit the bill nicely.&amp;nbsp; &lt;/p&gt; &lt;p&gt;Now I can just do this.&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;accounting.formatMoney(12345678);    &lt;span class=&quot;rem&quot;&gt;// $12,345,678.00&lt;/span&gt;
+&lt;/pre&gt;&lt;a href=&quot;http://josscrowcroft.github.com/accounting.js/&quot;&gt;http://josscrowcroft.github.com/accounting.js/&lt;/a&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Cisco Nexus 1000V for Microsoft Hyper-V Beta Program and Webinar</title>
+            <link href="/2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/"/>
+            <updated>2013-03-03T15:52:00Z</updated>
+            <id>/2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/</id>
+            <content type="html">&lt;p&gt;I just found this &lt;a href=&quot;http://www.aidanfinn.com/?p=14200&quot; target=&quot;_blank&quot;&gt;post&lt;/a&gt; from &lt;a href=&quot;http://www.aidanfinn.com/&quot; target=&quot;_blank&quot;&gt;Aidan Finn&lt;/a&gt; via &lt;a href=&quot;http://www.damianflynn.com/&quot; target=&quot;_blank&quot;&gt;Damian Flynn’s&lt;/a&gt; &lt;a href=&quot;http://www.damianflynn.com/2013/03/01/cisco-nexus-1000v-public-beta-program/&quot; target=&quot;_blank&quot;&gt;blog&lt;/a&gt; post regarding the webinar and beta program for the &lt;a href=&quot;https://communities.cisco.com/community/technology/datacenter/nexus1000v&quot; target=&quot;_blank&quot;&gt;Cisco Nexus 1000V switch&lt;/a&gt; for Microsoft Hyper-V on March 6th at 12pm EST.&amp;nbsp; &lt;/p&gt; &lt;p&gt;I am interested in learning what features the Nexus 1000V will provide leveraging the Hyper-V Extensible Switch.&amp;nbsp; We are currently using the &lt;a href=&quot;http://host-sflow.sourceforge.net/documentation.php&quot; target=&quot;_blank&quot;&gt;SFlow Agent&lt;/a&gt; for Window Server 2012 Hyper-V to monitor our VM traffic and it is great for getting insight into the network utilization of the individual VMs.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://www.damianflynn.com/2013/03/01/cisco-nexus-1000v-public-beta-program/&quot; target=&quot;_blank&quot;&gt;Damian Flynn - Cisco Nexus 1000v Public Beta Program&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://www.aidanfinn.com/?p=14200&quot; target=&quot;_blank&quot;&gt;Aidan Finn - Unveil Of Cisco Nexus 1000V Distributed Switch For Windows Server 2012 Hyper-V&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>ASP.NET and Web Tool 2012.2 Released Today</title>
+            <link href="/2013/02/asp-net-and-web-tool-2012-2-released-today/"/>
+            <updated>2013-02-18T21:19:00Z</updated>
+            <id>/2013/02/asp-net-and-web-tool-2012-2-released-today/</id>
+            <content type="html">&lt;p&gt;The ASP.NET and Web Tools 2012.2 update was released today.&amp;nbsp; There were many updates including some big additions like OData support and SignalR.&amp;nbsp;&amp;nbsp; Some of the things that jump out at me form the release notes.&lt;/p&gt; &lt;p&gt;“Paste JSON as a .NET class. Using this Special Paste command to paste JSON into a C# or VB.NET code file, and Visual Studio will automatically generate .NET classes inferred from the JSON.”&lt;/p&gt; &lt;p&gt;“Mobile Emulator support adds extensibility hooks so that third-party emulators can be installed as a VSIX. The installed emulators will show up in the F5 dropdown, so that developers can preview their websites on a variety of mobile devices. Read more about this feature in Scott Hanselman’s blog entry on &lt;a href=&quot;http://www.hanselman.com/blog/CrossBrowserDebuggingIntegratedIntoVisualStudioWithBrowserStack.aspx&quot;&gt;the new BrowserStack integration with Visual Studio&lt;/a&gt;.”&lt;/p&gt; &lt;p&gt;“&lt;strong&gt;ASP.NET Web API OData&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;ASP.NET Web API OData gives you the flexibility you need to build OData endpoints with rich business logic over any data source” &lt;/p&gt;&lt;h5&gt;“ASP.NET SignalR&lt;/h5&gt; &lt;p&gt;ASP.NET SignalR makes it simple to add real-time web capabilities to your ASP.NET application, using WebSockets if available and automatically falling back to other techniques when it isn’t.” &lt;/p&gt;&lt;p&gt;Related Blog Posts&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://www.asp.net/vnext/overview/fall-2012-update/aspnet-and-web-tools-20122-release-notes-rtw&quot; target=&quot;_blank&quot;&gt;ASP.NET and Web Tools 2012.2 Release Notes&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://weblogs.asp.net/scottgu/archive/2013/02/18/announcing-release-of-asp-net-and-web-tools-2012-2-update.aspx&quot; target=&quot;_blank&quot;&gt;ScottGu - Announcing release of ASP.NET and Web Tools 2012.2 Update&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.hanselman.com/blog/ReleasedASPNETAndWebTools20122InContext.aspx&quot; target=&quot;_blank&quot;&gt;Scott Hanselman - Released: ASP.NET and Web Tools 2012.2 in Context&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://weblogs.asp.net/jgalloway/archive/2013/02/18/announcing-the-asp-net-and-web-tools-2012-2-release.aspx&quot; target=&quot;_blank&quot;&gt;Jon Galloway - Announcing the ASP.NET and Web Tools 2012.2 Release!&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://madskristensen.net/post/Web-Tools-20122-and-Web-Essentials.aspx&quot; target=&quot;_blank&quot;&gt;Web Tools 2012.2 and Web Essentials&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Web Platform Installer crash when viewing Products or Applications</title>
+            <link href="/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/"/>
+            <updated>2013-02-13T04:57:00Z</updated>
+            <id>/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/</id>
+            <content type="html">&lt;p&gt;Today when I was trying to setup WordPress on my Windows 8 development machine the IIS Manager would crash with an System.OutOfMemoryException exception.&lt;/p&gt; &lt;div id=&quot;codeSnippetWrapper&quot; style=&quot;overflow: auto; cursor: text; font-size: 8pt; border-top: silver 1px solid; font-family: &#39;Courier New&#39;, courier, monospace; border-right: silver 1px solid; border-bottom: silver 1px solid; padding-bottom: 4px; direction: ltr; text-align: left; padding-top: 4px; padding-left: 4px; margin: 20px 0px 10px; border-left: silver 1px solid; line-height: 12pt; padding-right: 4px; max-height: 200px; width: 97.5%; background-color: #f4f4f4&quot;&gt;&lt;pre id=&quot;codeSnippet&quot; style=&quot;border-top-style: none; overflow: visible; font-size: 8pt; border-left-style: none; font-family: &#39;Courier New&#39;, courier, monospace; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; line-height: 12pt; padding-right: 0px; width: 100%; background-color: #f4f4f4&quot;&gt;Exception:System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.&lt;br /&gt; ---&amp;gt; System.Reflection.TargetInvocationException: An exception occurred during the operation, making the result invalid.&lt;br /&gt;Check InnerException &lt;span style=&quot;color: #0000ff&quot;&gt;for&lt;/span&gt; exception details. ---&amp;gt; System.OutOfMemoryException: Out of memory.&lt;/pre&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;p&gt;After doing a quick Bing search turn up this &lt;a href=&quot;http://forums.iis.net/p/1192160/2042796.aspx/1?p=True&amp;amp;t=634963126897202460&quot; target=&quot;_blank&quot;&gt;article&lt;/a&gt; on the IIS.NET Forums and after clicking “Get New Web Platform Components” problem solved.&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Node.js, JQuery and Mocha on Windows 8 x64 and PowerShell</title>
+            <link href="/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/"/>
+            <updated>2013-02-02T16:54:00Z</updated>
+            <id>/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/</id>
+            <content type="html">&lt;p&gt;Since the &lt;a href=&quot;http://pnp.azurewebsites.net/en-us/events.htm&quot; target=&quot;_blank&quot;&gt;Microsoft Patterns and Practices symposium&lt;/a&gt;, I have been wanting to get started learning Node.js.&amp;nbsp; So I added the JumpStart Node.js to my &lt;a href=&quot;http://my.safaribooksonline.com/&quot; target=&quot;_blank&quot;&gt;Safari Books Online&lt;/a&gt; bookshelf and installed Node.js from &lt;a title=&quot;http://nodejs.org/&quot; href=&quot;http://nodejs.org/&quot;&gt;http://nodejs.org/&lt;/a&gt;.&amp;nbsp; &lt;/p&gt; &lt;p&gt;The sample in the first chapter uses a Mongo db provider (MongoLab) but I decided to install mongo locally instead.&amp;nbsp; It installed easily using the &lt;a href=&quot;http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/&quot; target=&quot;_blank&quot;&gt;Windows Quick Start&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;I was on a roll until I got to the next chapter and tried to get the modules installed.&amp;nbsp; The sample uses Mocha for its unit tests.&amp;nbsp; It also uses jQuery.&amp;nbsp; Both proved to be a challenge to get working on my Windows 8 machine.&lt;/p&gt; &lt;p&gt;First issue is that Mocha requires a UNIX make command.&amp;nbsp; To get this I installed &lt;a href=&quot;http://cygwin.com/&quot; target=&quot;_blank&quot;&gt;Cygwin&lt;/a&gt; with the development tools selected as specified in this &lt;a href=&quot;http://stackoverflow.com/questions/9779700/mocha-requires-make-cant-find-a-make-exe-that-works-on-windows&quot; target=&quot;_blank&quot;&gt;StackOverflow post&lt;/a&gt;.&amp;nbsp; I then added the &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;Set-Alias make &quot;c:\cygwin\bin\make.exe&quot;&lt;/strong&gt;&lt;/font&gt; to my PowerShell profile.&lt;/p&gt; &lt;p&gt;That allowed the &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;npm install mocha&lt;/font&gt;&lt;/strong&gt; to succeed.&lt;/p&gt; &lt;p&gt;My Node.js sample uses jQuery so the next error I ran into was that jQuery install was not succeeding.&amp;nbsp; It failed on the Contextify dependency.&amp;nbsp; After a little goggling with Bing, I found that there are two development tools you need for Node.js development on Windows.&amp;nbsp; Python 2.7 and Visual C++.&amp;nbsp; &lt;/p&gt; &lt;p&gt;I had Python 2.7 installed but it wasn’t in the path, so that was a simple fix.&amp;nbsp; If figured that the C++ dependency would be an issue since I do a bunch of C++ development.&amp;nbsp; But when I ran the &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;npm install contextify&lt;/strong&gt;&lt;/font&gt;, I received.&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;error MSB8008: Specified platform toolset (v110) &lt;span class=&quot;kwrd&quot;&gt;is&lt;/span&gt; not installed or invalid.
+Please make sure that a supported PlatformToolset &lt;span class=&quot;kwrd&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;kwrd&quot;&gt;is&lt;/span&gt; selected.&lt;/pre&gt;
+&lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+&lt;/style&gt;
+&lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+&lt;/style&gt;
+&lt;p&gt;So back to StackOverflow and this &lt;a href=&quot;http://stackoverflow.com/questions/10280956/how-to-use-msbuild-to-target-v110-platform-toolset&quot; target=&quot;_blank&quot;&gt;helpful post&lt;/a&gt; pointed to the fact that if you have Visual Studio 2012 installed you need to set the &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;VisualStudioVersion&lt;/font&gt;&lt;/strong&gt; environment variable to 11.0 for MSBuild to pick the correct version.&amp;nbsp; So I added &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;$env:VisualStudioVersion=”11.0”&lt;/font&gt;&lt;/strong&gt; to my default PowerShell profile and Wallah!&amp;nbsp;&amp;nbsp; &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;npm install jquery&lt;/font&gt;&lt;/strong&gt; succeeded.&lt;/p&gt;
+&lt;p&gt;So now I had jQuery, Mocha and Should all installed, so I typed in &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;make test&lt;/strong&gt;&lt;/font&gt; hoping for the best and no such luck.&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;./node_modules/.bin/mocha: line 2: dirname: command not found
+./node_modules/.bin/mocha: line 4: uname: command not found
+&lt;p&gt;module.js:340
+&lt;span class=&quot;kwrd&quot;&gt;throw&lt;/span&gt; err;
+^
+Error: Cannot find module &lt;span class=&quot;str&quot;&gt;‘C:\mocha\bin\mocha’&lt;/span&gt;
+at Function.Module._resolveFilename (module.js:338:15)
+at Function.Module._load (module.js:280:25)
+at Module.runMain (module.js:492:10)
+at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+Makefile:2: recipe &lt;span class=&quot;kwrd&quot;&gt;for&lt;/span&gt; target `test’ failed
+make: *** [test] Error 1&lt;/p&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;It couldn’t find the &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;dirname&lt;/font&gt;&lt;/strong&gt; and &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;uname&lt;/strong&gt;&lt;/font&gt; commands so it was looking in the c:\mocha\bin\mocha directory.&amp;nbsp; At least this was a simple one.&amp;nbsp; Adding cygwin bin to the path corrected the error and my test finally ran!&lt;/p&gt;
+&lt;p&gt;So to summarize the steps I followed to get Mocha and jQuery working on Windows 8 x64 were.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install &lt;a href=&quot;http://cygwin.com/&quot; target=&quot;_blank&quot;&gt;Cygwin&lt;/a&gt; with development tools and add it to the path 
+&lt;/li&gt;&lt;li&gt;Add &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;Set-Alias make &quot;c:\cygwin\bin\make.exe&quot; &lt;/strong&gt;&lt;/font&gt;to my PowerShell profile. 
+&lt;/li&gt;&lt;li&gt;Install &lt;a href=&quot;http://python.org/download/&quot; target=&quot;_blank&quot;&gt;Python 2.7&lt;/a&gt; and add it to the path 
+&lt;/li&gt;&lt;li&gt;Add &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;$env:VisualStudioVersion=”11.0” &lt;/font&gt;&lt;/strong&gt;to my PowerShell profile. (If you have Visual Studio 2012 installed)&lt;/li&gt;&lt;/ul&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Misleading error in Cluster Validation Wizard</title>
+            <link href="/2013/01/misleading-error-in-cluster-validation-wizard/"/>
+            <updated>2013-01-29T05:26:00Z</updated>
+            <id>/2013/01/misleading-error-in-cluster-validation-wizard/</id>
+            <content type="html">&lt;p&gt;This weekend we were migrating a Hyper-V cluster form Windows Server 2008 R2 to Windows Server 2012.&amp;nbsp; Our hosts were HP DL360p Gen 8 servers connected to a HP P2000 G3 MSA iSCSI storage array.&amp;nbsp; &lt;/p&gt; &lt;p&gt;After getting our hosts all configured and connected to the SAN we were ready to install the cluster.&amp;nbsp; When we ran the Cluster Validation Wizard we received some warnings.&amp;nbsp; One of warnings seemed quite troubling.&amp;nbsp; &lt;/p&gt; &lt;p&gt;&lt;font face=&quot;Consolas&quot;&gt;Test Disk 0 does not support SCSI-3 Persistent Reservations commands needed to support clustered Storage Pools. Some storage devices require specific firmware versions or settings to function properly with failover clusters. Please contact your storage administrator or storage vendor to check the configuration of the storage to allow it to function properly with failover clusters.&lt;/font&gt;&lt;/p&gt; &lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+&lt;/style&gt;   &lt;p&gt;This appears to be a big problem because SCSI-3 Persistent Reservations are very important to the cluster working correctly.&amp;nbsp; &lt;/p&gt;&lt;!--more--&gt;&lt;p&gt;We had been using this same model of array in our Windows Server 2008 R2 clusters so we knew that the P2000 support SCSI-3 Persistent Reservations.&amp;nbsp; So we went off to google it with bing to find the answer to what was happening with the Windows Server 2012 cluster.&amp;nbsp; We found several posts on the HP support forums that had no solutions and found that HP had no VSS or VDS providers for the P2000 for Windows Server 2012 yet.&amp;nbsp; (Which means no hardware snapshots with DPM yet)&lt;/p&gt; &lt;p&gt;Then we started to look at the warning more closely.&amp;nbsp; One of things we realized was it was a warning and not an error.&amp;nbsp; It seem like a SCSI-3 Persistent Reservation failure would have been a fatal error to the cluster validation error.&amp;nbsp; Then we realized that there were two SCSI-3 Persistent Test in the Server 2012 Cluster validation tests.&amp;nbsp; One was “Validate SCSI-3 Persistent Reservation” and the other was “Validate Storage Spaces Persistent Reservation”.&amp;nbsp; The first one passed and it was the second one that failed. &lt;/p&gt; &lt;p&gt;It turns out that the test that was failing was for the new&amp;nbsp; Windows Server 2012 feature of clustered Storage Spaces which only works on direct connected SATA or SAS JBOD disks, no RAID, iSCSI or Fibre Channel disks will ever pass this test.&amp;nbsp; So we went ahead and created the cluster and everything is working great.&lt;/p&gt; &lt;p&gt;&lt;a href=&quot;http://social.technet.microsoft.com/wiki/contents/articles/11382.storage-spaces-frequently-asked-questions-faq.aspx#What_types_of_storage_arrays_can_I_use_with_Storage_Spaces&quot; target=&quot;_blank&quot;&gt;From TechNet&lt;/a&gt;&lt;/p&gt; &lt;h4&gt;&lt;font face=&quot;Consolas&quot;&gt;What types of drives can I use with Storage Spaces?&lt;/font&gt;&lt;/h4&gt; &lt;p&gt;&lt;font face=&quot;Consolas&quot;&gt;You can use commodity drives attached via Serial-Attached SCSI (SAS), Serial ATA (SATA), or USB. Storage layers that abstract the physical disks are not compatible with Storage Spaces. This includes VHDs and pass-through disks in a virtual machine, and storage subsystems that layer a RAID implementation on top of the physical disks. iSCSI and Fibre Channel controllers are not supported by Storage Spaces.&lt;/font&gt; &lt;/p&gt;&lt;p&gt;We did later find one link on &lt;a href=&quot;http://serverfault.com/questions/449083/windows-2012-cluster-on-p6300-scsi-3-persistent-reservation-issues&quot; target=&quot;_blank&quot;&gt;ServerFault&lt;/a&gt; that validated our conclusion that the warning was benign.&amp;nbsp; So the warning that seem scary really turn out to be nothing.&amp;nbsp; It seems like the warning message is very misleading as to the root cause of the issue that triggered it.&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Passing values from your ASP.NET MVC Controller to Javascript</title>
+            <link href="/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/"/>
+            <updated>2012-12-11T04:05:00Z</updated>
+            <id>/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/</id>
+            <content type="html">&lt;p&gt;Inspired by &lt;a href=&quot;http://www.johnpapa.net/building-single-page-apps-with-knockout-jquery-and-web-api-ndash-the-story-begins&quot; target=&quot;_blank&quot;&gt;John Papa’s Single Page Application&lt;/a&gt; series on &lt;a href=&quot;http://www.pluralsight.com/training&quot; target=&quot;_blank&quot;&gt;Pluralsight&lt;/a&gt;, in my latest project I am making heavy use of the JavaScript MVVM pattern.&amp;nbsp; Since my application isn&#39;t a true single page application I found myself in some cases needing use values from my Controller in my JavaScript methods. &lt;/p&gt; &lt;p&gt;After doing some research I came across this &lt;a href=&quot;http://crazorsharp.blogspot.com/2012/02/passing-variables-from-your-controller.html&quot; target=&quot;_blank&quot;&gt;post from A. Friedman&lt;/a&gt; about &lt;a href=&quot;https://github.com/brooklynDev/NGon&quot; target=&quot;_blank&quot;&gt;Ngon&lt;/a&gt; a port he created of the Ruby &lt;a href=&quot;https://github.com/gazay/gon&quot; target=&quot;_blank&quot;&gt;Gon&lt;/a&gt; gem.&amp;nbsp; Ngon allows you to add a value to a ViewBag NGon property and then consume it in your JavaScript.&lt;/p&gt; &lt;p&gt;To use Ngon I can just add the NGonActionFilterAttribute to my RegisterGlobalFilters&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;&lt;span class=&quot;kwrd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwrd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwrd&quot;&gt;void&lt;/span&gt; RegisterGlobalFilters(GlobalFilterCollection filters)
+{
+   filters.Add(&lt;span class=&quot;kwrd&quot;&gt;new&lt;/span&gt; NGonActionFilterAttribute());
+   filters.Add(&lt;span class=&quot;kwrd&quot;&gt;new&lt;/span&gt; HandleErrorAttribute());
+}&lt;/pre&gt;
+&lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+&lt;/style&gt;
+&lt;p&gt;So in my controller action I just set the Ngon values. &lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;&lt;span class=&quot;kwrd&quot;&gt;if&lt;/span&gt; (User.Identity.IsAuthenticated)
+{
+   ViewBag.NGon.UserName = User.Identity.Name;
+   ViewBag.NGon.CurrentUserId = WebSecurity.CurrentUserId;
+}&lt;/pre&gt;
+&lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+&lt;/style&gt;
+&lt;p&gt;In my _Layout.cshtml file I added a @using NGon and a @Html.IncludeNGon() to the &amp;lt;head&amp;gt; section.&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;@&lt;span class=&quot;kwrd&quot;&gt;using&lt;/span&gt; NGon
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&lt;span class=&quot;str&quot;&gt;&quot;en&quot;&lt;/span&gt;&amp;gt;
+    &amp;lt;head&amp;gt;
+        &amp;lt;meta charset=&lt;span class=&quot;str&quot;&gt;&quot;utf-8&quot;&lt;/span&gt; /&amp;gt;
+        &amp;lt;title&amp;gt;@ViewBag.Title - My ASP.NET MVC Application&amp;lt;/title&amp;gt;
+        &amp;lt;link href=&lt;span class=&quot;str&quot;&gt;&quot;~/favicon.ico&quot;&lt;/span&gt; rel=&lt;span class=&quot;str&quot;&gt;&quot;shortcut icon&quot;&lt;/span&gt; type=&lt;span class=&quot;str&quot;&gt;&quot;image/x-icon&quot;&lt;/span&gt; /&amp;gt;
+        &amp;lt;meta name=&lt;span class=&quot;str&quot;&gt;&quot;viewport&quot;&lt;/span&gt; content=&lt;span class=&quot;str&quot;&gt;&quot;width=device-width&quot;&lt;/span&gt; /&amp;gt;
+        @Html.IncludeNGon()
+        @Styles.Render(&lt;span class=&quot;str&quot;&gt;&quot;~/Content/css&quot;&lt;/span&gt;)
+        @Scripts.Render(&lt;span class=&quot;str&quot;&gt;&quot;~/bundles/modernizr&quot;&lt;/span&gt;)
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+...&lt;/pre&gt;
+&lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+&lt;/style&gt;
+&lt;div class=&quot;csharpcode&quot;&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;And then I can just use the ngon object like this in my JavaScript&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;activate = function (callback) {
+&lt;p&gt;config.currentUserId = ngon.CurrentUserId;
+config.currentUser = function () { &lt;span class=&quot;kwrd&quot;&gt;return&lt;/span&gt; { id: function () { &lt;span class=&quot;kwrd&quot;&gt;return&lt;/span&gt; ngon.CurrentUserId; } }; };&lt;/p&gt;
+&lt;p&gt;messenger.publish.viewModelActivated({ canleaveCallback: canLeave });
+getActivityItems(callback);&lt;/p&gt;
+&lt;p&gt;},&lt;/p&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;
+&lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, &quot;Courier New&quot;, courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+&lt;/style&gt;
+&lt;p&gt;Very elegant solution to the problem.&amp;nbsp; Ngon is now available as a &lt;a href=&quot;https://nuget.org/packages/NGon&quot; target=&quot;_blank&quot;&gt;Nuget&lt;/a&gt; package. &lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Unable to open Database Project after upgrading to SQL Server 2012 SP1</title>
+            <link href="/2012/12/unable-to-open-database-project-after-upgrading-to-sql-server-2012-sp1/"/>
+            <updated>2012-12-11T03:52:00Z</updated>
+            <id>/2012/12/unable-to-open-database-project-after-upgrading-to-sql-server-2012-sp1/</id>
+            <content type="html">&lt;p&gt;I recently upgraded SQL Server 2012 on my development machine to SP1.  Once it was installed, my solutions with SQL Server Database Projects complain that the version of SQL Server Data Tools is not compatible with the database runtime components install on this computer.&lt;/p&gt;
+&lt;img class=&quot;alignnone size-medium wp-image-461&quot; alt=&quot;/images/ssdt3-300x253.jpg&quot; width=&quot;300&quot; height=&quot;253&quot; /&gt;
+&lt;p&gt;Both the “Learn more…” and “Get the latest version of SQL Server Data Tools…” links do not currently resolve to an active page.&lt;/p&gt;
+&lt;p&gt;Luckily  I was able to find &lt;a href=&quot;http://blog.wharton.com.au/&quot; target=&quot;_blank&quot;&gt;Mr. Wharty’s Ramblings - Everything SQL&lt;/a&gt; blog which had the &lt;a href=&quot;http://blog.wharton.com.au/2012/11/16/sql-server-2012-sp-1-breaks-sql-server-database-projects/&quot; target=&quot;_blank&quot;&gt;solution&lt;/a&gt;, install the latest version of the &lt;a href=&quot;http://msdn.microsoft.com/en-us/jj650015&quot; target=&quot;_blank&quot;&gt;SQL Server Data Tools – November 2012 update&lt;/a&gt; and migrate the database projects.&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Windows 8 installed on Lenovo W520 - Finally</title>
+            <link href="/2012/07/windows-8-installed-on-lenovo-w520-finally/"/>
+            <updated>2012-07-08T03:50:00Z</updated>
+            <id>/2012/07/windows-8-installed-on-lenovo-w520-finally/</id>
+            <content type="html">&lt;p&gt;Well, I finally got around to figuring out why I could not install the Windows 8 Release Preview on my Lenovo ThinkPad W520.  Every time I went to install the OS it would hang during boot.  That issue turned out to be that I needed to install on a &lt;a href=&quot;http://support.lenovo.com/en_US/downloads/detail.page?&amp;amp;DocID=HT073269&quot; target=&quot;_blank&quot;&gt;GPT disk using the UEFI bios&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before doing that I installed the latest &lt;a href=&quot;http://support.lenovo.com/en_US/downloads/detail.page?&amp;amp;DocID=DS029675&quot; target=&quot;_blank&quot;&gt;bios from the Lenovo site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After upgrading the Bios and backing up the little data I wanted to save, I proceeded to install the OS.  I went through the boot process fine, installed the installation files reboot and then hung at 90% when configuring devices.  After fiddling with the video driver settings Optimus, Integrated and Discrete, I tired disabling the wireless card and the install completed successfully.&lt;/p&gt;
+&lt;p&gt;After the installation was complete, I installed the &lt;a href=&quot;http://support.lenovo.com/en_US/downloads/detail.page?DocID=HT072084&quot; target=&quot;_blank&quot;&gt;Lenovo Windows 8 beta drivers&lt;/a&gt; turned the wireless adapter back on, crossed my fingers and rebooted and I am finally running Windows 8 on my Lenovo W520!&lt;/p&gt;
+&lt;img class=&quot;alignnone size-medium wp-image-421&quot; alt=&quot;lenovowin8_2&quot; src=&quot;/images/lenovowin8_2-300x218.png&quot; width=&quot;300&quot; height=&quot;218&quot; /&gt;
+&lt;p&gt;Update:  After installing all the Windows 8 drivers there was one unknown device.  Turns out it was the ThinkPad Power Management Device.  I downloaded the &lt;a href=&quot;http://support.lenovo.com/en_US/downloads/detail.page?DocID=DS014939&quot; target=&quot;_blank&quot;&gt;Windows 7 driver&lt;/a&gt; from the Lenovo site and everything seems good.&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Windows Server 2012 RC and Window 8 Release Preview are now available - Plus VS 2012</title>
+            <link href="/2012/06/windows-server-2012-rc-and-window-8-release-preview-are-now-available-plus-vs-2012/"/>
+            <updated>2012-06-01T03:45:00Z</updated>
+            <id>/2012/06/windows-server-2012-rc-and-window-8-release-preview-are-now-available-plus-vs-2012/</id>
+            <content type="html">&lt;p&gt;Time to start burning through bandwidth.&lt;/p&gt;
+&lt;p&gt;Latest pre release versions are now available&lt;/p&gt;
+&lt;p&gt;Windows 8 Release Preview
+&lt;a href=&quot;http://windows.microsoft.com/en-US/windows-8/download&quot;&gt;http://windows.microsoft.com/en-US/windows-8/download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Windows Server 2012 Release Candidate
+&lt;a href=&quot;http://technet.microsoft.com/en-us/evalcenter/hh670538.aspx&quot;&gt;http://technet.microsoft.com/en-us/evalcenter/hh670538.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;First found via &lt;a href=&quot;http://msmvps.com/blogs/bradley/&quot;&gt;http://msmvps.com/blogs/bradley/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also Visual Studio 2012 Release Candidate is also available.
+&lt;a href=&quot;http://www.microsoft.com/visualstudio/11/en-us&quot;&gt;http://www.microsoft.com/visualstudio/11/en-us&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Visual Studio 11 Beta - Dark Theme using White Background - Fix</title>
+            <link href="/2012/05/visual-studio-11-beta-dark-theme-using-white-background-fix/"/>
+            <updated>2012-05-12T03:42:00Z</updated>
+            <id>/2012/05/visual-studio-11-beta-dark-theme-using-white-background-fix/</id>
+            <content type="html">&lt;p&gt;Last night I was playing around with the Visual Studio 11 settings and something I did caused the dark theme to use a white background.  Reselecting the dark theme did not reset the background.  After consulting Bing, I found the fix.  This is a known issue with a simple fix.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/davedev/archive/2012/05/07/help-visual-studio-11-beta-dark-theme-incorrectly-using-white-background.aspx&quot;&gt;http://blogs.msdn.com/b/davedev/archive/2012/05/07/help-visual-studio-11-beta-dark-theme-incorrectly-using-white-background.aspx&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>Cool Development Utility - smtp4dev</title>
+            <link href="/2012/02/cool-development-utility-smtp4dev/"/>
+            <updated>2012-02-27T03:37:00Z</updated>
+            <id>/2012/02/cool-development-utility-smtp4dev/</id>
+            <content type="html">&lt;p&gt;The other day I needed to test the Mail functionality of an application I was developing on Windows 7 and I realized that the built in SMTP server had been removed.  I initially thought about just installing the free version of SmarterMail and configuring that but I decided to take a look and see what else I could find.  I ran across smtp4dev on CodePlex.  &lt;a href=&quot;http://smtp4dev.codeplex.com/&quot;&gt;Codeplex Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;smtp4dev captures emails that are sent to localhost on whatever port you configure smtp4dev to listen on.  You can then inspect the formatting and content by choosing an entry in the list and selecting Inspect or View.&lt;/p&gt;
+&lt;img class=&quot;alignnone size-medium wp-image-141&quot; alt=&quot;smtp4dev main screen&quot; src=&quot;/images/image_4-300x217.png&quot; width=&quot;300&quot; height=&quot;217&quot; /&gt;
+&lt;p&gt;Inspect shows a window that lets you see the MIME parts (Source, Headers, Body) and the raw Message Source. View opens the email message in your default email program.&lt;/p&gt;
+&lt;img class=&quot;alignnone size-medium wp-image-151&quot; alt=&quot;Message Inspect Window&quot; src=&quot;/images/image_16-300x164.png&quot; width=&quot;300&quot; height=&quot;164&quot; /&gt;
+&lt;p&gt;smtp4dev even supports SSL/TTL allowing you to specify a certificate to use for the secure connection.&lt;/p&gt;
+&lt;img class=&quot;alignnone size-medium wp-image-161&quot; alt=&quot;smtp4dev options&quot; src=&quot;/images/image_6-300x272.png&quot; width=&quot;300&quot; height=&quot;272&quot; /&gt;
+&lt;p&gt;smtp4dev is an easy to use utility that provides some powerful capabilities that can make integration testing email functionality in your apps easier.&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>PowerShell Quick Reference Guides and Cheat Sheets</title>
+            <link href="/2012/02/powershell-quick-reference-guides-and-cheat-sheets/"/>
+            <updated>2012-02-27T03:33:00Z</updated>
+            <id>/2012/02/powershell-quick-reference-guides-and-cheat-sheets/</id>
+            <content type="html">&lt;p&gt;Becoming effective with PowerShell is quickly becoming essential to working effectively with Windows Server products.  With PowerShell modules for so many products it is getting hard to keep track of all the command lets.  Luckily Jonathan Noble has put together a list of PowerShell Quick Reference Guides and Cheat Sheets for various products.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.jonoble.com/blog/2011/12/12/powershell-quick-reference-guides-and-cheat-sheets.html&quot;&gt;http://www.jonoble.com/blog/2011/12/12/powershell-quick-reference-guides-and-cheat-sheets.html&lt;/a&gt;&lt;/p&gt;
+</content>          
+        </entry>
+        
+        <entry>
+            <title>ASP.NET Web API replaces WCF Web API</title>
+            <link href="/2012/02/asp-net-web-api-replaces-wcf-web-api/"/>
+            <updated>2012-02-27T03:33:00Z</updated>
+            <id>/2012/02/asp-net-web-api-replaces-wcf-web-api/</id>
+            <content type="html">&lt;p&gt;The new MVC 4 beta was released last Thursday / Friday.  One of the big changes is the moving of the WCF Web API into the ASP.NET MVC code stream.&lt;/p&gt;
+&lt;p&gt;Get the bits and the initial documentation on the ASP.NET Web API page at &lt;a href=&quot;http://www.asp.net/web-api&quot;&gt;http://www.asp.net/web-api&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The team has provided some initial guidance on migrating from the WCF Web API to ASP.NET Web API on the &lt;a href=&quot;http://wcf.codeplex.com/wikipage?title=How%20to%20Migrate%20from%20WCF%20Web%20API%20to%20ASP.NET%20Web%20API&quot; target=&quot;_blank&quot;&gt;WCF CodePlex site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;ScottGu has an overview on &lt;a href=&quot;http://weblogs.asp.net/scottgu/archive/2012/02/19/asp-net-mvc-4-beta.aspx&quot; target=&quot;_blank&quot;&gt;his blog&lt;/a&gt; along with a video of a presentation that he gave at the Belgium and Dutch TechReady events.&lt;/p&gt;
+&lt;p&gt;Jon Galloway interviewed Brad Wilson about the ASP.NET MVC 4 release.  &lt;a href=&quot;http://herdingcode.com/?p=396&quot; target=&quot;_blank&quot;&gt;Brad Wilson on ASP.NET 4 Beta and ASP.NET Web API&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Henrik Nielsen the Principal Architect on the WCF Team has a post on the new &lt;a href=&quot;http://blogs.msdn.com/b/henrikn/archive/2012/02/16/httpclient-is-here.aspx&quot; target=&quot;_blank&quot;&gt;HttpClient&lt;/a&gt; for ASP.NET Web API that has been back ported from .NET 4.5.&lt;/p&gt;
+&lt;p&gt;I plan on migrating my current project using the WCF Web API and ASP.NET MVC 3 to the new ASP.NET Web API and ASP.NET MVC 4 API this week.  After spending a lot of time last week getting Ninject work work with the WCF Web API, it looks like the ASP.NET Web API makes it trivial.  But it was still a good learning experience right?&lt;/p&gt;
+&lt;p&gt;I am also contemplating moving to the new .NET 4.5 beta when it is released.  It looks like the asynchronous support on C# 5 will be very useful with the new ASP.NET Web API.&lt;/p&gt;
+</content>          
+        </entry>
+</feed>

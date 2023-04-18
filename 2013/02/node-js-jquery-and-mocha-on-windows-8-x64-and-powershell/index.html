@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/output.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><nav role="navigation" class="blog-masthead">
+  <div class="container">
+    
+    
+      <div class="blog-nav">
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/">
+              Home
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/useful_links/">
+              Useful Links
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/archive/">
+              Blog Archives
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</nav>
+<header class="container w-full py-10">
+  <div class="w-full">
+    <div class="flex flex-col md:flex-row justify-between w-full">
+      <div class="md:w-auto mb-4 md:mb-0">
+        <h1 class="text-6xl font-normal mb-4">
+          <a href="/" class="text-blue-550">gabrewer.com</a>
+        </h1>
+        
+          <p class="text-xl text-neutral-400">Life is too important to be take seriously.</p>
+        
+      </div>
+      <div class="w-full md:w-auto flex flex-col items-end">
+        <ul class="">
+          <li>
+            <a
+              href="/feed/feed.xml"
+              rel="subscribe-rss"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="/feed/feedlinks.xml"
+              rel="subscribe_rss_link"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS Useful Links</a
+            >
+          </li>
+          
+        </ul>
+        
+          <form action="https://www.google.com/search" method="get">
+            <fieldset role="search" class="border border-solid border-black">
+              <input type="hidden" name="q" value="site:https://gabrewer.com/">
+              <input type="text" name="q" results="0" placeholder="Search" class="w-full p-2">
+            </fieldset>
+          </form>
+        
+      </div>
+    </div>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+            
+<div class="post">
+  <h2>Node.js, JQuery and Mocha on Windows 8 x64 and PowerShell</h2>
+  <p class="meta">Saturday, February 2, 2013 at 4:54 PM UTC</p>
+
+  <p>Since the <a href="http://pnp.azurewebsites.net/en-us/events.htm" target="_blank">Microsoft Patterns and Practices symposium</a>, I have been wanting to get started learning Node.js.&nbsp; So I added the JumpStart Node.js to my <a href="http://my.safaribooksonline.com/" target="_blank">Safari Books Online</a> bookshelf and installed Node.js from <a title="http://nodejs.org/" href="http://nodejs.org/">http://nodejs.org/</a>.&nbsp; </p> <p>The sample in the first chapter uses a Mongo db provider (MongoLab) but I decided to install mongo locally instead.&nbsp; It installed easily using the <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/" target="_blank">Windows Quick Start</a>.</p> <p>I was on a roll until I got to the next chapter and tried to get the modules installed.&nbsp; The sample uses Mocha for its unit tests.&nbsp; It also uses jQuery.&nbsp; Both proved to be a challenge to get working on my Windows 8 machine.</p> <p>First issue is that Mocha requires a UNIX make command.&nbsp; To get this I installed <a href="http://cygwin.com/" target="_blank">Cygwin</a> with the development tools selected as specified in this <a href="http://stackoverflow.com/questions/9779700/mocha-requires-make-cant-find-a-make-exe-that-works-on-windows" target="_blank">StackOverflow post</a>.&nbsp; I then added the <font size="3" face="Consolas"><strong>Set-Alias make "c:\cygwin\bin\make.exe"</strong></font> to my PowerShell profile.</p> <p>That allowed the <strong><font size="3" face="Consolas">npm install mocha</font></strong> to succeed.</p> <p>My Node.js sample uses jQuery so the next error I ran into was that jQuery install was not succeeding.&nbsp; It failed on the Contextify dependency.&nbsp; After a little goggling with Bing, I found that there are two development tools you need for Node.js development on Windows.&nbsp; Python 2.7 and Visual C++.&nbsp; </p> <p>I had Python 2.7 installed but it wasn’t in the path, so that was a simple fix.&nbsp; If figured that the C++ dependency would be an issue since I do a bunch of C++ development.&nbsp; But when I ran the <font size="3" face="Consolas"><strong>npm install contextify</strong></font>, I received.</p><pre class="csharpcode">error MSB8008: Specified platform toolset (v110) <span class="kwrd">is</span> not installed or invalid.
+Please make sure that a supported PlatformToolset <span class="kwrd">value</span> <span class="kwrd">is</span> selected.</pre>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+<style type="text/css">.csharpcode, .csharpcode pre
+{
+	font-size: small;
+	color: black;
+	font-family: consolas, "Courier New", courier, monospace;
+	background-color: #ffffff;
+	/*white-space: pre;*/
+}
+.csharpcode pre { margin: 0em; }
+.csharpcode .rem { color: #008000; }
+.csharpcode .kwrd { color: #0000ff; }
+.csharpcode .str { color: #006080; }
+.csharpcode .op { color: #0000c0; }
+.csharpcode .preproc { color: #cc6633; }
+.csharpcode .asp { background-color: #ffff00; }
+.csharpcode .html { color: #800000; }
+.csharpcode .attr { color: #ff0000; }
+.csharpcode .alt 
+{
+	background-color: #f4f4f4;
+	width: 100%;
+	margin: 0em;
+}
+.csharpcode .lnum { color: #606060; }
+</style>
+<p>So back to StackOverflow and this <a href="http://stackoverflow.com/questions/10280956/how-to-use-msbuild-to-target-v110-platform-toolset" target="_blank">helpful post</a> pointed to the fact that if you have Visual Studio 2012 installed you need to set the <strong><font size="3" face="Consolas">VisualStudioVersion</font></strong> environment variable to 11.0 for MSBuild to pick the correct version.&nbsp; So I added <strong><font size="3" face="Consolas">$env:VisualStudioVersion=”11.0”</font></strong> to my default PowerShell profile and Wallah!&nbsp;&nbsp; <strong><font size="3" face="Consolas">npm install jquery</font></strong> succeeded.</p>
+<p>So now I had jQuery, Mocha and Should all installed, so I typed in <font size="3" face="Consolas"><strong>make test</strong></font> hoping for the best and no such luck.</p><pre class="csharpcode">./node_modules/.bin/mocha: line 2: dirname: command not found
+./node_modules/.bin/mocha: line 4: uname: command not found
+<p>module.js:340
+<span class="kwrd">throw</span> err;
+^
+Error: Cannot find module <span class="str">‘C:\mocha\bin\mocha’</span>
+at Function.Module._resolveFilename (module.js:338:15)
+at Function.Module._load (module.js:280:25)
+at Module.runMain (module.js:492:10)
+at process.startup.processNextTick.process._tickCallback (node.js:244:9)
+Makefile:2: recipe <span class="kwrd">for</span> target `test’ failed
+make: *** [test] Error 1</pre></p>
+<p>It couldn’t find the <strong><font size="3" face="Consolas">dirname</font></strong> and <font size="3" face="Consolas"><strong>uname</strong></font> commands so it was looking in the c:\mocha\bin\mocha directory.&nbsp; At least this was a simple one.&nbsp; Adding cygwin bin to the path corrected the error and my test finally ran!</p>
+<p>So to summarize the steps I followed to get Mocha and jQuery working on Windows 8 x64 were.</p>
+<ul>
+<li>Install <a href="http://cygwin.com/" target="_blank">Cygwin</a> with development tools and add it to the path 
+<li>Add <font size="3" face="Consolas"><strong>Set-Alias make "c:\cygwin\bin\make.exe" </strong></font>to my PowerShell profile. 
+<li>Install <a href="http://python.org/download/" target="_blank">Python 2.7</a> and add it to the path 
+<li>Add <strong><font size="3" face="Consolas">$env:VisualStudioVersion=”11.0” </font></strong>to my PowerShell profile. (If you have Visual Studio 2012 installed)</li></ul>
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = '/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/';
+      this.page.identifier = '/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/';
+    };
+
+    (function () {
+      var d = document,
+        s = d.createElement('script');
+      s.src = 'https://gabrewer.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+  </noscript>
+
+</div><div class="sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <div class="contact">
+      <p>
+        Gregory A Brewer<br>
+        Proud Step Father, Software Engineer, Poker Player, Wolverine<br>
+        <a href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/gabrewer">github.com/gabrewer</a><br>
+        <a href="https://twitter.com/gbrewer">twitter.com/gbrewer</a><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="categories">
+    
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/ASP.NET/"> ASP.NET</a>
+      </span>
+    
+      <span style="font-size: 182.38095238095238%">
+        <a href="/category/Development/"> Development</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WCF/"> WCF</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/WEBAPI/"> WEBAPI</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/PowerShell/"> PowerShell</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Tools/"> Tools</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Software/"> Software</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Visual Studio/"> Visual Studio</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Windows Server/"> Windows Server</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hardware/"> Hardware</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Lenovo/"> Lenovo</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/SQL Server/"> SQL Server</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/JavaScript/"> JavaScript</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/MVC/"> MVC</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Clustering/"> Clustering</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hyper-V/"> Hyper-V</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Node.js/"> Node.js</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/IIS/"> IIS</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WordPress/"> WordPress</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Networking/"> Networking</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Random/"> Random</a>
+      </span>
+    
+  </div>
+
+  <div class="sidebar-module">
+    <div class="textwidget">
+      <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
+        Tweets by gbrewer
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+        </main><footer class="bg-gray-300 py-3">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-2 gap-8">
+      <div class="">
+        <h2 class="text-3xl mb-2">gabrewer.com</h2>
+        <h3 class="text-xl text-neutral-400 mb-2">Life is too important to be take seriously.</h3>
+        <ul class="list-disc pl-6"><li class="list-item">
+              Greg Brewer
+            </li><li>
+              <a class="u-email text-blue-600 list-item" href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+            </li></ul>
+      </div>
+      <div class="">
+        <p class="text-xl text-gray-600"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="" async defer></script>
+        <script id="dsq-count-scr" src="//gabrewer.disqus.com/count.js" async></script>
+    </body>
+</html>

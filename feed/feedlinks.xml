@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>gabrewer.com</title>
+    <subtitle>Life is too important to be take seriously.</subtitle>
+    <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
+    <link href="https://gabrewer.com/"/>
+    <updated>2014-07-21T12:10:21Z</updated>
+    <id>https://gabrewer.com/</id>
+    <author>
+        <name>Greg Brewer</name>
+        <email>greg@gabrewer.com</email>
+    </author>
+        
+        <entry>
+            <title>Links - 07/21/2014</title>
+            <link href="/useful_links/2014-07-21-links-7-slash-21-slash-2014/"/>
+            <updated>2014-07-21T12:10:21Z</updated>
+            <id>/useful_links/2014-07-21-links-7-slash-21-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;We will either find a way, or make one!&quot;&lt;br /&gt;
+-- Hannibal 
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://haacked.com/archive/2014/06/30/github-issues-saved-my-marriage/&quot;&gt;GitHub Saved My Marriage&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.wesmcclure.com/copying-branching-and-forking-should-be-the-exception-not-the-rule/&quot;&gt;Copying (branching and forking) should be the exception, not the rule&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://weblog.west-wind.com/posts/2014/Jul/15/West-Wind-WebSurge-an-easy-way-to-Load-Test-Web-Applications&quot;&gt;West Wind WebSurge - an easy way to Load Test Web Applications&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/phpstorm-top-productivity-hacks-shortcuts/&quot;&gt;PhpStorm – Top Productivity Hacks and Shortcuts&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/en-us/news/ceo/index.html&quot;&gt;Satya Nadella’s email to employees : Bold ambition and our core&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.entrepreneur.com/article/235285&quot;&gt;5 Ways Telecommuting Saves Employers Money&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://leadershipfreak.wordpress.com/2014/01/21/ten-radical-shift-in-thinking-all-leaders-face/&quot;&gt;Ten Radical Shifts in Thinking all Leaders Face&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://lifehacker.com/9-minutes-a-day-is-the-magic-number-for-better-personal-1606419825&quot;&gt;9 Minutes a Day is the Magic Number for Better Personal Branding&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://12most.com/2014/07/17/12-hard-truths-road-less-traveled/&quot;&gt;12 Most Hard Truths You Need to Know When Taking the Road Less Traveled&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://es6rocks.com&quot;&gt;ES6 Rocks&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/bouncejs-create-complex-css-animations-fast/&quot;&gt;Bounce.JS: Create Complex CSS Animations Fast&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ardalis.com/ensure-you-are-not-adding-to-global-scope-in-javascript&quot;&gt;Ensure You Are Not Adding To Global Scope in JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://michelebusta.com/ng-grid-tip/&quot;&gt;Angular Tip: ng-grid columns with actions&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/articles/2014/07/01/larger-applications.aspx&quot;&gt;How To Refactor for Dependency Injection, Part 3: Larger Applications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.palmmedia.de/Blog/2011/8/30/ioc-container-benchmark-performance-comparison&quot;&gt;IoC Container Benchmark - Performance comparison&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://gamedevelopment.tutsplus.com/tutorials/parallax-scrolling-a-simple-effective-way-to-add-depth-to-a-2d-game--cms-21510&quot;&gt;Parallax Scrolling: A Simple, Effective Way to Add Depth to a 2D Game&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.codinghorror.com/the-just-in-time-theory/&quot;&gt;The “Just In Time” Theory of User Behavior&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://css-tricks.com/authoring-critical-fold-css/&quot;&gt;Authoring Critical Above-the-Fold CSS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.sqlauthority.com/2014/07/18/sql-server-free-intellisense-add-in-for-ssms/&quot;&gt;SQL SERVER – Free intellisense add-in for SSMS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nerdventure.io/sql-server-and-node-js/&quot;&gt;SQL Server and Node.js, BFFs For Life&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://lostechies.com/jimmybogard/2014/07/17/conventional-html-in-asp-net-mvc-baseline-behavior/&quot;&gt;Conventional HTML in ASP.NET MVC: Baseline behavior&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Topshelf/Topshelf&quot;&gt;Topshelf/Topshelf · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://alxandr.me/2014/07/20/the-problems-with-portable-class-libraries-and-the-road-to-solving-them/&quot;&gt;The problems with portable class libraries, and the road to solving them&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://developer.telerik.com/featured/5-killer-tools-ios-developers/&quot;&gt;5 Killer Tools for iOS Developers -Telerik Developer Network&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://auphonic.com/&quot;&gt;What people say about Auphonic&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://html5devconf.com/videos.html&quot;&gt;HTML5DevConfAutumn 2014&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 07/15/2014</title>
+            <link href="/useful_links/2014-07-15-links-7-slash-15-slash-2014/"/>
+            <updated>2014-07-15T14:26:50Z</updated>
+            <id>/useful_links/2014-07-15-links-7-slash-15-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Excellence is an art won by training and habituation. We do not act rightly because we have virtue or excellence, but we rather have those because we have acted rightly. We are what we repeatedly do. Excellence, then, is not an act but a habit.&quot;&lt;br /&gt;
+-- Aristotle
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://osherove.com/blog/2014/7/11/should-you-write-unit-tests-or-integration-tests.html&quot;&gt;Should you write unit tests or integration tests?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://rmurphey.com/blog/2014/07/13/unit-tests/&quot;&gt;Writing Unit Tests for Existing JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.jetbrains.com/phpstorm/2014/07/php-mess-detector-in-phpstorm/&quot;&gt;PHP Mess Detector in PhpStorm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://atom.io/packages/file-icons&quot;&gt;file-icons&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/5-libraries-html5-audio-api/?utm_content=buffer1bf60&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;5 Libraries and APIs for Manipulating HTML5 Audio&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.programmableweb.com/news/guidelines-creating-restful-api/how-to/2014/07/11&quot;&gt;Guidelines for Creating a RESTful API&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://raganwald.com/2014/07/09/javascript-constructor-problem.html&quot;&gt;A JavaScript Constructor Problem, and Three Solutions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jeremydorn.com/json-editor/&quot;&gt;JSON Editor Example&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://debugmode.net/2014/07/14/learn-angularjs-hour-1/&quot;&gt;Learn AngularJS : Hour 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.bennadel.com/blog/2659-migrating-from-ui-if-to-ng-if-in-angularjs.htm&quot;&gt;Migrating From ui-if To ng-if In AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.zoho.com/general/blog/what-i-learned-from-working-remotely-with-cross-cultural-teams.html&quot;&gt;What I learned from working remotely with cross-cultural teams&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://css-tricks.com/snippets/css/a-guide-to-flexbox/&quot;&gt;A Complete Guide to Flexbox&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.checkman.io/please/?utm_content=buffer15529&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Please JS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.webdesignerdepot.com/2014/07/how-to-get-started-with-next-generation-website-prototyping/&quot;&gt;How to get started with next-generation website prototyping&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://gigaom.com/2012/07/07/why-the-days-are-numbered-for-hadoop-as-we-know-it/&quot;&gt;Why the days are numbered for Hadoop as we know it — Tech News and Analysis&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://log.paulbetts.org/welcome-to-reactiveui-6-0/&quot;&gt;Welcome to ReactiveUI 6.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://dotnettips.wordpress.com/2014/07/11/formatting-linq-statements/&quot;&gt;Formatting LINQ Statements&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/news/2014/07/asp-net-mvc-5-2-web-api-2-2&quot;&gt;ASP.NET Advanced Web Frameworks Gets Better with New Features, Bug Fixes and Improvements&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/796075/Implement-Observer-Pattern-in-NET-techniques&quot;&gt;Implement Observer Pattern in .NET (3 techniques)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://log.paulbetts.org/whats-new-in-reactiveui-6-reactivecommandt/&quot;&gt;What’s new in ReactiveUI 6: ReactiveCommand&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/brunoterkaly/archive/2014/07/09/how-i-failed-when-i-tried-to-implement-c-generics-to-enable-serializing-and-saving-a-variety-of-c-object-types-to-disk-for-windows-store-applications.aspx&quot;&gt;How I failed when I tried to implement C# Generics to enable serializing and saving a variety of C# object types to disk for Windows Store applications&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.windows.com/windows/b/buildingapps/archive/2014/07/11/rolling-out-the-windows-developer-program-for-iot.aspx&quot;&gt;Rolling out the Windows Developer Program for IoT&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://developer.apple.com/swift/blog/?id=2&quot;&gt;Compatibility&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.getpaint.net/2014/07/12/paint-net-4-0-1-is-now-available/&quot;&gt;paint.net 4.0.1 is now available&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.neowin.net/news/microsoft-is-looking-for-beta-testers-for-onenote&quot;&gt;Microsoft is looking for beta testers for OneNote&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://getinvolved.hanselman.com&quot;&gt;GET INVOLVED IN TECHNOLOGY COMMUNITY with Scott Hanselman&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mjeaton.net/blog/archive/2014/07/11/introducing-the-declaring-my-independence-podcast.aspx&quot;&gt;Introducing the “Declaring My Independence” podcast!&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 07/13/2014</title>
+            <link href="/useful_links/2014-07-13-links-7-slash-13-slash-2014/"/>
+            <updated>2014-07-13T13:42:20Z</updated>
+            <id>/useful_links/2014-07-13-links-7-slash-13-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Would you like me to give you a formula for success? It’s quite simple, really. Double your rate of failure. You are thinking of failure as the enemy of success. But it isn’t at all. You can be discouraged by failure or you can learn from it, So go ahead and make mistakes. Make all you can. Because remember that’s where you will find success&quot;&lt;br /&gt;
+-- Thomas J. Watson 
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/10-essential-sublime-text-plugins-full-stack-developer/?utm_content=buffer3dd4e&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;10 Essential Sublime Text Plugins for Full-Stack Developers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://stevecoast.com/2014/07/11/auth0-and-the-new-pay-to-play/&quot;&gt;Auth0 and the new pay to play&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/getting-started-browserify/?utm_content=buffer226b2&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Getting Started with Browserify&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://danieltao.com/lazy.js/&quot;&gt;lazy.js&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/semantic-versioning-why-you-should-using/?utm_content=bufferca3d2&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Semantic Versioning: Why You Should Be Using it&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.Microsoft.com/visualstudio/stories/scaling-agile-across-the-enterprise&quot;&gt;Scaling Agile Across the Enterprise&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://pietschsoft.com/post/2014/06/15/CQRS-Command-Query-Responsibility-Segregation-Design-Pattern&quot;&gt;CQRS: Command Query Responsibility Segregation Design Pattern&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/compass-extensions-worth-a-try/?utm_content=bufferbb698&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Useful Compass Extensions That are Worth a Try&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=XSc7NPedAxw&quot;&gt;MNUG 2014.07.09 - Building JavaScript applications based on DDD, CQRS and EventSourcing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://spin.atomicobject.com/2014/07/12/self-conference-2014/&quot;&gt;Three Great Talks from self.conference 2014&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ww2.pluralsight.com/Creating-Custom-Directives-for-AngularJS&quot;&gt;Pluralsight Enterprise&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 07/12/2014</title>
+            <link href="/useful_links/2014-07-12-links-7-slash-12-slash-2014/"/>
+            <updated>2014-07-12T13:09:40Z</updated>
+            <id>/useful_links/2014-07-12-links-7-slash-12-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;The surest way not to fail is to determine to succeed.&quot;&lt;br /&gt;
+-- Richard Brinsley Sheridan
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://java.dzone.com/articles/json-good-bad-and-ugly&quot;&gt;JSON: The Good, The Bad And The Ugly&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.telerik.com/fiddler/posts/14-07-10/capturing-traffic-via-virtual-router&quot;&gt;Capturing Traffic via Virtual Router&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.powershellmagazine.com/2014/07/10/introduction-to-poshsec/&quot;&gt;Introduction to PoshSec&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;builds&quot; tabindex=&quot;-1&quot;&gt;Builds&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/blog/1862-introducing-a-simpler-faster-github-for-mac&quot;&gt;Introducing a simpler, faster GitHub for Mac · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.pluralsight.com/tips-for-front-end-developers&quot;&gt;10 essential resources for front end web developers&lt;/a&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=8OJ7ih8EE7s&quot;&gt;Google I/O 2014 - Polymer and Web Components change everything you know about Web development&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.strathweb.com/2014/07/building-strongly-typed-route-provider-asp-net-web-api/&quot;&gt;Building a strongly typed route provider for ASP.NET Web API&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.joezimjs.com/javascript/patterns-asynchronous-programming-promises/&quot;&gt;Patterns for Asynchronous Programming with Promises&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/deborahk/archive/2014/07/10/angular-ng-grid-quick-tip.aspx&quot;&gt;Angular ng-grid Quick Tip&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://pietschsoft.com/post/2014/06/15/CQRS-Command-Query-Responsibility-Segregation-Design-Pattern&quot;&gt;CQRS: Command Query Responsibility Segregation Design Pattern&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/167299/async-event-loops-in-c?Key=7966ff8a-941a-4df2-a352-33ea3724e3d2&amp;amp;utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+AyendeRahien+%28Ayende+%40+Rahien%29&quot;&gt;Async event loops in C#&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/webdev/archive/2014/07/10/release-candidate-for-katana-3-and-the-asp-net-security-components.aspx&quot;&gt;Release Candidate for Katana 3 and the ASP.NET Security Components&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.getpaint.net/2014/06/24/paint-net-4-0-is-now-available/&quot;&gt;paint.net 4.0 is now available!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gadgets&quot; tabindex=&quot;-1&quot;&gt;Gadgets&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://stacksocial.com/sales/mondohub-28-usb-ports-one-hub-to-rule-them-all?aid=a-23fkec3s&amp;amp;utm_source=pcmag&amp;amp;utm_medium=editorial&amp;amp;utm_campaign=mondohub&quot;&gt;MondoHub: 28 USB Ports &amp;amp; One Hub To Rule Them All&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://jesseliberty.com/2014/07/10/yet-another-podcast-show-126mike-bluestein-from-xamarin/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+JesseLiberty-SilverlightGeek+%28Jesse+Liberty%29&quot;&gt;Yet Another Podcast Show 126–Mike Bluestein from Xamarin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://pluralsight.com/training/Courses/TableOfContents/domain-driven-design-fundamentals&quot;&gt;Domain-Driven Design Fundamentals&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 07/11/2014</title>
+            <link href="/useful_links/2014-07-11-links-7-slash-11-slash-2014/"/>
+            <updated>2014-07-11T16:24:10Z</updated>
+            <id>/useful_links/2014-07-11-links-7-slash-11-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Success consists of going from failure to failure without loss of enthusiasm.&quot;&lt;br /&gt;
+-- Winston Churchill
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.troyhunt.com/2013/01/102-simple-steps-for-installing-and.html#comment-846719249&quot;&gt;102 simple steps for installing and configuring a new Windows 8 machine&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/en-gb/developers/articles/week05jun14/guidelines-for-resilient-automation-of-windows-store-xaml-apps-using-visual-studio-codedui&quot;&gt;Guidelines for Resilient Automation of Windows Store XAML Apps using Visual Studio CodedUI&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.cloudflare.com/introducing-cfssl&quot;&gt;Introducing CFSSL - CloudFlare’s PKI toolkit&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/stevesmith/steve-smith/2014/07/08/kicking-the-tires-of-vs14&quot;&gt;Kicking the Tires of VS14&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;builds&quot; tabindex=&quot;-1&quot;&gt;Builds&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/bharry/archive/2014/07/09/upcoming-vs-online-licensing-changes.aspx&quot;&gt;Upcoming VS Online Licensing Changes&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/en-us/news/ceo/index.html&quot;&gt;Satya Nadella’s email to employees : Bold ambition and our core&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/steverowe/archive/2014/07/09/try-fail-learn-improve.aspx&quot;&gt;Try.Fail.Learn.Improve&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.fanout.io/2014/06/24/you-might-not-need-a-websocket/&quot;&gt;You might not need a WebSocket&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tostring.it/2014/07/09/nodejs-azure-and-iis/&quot;&gt;NodeJs, Azure and IIS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://damienbod.wordpress.com/2014/04/10/web-api-tracing-with-slab-and-elasticsearch/&quot;&gt;Web API Tracing with SLAB and Elasticsearch&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://dailyjs.com/2014/07/08/autobahn&quot;&gt;Autobahn&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://codebetter.com/patricksmacchia/2014/07/09/on-programmers-productivity/&quot;&gt;On Programmers Productivity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.brucelawson.co.uk/2014/apps-for-all-coding-accessible-web-applications-book-review/&quot;&gt;Apps for All - Book Review&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.elijahmanor.com/one-sass-color-to-rule-them-all/&quot;&gt;One Sass Color to Rule Them All&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://coreos.com/blog/running-kubernetes-example-on-CoreOS-part-1/&quot;&gt;Running Kubernetes Example on CoreOS, Part 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://googlecloudplatform.blogspot.com/2014/07/welcome-microsoft-redhat-ibm-docker-and-more-to-the-kubernetes-community.html&quot;&gt;Welcome Microsoft, RedHat, IBM, Docker and more to the Kubernetes community&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/blogs/tool-tracker/2014/07/to-sync-or-async.aspx&quot;&gt;To Sync or Not to Sync&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.getglimpse.com/2014/07/09/version-1-7-3-for-ado-released/&quot;&gt;Version 1.7.3 for ADO Released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/JoshEastburn/josh-eastburn/2014/06/27/its-tuples-all-the-way-down&quot;&gt;It’s Tuples All The Way Down!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://mtaulty.com/CommunityServer/blogs/mike_taultys_blog/archive/2014/07/09/windows-phone-8-1-prism-universal-early-drop-migrating-a-demo-to-be-universal.aspx&quot;&gt;Windows/Phone 8.1, Prism Universal Early Drop, Migrating a Demo to be Universal&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.mrlacey.co.uk/2014/07/think-before-you-truncate.html&quot;&gt;Think before you truncate&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 07/10/2014</title>
+            <link href="/useful_links/2014-07-10-links-7-slash-10-slash-2014/"/>
+            <updated>2014-07-10T16:47:15Z</updated>
+            <id>/useful_links/2014-07-10-links-7-slash-10-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;One of the greatest discoveries a man makes, one of his great surprises, is to find he can do what he was afraid he couldn&#39;t do.&quot;&lt;br /&gt;
+-- Henry Ford
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://the-paper-trail.org/blog/the-elephant-was-a-trojan-horse-on-the-death-of-map-reduce-at-google/&quot;&gt;The Elephant was a Trojan Horse: On the Death of Map-Reduce at Google&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.guidosalvaneschi.com/attachments/papers/2014_An-Empirical-Study-on-Program-Comprehension-with-Reactive-Programming_pdf.pdf&quot;&gt;The Google File System&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.drdobbs.com/windows/redmonds-remarkable-reversal/240168431?_mc=sm_drd&quot;&gt;Redmond’s Remarkable Reversal&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/articles/2014/06/01/test-driven-development.aspx&quot;&gt;Test-Driven Development with Entity Framework 6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://morewally.com/cs/blogs/wallym/archive/2014/06/23/tdd-isn-t-the-problem-tdd-douchebags-are.aspx&quot;&gt;TDD Isn’t The Problem. TDD Douchebags Are.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.wesmcclure.com/tdd-isnt-the-problem/&quot;&gt;TDD isn’t the problem&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.atom.io/2014/07/09/hello-windows.html&quot;&gt;Hello Windows&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://csswizardry.com/2014/06/vim-for-people-who-think-things-like-vim-are-weird-and-hard/&quot;&gt;Vim for people who think things like Vim are weird and hard&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;builds&quot; tabindex=&quot;-1&quot;&gt;Builds&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jwiegley.github.io/git-from-the-bottom-up/&quot;&gt;Git from the Bottom Up&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://us2.campaign-archive2.com/?u=3972dd7d553357be54dba30dd&amp;amp;id=70f97bbb63&quot;&gt;Why Do I Keep Doing This?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/today/post/article/20140630120036-20017018-10-things-only-exceptional-bosses-give-employees&quot;&gt;10 Things Only Exceptional Bosses Give Employees&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.telerik.com/fiddler/posts/14-07-02/maximize-compression-with-zopfli&quot;&gt;Maximize Compression with Zopfli&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://leastprivilege.com/2014/06/24/resourceaction-based-authorization-for-owin-and-mvc-and-web-api/?utm_content=buffer924e7&amp;amp;utm_medium=social&amp;amp;utm_source=facebook.com&amp;amp;utm_campaign=buffer&quot;&gt;Resource/Action based Authorization for OWIN (and MVC and Web API)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tsironis/lockr&quot;&gt;tsironis/lockr · GitHub - A minimal API wrapper for localStorage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://maori.geek.nz/post/tips_tricks_and_tools_for_creating_and_working_with_maps_in_d3_js&quot;&gt;D3.js: Tips, Tricks and Tools for Creating and Working with Maps&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.tweetganic.com/a/354886?utm_content=bufferb5543&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Creating a plugin system in Angular JS with the $compile provider &amp;gt; | Tweetganic&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jonathancreamer.com/working-with-all-the-different-kinds-of-scopes-in-angular&quot;&gt;Scope creep, a deep dive into Angular’s scope&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ionicframework.com/blog/angularjs-console/&quot;&gt;Debugging AngularJS Apps from the Console&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.industriallogic.com/blog/stop-using-story-points/&quot;&gt;Stop Using Story Points&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.gervin.com/?p=1547&quot;&gt;Using VSTS to Stop Estimating&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;functional-programming&quot; tabindex=&quot;-1&quot;&gt;Functional Programming&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2014/07/02/dont-be-scared-of-functional-programming&quot;&gt;Don’t Be Scared Of Functional Programming&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/somasegar/archive/2014/07/02/microsoft-acquires-syntaxtree-creator-of-unityvs-plugin-for-visual-studio.aspx&quot;&gt;Microsoft acquires SyntaxTree, creator of UnityVS plugin for Visual Studio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://gamedevelopment.tutsplus.com/tutorials/bone-based-unity-2d-animation-creating-the-actual-animations--cms-21366&quot;&gt;Bone-Based Unity 2D Animation: Creating the Actual Animations&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://jameschambers.com/2014/06/day-0-boothstrapping-mvc-for-the-next-30-days/?utm_content=buffer1ad77&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Day 0: Bootstrapping Mvc for the Next 30 Days&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://slab.codeplex.com/wikipage?title=SLAB2.0ReleaseNotes&quot;&gt;Semantic Logging Application Block&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/webdev/archive/2014/07/08/asp-net-vnext-in-visual-studio-14-ctp-version-14-0-21901-1-dp.aspx&quot;&gt;ASP.NET vNext in Visual Studio “14” CTP 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/kathleen/archive/2014/06/27/strong-typed-metadata.aspx&quot;&gt;Strong-typed Metadata&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/767200/Visual-Studio-Design-Patterns-add-in&quot;&gt;Visual Studio Design Patterns add-in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/kathleen/archive/2014/06/27/roslyndom-and-friends-just-the-facts.aspx&quot;&gt;RoslynDom and Friends – Just the Facts&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codemag.com/Article/1405071?utm_source=twitterfeed&amp;amp;utm_medium=twitter&quot;&gt;10 Good Practices for ASP.NET MVC Apps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.mariusschulz.com/2014/06/26/fun-with-custom-c-collection-initializers&quot;&gt;Fun with Custom C# Collection Initializers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://jesseliberty.com/2014/06/30/learning-xamarinpersistence-with-sqlite/&quot;&gt;Learning Xamarin–Persistence with SQLite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/coding4fun/blog/-NET-Micro-Framework-Future-Hint-Sure-looks-it-like-&quot;&gt;.NET Micro Framework Future? [Hint: Sure looks it like!]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://slodge.blogspot.co.uk/2014/06/321-beta1-beta-universal-support.html&quot;&gt;3.2.1-beta1 - beta universal support&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nuget.org/packages/Xciles.MvvmCross.AsyncExtensions/1.1.0&quot;&gt;Xciles.MvvmCross.AsyncExtensions&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.interact-sw.co.uk/iangblog/2014/07/09/agenda-view&quot;&gt;Agenda View for Windows Phone 8.1&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://pluralsight.com/training/Courses/TableOfContents/refactoring-fundamentals&quot;&gt;Refactoring Fundamentals&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 07/09/2014</title>
+            <link href="/useful_links/2014-07-09-links-7-slash-9-slash-2014/"/>
+            <updated>2014-07-09T12:32:33Z</updated>
+            <id>/useful_links/2014-07-09-links-7-slash-9-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Pick the day. Enjoy it - to the hilt. The day as it comes. People as they come... The past, I think, has helped me appreciate the present - and I don&#39;t want to spoil any of it by fretting about the future.&quot;&lt;br /&gt;
+-- Audrey Hepburn
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://betanews.com/2014/07/07/i-am-microsoft-all-in&quot;&gt;I am Microsoft All-In&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.dumblittleman.com/2014/07/shouldnt-chase-money-power-instead.html&quot;&gt;Why You shouldn’t Chase Money and Power (and What to Do Instead)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://frankcode.wordpress.com/2014/07/01/tdd-where-did-i-go-wrong/&quot;&gt;TDD, where did ‘I’ go wrong&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.telerik.com/fiddler/posts/14-07-07/single-point-testing-using-fiddler-autoresponder&quot;&gt;Single Point Testing Using Fiddler AutoResponder&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://geekswithblogs.net/terje/archive/2014/07/03/gitignorendashhow-to-exclude-nuget-packages-at-any-level-and-make.aspx&quot;&gt;GitIgnore–How to exclude Nuget packages at any level, and make re-include work&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/coding4fun/blog/Extending-Visual-Studio-with-your-new-buddy-VsCommandBuddy&quot;&gt;Extending Visual Studio with your new buddy, VsCommandBuddy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.krisvandermast.com/GithubAndVisualStudioAndTwoFactorAuthentication.aspx&quot;&gt;Github and Visual Studio and two factor authentication&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://simpleprogrammer.com/2014/07/07/software-developers-really-need-degrees&quot;&gt;Do Software Developers Really Need Degrees?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.pluralsight.com/it-career-advice&quot;&gt;Here’s the smartest way to train on your own time&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/speed-wordpress/?utm_content=buffer7c0f1&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Speed Up Your WordPress Site&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://research.microsoft.com/en-us/downloads/b250c887-2b79-4413-9d7a-5a5a0c38cc57/default.aspx&quot;&gt;Safer TypeScript&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.groupbuddies.com/posts/39-tutorial-html-audio-capture-streaming-to-node-js-no-browser-extensions&quot;&gt;Tutorial: HTML Audio Capture streaming to Node.js (no browser extensions)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://csharperimage.jeremylikness.com/2014/07/video-quick-tip-for-debugging-angularjs.html&quot;&gt;Video: Quick Tip for Debugging AngularJS Applications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://craigshoemaker.net/blog/structuring-angularjs-code-injecting-with-whitespace&quot;&gt;Structuring AngularJS Code: Injecting with Whitespace&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/news/2014/07/compare-agile-scaling&quot;&gt;Examining Different Approaches to Scaling Agile&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.coryfoy.com/2014/07/do-you-really-have-a-scrum-team/&quot;&gt;Do you really have a Scrum Team?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://availagility.co.uk/2014/07/07/kanban-thinking-the-canvas/&quot;&gt;Kanban Thinking: The Canvas&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[The “ideal” sprint length](http://www.deanhume.com/Home/BlogPost/The “ideal” sprint length/90)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codingthearchitecture.com/2014/07/06/i_teach_people_how_to_draw_pictures.html&quot;&gt;I teach people how to draw pictures&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codingthearchitecture.com/2014/07/06/distributed_big_balls_of_mud.html&quot;&gt;Distributed big balls of mud&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.gilzilberfeld.com/2014/07/agile-vs-real-life.html&quot;&gt;Agile vs Real Life&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.wpcentral.com/microsoft-opens-xbox-music-api-all-developers&quot;&gt;Microsoft opens Xbox Music to all developers with full access to catalog, streaming and more&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.developer-tech.com/news/2014/jul/04/visual-studio-preparing-be-your-complete-cross-platform-ide-new-unity-support/&quot;&gt;Visual Studio is preparing to be your complete cross-platform IDE with new Unity support&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://gamedevelopment.tutsplus.com/tutorials/bone-based-unity-2d-animation-mecanim-and-scripting--cms-21367&quot;&gt;Bone-Based Unity 2D Animation: Mecanim and Scripting&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://css.dzone.com/articles/dynamically-create-css-classes&quot;&gt;Dynamically Create CSS Classes With SASS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/167201/compression-finale&quot;&gt;Compression finale&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/kathleen/archive/2014/06/27/strong-typed-metadata.aspx&quot;&gt;Strong-typed Metadata&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/767200/Visual-Studio-Design-Patterns-add-in&quot;&gt;Visual Studio Design Patterns add-in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.telerik.com/aspnet-ajax/posts/14-07-03/better-new-zip-library-for-asp.net-ajax&quot;&gt;Better, New Zip Library for ASP.NET AJAX&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://trelford.com/blog/post/loan.aspx&quot;&gt;F# Loan calculator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://nblumhardt.com/2014/07/detecting-never-before-seen-event-types/&quot;&gt;Detecting never-before-seen event types&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/magazine/dn754595.aspx&quot;&gt;The Working Programmer - Fun with C#&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/kathleen/archive/2014/06/28/public-annotations.aspx&quot;&gt;Public Annotations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/kathleen/archive/2014/07/04/updates-to-roslyndom-1-0-8-alpha.aspx&quot;&gt;Updates to RoslynDom 1.0.8 Alpha&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.xamarin.com/jump-start-f-sharp-mobile-development/&quot;&gt;Awesome Samples to Jumpstart F# Mobile Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.matvelloso.com/2014/07/02/adal-bindings-xamarin-android-applications-ultimate-guide/&quot;&gt;ADAL Bindings for Xamarin Android Applications: The ultimate guide&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.powershellmagazine.com/2014/07/03/posh-ssh-open-source-ssh-powershell-module/&quot;&gt;Posh-SSH: Open Source SSH PowerShell Module&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://zurb.com/article/1327/a-product-design-question-a-day-introduci&quot;&gt;A Product Design Question a Day: Introducing Tavern&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://herdingcode.com/herding-code-193-mark-rendle-on-zudio-developing-with-angular-and-typescript-the-history-of-programming-and-simple-data/&quot;&gt;Herding Code 193: Mark Rendle on Zudio, developing with Angular and Typescript, The History of Programming, and Simple.Data&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 07/08/2014</title>
+            <link href="/useful_links/2014-07-08-links-7-slash-8-slash-2014/"/>
+            <updated>2014-07-08T14:01:01Z</updated>
+            <id>/useful_links/2014-07-08-links-7-slash-8-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Creativity is allowing yourself to make mistakes. Art is knowing which ones to keep.&quot;&lt;br /&gt;
+-- Scott Adams
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.thecodewhisperer.com/2013/12/07/putting-an-age-old-battle-to-rest/&quot;&gt;Putting an Age-Old Battle to Rest&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.matrixresources.com/blog/what-it-costs-when-you-don%E2%80%99t-hire&quot;&gt;What It Costs When You Don’t Hire&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen&quot;&gt;How to speak so that people want to listen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ifandelse.com/im-not-good-enough-to-be-an-impostor/&quot;&gt;I’m Not Good Enough to Be an Impostor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.stuartselbst.com/2014/07/02/breaking-the-ice/&quot;&gt;Breaking the Ice&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;javascript&quot; tabindex=&quot;-1&quot;&gt;JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://openmymind.net/Cancelling-Long-Promise-Chains&quot;&gt;Cancelling Long Promise Chains&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=8zcWQVdh3SQ&quot;&gt;API Testing and Monitoring with Frisby.js - SF Node.JS talk by Garland Kan&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://hueypetersen.com/posts/2013/06/26/helper-functions-for-rx-and-angular/&quot;&gt;Helper Functions for Doing Rx in Angular&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/MarlabsInc/webapi-angularjs-spa&quot;&gt;MarlabsInc/webapi-angularjs-spa&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://engineering.talis.com/articles/elegant-api-auth-angular-js/&quot;&gt;Elegant token-based API access with AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.brunoscopelliti.com/authentication-to-a-restful-web-service-in-an-angularjs-web-app&quot;&gt;Authentication to a RESTful web service in an AngularJS web app&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.brunoscopelliti.com/deal-with-users-authentication-in-an-angularjs-web-app&quot;&gt;Deal with users authentication in an AngularJS web app&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://onehungrymind.com/angularjs-sticky-notes-pt-1-architecture/&quot;&gt;AngularJS Sticky Notes Pt 1 – Architecture&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitbucket.org/david.antaramian/so-21662778-spa-authentication-example/overview&quot;&gt;david.antaramian / SO-21662778 SPA Authentication Example — Bitbucket&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tylerhenkel.com/angular-fullstack-2-0-released/&quot;&gt;Angular Fullstack 2.0: Released&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://gamedevelopment.tutsplus.com/&quot;&gt;Game Development – Tuts+ Tutorials&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://aerotwist.com/blog/pixels-are-expensive/&quot;&gt;Pixels are expensive&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://json2csharp.com/&quot;&gt;generate c# classes from json&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/articles/2013/06/18/the-facade-pattern-in-net.aspx&quot;&gt;The Facade Pattern in .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tostring.it/2014/06/30/top-must-know-frameworks-for-net-web-developers/&quot;&gt;Top “Must Know” Frameworks for .NET web developers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.xamarin.com/contest-build-your-first-f-mobile-app/&quot;&gt;Contest: Build Your First F# Mobile App&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 06/26/2014</title>
+            <link href="/useful_links/2014-06-26-links-6-slash-26-slash-2014/"/>
+            <updated>2014-06-26T17:10:14Z</updated>
+            <id>/useful_links/2014-06-26-links-6-slash-26-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;In any situation, the best thing you can do is the right thing; the next best thing you can do is the wrong thing; the worst thing you can do is nothing.&quot;&lt;br /&gt;
+-- Theodore Roosevelt
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://laughingsquid.com/whole-lotta-helter-skelter-a-beatlesled-zeppelin-mashup/&quot;&gt;Whole Lotta Helter Skelter, A Beatles/Led Zeppelin Mashup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.ted.com/talks/eddie_obeng_smart_failure_for_a_fast_changing_world?utm_content=bufferce035&amp;amp;utm_medium=social&amp;amp;utm_source=twitter.com&amp;amp;utm_campaign=buffer&quot;&gt;Smart failure for a fast-changing world&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://leastprivilege.com/2014/06/24/resourceaction-based-authorization-for-owin-and-mvc-and-web-api/&quot;&gt;Resource/Action based Authorization for OWIN (and MVC and Web API)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/vcblog/archive/2014/06/18/crt-features-fixes-and-breaking-changes-in-visual-studio-14-ctp1.aspx&quot;&gt;C Runtime (CRT) Features, Fixes, and Breaking Changes in Visual Studio 14 CTP1&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.webhost4life.com/&quot;&gt;Change is bad unless it’s great: Lessons from user revolts against Foursquare’s Swarm and the new Skype for iPhone&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://wildermuth.com/2014/06/22/It_Is_Time_to_Learn_JavaScript&quot;&gt;It Is Time to Learn JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://weluse.de/blog/angularjs-seo-finally-a-piece-of-cake.html&quot;&gt;AngularJS &amp;amp; SEO - finally a piece of cake&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.thinkster.io/angularjs/GtaQ0oMGIl/a-better-way-to-learn-angularjs&quot;&gt;A Better Way to Learn AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.johnpapa.net/angularjss-controller-as-and-the-vm-variable&quot;&gt;AngularJS’s Controller As and the vm Variable&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/167073/decompression-code-discussion&quot;&gt;Decompression code &amp;amp; Discussion&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hanselman.com/blog/TryingRedisCachingAsAServiceOnWindowsAzure.aspx&quot;&gt;Trying Redis Caching as a Service on Windows Azure&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://research.neustar.biz/2012/10/25/sketch-of-the-day-hyperloglog-cornerstone-of-a-big-data-infrastructure/&quot;&gt;Sketch of the Day: HyperLogLog — Cornerstone of a Big Data Infrastructure&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.adminer.org/en/&quot;&gt;Database management in single PHP file&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://weblogs.asp.net/bsimser/automatically-publishing-nuget-packages-from-github&quot;&gt;Automatically Publishing NuGet packages from GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lostechies.com/jimmybogard/2014/06/25/survey-of-two-large-mvc-projects/&quot;&gt;Survey of two large MVC projects&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/dotnet/archive/2014/06/20/would-you-like-a-multidictionary.aspx&quot;&gt;Would you like a MultiDictionary?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/articles/2014/06/01/how-to-refactor-for-dependency-injection.aspx&quot;&gt;How To Refactor for Dependency Injection, Part 2: Composition Root&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Sean-Der/fail2web&quot;&gt;fail2web&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf/2014/C-6-0-Roslyn&quot;&gt;dotnetConf - The Future of C#&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf/2014/Deployment&quot;&gt;dotnetConf - ASP.NET Publishing Explained&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf/2014/MVC-6&quot;&gt;dotnetConf - ASP.NET MVC 6 (now with integrated Web API!)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf/2014/Entity-Framework&quot;&gt;dotnetConf - Entity Framework&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf/2014/Dependency-Injection-and-Testability-in-NET&quot;&gt;dotnetConf - Dependency Injection and Testability in .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf/2014/SignalR&quot;&gt;dotnetConf - SignalR&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-vNext-101&quot;&gt;dotnetConf - ASP.NET vNext 101&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://onedrive.live.com/view.aspx?resid=D2FAD6A7909B0897!2525&amp;amp;ithint=file%2c.ppt&amp;amp;app=PowerPoint&amp;amp;authkey=!AOmbHCc_ugRjJbc&quot;&gt;Fiddler in 2014&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://dotnetrocks.com/default.aspx?showNum=1001&quot;&gt;Getting into the Zone with Mark Seeman&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 06/21/2014</title>
+            <link href="/useful_links/2014-06-21-links-6-slash-21-slash-2014/"/>
+            <updated>2014-06-21T17:10:14Z</updated>
+            <id>/useful_links/2014-06-21-links-6-slash-21-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;If opportunity doesn’t knock, build a door.&quot;&lt;br /&gt;
+-- Milton Berle
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JnwQXxEbaPw&quot;&gt;sugru - LEGO - warning, may cause excitement - Video&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lifehacker.com/lego-figures-make-perfect-cable-holders-1586830454&quot;&gt;LEGO Figures Make Perfect Cable Holders&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://uproxx.com/technology/2014/06/heres-what-it-took-to-bring-facebook-down-for-thirty-minutes/&quot;&gt;Here’s What It Took To Bring Facebook Down For Thirty Minutes&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.extendslogic.com/general/my-first-1k/&quot;&gt;Failing to Get Traction and (Almost) Giving up on the Road to My First $1,000 in Revenue&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.polymer-project.org/&quot;&gt;Polymer - Building blocks for the web&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/twelve-javascript-libraries-data-visualization&quot;&gt;Twelve JavaScript Libraries for Data Visualization&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2014/06/11/building-with-gulp&quot;&gt;Building With Gulp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://addyosmani.com/blog/mutation-observers&quot;&gt;Detect, Undo And Redo DOM Changes With Mutation Observers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.thumbtack.com/engineering/introducing-smarty/&quot;&gt;Introducing Smarty: an Autocomplete UI in AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.ng-newsletter.com/posts/how-to-learn-angular.html&quot;&gt;How to Learn AngularJS - Your AngularJS Sherpa&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/minibooks/agile-retrospectives-value&quot;&gt;Getting Value out of Agile Retrospectives - A Toolbox of Retrospective Exercises&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://brashmonkey.com/spriter.htm&quot;&gt;Spriter&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://weblog.west-wind.com/posts/2014/Jun/19/Nuget-Dependencies-and-latest-Versions&quot;&gt;Nuget Dependencies and latest Versions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/webdev/archive/2014/06/17/dependency-injection-in-asp-net-vnext.aspx&quot;&gt;Dependency Injection in ASP.NET vNext&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/cdndevs/archive/2014/06/17/using-portable-class-libraries.aspx&quot;&gt;Using Portable Class Libraries&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://jesseliberty.com/2014/06/18/xamarin-ios-storyboards-getting-started&quot;&gt;Xamarin iOS Storyboards: Getting Started&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/presentations/api-design-code&quot;&gt;Applied API Design - Jon Skeet&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 06/11/2014</title>
+            <link href="/useful_links/2014-06-11-links-6-slash-11-slash-2014/"/>
+            <updated>2014-06-11T17:10:14Z</updated>
+            <id>/useful_links/2014-06-11-links-6-slash-11-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;I&#39;d rather regret the things I&#39;ve done than regret the things I haven&#39;t done.&quot;&lt;br /&gt;
+-- Lucille Ball
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://stephanpastis.wordpress.com/2014/06/07/ever-wished-that-calvin-and-hobbes-creator-bill-watterson-would-return-to-the-comics-page-well-he-just-did/&quot;&gt;Ever Wished That Calvin and Hobbes Creator Bill Watterson Would Return to the Comics Page? Well, He Just Did.&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/steverowe/archive/2014/06/09/test-has-lost-its-way.aspx&quot;&gt;Test Has Lost Its Way&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://nathanbarry.com/samuel-hulick-37000-self-published-book/&quot;&gt;How Samuel Hulick made over $37,000 with his self-published book&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/jmeier/archive/2014/06/08/engineer-your-own-luck.aspx&quot;&gt;Engineer Your Own Luck&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://popforms.com/decisions-post-mortems/&quot;&gt;How to never worry about making the wrong decisions again&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.technet.com/b/work/archive/2014/06/09/develop-flexible-leadership-skills-for-better-business-relationships.aspx&quot;&gt;Develop Flexible Leadership Skills for Better Business Relationships&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://open.bufferapp.com/programming-part-time-job&quot;&gt;Why Programming is a Part-Time Job : Breaks Make You More Productive&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.getfirebug.com/2014/06/10/firebug-2-0&quot;&gt;Firebug 2.0&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://reactive-extensions.github.io/RxJS/&quot;&gt;RxJS Reactive Extensions for JavaScript&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://toddmotto.com/rethinking-angular-js-controllers/&quot;&gt;Rethinking AngularJS Controllers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/&quot;&gt; Token Based Authentication using ASP.NET Web API 2, Owin, and Identity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/784106/AngularJS-Token-Authentication-using-ASP-NET-Web-A&quot;&gt;AngularJS Token Authentication using ASP.NET Web API 2, Owin, and Identity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/jesseliberty/jesse-liberty/2014/06/08/kendong-part-2-data&quot;&gt;KendoNg–Part 2–Data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://hueypetersen.com/posts/2013/06/26/helper-functions-for-rx-and-angular/&quot;&gt;Helper Functions for Doing Rx in Angular&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://odetocode.com/blogs/scott/archive/2014/06/10/model-options-and-pristine-forms-in-angularjs.aspx&quot;&gt;Model Options and Pristine Forms In AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/linkedin/archetype&quot;&gt;linkedin/archetype · GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://msopentech.com/blog/2014/06/09/docker-on-microsoft-azure/&quot;&gt;Simplified Setup and Use of Docker on Microsoft Azure&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://whereslou.com/2014/06/10/asp-net-vnext-moving-parts-owin/&quot;&gt;ASP.NET vNext Moving Parts: OWIN&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.mrlacey.co.uk/2014/06/shut-up-and-ship-basic-app.html&quot;&gt;Shut up and ship: A basic app&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://geekswithblogs.net/brians/archive/2014/06/07/ndc-oslo-videos-are-online.aspx&quot;&gt;NDC Oslo Videos Are Online&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 06/10/2014</title>
+            <link href="/useful_links/2014-06-10-links-6-slash-10-slash-2014/"/>
+            <updated>2014-06-10T17:10:14Z</updated>
+            <id>/useful_links/2014-06-10-links-6-slash-10-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;It gives me great pleasure indeed to see the stubbornness of an incorrigible nonconformist warmly acclaimed&quot;&lt;br /&gt;
+-- Albert Einstein
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.webkit.org/blog/3418/introducing-the-jetstream-benchmark-suite/&quot;&gt;Introducing the JetStream benchmark suite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.webkit.org/blog/3395/speedometer-benchmark-for-web-app-responsiveness/&quot;&gt;Speedometer: Benchmark for Web App Responsiveness&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/RachelHagerman/rachel-hagerman/2014/05/30/stop-clicking-that-mouse!-event-debounce-with-underscore-js&quot;&gt;Stop Clicking that Mouse! Event Debounce with Underscore.js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/AdamAnderson/adam-anderson/2014/05/31/nifty-underscore-tricks-sorting-by-multiple-properties-with-underscore&quot;&gt;Nifty Underscore Tricks: Sorting by multiple properties with Underscore.js&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/JoshEastburn/josh-eastburn/2014/05/30/behold-the-kendo-checkbox&quot;&gt;Behold, the Kendo Checkbox&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;odetocode.com/blogs/scott/archive/2014/05/28/compile-pre-and-post-linking-in-angularjs.aspx&quot;&gt;Compile, Pre, and Post Linking in AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.dotnetcurry.com/showarticle.aspx?ID=1016&quot;&gt;Using AngularJS and TypeScript to Build Single Page Applications (SPA)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://weblog.west-wind.com/posts/2014/Jun/02/AngularJs-ngcloak-Problems-on-large-Pages&quot;&gt;AngularJs ng-cloak Problems on large Pages&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://orionresearch.org/security-with-angular-js/&quot;&gt;Security with Angular JS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.microsoft.com/visualstudio/stories/scaling-agile-across-the-enterprise/&quot;&gt;Scaling Agile Across the Enterprise&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://thecappsblog.blogspot.com/2014/06/conways-law-for-mind.html&quot;&gt;Conway’s Law for the Mind&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://debasishg.blogspot.se/2014/05/functional-patterns-in-domain-modeling.html&quot;&gt;Functional Patterns in Domain Modeling - Anemic Models and Compositional Domain Behaviors&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/166913/mixing-sync-async-calls&quot;&gt;Mixing Sync &amp;amp; Async calls&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/articles/2014/06/01/the-last-mile.aspx&quot;&gt;The Last Mile: Fit and Polish for Your Windows Phone 8.1 Application&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/azuremobile/archive/2014/05/30/realtime-with-signalr-and-azure-mobile-net-backend.aspx&quot;&gt;Real-time with ASP.NET SignalR and Azure Mobile .NET Backend&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 06/01/2014</title>
+            <link href="/useful_links/2014-06-01-links-6-slash-1-slash-2014/"/>
+            <updated>2014-06-01T17:10:14Z</updated>
+            <id>/useful_links/2014-06-01-links-6-slash-1-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;If you wait to do everything until you’re sure it’s right, you’ll probably never do much of anything.&quot;&lt;br /&gt;
+-- Win Borden
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;[A Conversation between an Anthropomorphised Agile Manifesto and The Real World™](A Conversation between an Anthropomorphised Agile Manifesto and The Real World™)&lt;/p&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;java.dzone.com/articles/there-no-essence-agile&quot;&gt;There is no essence of Agile&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.shopittome.com/2014/05/29/bye-bye-passwords/&quot;&gt;Bye Bye, Passwords&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://self-issued.info/docs/draft-ietf-oauth-assertions-10.html&quot;&gt;Assertion Framework for OAuth 2.0 draft-ietf-oauth-assertions-10&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;networking&quot; tabindex=&quot;-1&quot;&gt;Networking&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.opendns.com/no-more-ads/&quot;&gt;A new reason to love OpenDNS: no more ads&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://madskristensen.net/post/improved-javascript-intellisense-in-visual-studio&quot;&gt;Improved JavaScript Intellisense in Visual Studio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/willy-peter_schaub/archive/2014/05/30/version-control-guidance-v3-0-flight-has-landed-delivering-three-great-guides-and-lots-of-visuals.aspx&quot;&gt;Version Control Guidance v3.0 flight has landed delivering three great guides and lots of visuals&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;builds&quot; tabindex=&quot;-1&quot;&gt;Builds&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hanselman.com/blog/AppVeyorAGoodContinuousIntegrationSystemIsAJoyToBehold.aspx&quot;&gt;AppVeyor - A good continuous integration system is a joy to behold&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://lifehacker.com/improve-your-job-by-rating-the-things-you-do-at-work-ea-1583528140&quot;&gt;Improve Your Job by Rating the Things You Do at Work Each Day&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://misoproject.com/d3-chart/&quot;&gt;The Miso Project : d3.chart&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://c3js.org/&quot;&gt;C3.js D3-based reusable chart library&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/RachelHagerman/rachel-hagerman/2014/05/27/kendo-ui-dynamic-data-solution-2&quot;&gt;Kendo UI &amp;amp; Dynamic Data: Solution 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://scottksmith.com/blog/2014/05/29/beer-locker-building-a-restful-api-with-node-passport/&quot;&gt;Beer Locker: Building a RESTful API With Node - Passport&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/BasemEmara/basem-emara/2014/05/29/kendo-ui-and-beyond-what-we-learned-from-angularjs&quot;&gt;Kendo UI and Beyond: What We Learned from AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://odetocode.com/blogs/scott/archive/2014/05/27/debugging-angularjs-data-binding.aspx&quot;&gt;Debugging AngularJS Data Binding&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;blogs.msdn.com/b/jmeier/archive/2014/05/29/scrum-at-a-glance-visual.aspx&quot;&gt;Scrum at a Glance (Visual)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://lostechies.com/jimmybogard/2014/05/29/missing-ef-feature-workarounds-filters/&quot;&gt;Missing EF Feature Workarounds: Filters&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ericlippert.com/2014/05/19/when-should-i-write-a-property/&quot;&gt;When should I write a property?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.csell.net//2014/05/26/DivingHeadFirstIntoTheTelerikPlatform/&quot;&gt;Diving head first into the Telerik Platform&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://lifehacker.com/top-10-incredibly-useful-windows-programs-to-have-on-ha-1584009886&quot;&gt;Top 10 Incredibly Useful Windows Programs to Have On Hand&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/29/2014</title>
+            <link href="/useful_links/2014-05-29-links-5-slash-29-slash-2014/"/>
+            <updated>2014-05-29T17:10:14Z</updated>
+            <id>/useful_links/2014-05-29-links-5-slash-29-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Go for it now. The future is promised to no one.&quot;&lt;br /&gt;
+-- Wayne Dyer
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.dumblittleman.com/2014/05/10-universal-truths-will-set-free.html&quot;&gt;10 Universal Truths That Will Set You Free&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/articles/taking-back-agile&quot;&gt;Taking Back Agile&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;haacked.com/archive/2014/05/27/backwards-compatibility/&quot;&gt;The Siren Song of Backwards Compatibility&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;visualstudiomagazine.com/blogs/tool-tracker/2014/05/generic-classes-and-constraints.aspx&quot;&gt;Goto Fail, Heartbleed, and Unit Testing Culture&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/visualstudioalm/archive/2014/05/23/code-lens-for-git-in-visual-studio-2013-ultimate-update-3.aspx&quot;&gt;Code Lens for Git in Visual Studio 2013 Ultimate Update 3&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://techcrunch.com/2014/05/28/microsoft-plans-to-bring-http2-web-audio-and-javascript-promises-to-the-next-version-of-ie&quot;&gt;Microsoft Plans To Bring HTTP/2, Web Audio And JavaScript Promises To The Next Version Of IE&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://odetocode.com/blogs/scott/archive/2014/05/29/building-multiple-filters-with-lo-dash-and-angularjs.aspx&quot;&gt;Building Multiple Filters with Lo-Dash and AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.johnpapa.net/easy-fix-to-a-common-angular-module-error/&quot;&gt;Easy Fix to a Common Angular Module Error&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codingthearchitecture.com/2014/05/29/software_architecture_vs_code.html&quot;&gt;Software architecture vs code&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/166849/working-on-the-uber-profiler-3-0&quot;&gt;Working on the Uber Profiler 3.0&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/blogs/data-driver/2014/05/couchbase-lite-for-net.aspx&quot;&gt;Couchbase Lite for .NET in Beta&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;blogs.msdn.com/b/willy-peter_schaub/archive/2014/05/23/the-first-rangers-guide-emerges-from-new-copy-edit-program-worth-it.aspx&quot;&gt;The first Rangers guide emerges from new copy-edit program … worth it?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tomasp.net/blog/2014/deedle-v1/&quot;&gt;New features and improvements in Deedle v1.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.telerik.com/openaccessteam/posts/14-05-27/3-tips-for-using-telerik-data-access-and-automapper&quot;&gt;3 Tips for Using Telerik Data Access and AutoMapper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;visualstudiomagazine.com/blogs/tool-tracker/2014/05/generic-classes-and-constraints.aspx&quot;&gt;Making Generic Classes Useful with Constraints&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://whereslou.com/2014/05/28/asp-net-moving-parts-ibuilder/&quot;&gt;ASP.NET Moving Parts: IBuilder&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://mtaulty.com/CommunityServer/blogs/mike_taultys_blog/archive/2014/05/27/windows-phone-8-1-do-not-launch-but-debug-my-code-when-it-starts.aspx&quot;&gt;Windows Phone 8.1, “Do Not Launch, But Debug My Code When It Starts”&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;www.hanselman.com/blog/XamarinFormsWriteOnceRunEverywhereANDBeNative.aspx&quot;&gt;Xamarin.Forms - Write Once, Run Everywhere, AND Be Native?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.technet.com/b/microsoft_blog/archive/2014/05/29/james-whittaker-on-the-art-of-making-killer-presentations.aspx&quot;&gt;James Whittaker on the art of making truly killer presentations&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/22/2014</title>
+            <link href="/useful_links/2014-05-22-links-5-slash-22-slash-2014/"/>
+            <updated>2014-05-22T17:10:14Z</updated>
+            <id>/useful_links/2014-05-22-links-5-slash-22-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;The world breaks everyone and afterwards many are strong at the broken places.&quot;&lt;br /&gt;
+-- Ernest Hemingway
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://stratechery.com/2014/time-kill-surface/&quot;&gt;It’s time to kill the surface&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/willy-peter_schaub/archive/2014/05/20/unit-test-generator-v1-3-and-a-chat-about-its-origin-and-future.aspx&quot;&gt;Unit Test Generator v1.3 and a chat about its origin and future&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://firstround.com/article/The-39-Best-Pieces-of-Sales-Advice-Youll-Hear-This-Year&quot;&gt;The 39 Best Pieces of Sales Advice You’ll Hear This Year&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://firstround.com/article/Dont-Leave-Money-on-the-Table-with-this-Crash-Course-in-Pricing&quot;&gt;Don’t Leave Money on the Table with This Crash Course in Pricing&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/cdnstudents/archive/2014/05/21/building-with-node-js-tools-for-visual-studio.aspx&quot;&gt;Building with Node.js Tools for Visual Studio&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.programmableweb.com//news/how-to-secure-your-rest-api-right-way/2014/05/22&quot;&gt;How to secure your REST API the right way&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[Consensus: Bringing it all together](http://nickberardi.com/consensus-bringing-it-all-together&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://developer.telerik.com/featured/announcing-support-for-kendo-ui-mobile-with-angularjs/&quot;&gt;Announcing Support For Kendo UI Mobile With AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitoftech.net/2014/05/05/angularjs-with-touch-of-gulpjs-tutorial/&quot;&gt;AngularJS with touch of GulpJS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://goodenoughsoftware.net/2013/05/28/why-cant-i-update-an-event/&quot;&gt;Why Can’t I Update an Event&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.maartenballiauw.be/post/2014/05/21/Optimizing-calls-to-Azure-storage-using-Fiddler.aspx&quot;&gt;Optimizing calls to Azure storage using Fiddler&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/adonet/archive/2014/05/20/ef-6-1-1-beta-1-available.aspx&quot;&gt;EF 6.1.1 Beta 1 Available&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sqlservercentral.com/blogs/sqlrnnr/2014/05/21/supported-compatibility-levels-in-sql-server/&quot;&gt;Supported Compatibility Levels in SQL Server&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/magazine/dn683793.aspx&quot;&gt;C# - A C# 6.0 Language Preview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.strathweb.com/2014/05/announcing-asp-net-web-api-recipes/&quot;&gt;Announcing ASP.NET Web API Recipes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jeremydmiller.com/2014/05/21/a-better-development-web-server-for-net-with-fubumvc-2-0/&quot;&gt;A Better Development Web Server for .Net with FubuMVC 2.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Shows/Visual-Studio-Toolbox/MVVM-Best-Practices&quot;&gt;MVVM Best Practices&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/20/2014</title>
+            <link href="/useful_links/2014-05-20-links-5-slash-20-slash-2014/"/>
+            <updated>2014-05-20T17:10:14Z</updated>
+            <id>/useful_links/2014-05-20-links-5-slash-20-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Shoot for the moon. Even if you miss, you&#39;ll land among the stars&quot;&lt;br /&gt;
+-- Les Brown
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://lifehacker.com/adam-savages-10-commandments-of-diying-1579144041&quot;&gt;Adam Savage’s 10 Commandments of DIYing&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://martinfowler.com/articles/testing-culture.html&quot;&gt;Goto Fail, Heartbleed, and Unit Testing Culture&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.ducttapemarketing.com/blog/2014/05/20/guiding-questions/&quot;&gt;7 Guiding Questions for Business Success&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://community.devexpress.com/blogs/rorybecker/archive/2014/05/19/new-coderush-plugin-convert-string-to-appsetting.aspx&quot;&gt;browserify-handbook&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://odetocode.com/blogs/scott/archive/2014/05/20/using-resolve-in-angularjs-routes.aspx&quot;&gt;Using Resolve In AngularJS Routes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.jptacek.com/2014/05/angularJS-Intro-To-Services/&quot;&gt;AngularJS - Introduction to Services&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.sitepoint.com/introduction-mean-stack&quot;&gt;An Introduction to the MEAN Stack&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP&quot;&gt;10 Golden Rules Of Good OOP&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.unity3d.com/2014/05/20/the-future-of-scripting-in-unity/&quot;&gt;The future of scripting in Unity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://channel9.msdn.com/Series/Windows-Store-Developer-Solutions/Create-a-Staging-NET-Backend-for-Testing-and-Developing-Azure-Mobile-Services&quot;&gt;Create a Staging .NET Backend for Testing and Developing Azure Mobile Services&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/166785/compression-memory-sizing-in-ravendb&quot;&gt;Compression &amp;amp; Memory Sizing in RavenDB&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/kathleen/archive/2014/05/19/performance-in-tracing.aspx&quot;&gt;Performance in Tracing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[Question regarding GetHashCode() and Equality](Question regarding GetHashCode() and Equality)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://codepaste.net/fi36pi&quot;&gt;Negotiated Content result for ASP.NET MVC&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://community.devexpress.com/blogs/rorybecker/archive/2014/05/19/new-coderush-plugin-convert-string-to-appsetting.aspx&quot;&gt;New CodeRush Plugin – Convert String to AppSetting&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/19/2014</title>
+            <link href="/useful_links/2014-05-19-links-5-slash-19-slash-2014/"/>
+            <updated>2014-05-19T17:10:14Z</updated>
+            <id>/useful_links/2014-05-19-links-5-slash-19-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Logic will get you from A to B. Imagination will take you everywhere.&quot;&lt;br /&gt;
+-- Albert Einstein
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.dantup.com/2014/05/web-development-sucks-and-its-not-getting-any-better/&quot;&gt;(Web) Development Sucks, and It’s Not Getting Any Better&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://leanpub.com/wewut&quot;&gt;Working Effectively with Unit Tests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.balancedpayments.com/tdd-your-api/&quot;&gt;TDD your API&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.jamesshore.com/Blog/How-Does-TDD-Affect-Design.html&quot;&gt;How Does TDD Affect Design?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://martinfowler.com/snips/2014-is-tdd-hangout-2-video.html&quot;&gt;Second “Is TDD Dead” Hangout video and audio available, third hangout scheduled&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.marcusoft.net/2014/05/screencast-on-getting-started-with-koa.html&quot;&gt;Screencast on Getting started with Koa Js&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://jeremydmiller.com/2014/05/19/software-development-horror-stories-and-scar-tissue/&quot;&gt;Software Development Horror Stories and Scar Tissue&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://haacked.com/archive/2014/05/17/microsofts-new-running-shoes/&quot;&gt;Microsoft’s New Running Shoes&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://msmvps.com/blogs/kathleen/archive/2014/05/12/semantic-tracing.aspx&quot;&gt;Semantic Tracing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://dailydotnettips.com/2014/05/15/how-to-keep-track-of-miscellaneous-files-efficiently-in-visual-studio/&quot;&gt;How to keep track of Miscellaneous files efficiently in Visual Studio&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.mitchchn.me/2014/os-x-terminal/&quot;&gt;Eight Terminal Utilities Every OS X Command Line User Should Know&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/17/2014</title>
+            <link href="/useful_links/2014-05-17-links-5-slash-17-slash-2014/"/>
+            <updated>2014-05-17T17:10:14Z</updated>
+            <id>/useful_links/2014-05-17-links-5-slash-17-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Never tell a young person that anything cannot be done. God may have been waiting centuries for someone ignorant enough of the impossible to do that very thing.&quot;&lt;br /&gt;
+-- John Andrew Holmes
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://rationalwiki.org/wiki/Deepity&quot;&gt;Deepity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitworking.org/news/2014/05/zero_framework_manifesto&quot;&gt;No more JS frameworks&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://pivotallabs.com/hexagonal-rails-and-the-ludicrous-terminal-application/&quot;&gt;Hexagonal Rails and The Ludicrous Terminal Application&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://skills.osherove.com/roy-osheroves-tdd-in-java-in-3-days&quot;&gt;Roy Osherove’s TDD in Java in 3 Days&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://dev.opera.com/articles/introduction-to-indexeddb/&quot;&gt;An Introduction to IndexedDB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.webkit.org/blog/3362/introducing-the-webkit-ftl-jit/&quot;&gt;Introducing the WebKit FTL JIT&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.johnpapa.net/10-angular-tips-from-teched-2014&quot;&gt;10 Angular Tips from TechEd 2014&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/opinionated-angularjs/57a63c895da5&quot;&gt;Cleaner AngularJS Directives With Curried Functions&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.adobe.com/webplatform/2014/05/12/css-shapes-polyfill/&quot;&gt;CSS Shapes Polyfill&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://thedatafarm.com/data-access/poking-around-ef7s-solution/&quot;&gt;Poking around EF7’s Solution&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/pvcbuild/pvc&quot;&gt;pvc - gulp for .net&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://xip.io/&quot;&gt;xip.io - wildcard DNS for everyone&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://codon.com/the-dhh-problem&quot;&gt;The DHH Problem&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/16/2014</title>
+            <link href="/useful_links/2014-05-16-links-5-slash-16-slash-2014/"/>
+            <updated>2014-05-16T17:10:14Z</updated>
+            <id>/useful_links/2014-05-16-links-5-slash-16-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;A man doesn&#39;t know what he knows until he knows what he doesn&#39;t know.&quot;&lt;br /&gt;
+-- Laurence J. Peter
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.daedtech.com/tdd-chess-game-part-6-starting-with-more-pieces&quot;&gt;TDD Chess Game Part 6: Starting with More Pieces&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.troyhunt.com/2012/06/our-password-hashing-has-no-clothes.html&quot;&gt;Our password hashing has no clothes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.troyhunt.com/2014/05/the-cobra-effect-that-is-disabling.html&quot;&gt;The “Cobra Effect” that is disabling paste on password fields&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/filamentgroup/tablesaw&quot;&gt;Tablesaw - A set of plugins for responsive tables.&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/15/2014</title>
+            <link href="/useful_links/2014-05-15-links-5-slash-15-slash-2014/"/>
+            <updated>2014-05-15T17:10:14Z</updated>
+            <id>/useful_links/2014-05-15-links-5-slash-15-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;A man can fail many times, but he isn&#39;t a failure until he begins to blame somebody else.&quot;&lt;br /&gt;
+-- John Burroughs
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.lhotka.net/weblog/HowDoesMicrosoftCompeteInThisNewWorld.aspx&quot;&gt;How does Microsoft compete in this new world?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://rachelappel.com/write-object-oriented-javascript-with-typescript&quot;&gt;Write Object-Oriented JavaScript with TypeScript&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/166658/a-map-to-reviewing-ravendb&quot;&gt;A map to Reviewing RavenDB&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/MSOpenTech/Tx&quot;&gt;Tx (LINQ to Logs and Traces)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://codebetter.com/glennblock/2014/05/15/debugging-xunit-tests-in-xamarin-studio-and-mono-develop-using-the-debugging-trick&quot;&gt;Debugging xUnit tests in Xamarin Studio and Mono Develop using The Debugging Trick&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://raygun.io/blog/2013/08/new-raygun-provider-for-xamarin-developers&quot;&gt;NEW RAYGUN PROVIDER FOR XAMARIN DEVELOPERS!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/azuremobile/archive/2014/05/13/using-the-preview-of-mobile-services-offline-in-xamarin-ios.aspx&quot;&gt;Using Xamarin.iOS preview of Mobile Services offline&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/14/2014</title>
+            <link href="/useful_links/2014-05-14-links-5-slash-14-slash-2014/"/>
+            <updated>2014-05-14T17:10:14Z</updated>
+            <id>/useful_links/2014-05-14-links-5-slash-14-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;I don&#39;t believe you have to be better than everybody else. I believe you have to be better than you ever thought you could be.&quot;&lt;br /&gt;
+-- Ken Venturi
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.noop.nl/2014/05/better-management-with-fewer-managers-video.html&quot;&gt;Better Management with Fewer Managers (video)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.learningbyshipping.com/2014/05/13/everyone-starts-with-simplicity-no-one-ends-there-and-thats-ok&quot;&gt;Everyone starts with simplicity, no-one ends there and that’s OK&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://lostechies.com/jimmybogard/2014/05/13/a-better-domain-events-pattern/&quot;&gt;A better domain events pattern&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://martinfowler.com/bliki/ParallelChange.html&quot;&gt;ParallelChange&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.randomprogramming.com/2014/05/algorithms-in-action-sorting-follow-up/&quot;&gt;Algorithms in action – sorting (follow up)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/visualstudioalm/archive/2014/05/13/microsoft-engineering-stories-how-we-build-software-at-microsoft.aspx&quot;&gt;Microsoft Engineering Stories - How We Build Software at Microsoft&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://magenic.com/Blog/PostId/20/unit-testing-roslyn-based-extensions&quot;&gt;Unit Testing Roslyn-Based Extensions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://wintellect.com/blogs/jlane/here-come-the-.net-containers&quot;&gt;Here Come the .NET Containers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.dotnetrocks.com/default.aspx?ShowNum=982&quot;&gt;The Better Parts with Doug Crockford&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/13/2014</title>
+            <link href="/useful_links/2014-05-13-links-5-slash-13-slash-2014/"/>
+            <updated>2014-05-13T17:10:14Z</updated>
+            <id>/useful_links/2014-05-13-links-5-slash-13-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;To succeed in life, you need two things: ignorance and confidence.&quot;&lt;br /&gt;
+-- Mark Twain
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.wekeroad.com/2014/05/13/writing-a-better-abstract/&quot;&gt;Writing a Better Abstract&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.jongallant.com/2013/09/angularjs-crud-grid-v4.html#.UkvIVoafgRM&quot;&gt;AngularJS CRUD Grid v4: Sorting, AngularJS 1.2.0 &amp;amp; Bootstrap 3&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://weblogs.asp.net/jgalloway/archive/2014/05/13/a-30-minute-look-at-asp-net-vnext.aspx&quot;&gt;A 30 Minute Look At ASP.NET vNext&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://haacked.com/archive/2014/04/15/nuget-build-dependencies/&quot;&gt;A less terrible .NET project build with NuGet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.newrelic.com/2014/03/12/20-net-developers-follow-online/&quot;&gt;20 .NET Developers to Follow Online&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/12/2014</title>
+            <link href="/useful_links/2014-05-12-links-5-slash-12-slash-2014/"/>
+            <updated>2014-05-12T17:10:14Z</updated>
+            <id>/useful_links/2014-05-12-links-5-slash-12-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;We are all born ignorant, but one must work hard to remain stupid.&quot;&lt;br /&gt;
+-- Benjamin Franklin&lt;/blockquote&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.vladville.com/2014/05/the-worst-employee-ever.html&quot;&gt;Worst Employee Ever&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.danlmoyer.com/?p=412&quot;&gt;Why Pluralsight is important for my career&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/jmeier/archive/2014/05/08/high-performance-patterns-find-your-personal-high-performance-pattern.aspx&quot;&gt;High-Performance Patterns: Find Your Personal High-Performance Pattern&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bocoup.com/weblog/git-workflows-for-successful-deployment&quot;&gt;Git Workflows For Successful Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://weblogs.asp.net/dwahlin/archive/2014/05/11/creating-custom-angularjs-directives-part-2-isolate-scope.aspx&quot;&gt;Creating Custom AngularJS Directives Part 2 - Isolate Scope &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.codeproject.com/Articles/770325/AngularJS-Promises-The-Definitive-Guide&quot;&gt;AngularJS Promises - The Definitive Guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://coolthingoftheday.blogspot.com/2014/05/visual-studio-image-library-updated-now.html&quot;&gt;Visual Studio Image Library updated, now includes VS 2013 style and is now over 10,000+ images&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://scotch.io/bar-talk/bootstrap-3-tips-and-tricks-you-might-not-know&quot;&gt;Bootstrap 3 Tips and Tricks You Might Not Know&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/166597/ravendb-conf-videos-ravendb-3-0&quot;&gt;RavenDB Conf Videos: RavenDB 3.0&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hanselman.com/blog/FixingSystemCore205FileLoadExceptionPortableLibrariesAndWindowsXPSupport.aspx&quot;&gt;Fixing System.Core 2.0.5 FileLoadException, Portable Libraries and Windows XP support&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hanselman.com/blog/IntroducingASPNETVNext.aspx&quot;&gt;Introducing ASP.NET vNext&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs#d-visual-studio-2013-update&quot;&gt;Visual Studio 2013 Update 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/dotnet/archive/2014/05/12/the-next-generation-of-net-asp-net-vnext.aspx&quot;&gt;The Next Generation of .NET - ASP.NET vNext&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/webdev/archive/2014/05/12/announcing-new-web-features-in-visual-studio-2013-update-2-rtm.aspx&quot;&gt;Announcing new Web Features in Visual Studio 2013 Update 2 RTM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/AdamAnderson/adam-anderson/2014/05/08/linq-obscura-outer-join-a-base-class-table-to-a-subclass-table&quot;&gt;LINQ Obscura: outer join a base class table to a subclass table&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/10/2014</title>
+            <link href="/useful_links/2014-05-10-links-5-slash-10-slash-2014/"/>
+            <updated>2014-05-10T17:10:14Z</updated>
+            <id>/useful_links/2014-05-10-links-5-slash-10-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.fogcreek.com/four-million-to-one/?fccmp=_blog5714&quot;&gt;Four Million to One (Or How I Handle Trello Support)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.theodo.fr/blog/2014/03/how-to-code-javascript-using-twitter-bootstrap-best-practices/&quot;&gt;How to code JavaScript using Bootstrap best practices?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://loekvandenouweland.com/index.php/2014/05/use-reactive-extensions-to-throttle-textchanged-events-and-subscribe-to-search-results&quot;&gt;Use Reactive Extensions to throttle TextChanged events and subscribe to search results&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.json-generator.com/&quot;&gt;www.json-generator.com&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gadgets&quot; tabindex=&quot;-1&quot;&gt;Gadgets&lt;/h4&gt;
+&lt;p&gt;I have been thinking about doing some podcasts/screencasts so I have been looking at what others are using and recommending&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jeremybytes.blogspot.com/2014/02/screencast-production.html&quot;&gt;Jeremy’s Screencast Production: Hardware, Software, and Process&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hanselman.com/blog/HowToStartYourFirstPodcastEquipmentEditingPublishingAndMore.aspx&quot;&gt;How to start your first podcast - equipment, editing, publishing and more&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://wildermuth.com/2014/3/27/My_Dev_Kit_Circa_2014&quot;&gt;My Dev Kit: Circa 2014&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/06/2014</title>
+            <link href="/useful_links/2014-05-06-links-5-slash-6-slash-2014/"/>
+            <updated>2014-05-06T17:10:14Z</updated>
+            <id>/useful_links/2014-05-06-links-5-slash-6-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://martinfowler.com/bliki/UnitTest.html&quot;&gt;UnitTest - Martin Fowler&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/tiimgreen/github-cheat-sheet&quot;&gt;GitHub Cheat Sheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.atom.io/2014/05/06/atom-is-now-open-source.html&quot;&gt;Atom Is Now Open Source&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.coryfoy.com/2014/05/start-with-expressiveness/&quot;&gt;Start With Expressiveness&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/articles/2014/05/01/separating-the-ui-code-from-the-business-code.aspx&quot;&gt;Separating the UI Code from the Business Code: What’s Reasonable?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://codegeekz.com/free-ebooks-for-developers-and-designers/&quot;&gt;Free eBooks for Developers and Designers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.nczonline.net/blog/2014/05/06/urls-are-already-dead/&quot;&gt;URLs are already dead&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://mindthecode.com/lets-build-an-angularjs-app-with-browserify-and-gulp/&quot;&gt;Let’s build: An AngularJS app with Browserify and Gulp&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://alistapart.com/article/css-shapes-101&quot;&gt;CSS Shapes 101&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/writingdata_services/archive/2014/05/05/mobile-services-net-backend-part-1-creating-the-service-and-defining-the-rest-api.aspx&quot;&gt;Mobile Services .NET Backend: Part 1—Creating the Service and Defining the REST API&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.wildermuth.com/2014/5/6/My_Switch_to_Azure_Websites&quot;&gt;http://www.wildermuth.com/2014/5/6/My_Switch_to_Azure_Websites&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://dontcodetired.com/blog/post/FeatureToggle-Version-2-Released.aspx&quot;&gt;FeatureToggle Version 2 Released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.nuget.org/20140424/building-nuget-3.x.html&quot;&gt;Building NuGet 3.x&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/dotnet/archive/2014/05/05/announcing-the-net-framework-4-5-2-release.aspx&quot;&gt;Announcing the .NET Framework 4.5.2&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gadgets&quot; tabindex=&quot;-1&quot;&gt;Gadgets&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://reframe.gizmodo.com/7-simple-cheap-photography-hacks-you-should-try-out-1572293196&quot;&gt;7 Simple, Cheap Photography Hacks You Should Try Out&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://simpleprogrammer.com/2014/05/06/announcing-entreprogrammers-podcast/&quot;&gt;Announcing the Entreprogrammers Podcast&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;career&quot; tabindex=&quot;-1&quot;&gt;Career&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.hbr.org/2014/04/tell-your-whole-story-in-an-interview/&quot;&gt;Tell Your Whole Story in an Interview&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/05/2014</title>
+            <link href="/useful_links/2014-05-05-links-5-slash-5-slash-2014/"/>
+            <updated>2014-05-05T17:10:14Z</updated>
+            <id>/useful_links/2014-05-05-links-5-slash-5-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.decayingcode.com/post/Writing-testable-JavaScript-How-AMD-changed-the-way-I-see-code&quot;&gt;Writing testable JavaScript: How AMD changed the way I see code&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://brackets.io/&quot;&gt;Brackets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.alexonasp.net/post/2014/05/02/Useful-Brackets-extensions-Web-Developers.aspx&quot;&gt;Useful @Brackets extensions for Web Developers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;window-phone&quot; tabindex=&quot;-1&quot;&gt;Window Phone&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://visualstudiomagazine.com/articles/2014/05/01/whats-new-for-developers-with-windows-phone-8_1.aspx&quot;&gt;Windows Phone 8.1: A Giant Leap Forward for Convergence&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.jrothman.com/blog/mpd/2014/05/estimation-and-the-sunk-cost-fallacy.html&quot;&gt;Estimation and the Sunk Cost Fallacy&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/jesse-liberty/2014/05/05/kendo-ui-dynamic-data-solution-1&quot;&gt;Kendo UI &amp;amp; Dynamic Data: Solution 1&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;%23javascript&quot; tabindex=&quot;-1&quot;&gt;#JavaScript&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.dotnetcurry.com/showarticle.aspx?ID=1006&quot;&gt;Editable HTML Table with CRUD operations using KnockoutJS and ASP.NET WEB API&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.infoq.com/news/2014/05/promises-javascript&quot;&gt;Promises: The New Async Standard in Browser JavaScript?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://java.dzone.com/articles/analyzing-large-json-memory?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+zones%2Fagile+%28Agile+Zone%29&quot;&gt;Analyzing a large JSON in memory&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/jesseliberty/jesse-liberty/2014/03/05/underscore-linq-(almost)-for-javascript&quot;&gt;Kendo UI &amp;amp; Dynamic Data: Solution 1&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DIQFhEo1C8c&amp;amp;feature=youtu.be&quot;&gt;Revisiting 2D Parallax Scrolling Backgrounds in Unity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.webdesignerdepot.com/2014/05/101-essential-free-fonts-for-web-designers&quot;&gt;http://www.webdesignerdepot.com/2014/05/101-essential-free-fonts-for-web-designers/?utm_source=dlvr.it&amp;amp;utm_medium=twitter&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/166594/ravendb-conf-videos-abstracting-ravendb-dont-do-it&quot;&gt;RavenDB Conf Videos: Abstracting RavenDB: Don’t Do It!&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/04/2014</title>
+            <link href="/useful_links/2014-05-04-links-5-slash-4-slash-2014/"/>
+            <updated>2014-05-04T17:10:14Z</updated>
+            <id>/useful_links/2014-05-04-links-5-slash-4-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/sandal/1c6c7ec0d7603775ed17&quot;&gt;@practicingruby did a nice job editing my TDD and Professionalism article. Check out the comments too&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/&quot;&gt;AngularJS: Factory vs Service vs Provider&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://odetocode.com/blogs/scott/archive/2014/03/17/building-better-models-for-angularjs.aspx&quot;&gt;Building Better Models For AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.yearofmoo.com/2013/01/full-spectrum-testing-with-angularjs-and-karma.html&quot;&gt;Full-Spectrum Testing with AngularJS and Karma&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SkEQtMP2CuA#t=102&quot;&gt;Konsoll 2013: Marketing Indie Games on a $0 Budget&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://log.paulbetts.org/the-bait-and-switch-pcl-trick/&quot;&gt;The Bait and Switch PCL Trick&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/agile/archive/2014/04/21/unity-3-5-rtw-now-with-more-peace-love-and-rock-n-roll.aspx&quot;&gt;Unity 3.5 RTW: Now with more Peace, Love, and Rock ‘n’ Roll&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/agile/archive/2014/04/10/simplifying-cross-platform-development-unity-3-5-portable-class-library-preview.aspx&quot;&gt;Simplifying cross-platform development - Unity 3.5 Portable Class Library Preview&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/02/2014</title>
+            <link href="/useful_links/2014-05-02-links-5-slash-2-slash-2014/"/>
+            <updated>2014-05-02T17:10:14Z</updated>
+            <id>/useful_links/2014-05-02-links-5-slash-2-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;window-phone&quot; tabindex=&quot;-1&quot;&gt;Window Phone&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.engadget.com/2014/05/02/windows-phone-file-manager&quot;&gt;Soon, you’ll be able to browse files on your Windows Phone&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/rxteam/archive/2014/04/29/the-reactive-extensions-for-net-2-2-4-released.aspx&quot;&gt;The Reactive Extensions for .NET 2.2.4 Released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/jerrynixon/archive/2014/04/30/announcing-developer-s-guide-to-microsoft-prism-5-0-for-wpf.aspx&quot;&gt;Announcing: Developer’s Guide to Microsoft Prism 5.0 for WPF&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/magazine/dn683794.aspx&quot;&gt;Next-Generation Development with Application Insights&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/visualstudioalm/archive/2014/02/06/net-memory-analysis-object-inspection.aspx&quot;&gt;.NET Memory Analysis: Object Inspection&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hanselminutes.com/421/managing-errors-across-platforms-with-raygunio&quot;&gt;Managing Errors across platforms with RayGun.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://ayende.com/blog/166566/ravendb-conf-videos-ravendb-cqrs-and-eventsourcing-easy-peasy&quot;&gt;RavenDB Conf Videos: RavenDB, CQRS and EventSourcing: easy peasy&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 05/01/2014</title>
+            <link href="/useful_links/2014-05-01-links-5-slash-1-slash-2014/"/>
+            <updated>2014-05-01T17:10:14Z</updated>
+            <id>/useful_links/2014-05-01-links-5-slash-1-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://webapplog.com/express-js-4-node-js-and-mongodb-rest-api-tutorial/&quot;&gt;Express.js 4, Node.js and MongoDB REST API Tutorial&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://encosia.com/canonical-urls-iis-without-breaking-localhost-debugging&quot;&gt;Canonical URLs in IIS without breaking localhost debugging&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://developer.telerik.com/products/say-hello-to-the-kendo-ui-chrome-inspector&quot;&gt;Say Hello To The Kendo UI Chrome Inspector&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;creating-custom-angularjs-directives-part-i-the-fundamentals&quot;&gt;Creating Custom AngularJS Directives Part I – The Fundamentals&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.longle.net/2014/05/01/angularjs-kendo-ui-using-angular-kendo-with-asp-net-mvc-5-web-api-odata/&quot;&gt;AngularJS &amp;amp; Kendo UI using Angular Kendo with ASP.NET MVC 5, Web API &amp;amp; OData&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://geekswithblogs.net/akraus1/archive/2014/04/30/156156.aspx&quot;&gt;The Case Of Slow Visual Studio Startup&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 04/30/2014</title>
+            <link href="/useful_links/2014-04-30-links-4-slash-30-slash-2014/"/>
+            <updated>2014-04-30T17:10:14Z</updated>
+            <id>/useful_links/2014-04-30-links-4-slash-30-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ht.ly/wkapl&quot;&gt;When TDD doesn’t work.&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.leadersbeacon.com/ten-things-every-leader-always-teaching/&quot;&gt;Ten Things Every Leader Should Always Teach&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;window-phone&quot; tabindex=&quot;-1&quot;&gt;Window Phone&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://coolthingoftheday.blogspot.co.uk/2014/04/phone-81-for-developers-series-with-19.html&quot;&gt;Windows Phone 8.1 for Developers&amp;quot; series with 19 posts so far…&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://frazzleddad.blogspot.com/2014/04/til-arrowhead-anti-pattern.html&quot;&gt;TIL: Arrowhead Anti-Pattern&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.johnpapa.net/toastr-2-0-2-now-available-on-nuget-bower-and-cdnjs/&quot;&gt;Toastr 2.0.2 Now Available on NuGet, Bower and CDNJS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.falafel.com/Blogs/venkatakoppaka/venkata-koppaka/2014/04/28/preventing-default-action-for-an-element-in-angularjs&quot;&gt;Preventing default action for an element in AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.webdeveasy.com/service-providers-in-angularjs-and-logger-implementation/&quot;&gt;Service Providers in AngularJS and Logger Implementation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kylehodgson.com/2014/04/29/seven-reasons-to-love-duck-angular/&quot;&gt;Seven Reasons to Love Duck Angular&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/cdndevs/archive/2014/04/29/refactoring-your-css-with-less-in-visual-studio-web-essentials.aspx&quot;&gt;Refactoring your CSS with LESS in Visual Studio Web Essentials&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://weblogs.asp.net/scottgu/archive/2014/04/29/azure-99-95-sql-database-sla-500-gb-db-size-improved-performance-self-service-restore-and-business-continuity.aspx&quot;&gt;Azure: 99.95% SQL Database SLA, 500 GB DB Size, Improved Performance Self-Service Restore, and Business Continuity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Purify-net/PUrify&quot;&gt;PUrify - Your Uris have been PUrified!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.cyberciti.biz/open-source/30-cool-best-open-source-softwares-of-2013/&quot;&gt;30 Cool Open Source Software I Discovered in 2013&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gadgets&quot; tabindex=&quot;-1&quot;&gt;Gadgets&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.engadget.com/2014/04/29/gibson-memory-cable/?ncid=rss_truncated&quot;&gt;Gibson has crammed a digital recorder inside a guitar cable&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;podcasts%2C-conferences%2C-events&quot; tabindex=&quot;-1&quot;&gt;Podcasts, Conferences, Events&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://polymorphicpodcast.com/shows/market&quot;&gt;Polymorphic Podcast - How to Market Yourself as a Software Developer&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 04/29/2014</title>
+            <link href="/useful_links/2014-04-29-links-4-slash-29-slash-2014/"/>
+            <updated>2014-04-29T17:10:14Z</updated>
+            <id>/useful_links/2014-04-29-links-4-slash-29-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ht.ly/wkg96&quot;&gt;Want to introduce fewer bugs? Test through these five cases.&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://mikehadlow.blogspot.com/2014/04/json-web-tokens-owin-and-angularjs.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+CodeRant+%28Code+rant%29&quot;&gt;JSON Web Tokens, OWIN and AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/eternalcoding/archive/2014/04/28/why-we-decided-to-move-from-plain-javascript-to-typescript-for-babylon-js.aspx&quot;&gt;Why we decided to move from plain JavaScript to TypeScript for Babylon.js&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;.net&quot; tabindex=&quot;-1&quot;&gt;.Net&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://jeremydmiller.com/2014/04/28/fubumvc-lessons-learned-strong-naming-woes-and-workarounds/&quot;&gt;FubuMVC Lessons Learned — Strong Naming Woes and Workarounds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.hanselman.com/blog/BackToBasicsUsingFusionLogViewerToDebugObscureLoaderErrors.aspx&quot;&gt;Back to Basics: Using Fusion Log Viewer to Debug Obscure Loader Errors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://rehansaeed.co.uk/reactive-extensions-part1-replacing-events/&quot;&gt;Reactive Extensions Events series&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 04/27/2014</title>
+            <link href="/useful_links/2014-04-27-links-4-slash-27-slash-2014/"/>
+            <updated>2014-04-28T03:10:14Z</updated>
+            <id>/useful_links/2014-04-27-links-4-slash-27-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;web-design&quot; tabindex=&quot;-1&quot;&gt;Web Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://wrapbootstrap.com/&quot;&gt;{wrap}bootstrap&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;windows-azure&quot; tabindex=&quot;-1&quot;&gt;Windows Azure&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blogs.msdn.com/b/carlosfigueira/archive/2012/10/25/getting-user-information-on-azure-mobile-services.aspx&quot;&gt;Getting user information on Azure Mobile Services&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://chrisrisner.com/Accessing-Twitter-API-v1-1-from-Mobile-Services-Scripts&quot;&gt;Accessing Twitter API v1.1 from Mobile Services Scripts &lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 04/25/2014</title>
+            <link href="/useful_links/2014-04-25-links-4-slash-25-slash-2014/"/>
+            <updated>2014-04-25T17:10:14Z</updated>
+            <id>/useful_links/2014-04-25-links-4-slash-25-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.codinghorror.com/what-can-men-do/&quot;&gt;What Can Men Do&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://codebetter.com/jeremymiller/2007/03/22/the-dont-repeat-yourself-principle-and-the-wormhole-anti-pattern/&quot;&gt;The Don’t Repeat Yourself Principle and the Wormhole Anti-Pattern&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://entity-lookup.leftlogic.com/&quot;&gt;HTML Entity Lookup&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://solutionoptimist.com/2013/09/30/requirejs-angularjs-dependency-injection/&quot;&gt;Dependency Injection using RequireJS &amp;amp; AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.scalyr.com/2013/10/31/angularjs-1200ms-to-35ms/&quot;&gt;Optimizing AngularJS: 1200ms to 35ms&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;game-development&quot; tabindex=&quot;-1&quot;&gt;Game Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.pixelprospector.com/indie-resources/&quot;&gt;Indie Resources&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 04/24/2014</title>
+            <link href="/useful_links/2014-04-24-links-4-slash-24-slash-2014/"/>
+            <updated>2014-04-24T17:10:14Z</updated>
+            <id>/useful_links/2014-04-24-links-4-slash-24-slash-2014/</id>
+            <content type="html">&lt;h4 id=&quot;angular&quot; tabindex=&quot;-1&quot;&gt;Angular&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://odetocode.com/blogs/scott/archive/2014/04/24/canceling-http-requests-in-angularjs.aspx&quot;&gt;Canceling $http Requests in AngularJS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://ariya.ofilabs.com/2014/04/javascript-unit-tests-and-code-coverage-tracking-using-venus-js.html&quot;&gt;JavaScript Unit Tests and Code Coverage Tracking using Venus.js&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-development&quot; tabindex=&quot;-1&quot;&gt;Web Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://viget.com/extend/gulp-browserify-starter-faq&quot;&gt;Gulp + Browserify: The Everything Post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://esa-matti.suuronen.org/blog/2013/03/22/journey-from-requirejs-to-browserify/&quot;&gt;Journey From RequireJS to Browserify &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://superbigtree.tumblr.com/post/58075340096/my-strategy-for-client-side-package-managers-choosing&quot;&gt;My strategy for client-side package managers (choosing between npm, bower, and component)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ides%2Feditors&quot; tabindex=&quot;-1&quot;&gt;IDEs/Editors&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.granneman.com/webdev/editors/sublime-text/configuring-sublime-text/#markdown&quot;&gt;Configuring Sublime Text&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://madskristensen.net/post/visual-studio-extensions-for-web-developers&quot;&gt;Visual Studio extensions for web developers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-services-(rest%2C-hypermedia%2C-webapi%2C-signalr)&quot; tabindex=&quot;-1&quot;&gt;Web Services (REST, HyperMedia, WebAPI, SignalR)&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.strathweb.com/2014/04/ignoring-routes-asp-net-web-api/&quot;&gt;Ignoring routes in ASP.NET Web API&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+</feed>

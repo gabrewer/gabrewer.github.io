@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/output.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><nav role="navigation" class="blog-masthead">
+  <div class="container">
+    
+    
+      <div class="blog-nav">
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/">
+              Home
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/useful_links/">
+              Useful Links
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/archive/">
+              Blog Archives
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</nav>
+<header class="container w-full py-10">
+  <div class="w-full">
+    <div class="flex flex-col md:flex-row justify-between w-full">
+      <div class="md:w-auto mb-4 md:mb-0">
+        <h1 class="text-6xl font-normal mb-4">
+          <a href="/" class="text-blue-550">gabrewer.com</a>
+        </h1>
+        
+          <p class="text-xl text-neutral-400">Life is too important to be take seriously.</p>
+        
+      </div>
+      <div class="w-full md:w-auto flex flex-col items-end">
+        <ul class="">
+          <li>
+            <a
+              href="/feed/feed.xml"
+              rel="subscribe-rss"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="/feed/feedlinks.xml"
+              rel="subscribe_rss_link"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS Useful Links</a
+            >
+          </li>
+          
+        </ul>
+        
+          <form action="https://www.google.com/search" method="get">
+            <fieldset role="search" class="border border-solid border-black">
+              <input type="hidden" name="q" value="site:https://gabrewer.com/">
+              <input type="text" name="q" results="0" placeholder="Search" class="w-full p-2">
+            </fieldset>
+          </form>
+        
+      </div>
+    </div>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+            <div>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Friday, May 23, 2014 at 9:38 PM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2014/05/cool-development-utility-xip-io/">
+      Cool Development Utility - xip.io
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2014/05/cool-development-utility-xip-io/#disqus_thread" data-disqus-identifier="2014-05-cool-development-utility-xip-io">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>I stumbled across a mention of a free service <a href="http://xip.io/">xip.io</a> that spared developers the hassle of editing their host file for every new development web site they needed to setup. Having had to edit the host file many times this really appealed to me. So I went to find out what type of black magic enabled this.</p>
+<p>What I found was a very simple and brilliant solution from <a href="https://basecamp.com">Basecamp</a> (formally <a href="http://37signals.com">37signals</a>. xip.io is a public custom dns service that given a [<strong>domain name</strong>].[<strong>ip address</strong>].xip.io returns the <strong>ip address</strong> specified.</p>
+<p>For example</p>
+<p><strong>www.gabrewer.com.192.168.1.10.xip.io</strong> resolves to <strong>192.168.1.10</strong><br>
+<strong>dev.gabrewer.com.192.168.1.10.xip.io</strong> resolves to <strong>192.168.1.10</strong><br>
+<strong>dev.www.gabrewer.com.192.168.1.10.xip.io</strong> returns <strong>192.168.1.10</strong></p>
+<p>Since this is a hosted service it works for all devices that have an Internet connection including tables, phones and other Internet connected devices.</p>
+<p>I always love it when I find a nice piece of engineering that simplifies my development experience.</p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Saturday, August 17, 2013 at 8:39 PM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/">
+      My first pull request - WebApiContrib.Formatting.CollectionJson
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2013/08/my-first-pull-request-webapicontrib-formatting-collectionjson/#disqus_thread" data-disqus-identifier="2013-08-my-first-pull-request-webapicontrib-formatting-collectionjson">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>In my latest project I am using the great <a href="http://amundsen.com/media-types/collection/" target="_blank">Collection+Json</a> ASP.NET Web API <a href="http://amundsen.com/media-https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson" target="_blank">library</a> that Glenn Block put up on GitHub a while ago.&nbsp; After using it for a while I decided to refactor my code and use something other than an int for my type identifiers.&nbsp; When I changed to use the generic type, I discovered an issue with the code that had added the generic identifier capability to the library.&nbsp; The Create method was still retuning an int instead of the generic TId.</p> <p>So I wrote up the issue on GitHub and Glenn Block immediately responded asking if I was going to submit a Pull Request.&nbsp; I am still relatively new to git and am still trying to grok it.&nbsp; But since I had already forked the repository and updated the code, I figured this would be as good time as any to figure how to submit a pull request.&nbsp; </p> <p>Even though it was a one line change to the return type of the Create method, I realized that there were no unit tests for the CollectionJsonController class taking a generic identifier value.&nbsp; So I decided I should fix that as well and created a XUnit test for this scenario by cloning the existing tests with just a Controller that used a string for the identifier.&nbsp; Once I had the tests and the code working, I went about figure out how to submit my first pull request.</p> <p>I found an excellent resource that made the process relativity straight forward and painless.&nbsp; <a href="https://www.openshift.com/wiki/github-workflow-for-submitting-pull-requests">https://www.openshift.com/wiki/github-workflow-for-submitting-pull-requests</a>&nbsp;</p> <p>You can find my first pull request (modest as it may be) at</p> <p><a title="https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387" href="https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387">https://github.com/WebApiContrib/WebApiContrib.Formatting.CollectionJson/pull/12#issuecomment-22815387</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Saturday, April 6, 2013 at 7:56 PM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2013/04/nice-javascript-library-for-formating-numbers-and-currency/">
+      Nice JavaScript library for formating numbers and currency
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2013/04/nice-javascript-library-for-formating-numbers-and-currency/#disqus_thread" data-disqus-identifier="2013-04-nice-javascript-library-for-formating-numbers-and-currency">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>In my continuing effort to really learn JavaScript, I was working on putting together a shopping cart application using JavaScript.&nbsp; One of the things I needed to do was format some of values as currency.&nbsp; </p> <p>So I started looking around at the various techniques to accomplish this and ran across <a href="http://josscrowcroft.github.com/accounting.js/" target="_blank">accounting.js</a> a tiny JavaScript for number, money and currency formatting that seemed to fit the bill nicely.&nbsp; </p> <p>Now I can just do this.</p><pre class="csharpcode">accounting.formatMoney(12345678);    <span class="rem">// $12,345,678.00</span>
+</pre><a href="http://josscrowcroft.github.com/accounting.js/">http://josscrowcroft.github.com/accounting.js/</a>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Sunday, March 3, 2013 at 3:52 PM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/">
+      Cisco Nexus 1000V for Microsoft Hyper-V Beta Program and Webinar
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2013/03/cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar/#disqus_thread" data-disqus-identifier="2013-03-cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>I just found this <a href="http://www.aidanfinn.com/?p=14200" target="_blank">post</a> from <a href="http://www.aidanfinn.com/" target="_blank">Aidan Finn</a> via <a href="http://www.damianflynn.com/" target="_blank">Damian Flynn’s</a> <a href="http://www.damianflynn.com/2013/03/01/cisco-nexus-1000v-public-beta-program/" target="_blank">blog</a> post regarding the webinar and beta program for the <a href="https://communities.cisco.com/community/technology/datacenter/nexus1000v" target="_blank">Cisco Nexus 1000V switch</a> for Microsoft Hyper-V on March 6th at 12pm EST.&nbsp; </p> <p>I am interested in learning what features the Nexus 1000V will provide leveraging the Hyper-V Extensible Switch.&nbsp; We are currently using the <a href="http://host-sflow.sourceforge.net/documentation.php" target="_blank">SFlow Agent</a> for Window Server 2012 Hyper-V to monitor our VM traffic and it is great for getting insight into the network utilization of the individual VMs.</p> <p><a href="http://www.damianflynn.com/2013/03/01/cisco-nexus-1000v-public-beta-program/" target="_blank">Damian Flynn - Cisco Nexus 1000v Public Beta Program</a></p> <p><a href="http://www.aidanfinn.com/?p=14200" target="_blank">Aidan Finn - Unveil Of Cisco Nexus 1000V Distributed Switch For Windows Server 2012 Hyper-V</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Monday, February 18, 2013 at 9:19 PM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2013/02/asp-net-and-web-tool-2012-2-released-today/">
+      ASP.NET and Web Tool 2012.2 Released Today
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2013/02/asp-net-and-web-tool-2012-2-released-today/#disqus_thread" data-disqus-identifier="2013-02-asp-net-and-web-tool-2012-2-released-today">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>The ASP.NET and Web Tools 2012.2 update was released today.&nbsp; There were many updates including some big additions like OData support and SignalR.&nbsp;&nbsp; Some of the things that jump out at me form the release notes.</p> <p>“Paste JSON as a .NET class. Using this Special Paste command to paste JSON into a C# or VB.NET code file, and Visual Studio will automatically generate .NET classes inferred from the JSON.”</p> <p>“Mobile Emulator support adds extensibility hooks so that third-party emulators can be installed as a VSIX. The installed emulators will show up in the F5 dropdown, so that developers can preview their websites on a variety of mobile devices. Read more about this feature in Scott Hanselman’s blog entry on <a href="http://www.hanselman.com/blog/CrossBrowserDebuggingIntegratedIntoVisualStudioWithBrowserStack.aspx">the new BrowserStack integration with Visual Studio</a>.”</p> <p>“<strong>ASP.NET Web API OData</strong></p> <p>ASP.NET Web API OData gives you the flexibility you need to build OData endpoints with rich business logic over any data source” <h5>“ASP.NET SignalR</h5> <p>ASP.NET SignalR makes it simple to add real-time web capabilities to your ASP.NET application, using WebSockets if available and automatically falling back to other techniques when it isn’t.” <p>Related Blog Posts</p> <p><a href="http://www.asp.net/vnext/overview/fall-2012-update/aspnet-and-web-tools-20122-release-notes-rtw" target="_blank">ASP.NET and Web Tools 2012.2 Release Notes</a><br><a href="http://weblogs.asp.net/scottgu/archive/2013/02/18/announcing-release-of-asp-net-and-web-tools-2012-2-update.aspx" target="_blank">ScottGu - Announcing release of ASP.NET and Web Tools 2012.2 Update</a><br><a href="http://www.hanselman.com/blog/ReleasedASPNETAndWebTools20122InContext.aspx" target="_blank">Scott Hanselman - Released: ASP.NET and Web Tools 2012.2 in Context</a><br><a href="http://weblogs.asp.net/jgalloway/archive/2013/02/18/announcing-the-asp-net-and-web-tools-2012-2-release.aspx" target="_blank">Jon Galloway - Announcing the ASP.NET and Web Tools 2012.2 Release!</a><br><a href="http://madskristensen.net/post/Web-Tools-20122-and-Web-Essentials.aspx" target="_blank">Web Tools 2012.2 and Web Essentials</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Wednesday, February 13, 2013 at 4:57 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/">
+      Web Platform Installer crash when viewing Products or Applications
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/#disqus_thread" data-disqus-identifier="2013-02-web-platform-installer-crash-when-viewing-products-or-applications">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>Today when I was trying to setup WordPress on my Windows 8 development machine the IIS Manager would crash with an System.OutOfMemoryException exception.</p> <div id="codeSnippetWrapper" style="overflow: auto; cursor: text; font-size: 8pt; border-top: silver 1px solid; font-family: 'Courier New', courier, monospace; border-right: silver 1px solid; border-bottom: silver 1px solid; padding-bottom: 4px; direction: ltr; text-align: left; padding-top: 4px; padding-left: 4px; margin: 20px 0px 10px; border-left: silver 1px solid; line-height: 12pt; padding-right: 4px; max-height: 200px; width: 97.5%; background-color: #f4f4f4"><pre id="codeSnippet" style="border-top-style: none; overflow: visible; font-size: 8pt; border-left-style: none; font-family: 'Courier New', courier, monospace; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; line-height: 12pt; padding-right: 0px; width: 100%; background-color: #f4f4f4">Exception:System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.<br> ---&gt; System.Reflection.TargetInvocationException: An exception occurred during the operation, making the result invalid.<br>Check InnerException <span style="color: #0000ff">for</span> exception details. ---&gt; System.OutOfMemoryException: Out of memory.</pre><br></div>
+<p>After doing a quick Bing search turn up this <a href="http://forums.iis.net/p/1192160/2042796.aspx/1?p=True&amp;t=634963126897202460" target="_blank">article</a> on the IIS.NET Forums and after clicking “Get New Web Platform Components” problem solved.</p>
+</div>
+</div>
+
+    </article>
+
+  <nav class="w-full flex justify-between">
+    <span>2 / 4</span>
+    <ul class="flex items-center">
+      <li class="mr-2">
+        
+          <a class="pagination__item" href="/">&larr; Newer Posts</a>
+        
+      </li>
+      <span> | </span>
+      <li class="ml-2">
+        
+          <a class="pagination__item" href="/2/">Older Posts &rarr;</a>
+        
+      </li>
+    </ul>
+  </nav>
+
+</div><div class="sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <div class="contact">
+      <p>
+        Gregory A Brewer<br>
+        Proud Step Father, Software Engineer, Poker Player, Wolverine<br>
+        <a href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/gabrewer">github.com/gabrewer</a><br>
+        <a href="https://twitter.com/gbrewer">twitter.com/gbrewer</a><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="categories">
+    
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/ASP.NET/"> ASP.NET</a>
+      </span>
+    
+      <span style="font-size: 182.38095238095238%">
+        <a href="/category/Development/"> Development</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WCF/"> WCF</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/WEBAPI/"> WEBAPI</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/PowerShell/"> PowerShell</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Tools/"> Tools</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Software/"> Software</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Visual Studio/"> Visual Studio</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Windows Server/"> Windows Server</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hardware/"> Hardware</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Lenovo/"> Lenovo</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/SQL Server/"> SQL Server</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/JavaScript/"> JavaScript</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/MVC/"> MVC</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Clustering/"> Clustering</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hyper-V/"> Hyper-V</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Node.js/"> Node.js</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/IIS/"> IIS</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WordPress/"> WordPress</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Networking/"> Networking</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Random/"> Random</a>
+      </span>
+    
+  </div>
+
+  <div class="sidebar-module">
+    <div class="textwidget">
+      <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
+        Tweets by gbrewer
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+        </main><footer class="bg-gray-300 py-3">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-2 gap-8">
+      <div class="">
+        <h2 class="text-3xl mb-2">gabrewer.com</h2>
+        <h3 class="text-xl text-neutral-400 mb-2">Life is too important to be take seriously.</h3>
+        <ul class="list-disc pl-6"><li class="list-item">
+              Greg Brewer
+            </li><li>
+              <a class="u-email text-blue-600 list-item" href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+            </li></ul>
+      </div>
+      <div class="">
+        <p class="text-xl text-gray-600"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="" async defer></script>
+        <script id="dsq-count-scr" src="//gabrewer.disqus.com/count.js" async></script>
+    </body>
+</html>

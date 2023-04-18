@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/output.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--><nav role="navigation" class="blog-masthead">
+  <div class="container">
+    
+    
+      <div class="blog-nav">
+        
+          
+          
+            
+          
+          
+            <a class="blog-nav-item active" href="/">
+              Home
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/useful_links/">
+              Useful Links
+            </a>
+          
+        
+          
+          
+          
+            <a class="blog-nav-item" href="/archive/">
+              Blog Archives
+            </a>
+          
+        
+      </div>
+    
+  </div>
+</nav>
+<header class="container w-full py-10">
+  <div class="w-full">
+    <div class="flex flex-col md:flex-row justify-between w-full">
+      <div class="md:w-auto mb-4 md:mb-0">
+        <h1 class="text-6xl font-normal mb-4">
+          <a href="/" class="text-blue-550">gabrewer.com</a>
+        </h1>
+        
+          <p class="text-xl text-neutral-400">Life is too important to be take seriously.</p>
+        
+      </div>
+      <div class="w-full md:w-auto flex flex-col items-end">
+        <ul class="">
+          <li>
+            <a
+              href="/feed/feed.xml"
+              rel="subscribe-rss"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="/feed/feedlinks.xml"
+              rel="subscribe_rss_link"
+              title="subscribe via RSS"
+              class="text-blue-550"
+              >RSS Useful Links</a
+            >
+          </li>
+          
+        </ul>
+        
+          <form action="https://www.google.com/search" method="get">
+            <fieldset role="search" class="border border-solid border-black">
+              <input type="hidden" name="q" value="site:https://gabrewer.com/">
+              <input type="text" name="q" results="0" placeholder="Search" class="w-full p-2">
+            </fieldset>
+          </form>
+        
+      </div>
+    </div>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+            <div>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Saturday, August 4, 2018 at 3:39 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2018/08/learning-current-angular-tool-best-practices/">
+      Learning Current Angular Tool Best Practices
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2018/08/learning-current-angular-tool-best-practices/#disqus_thread" data-disqus-identifier="2018-08-learning-current-angular-tool-best-practices">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>Over the last couple of weeks I have been diving back into Angular development using Angular 6 and ngrx.  One of the things that quickly became apparent is that now the best practices of installing JavaScript tools is to install them locally instead of globally to prevent version collisions.</p>
+<p>When I first started I installed the angular cli globally and encountered this type of error when running many of the sample apps that I downloaded.</p>
+<p>Your global Angular CLI version (6.0.8) is greater than your local version (1.7.3). The local Angular CLI version is used.</p>
+<p>This didn’t seem to cause me an issues but still the error bugged me and when I was reading the book <a href="https://web.archive.org/web/20180817225000/https://www.packtpub.com/web-development/angular-6-enterprise-ready-web-applications">Angular 6 for Enterprise-Ready Web Applications</a> by Doguhan Uluca he really drives home that you should keep the number of globally installed packages to a minimum.</p>
+<p>I was able to find out what commands I had installed globally using this command</p>
+<pre class="highlight prettyprint">npm list -g --depth=0</pre>
+<p>Which showed I only had the angular cli and npm install globally.</p>
+<p>So I was able to uninstall the global angular cli and get rid to the ugly warnings.</p>
+<p>Doguhan also points our that you should use npm-windows-upgrade instead of using npm i -g npm to upgrade npm on Windows or you are going to run into npm corruption issues.</p>
+<p><a href="https://web.archive.org/web/20180817225000/https://github.com/felixrieseberg/npm-windows-upgrade" title="https://github.com/felixrieseberg/npm-windows-upgrade">https://github.com/felixrieseberg/npm-windows-upgrade</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Wednesday, May 25, 2016 at 3:39 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2016/05/random-stuff-i-want-to-remember/">
+      Random Stuff I want to remember
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2016/05/random-stuff-i-want-to-remember/#disqus_thread" data-disqus-identifier="2016-05-random-stuff-i-want-to-remember">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><h3 id="windows-10-home-password-expiration." tabindex="-1">Windows 10 Home password expiration.</h3>
+<p>Today I had a couple of Windows 10 Home machines had their passwords expire.</p>
+<p>To turn off the Windows 10 password expiration</p>
+<p><em>net accounts /maxpwage:0</em></p>
+<p>From <a href="http://www.thewindowsclub.com/customizing-the-password-policy-in-windows-7">http://www.thewindowsclub.com/customizing-the-password-policy-in-windows-7</a></p>
+<h3 id="upgrading-npm-on-windows" tabindex="-1">Upgrading npm on Windows</h3>
+<p>I was installing jspm on a new machine and after I installed node 4.3.1 it was running npm I was trying to upgrade npm.  I tried a bunch of different commands I found on stack overflow but this command from the npm site (I feel like Colonel Sanders looking for the Nashville Hot Chicken Recipe) did the trick on both Windows and the Mac.</p>
+<p><em>npm install npm@latest –g</em></p>
+<p>From*:* <a href="https://docs.npmjs.com/getting-started/installing-node" title="https://docs.npmjs.com/getting-started/installing-node"><em>https://docs.npmjs.com/getting-started/installing-node</em></a></p>
+<h3 id="http-server" tabindex="-1">http-server</h3>
+<p>In my recent javascript library/framework exploration I found myself needing a quick way to server html without having to have gulp or more permanent web server.  I found http-server fits the bill nicely.</p>
+<p>npm install –g http-server</p>
+<p>http-server –o –c-1</p>
+<p>-o opens browser window after starting the server</p>
+<p>-c-1 disables caching</p>
+<p>From: <a href="https://github.com/indexzero/http-server" title="https://github.com/indexzero/http-server">https://github.com/indexzero/http-server</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Sunday, May 17, 2015 at 3:39 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2015/05/visualstudio-code-fix-for-icons-not-appearing/">
+      VisualStudio Code fix for icons not appearing
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2015/05/visualstudio-code-fix-for-icons-not-appearing/#disqus_thread" data-disqus-identifier="2015-05-visualstudio-code-fix-for-icons-not-appearing">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>When VisualStudio code was announced I went out and installed it right away on my Mac and Windows machines.  One my home development machine I was unable to see the icons.  I was thinking that it was due to my 4K display and an High DPI issue but it turns out not to be the case.</p>
+<p><a href="/images/image.png"><img src="/images/image_thumb.png" alt="image" title="image"></a></p>
+<p>In reading the <a href="https://web.archive.org/web/20160114174126/http://blogs.msdn.com/b/vscode/archive/2015/05/13/reacting-to-feedback-common-issues-and-our-first-update.aspx">Reacting to feedback, common issues, and our first update</a> post on the Visual Studio Code bug it was due to the svg file extension being associated to something other than image/svg+xml in my case due to <a href="https://web.archive.org/web/20160114174126/https://inkscape.org/en/">Inkscape</a> it was set to application/svg.</p>
+<p><a href="/images/svg_thumb.png"><img src="/images/svg_thumb.png" alt="image" title="image"></a></p>
+<p>Changing the Content Type to image/svg+xml made the icons visible.</p>
+<p><a href="/images/image_thumb1"><img src="/images/image_thumb1.png" alt="image" title="image"></a></p>
+<p>There is a FAQ with several fixes and workarounds for Visual Studio Code at <a href="https://web.archive.org/web/20160114174126/https://code.visualstudio.com/Docs/FAQ" title="https://code.visualstudio.com/Docs/FAQ">https://code.visualstudio.com/Docs/FAQ</a></p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Monday, December 15, 2014 at 3:39 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2014/12/chocolatey-kickstarter-funded-a-list-of-my-current-packages/">
+      Chocolatey Kickstarter Funded! A list of my current packages
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2014/12/chocolatey-kickstarter-funded-a-list-of-my-current-packages/#disqus_thread" data-disqus-identifier="2014-12-chocolatey-kickstarter-funded-a-list-of-my-current-packages">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>The third (second successful) Kickstarter campaign that I pledged to the <a href="https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alternative-windows-store-like-yum?ref=nav_search">Chocolatey Kickstarter
+campaign</a>
+was successfully funded.  I always like reading what tools other developers are using so to celebrate, I thought I would
+publish the packages I currently have installed.</p>
+<p>I may have an issue with being obsessed with editors.</p>
+<h4 id="editors" tabindex="-1">Editors</h4>
+<table cellspacing="0" cellpadding="2" width="900" border="0">
+  <tbody>
+    <tr>
+      <td valign="top" width="300">Atom</td>
+      <td valign="top" width="600">Cross platform editor from github. The official Windows installation is delivered via
+        Chocolatey.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">linqpad4.install</td>
+      <td valign="top" width="600">LinqPad essential editor for working with Linq and C# snippits.  It will be interesting to see if scriptcs can be integrated</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">SublimeText3.app</td>
+      <td valign="top" width="600">SublimeText3 my goto text editor.  This package includes Package Control</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">SublimeText3.PowershellAlias</td>
+      <td valign="top" width="600">Installs a powershell subl alias for sublimtetext</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">vim</td>
+      <td valign="top" width="600">Still trying to grok vim.  Probably still resent it from the late 80s.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">brackets</td>
+      <td valign="top" width="600">Adobe open source editor.  Designed for web design.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">notepadplusplus.install</td>
+      <td valign="top" width="600">Before I discovered SublimeText this was my text editor of choice.  Now I usually only use it when I have character encoding issues with files. </td>
+    </tr>
+  </tbody>
+</table>
+<p>Close behind my obsession with editors is my love to learn new programming languages.</p>
+<h4 id="languages" tabindex="-1">Languages</h4>
+<table cellspacing="0" cellpadding="2" width="900" border="0">
+  <tbody>
+    <tr>
+      <td valign="top" width="300">erlang</td>
+      <td valign="top" width="600">One of the three languages I am currently getting acquainted with.  Used in CouchDB and RabbitMQ.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">golang</td>
+      <td valign="top" width="600">One of the three languages I am currently getting acquainted with.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">rust</td>
+      <td valign="top" width="600">One of the three languages I am currently getting acquainted with.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">ruby</td>
+      <td valign="top" width="600">installs the current version of ruby.  Currently 2.1.3 mostly used for Sass</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">ruby1.9</td>
+      <td valign="top" width="600">Installs the latest 1.9 version of ruby</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">pik</td>
+      <td valign="top" width="600">Helps manage multiple versions of Ruby on Windows</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">python2</td>
+      <td valign="top" width="600">Installs the latest version of python 2</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">python3</td>
+      <td valign="top" width="600">Installs the latest version of python 3</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">scriptcs</td>
+      <td valign="top" width="600">Interesting REPL for C#.  Originally started by Glenn Block</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">pscx</td>
+      <td valign="top" width="600">PowerShell Community Extensions (PSCX) is aimed at providing a widely useful set of additional cmdlets, providers, aliases, filters, functions and scripts for Windows PowerShell that members of the community have expressed interest in.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">nodejs.install</td>
+      <td valign="top" width="600">latest version of node</td>
+    </tr>
+  </tbody>
+</table>
+<h4 id="databases" tabindex="-1">Databases</h4>
+<table cellspacing="0" cellpadding="2" width="900" border="0">
+  <tbody>
+    <tr>
+      <td valign="top" width="300">mysql</td>
+      <td valign="top" width="600">Latest version of mySql</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">mysql.workbench</td>
+      <td valign="top" width="600">Latest version of mySql Workbench</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">mongodb</td>
+      <td valign="top" width="600">Latest version of mongodb</td>
+    </tr>
+  </tbody>
+</table>
+<h4 id="programming-utilities" tabindex="-1">Programming Utilities</h4>
+<table cellspacing="0" cellpadding="2" width="900" border="0">
+  <tbody>
+    <tr>
+      <td valign="top" width="300">baretail</td>
+      <td valign="top" width="600">great tool for viewing text log files on Windows</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">dependencywalker</td>
+      <td valign="top" width="600">oldie but still necessary when trying to track down missing dependencies in c++ dlls
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">beyondcompare</td>
+      <td valign="top" width="600">great cross platform file comparison tool</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">git.install</td>
+      <td valign="top" width="600">Latest version of git</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">githubforwindows</td>
+      <td valign="top" width="600">Latest github for Windows</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">smtp4dev</td>
+      <td valign="top" width="600">Utility for capturing emails sent during development</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">SourceCodePro</td>
+      <td valign="top" width="600">My new font of choice for code</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">fiddler4</td>
+      <td valign="top" width="600">Essential tool for debugging and testing web services and monitoring web traffic</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">InnoSetup</td>
+      <td valign="top" width="600">Free tool to create setup programs</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">InstEd</td>
+      <td valign="top" width="600">MSI editor, Better than trying to find orca</td>
+    </tr>
+  </tbody>
+</table>
+<h4 id="utilities" tabindex="-1">Utilities</h4>
+<table cellspacing="0" cellpadding="2" width="900" border="0">
+  <tbody>
+    <tr>
+      <td valign="top" width="300">ConEmu</td>
+      <td valign="top" width="600">Great Windows console emulator.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">EthanBrown.ConEmuConfig</td>
+      <td valign="top" width="600">Great initial settings for ConEmuConfig</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">7zip.install</td>
+      <td valign="top" width="600">Free file archiver with support for unpacking most compression formats</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">7zip.commandline</td>
+      <td valign="top" width="600">command line utility for 7-zip</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">autohotkey.install</td>
+      <td valign="top" width="600">Free open source macro creation and automation software</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">autoit.commandline</td>
+      <td valign="top" width="600">comes with github</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">scite4autohotkey</td>
+      <td valign="top" width="600">AutoHotkey script editor</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">cdburnerxp</td>
+      <td valign="top" width="600">Free CD/DVD burner application.  Also lets you create Isos</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">crystaldiskinfo</td>
+      <td valign="top" width="600">Show the health status of hard drives</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">winsplit</td>
+      <td valign="top" width="600">Utility that is great for managing windows on a 4K display</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">pidgin</td>
+      <td valign="top" width="600">multiple chat network client</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">ditto</td>
+      <td valign="top" width="600">Advanced clipboard manager</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">dropbox</td>
+      <td valign="top" width="600">I mostly use OneDrive but occasionally use dropbox</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">filezilla</td>
+      <td valign="top" width="600">Simple and full featured ftp client.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">flashplayerplugin</td>
+      <td valign="top" width="600">Easy way to keep flash player updated</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">virtualbox</td>
+      <td valign="top" width="600">latest VirtualBox install</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">virtualbox.extensionpack</td>
+      <td valign="top" width="600">and extensions</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">windirstat</td>
+      <td valign="top" width="600">a good way to find out where all your space went.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">WindowsLiveWriter</td>
+      <td valign="top" width="600">still my favorite blog editor</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">PreCode.WLW</td>
+      <td valign="top" width="600">code formatting plugin for Windows Live Writer</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">sumatrapdf.install</td>
+      <td valign="top" width="600">Free pdf, epub, mobi, and other ebook reader</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">teamviewer</td>
+      <td valign="top" width="600">Great cross platform remote access program</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">truecrypt</td>
+      <td valign="top" width="600">Free open-source disk encryption software for Windows – 7.1a</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">vcredist2010</td>
+      <td valign="top" width="600">Visual Studio runtime</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">yumi</td>
+      <td valign="top" width="600">Universal multibook installer</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">puretext</td>
+      <td valign="top" width="600">Paste text as pure text</td>
+    </tr>
+  </tbody>
+</table>
+<h4 id="media-utilities" tabindex="-1">Media Utilities</h4>
+<table cellspacing="0" cellpadding="2" width="900" border="0">
+  <tbody>
+    <tr>
+      <td valign="top" width="300">Ghostscript.app</td>
+      <td valign="top" width="600">A package of apps to work with postscript files</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">audacity</td>
+      <td valign="top" width="600">Free software for recording and editing sound files</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">handbrake.install</td>
+      <td valign="top" width="600">A tool for converting video from nearly any format to a selection of modern, widely
+        supported codecs.</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">ffmpeg</td>
+      <td valign="top" width="600">Converts any media file to any other media type</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">paint.net</td>
+      <td valign="top" width="600">Replaces most of what I use Adobe Photoshop for. </td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">gimp</td>
+      <td valign="top" width="600">Still trying to get used to this program after all these years but since I decided to
+        cut my Adobe Creative Cloud Subscription it works well enough for the occasions when I need more than paint.net
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">inkscape –pre</td>
+      <td valign="top" width="600">Adobe Illustrator replacement</td>
+    </tr>
+    <tr>
+      <td valign="top" width="300">vlc</td>
+      <td valign="top" width="600">Plays anything thrown at it</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Wednesday, November 19, 2014 at 3:39 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2014/11/display-collection+json-in-the-browser/">
+      Display Collection+JSON in the browser
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2014/11/display-collection+json-in-the-browser/#disqus_thread" data-disqus-identifier="2014-11-display-collection-json-in-the-browser">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>In the last year I have become enamored with Hypermedia APIs and the Collection+JSON API in particular that I first came across in <a href="https://web.archive.org/web/20150504224635/http://www.amundsen.com/">Mike Amundsen’s</a> book <a href="https://web.archive.org/web/20150504224635/http://www.amazon.com/gp/product/1449306578/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1449306578&amp;linkCode=as2&amp;tag=gabrewercom-20&amp;linkId=KMQMXVBUV5L3CBI5">Building Hypermedia APIs with HTML5 and Node</a><img src="https://web.archive.org/web/20150504224635im_/http://ir-na.amazon-adsystem.com/e/ir?t=gabrewercom-20&amp;l=as2&amp;o=1&amp;a=1449306578" alt="">.  It seems to be a perfect fit for many of the APIs that I have been working on.  Glenn Block created the <a href="https://web.archive.org/web/20150504224635/https://github.com/WebApiContrib/CollectionJson.Net">CollectionJson.Net</a> library to make it easy to create Collection+JSON based ASP.NET Web APIs.</p>
+<p>However when I browse to a WebAPI endpoint that returns a Collection+JSON result in Internet Explorer or Firefox I get a prompt to download the file.</p>
+<p><a href="collectionjson_thumb1.png"><img src="/images/collectionjson_thumb1.png" alt="image" title="image"></a></p>
+<p><a href="/images/collectionjson_thumb2.png"><img src="/images/collectionjson_thumb2.png" alt="image" title="image"></a></p>
+<p>Chrome displays the raw JSON result in a more friendly manner.</p>
+<p><a href="/images/image_thumb2.png"><img src="/images/image_thumb2.png" alt="image" title="image"></a></p>
+<p><span id="more-1201"></span></p>
+<p>Although Fiddler or the browser debug tools make it fairly easy to see the results as JSON sometimes it is convenient to see the results rendered directly in the browser.</p>
+<p>I found an <a href="https://web.archive.org/web/20150504224635/http://weblog.west-wind.com/posts/2011/Apr/01/Displaying-JSON-in-your-Browser">old post</a> from Rick Strahl’s blog regarding how to display application/json.  He suggests using JSONView for Firefox and adding a registry entry for Internet Explorer.  I was able to easily tweak the Internet Explorer registry keys to handle vnd.collection+json.  Unfortunately JSONView for Firefox will not work for the application/vnd.collection+json media type. <a href="https://web.archive.org/web/20150504224635/https://github.com/bhollis/jsonview/issues/7" title="https://github.com/bhollis/jsonview/issues/7">https://github.com/bhollis/jsonview/issues/7</a></p>
+<p>For internet Explorer it is just a matter of changing the Content type entered in the registry from application/json to application/vnd.collection+json</p>
+<p>Create a new application/vnd.collection+json key in:</p>
+<ul>
+<li>HKEY_CLASSES_ROOT\MIME\Database\ContentType**application/vnd.collection+json**</li>
+<li>Add a string value of CLSID with a value of {25336920-03F9-11cf-8FD0-00AA00686F13} (the CLSID for the “Browse in place” action)</li>
+<li>Add a DWORD value of Encoding with a hex value of 0x00080000</li>
+</ul>
+<pre class="highlight prettyprint">[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/vnd.collection+json]
+“CLSID”=”{25336920-03F9-11cf-8FD0-00AA00686F13}”
+“Encoding”=hex:08,00,00,00
+
+</pre>
+<p><a href="/images/image3.png"><img src="/images/image_thumb3.png" alt="image" title="image"></a></p>
+<p>Now Collection_JSON results will display directly in Internet Explorer.</p>
+<p><a href="/images/image4.png"><img src="/images/image_thumb4.png" alt="image" title="image"></a></p>
+<p>For Firefox it was just a matter of specifying the application to open the media type as Firefox.</p>
+<p><a href="/images/image5.png"><img src="/images/image_thumb5.png" alt="image" title="image"></a></p>
+<p>This adds the application/vnd.collection+json media type to the Applications list in the Firefox Options dialog.</p>
+<p><a href="/images/image6.png"><img src="/images/image_thumb6.png" alt="image" title="image"></a></p>
+<p>And now Collection+JSON results will display directly in the Firefox window.</p>
+<p><a href="/images/image7.png"><img src="/images/image_thumb7.png" alt="image" title="image"></a></p>
+<p>This technique will work for other types of +json media types as well such as Mason (application/vnd.mason+json) and HAL (application/vnd.hal+json).</p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
+  <p class="blog-post-meta">Friday, September 12, 2014 at 3:39 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2014/09/setting-an-ip-address-using-netsh/">
+      Setting an IP address using netsh instead of arp -s on Windows 8.1
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2014/09/setting-an-ip-address-using-netsh/#disqus_thread" data-disqus-identifier="2014-09-setting-an-ip-address-using-netsh">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>I recently had to setup many Epson TM-T88V receipt printers for a POS installation and out of the box they are configured with a static address of 192.168.192.168.  Pressing the reset button for 3 seconds prints out the status of the printer including the MAC address so I though I would just use arp –s to configure the printers but I received an error.  So after a some googling with Bing I turned up this article that pointed me to the the fact that you need to use netsh with recent versions of Windows.</p>
+<p>First you need to get the name of the interface that the device is connected to.  Then you execute the netsh interface ipv4 add neighbors command.</p>
+<pre class="highlight prettyprint">netsh interface ipv4 show interfaces
+
+Idx     Met         MTU          State                Name
+---  ----------  ----------  ------------  ---------------------------
+  3          10        1500  connected     Ethernet
+  1          50  4294967295  connected     Loopback Pseudo-Interface 1
+ 63          10        1400  connected     vowire hosting
+ 10           5        1500  connected     vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch)
+ 29          10        1500  connected     vEthernet (VirtualBox Host-Only Ethernet Adapter Virtual Switch)
+
+netsh interface ipv4 add neighbors "Ethernet" 10.1.10.45 xx-xx-xx-xx-xx-xx
+
+</pre>
+</div>
+</div>
+
+    </article>
+
+  <nav class="w-full flex justify-between">
+    <span>1 / 4</span>
+    <ul class="flex items-center">
+      <li class="mr-2">
+        
+          <span class="pagination__item">Newer Articles</span>
+        
+      </li>
+      <span> | </span>
+      <li class="ml-2">
+        
+          <a class="pagination__item" href="/1/">Older Posts &rarr;</a>
+        
+      </li>
+    </ul>
+  </nav>
+
+</div><div class="sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <div class="contact">
+      <p>
+        Gregory A Brewer<br>
+        Proud Step Father, Software Engineer, Poker Player, Wolverine<br>
+        <a href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/gabrewer">github.com/gabrewer</a><br>
+        <a href="https://twitter.com/gbrewer">twitter.com/gbrewer</a><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="categories">
+    
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/ASP.NET/"> ASP.NET</a>
+      </span>
+    
+      <span style="font-size: 182.38095238095238%">
+        <a href="/category/Development/"> Development</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WCF/"> WCF</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/WEBAPI/"> WEBAPI</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/PowerShell/"> PowerShell</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Tools/"> Tools</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Software/"> Software</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Visual Studio/"> Visual Studio</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Windows Server/"> Windows Server</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hardware/"> Hardware</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Lenovo/"> Lenovo</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/SQL Server/"> SQL Server</a>
+      </span>
+    
+      <span style="font-size: 139.52380952380952%">
+        <a href="/category/JavaScript/"> JavaScript</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/MVC/"> MVC</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Clustering/"> Clustering</a>
+      </span>
+    
+      <span style="font-size: 144.28571428571428%">
+        <a href="/category/Hyper-V/"> Hyper-V</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Node.js/"> Node.js</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/IIS/"> IIS</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/WordPress/"> WordPress</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Networking/"> Networking</a>
+      </span>
+    
+      <span style="font-size: 134.76190476190476%">
+        <a href="/category/Random/"> Random</a>
+      </span>
+    
+  </div>
+
+  <div class="sidebar-module">
+    <div class="textwidget">
+      <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
+        Tweets by gbrewer
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+</div>
+
+        </main><footer class="bg-gray-300 py-3">
+  <div class="container mx-auto">
+    <div class="grid grid-cols-2 gap-8">
+      <div class="">
+        <h2 class="text-3xl mb-2">gabrewer.com</h2>
+        <h3 class="text-xl text-neutral-400 mb-2">Life is too important to be take seriously.</h3>
+        <ul class="list-disc pl-6"><li class="list-item">
+              Greg Brewer
+            </li><li>
+              <a class="u-email text-blue-600 list-item" href="mailto:greg@gabrewer.com">greg@gabrewer.com</a>
+            </li></ul>
+      </div>
+      <div class="">
+        <p class="text-xl text-gray-600"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="" async defer></script>
+        <script id="dsq-count-scr" src="//gabrewer.disqus.com/count.js" async></script>
+    </body>
+</html>
