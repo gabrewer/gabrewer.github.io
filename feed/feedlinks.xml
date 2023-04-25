@@ -4,12 +4,48 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2014-07-21T12:10:21Z</updated>
+    <updated>2023-04-25T06:42:35Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 04/25/2023</title>
+            <link href="/useful_links/2023-04-25-links-4-slash-25-slash-2023/"/>
+            <updated>2023-04-25T06:42:35Z</updated>
+            <id>/useful_links/2023-04-25-links-4-slash-25-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;One can&#39;t be angry when one looks at a penguin.&quot;&lt;br /&gt;
+-- John Ruskin 
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://bignerdranch.com/blog/replacing-myself-writing-unit-tests-with-chatgpt/&quot;&gt;Replacing Myself: Writing Unit Tests with ChatGPT&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://sslip.io/&quot;&gt;Welcome to sslip.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://andrewlock.net/working-with-stacked-branches-in-git-is-easier-with-update-refs/&quot;&gt;Working with stacked branches in Git is easier with --update-refs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kittygiraudel.com/2020/11/30/from-jekyll-to-11ty/&quot;&gt;From Jekyll to 11ty&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://katiekodes.com/liquid-includes-jekyll-vs-11ty/&quot;&gt;5 things you need to know about Jekyll vs. 11ty Liquid includes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://24ways.org/2018/turn-jekyll-up-to-eleventy/&quot;&gt;Turn Jekyll up to Eleventy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://radix-ui.com/&quot;&gt;Why waste time reinventing UI components?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://softlandia.fi/en/blog/tools-of-the-ai-engineer?s=09&quot;&gt;Tools of the AI engineer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.c-sharpcorner.com/article/ai-for-everyone-chatgpt-prompts-that-anyone-can-use/&quot;&gt;AI for Everyone: ChatGPT Prompts That Anyone Can Use&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.pragmaticengineer.com/critical-thinking/&quot;&gt;Is Critical Thinking the Most Important Skill for Knowledge Workers?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cnbc.com/2023/02/07/neuroscientist-shares-coveted-skills-that-set-introverts-apart-their-brains-work-differently.html&quot;&gt;A neuroscientist shares the 4 ‘highly coveted’ skills that set introverts apart: ‘Their brains work differently’&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sourcesofinsight.com/how-to-practice-calm/&quot;&gt;How To Practice Calm to Perform Better Under Stress&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;####Web and Cloud Development&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dirkstrauss.com/accelerate-api-development/&quot;&gt;Accelerate API Development in Visual Studio with .http/.rest Files!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.telerik.com/blogs/10-awesome-csharp-refactoring-tips&quot;&gt;10 Awesome C# Refactoring Tips&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://luismts.com/create-mobile-app-dotnet-maui-10-easy-steps/&quot;&gt;How to create a mobile app with .NET MAUI in 10 easy steps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code-maze.com/aspnetcore-query-string-parameters-minimal-apis/&quot;&gt;Using Query String Parameters with Minimal APIs&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mssqltips.com/sqlservertip/7647/select-sql-server-data-between-two-dates/&quot;&gt;Searching between two date values in SQL Server&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 07/21/2014</title>
