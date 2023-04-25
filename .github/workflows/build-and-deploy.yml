@@ -32,3 +32,4 @@ jobs:
         with:
           publish_dir: ./_site
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          cname: gabrewer.com
