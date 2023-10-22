@@ -4,7 +4,7 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feed.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-04-25T19:07:16Z</updated>
+    <updated>2023-10-22T21:47:04Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
@@ -394,11 +394,11 @@ publish the packages I currently have installed.&lt;/p&gt;
 &lt;p&gt;For internet Explorer it is just a matter of changing the Content type entered in the registry from application/json to application/vnd.collection+json&lt;/p&gt;
 &lt;p&gt;Create a new application/vnd.collection+json key in:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;HKEY_CLASSES_ROOT\MIME\Database\ContentType**application/vnd.collection+json**&lt;/li&gt;
+&lt;li&gt;HKEY_CLASSES_ROOT&#92;MIME&#92;Database&#92;ContentType**application/vnd.collection+json**&lt;/li&gt;
 &lt;li&gt;Add a string value of CLSID with a value of {25336920-03F9-11cf-8FD0-00AA00686F13} (the CLSID for the “Browse in place” action)&lt;/li&gt;
 &lt;li&gt;Add a DWORD value of Encoding with a hex value of 0x00080000&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre class=&quot;highlight prettyprint&quot;&gt;[HKEY_CLASSES_ROOT\MIME\Database\Content Type\application/vnd.collection+json]
+&lt;pre class=&quot;highlight prettyprint&quot;&gt;[HKEY_CLASSES_ROOT&#92;MIME&#92;Database&#92;Content Type&#92;application/vnd.collection+json]
 “CLSID”=”{25336920-03F9-11cf-8FD0-00AA00686F13}”
 “Encoding”=hex:08,00,00,00
 
@@ -507,7 +507,7 @@ netsh interface ipv4 add neighbors &quot;Ethernet&quot; 10.1.10.45 xx-xx-xx-xx-x
             <link href="/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/"/>
             <updated>2013-02-02T16:54:00Z</updated>
             <id>/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/</id>
-            <content type="html">&lt;p&gt;Since the &lt;a href=&quot;http://pnp.azurewebsites.net/en-us/events.htm&quot; target=&quot;_blank&quot;&gt;Microsoft Patterns and Practices symposium&lt;/a&gt;, I have been wanting to get started learning Node.js.&amp;nbsp; So I added the JumpStart Node.js to my &lt;a href=&quot;http://my.safaribooksonline.com/&quot; target=&quot;_blank&quot;&gt;Safari Books Online&lt;/a&gt; bookshelf and installed Node.js from &lt;a title=&quot;http://nodejs.org/&quot; href=&quot;http://nodejs.org/&quot;&gt;http://nodejs.org/&lt;/a&gt;.&amp;nbsp; &lt;/p&gt; &lt;p&gt;The sample in the first chapter uses a Mongo db provider (MongoLab) but I decided to install mongo locally instead.&amp;nbsp; It installed easily using the &lt;a href=&quot;http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/&quot; target=&quot;_blank&quot;&gt;Windows Quick Start&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;I was on a roll until I got to the next chapter and tried to get the modules installed.&amp;nbsp; The sample uses Mocha for its unit tests.&amp;nbsp; It also uses jQuery.&amp;nbsp; Both proved to be a challenge to get working on my Windows 8 machine.&lt;/p&gt; &lt;p&gt;First issue is that Mocha requires a UNIX make command.&amp;nbsp; To get this I installed &lt;a href=&quot;http://cygwin.com/&quot; target=&quot;_blank&quot;&gt;Cygwin&lt;/a&gt; with the development tools selected as specified in this &lt;a href=&quot;http://stackoverflow.com/questions/9779700/mocha-requires-make-cant-find-a-make-exe-that-works-on-windows&quot; target=&quot;_blank&quot;&gt;StackOverflow post&lt;/a&gt;.&amp;nbsp; I then added the &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;Set-Alias make &quot;c:\cygwin\bin\make.exe&quot;&lt;/strong&gt;&lt;/font&gt; to my PowerShell profile.&lt;/p&gt; &lt;p&gt;That allowed the &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;npm install mocha&lt;/font&gt;&lt;/strong&gt; to succeed.&lt;/p&gt; &lt;p&gt;My Node.js sample uses jQuery so the next error I ran into was that jQuery install was not succeeding.&amp;nbsp; It failed on the Contextify dependency.&amp;nbsp; After a little goggling with Bing, I found that there are two development tools you need for Node.js development on Windows.&amp;nbsp; Python 2.7 and Visual C++.&amp;nbsp; &lt;/p&gt; &lt;p&gt;I had Python 2.7 installed but it wasn’t in the path, so that was a simple fix.&amp;nbsp; If figured that the C++ dependency would be an issue since I do a bunch of C++ development.&amp;nbsp; But when I ran the &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;npm install contextify&lt;/strong&gt;&lt;/font&gt;, I received.&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;error MSB8008: Specified platform toolset (v110) &lt;span class=&quot;kwrd&quot;&gt;is&lt;/span&gt; not installed or invalid.
+            <content type="html">&lt;p&gt;Since the &lt;a href=&quot;http://pnp.azurewebsites.net/en-us/events.htm&quot; target=&quot;_blank&quot;&gt;Microsoft Patterns and Practices symposium&lt;/a&gt;, I have been wanting to get started learning Node.js.&amp;nbsp; So I added the JumpStart Node.js to my &lt;a href=&quot;http://my.safaribooksonline.com/&quot; target=&quot;_blank&quot;&gt;Safari Books Online&lt;/a&gt; bookshelf and installed Node.js from &lt;a title=&quot;http://nodejs.org/&quot; href=&quot;http://nodejs.org/&quot;&gt;http://nodejs.org/&lt;/a&gt;.&amp;nbsp; &lt;/p&gt; &lt;p&gt;The sample in the first chapter uses a Mongo db provider (MongoLab) but I decided to install mongo locally instead.&amp;nbsp; It installed easily using the &lt;a href=&quot;http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/&quot; target=&quot;_blank&quot;&gt;Windows Quick Start&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;I was on a roll until I got to the next chapter and tried to get the modules installed.&amp;nbsp; The sample uses Mocha for its unit tests.&amp;nbsp; It also uses jQuery.&amp;nbsp; Both proved to be a challenge to get working on my Windows 8 machine.&lt;/p&gt; &lt;p&gt;First issue is that Mocha requires a UNIX make command.&amp;nbsp; To get this I installed &lt;a href=&quot;http://cygwin.com/&quot; target=&quot;_blank&quot;&gt;Cygwin&lt;/a&gt; with the development tools selected as specified in this &lt;a href=&quot;http://stackoverflow.com/questions/9779700/mocha-requires-make-cant-find-a-make-exe-that-works-on-windows&quot; target=&quot;_blank&quot;&gt;StackOverflow post&lt;/a&gt;.&amp;nbsp; I then added the &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;Set-Alias make &quot;c:&#92;cygwin&#92;bin&#92;make.exe&quot;&lt;/strong&gt;&lt;/font&gt; to my PowerShell profile.&lt;/p&gt; &lt;p&gt;That allowed the &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;npm install mocha&lt;/font&gt;&lt;/strong&gt; to succeed.&lt;/p&gt; &lt;p&gt;My Node.js sample uses jQuery so the next error I ran into was that jQuery install was not succeeding.&amp;nbsp; It failed on the Contextify dependency.&amp;nbsp; After a little goggling with Bing, I found that there are two development tools you need for Node.js development on Windows.&amp;nbsp; Python 2.7 and Visual C++.&amp;nbsp; &lt;/p&gt; &lt;p&gt;I had Python 2.7 installed but it wasn’t in the path, so that was a simple fix.&amp;nbsp; If figured that the C++ dependency would be an issue since I do a bunch of C++ development.&amp;nbsp; But when I ran the &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;npm install contextify&lt;/strong&gt;&lt;/font&gt;, I received.&lt;/p&gt;&lt;pre class=&quot;csharpcode&quot;&gt;error MSB8008: Specified platform toolset (v110) &lt;span class=&quot;kwrd&quot;&gt;is&lt;/span&gt; not installed or invalid.
 Please make sure that a supported PlatformToolset &lt;span class=&quot;kwrd&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;kwrd&quot;&gt;is&lt;/span&gt; selected.&lt;/pre&gt;
 &lt;style type=&quot;text/css&quot;&gt;.csharpcode, .csharpcode pre
 {
@@ -565,18 +565,18 @@ Please make sure that a supported PlatformToolset &lt;span class=&quot;kwrd&quot
 &lt;p&gt;module.js:340
 &lt;span class=&quot;kwrd&quot;&gt;throw&lt;/span&gt; err;
 ^
-Error: Cannot find module &lt;span class=&quot;str&quot;&gt;‘C:\mocha\bin\mocha’&lt;/span&gt;
+Error: Cannot find module &lt;span class=&quot;str&quot;&gt;‘C:&#92;mocha&#92;bin&#92;mocha’&lt;/span&gt;
 at Function.Module._resolveFilename (module.js:338:15)
 at Function.Module._load (module.js:280:25)
 at Module.runMain (module.js:492:10)
 at process.startup.processNextTick.process._tickCallback (node.js:244:9)
 Makefile:2: recipe &lt;span class=&quot;kwrd&quot;&gt;for&lt;/span&gt; target `test’ failed
 make: *** [test] Error 1&lt;/p&gt;&lt;/pre&gt;&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;It couldn’t find the &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;dirname&lt;/font&gt;&lt;/strong&gt; and &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;uname&lt;/strong&gt;&lt;/font&gt; commands so it was looking in the c:\mocha\bin\mocha directory.&amp;nbsp; At least this was a simple one.&amp;nbsp; Adding cygwin bin to the path corrected the error and my test finally ran!&lt;/p&gt;
+&lt;p&gt;It couldn’t find the &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;dirname&lt;/font&gt;&lt;/strong&gt; and &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;uname&lt;/strong&gt;&lt;/font&gt; commands so it was looking in the c:&#92;mocha&#92;bin&#92;mocha directory.&amp;nbsp; At least this was a simple one.&amp;nbsp; Adding cygwin bin to the path corrected the error and my test finally ran!&lt;/p&gt;
 &lt;p&gt;So to summarize the steps I followed to get Mocha and jQuery working on Windows 8 x64 were.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Install &lt;a href=&quot;http://cygwin.com/&quot; target=&quot;_blank&quot;&gt;Cygwin&lt;/a&gt; with development tools and add it to the path 
-&lt;/li&gt;&lt;li&gt;Add &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;Set-Alias make &quot;c:\cygwin\bin\make.exe&quot; &lt;/strong&gt;&lt;/font&gt;to my PowerShell profile. 
+&lt;/li&gt;&lt;li&gt;Add &lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;&lt;strong&gt;Set-Alias make &quot;c:&#92;cygwin&#92;bin&#92;make.exe&quot; &lt;/strong&gt;&lt;/font&gt;to my PowerShell profile. 
 &lt;/li&gt;&lt;li&gt;Install &lt;a href=&quot;http://python.org/download/&quot; target=&quot;_blank&quot;&gt;Python 2.7&lt;/a&gt; and add it to the path 
 &lt;/li&gt;&lt;li&gt;Add &lt;strong&gt;&lt;font size=&quot;3&quot; face=&quot;Consolas&quot;&gt;$env:VisualStudioVersion=”11.0” &lt;/font&gt;&lt;/strong&gt;to my PowerShell profile. (If you have Visual Studio 2012 installed)&lt;/li&gt;&lt;/ul&gt;
 </content>          
