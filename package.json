@@ -158,7 +158,7 @@
     "rimraf": "^2.7.1",
     "run-parallel": "^1.2.0",
     "section-matter": "^1.0.0",
-    "semver": "^7.3.8",
+    "semver": "^7.5.2",
     "semver-compare": "^1.0.0",
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
