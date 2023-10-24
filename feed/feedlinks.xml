@@ -4,12 +4,35 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-04-25T06:42:35Z</updated>
+    <updated>2023-10-23T13:59:31Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 10/23/2023</title>
+            <link href="/useful_links/2023-10-23-links-10-slash-23-slash-2023/"/>
+            <updated>2023-10-23T13:59:31Z</updated>
+            <id>/useful_links/2023-10-23-links-10-slash-23-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Your time is limited, so don&#39;t waste it living someone else&#39;s life.&quot;&lt;br /&gt;
+-- Steve Jobs 
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://getpocket.com/explore/item/how-to-make-miles-davis-s-famous-chili-recipe&quot;&gt;How to Make Miles Davis’s Famous Chili Recipe&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/technology/2023/oct/12/chatgpt-uses-writing-recipes-one-year&quot;&gt;A year of ChatGPT: six ways everyday people are using it&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.noemamag.com/what-ai-teaches-us-about-good-writing&quot;&gt;What AI Teaches Us About Good Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.fastcompany.com/90967794/why-storytelling-may-be-the-secret-to-success-at-work&quot;&gt;Why storytelling may be the secret to success at work&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.fastcompany.com/90879106/morning-routines-successful-people&quot;&gt;5 nonnegotiable morning routines successful people use to win the day&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=w8imy7LT9zY&quot;&gt;CRUD w/ Blazor in .NET 8 🔥 All Render Modes (SSR, Server, Wasm, Auto), Entity Framework &amp;amp; SQL Server&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 04/25/2023</title>
