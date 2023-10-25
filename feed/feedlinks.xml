@@ -4,12 +4,49 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-10-23T13:59:31Z</updated>
+    <updated>2023-10-24T15:52:36Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 10/24/2023</title>
+            <link href="/useful_links/2023-10-24-links-10-slash-24-slash-2023/"/>
+            <updated>2023-10-24T15:52:36Z</updated>
+            <id>/useful_links/2023-10-24-links-10-slash-24-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Some people want it to happen, some wish it would happen, others make it happen.”&lt;br /&gt;
+-- Michael Jordan 
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://michaelscodingspot.com/Premature-infrastructure-is-evil/&quot;&gt;Premature Infrastructure is the Root of All Evil&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ardalis.com/principles-lean-software-development/&quot;&gt;Principles of Lean Software Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/cqrs-pattern-with-mediatr&quot;&gt;CQRS Pattern With MediatR&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.ploeh.dk/2023/10/23/domain-model-first&quot;&gt;Domain Model first by Mark Seemann&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ericlippert.com/2013/02/28/monads-part-three/&quot;&gt;Monads, part three&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=gtZIaSxRkS4&amp;amp;t=372s&quot;&gt;Designing a microservices architecture with DDD | Is DDD still useful?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://textslashplain.com/2023/10/16/security-the-impact-of-time/&quot;&gt;Security: The Impact of Time&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://wasp-lang.dev/blog/2023/10/12/on-importance-of-naming-in-programming&quot;&gt;On Importance of Naming in Programming&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2023/10/23/privacy-in-the-age-of-generative-ai/&quot;&gt;Privacy in the age of generative AI&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://staysaasy.com/leadership/2023/10/12/Opportunities.html&quot;&gt;Fair but Unequal&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2021/11/make-learning-a-part-of-your-daily-routine&quot;&gt;Make Learning a Part of Your Daily Routine&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EXFHM5wonlM&quot;&gt;How to Write Blazor Unit Tests With bUnit and xUnit&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.ndepend.com/net-8-top-10-new-features/&quot;&gt;.NET 8 Top 10 New Features&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@tonyx1/a-little-f-event-sourcing-library-4f55a310da3&quot;&gt;A little F# Event Sourcing library.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://platform.uno/blog/3-reasons-to-delay-adopting-net-8-and-10-to-do-it-asap/&quot;&gt;3 Reasons to Delay Adopting .NET 8 and 10 to do it ASAP&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=H-soJYqWSds&quot;&gt;.NET Data Community Standup - Complex types as value objects in EF8&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jellyfin.org/&quot;&gt;The Free Software Media System&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/bastienwirtz/homer&quot;&gt;bastienwirtz/homer&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 10/23/2023</title>
