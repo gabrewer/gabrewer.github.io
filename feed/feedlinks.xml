@@ -4,12 +4,36 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-10-24T15:52:36Z</updated>
+    <updated>2023-10-25T15:03:03Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 10/25/2023</title>
+            <link href="/useful_links/2023-10-25-links-10-slash-25-slash-2023/"/>
+            <updated>2023-10-25T15:03:03Z</updated>
+            <id>/useful_links/2023-10-25-links-10-slash-25-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Only those who will risk going too far can possibly find out how far one can go.”&lt;br /&gt;
+--  T.S. Eliot
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://leaddev.com/process/what-mckinsey-got-wrong-about-developer-productivity&quot;&gt;What McKinsey got wrong about developer productivity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ardalis.com/process-bloat-silent-killer-developer-productivity/&quot;&gt;Process Bloat: The Silent Killer of Developer Productivity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://boldstart.vc/devtoolkit/&quot;&gt;Dev First Founder Toolkit&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2023/10/how-to-stop-taking-work-so-personally&quot;&gt;How to Stop Taking Work So Personally&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=dasbRVz5MXo&quot;&gt;The Testing Technique Everyone Should Use in .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PqVQFUCTzUM&quot;&gt;The Brand New Way to do Fault Handling in Polly V8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2023/10/24/how-to-use-testcontainers-with-dotnet-unit-tests/&quot;&gt;How to use Testcontainers with .NET Unit Tests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UBY4Y6AykdM&quot;&gt;Enums in .NET 8 Are FAST, but Mine Are Faster!&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 10/24/2023</title>
