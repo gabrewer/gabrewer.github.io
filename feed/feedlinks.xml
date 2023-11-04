@@ -4,12 +4,39 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-10-25T15:03:03Z</updated>
+    <updated>2023-11-04T16:21:07Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/04/2023</title>
+            <link href="/useful_links/2023-11-04-links-11-slash-4-slash-2023/"/>
+            <updated>2023-11-04T16:21:07Z</updated>
+            <id>/useful_links/2023-11-04-links-11-slash-4-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“If you want to kill any idea in the world, get a committee working on it.”&lt;br /&gt;
+--  Charles Kettering
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qf-BSAhbrWw&quot;&gt;Events are an API. Treat them that way!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://event-driven.io/en/internal_external_events/&quot;&gt;Internal and private events, or how to design event-driven API&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.dotnetrocks.com/details/1869&quot;&gt;.NET Rocks!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.radicalcandor.com/blog/motivate-hybrid-team/&quot;&gt;5 Tactics To Motivate Your Hybrid Team&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ZachGoldberg/Startup-CTO-Handbook&quot;&gt;ZachGoldberg/Startup-CTO-Handbook&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.webrush.io/episodes/episode-257-myth-busting-best-practices-that-drive-all-of-us-crazy&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2023/10/24/how-to-use-testcontainers-with-dotnet-unit-tests/&quot;&gt;How to use Testcontainers with .NET Unit Tests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UUehR_VNyro&quot;&gt;How Guard Clauses Can Make Your Code Better&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://timheuer.com/blog/anatomy-of-a-dotnet-devcontainer/&quot;&gt;Anatomy of a .NET devcontainer&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;smart-home&quot; tabindex=&quot;-1&quot;&gt;Smart Home&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.home-assistant.io/blog/2023/11/01/release-202311/&quot;&gt;2023.11 To-do: Add release title&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 10/25/2023</title>
