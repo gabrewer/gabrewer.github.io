@@ -4,12 +4,62 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-04T16:21:07Z</updated>
+    <updated>2023-11-05T15:21:36Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/05/2023</title>
+            <link href="/useful_links/2023-11-05-links-11-slash-5-slash-2023/"/>
+            <updated>2023-11-05T15:21:36Z</updated>
+            <id>/useful_links/2023-11-05-links-11-slash-5-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Impossible is just an opinion.”&lt;br /&gt;
+--  Paulo Coelho
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jessitron.com/2023/10/26/software-is-complicated-given-enough-time/&quot;&gt;Software is Complicated, Given Enough Time&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ardalis.com/process-bloat-silent-killer-developer-productivity/&quot;&gt;Process Bloat: The Silent Killer of Developer Productivity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.forrester.com/blogs/predictions-2024-software-development/&quot;&gt;Predictions 2024: Software Development Adapts To TuringBots, Ajar Source, And Backstage&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoq.com/articles/monolith-versus-microservices/&quot;&gt;The False Dichotomy of Monolith vs. Microservices&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://auth0.com/blog/our-take-on-verifiable-credentials/&quot;&gt;Our Take on Verifiable Credentials&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://backstage.io/&quot;&gt;Backstage Software Catalog and Developer Platform · An open platform for building developer portals&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pulumi.com/blog/infrastructure-as-code-in-any-programming-language/&quot;&gt;Infrastructure as Code in Any Programming Language&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://rimdev.io/git-workflow/&quot;&gt;Tips to git good with git&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.kindel.com/2023/10/24/the-secret-to-delivering-outsized-results/&quot;&gt;The Secret to Delivering Outsized Results&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mattblodgett.com/2023/10/tell-us-why-were-doing-this.html&quot;&gt;Tell Us Why We’re Doing This&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://world.hey.com/jason/always-cheer-ccd76145&quot;&gt;Always cheer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/developer-productivity-engineering-at-netflix/&quot;&gt;Developer Productivity Engineering at Netflix&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.radicalcandor.com/blog/types-of-management-styles/&quot;&gt;7 Types Of Management Styles For Effective Leadership&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://zenhabits.net/get-done/&quot;&gt;How I Get Things Done&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2023/10/10-ways-to-prove-youre-a-strategic-thinker&quot;&gt;10 Ways to Prove You’re a Strategic Thinker&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.telerik.com/blogs/how-to-get-past-professional-failures-mistakes&quot;&gt;How to Get Past Professional Failures and Mistakes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/measure-developer-joy-not-developer-productivity-atlassian-says/&quot;&gt;Measure Developer Joy, Not Productivity, Says Atlassian Lead&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://sourcesofinsight.com/3-minute-method-for-happines/&quot;&gt;3-Minute Method for Happiness: Count Your Blessings and the Cause&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://apievangelist.com/2023/11/01/apis-json-workflows/&quot;&gt;Exploring an Idea for an APIs.json Defined Workflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://robconery.com/frontend/a-real-world-approach-to-playwright/&quot;&gt;🤖 A Real World Approach to Playwright&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://andrewlock.net/exploring-the-dotnet-8-preview-avoiding-flaky-tests-with-timeprovider-and-itimer/&quot;&gt;Avoiding flaky tests with TimeProvider and ITimer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://askxammy.com/creating-animated-login-ui-in-net-maui-with-lottie/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dotnettips.wordpress.com/2023/10/25/microsoft-net-code-analysis-consider-using-string-contains-instead-of-string-indexof/&quot;&gt;Microsoft .NET Code Analysis: Consider Using String.Contains() Instead of String.IndexOf()&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://laurentkempe.com/2023/10/30/publish-dotnet-docker-images-using-dotnet-sdk-and-github-actions/index.html&quot;&gt;Publish .NET Docker images using .NET SDK and GitHub Actions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudiomagazine.com/articles/2023/11/02/uno-platform-5.aspx&quot;&gt;Uno Platform 5.0: C# Is Now All You Need&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://community.devexpress.com/blogs/mobile/archive/2023/11/02/3-combobox-dropdown-alternatives-to-implement-user-friendly-item-selection-in-a-mobile-app.aspx&quot;&gt;.NET MAUI - 3 ComboBox Dropdown Alternatives for User-Friendly Item Selection within a Mobile App&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://erikdarling.com/how-to-use-temp-tables-to-fix-parameter-sniffing-problems-in-sql-server/&quot;&gt;How To Use Temp Tables To Fix Parameter Sniffing Problems In SQL Server&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/efcore-mongodb/&quot;&gt;Trying out MongoDB with EF Core using Testcontainers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.kunal-chowdhury.com/2023/10/powertoys-v0.75.0.html&quot;&gt;Discover What’s New in PowerToys v0.75.0: Environment Variables, Peek Updates, and More&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/04/2023</title>
