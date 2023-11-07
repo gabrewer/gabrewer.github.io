@@ -4,12 +4,75 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-05T15:21:36Z</updated>
+    <updated>2023-11-07T14:08:53Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/07/2023</title>
+            <link href="/useful_links/2023-11-07-links-11-slash-7-slash-2023/"/>
+            <updated>2023-11-07T14:08:53Z</updated>
+            <id>/useful_links/2023-11-07-links-11-slash-7-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“It takes as much energy to wish as it does to plan.”&lt;br /&gt;
+--  Eleanor Roosevelt
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://weblogs.asp.net/ricardoperes/on-architecture-part-1-high-level-communication&quot;&gt;On Architecture – Part 1: High Level Communication&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=L2Wnq0ChAIA&quot;&gt;Vertical Slice Architecture, not Layers!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://event-driven.io/en/clickbait_event/&quot;&gt;Anti-patterns in event modelling - Clickbait event&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoq.com/presentations/monorepo-mistakes/&quot;&gt;From Monorepo Mess to Monorepo Bliss: Avoiding Common Mistakes&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://sourcesofinsight.com/be-water-my-friend/&quot;&gt;“Be Water My Friend” — Bruce Lee’s Mindset for Adaptability and Flow&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/d62f8d80-ba9b-47c3-9040-8e17affda513&quot;&gt;Redux Pattern in Blazor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.devleader.ca/2023/11/03/asp-net-vertical-slice-project-template-how-to-start-easily/&quot;&gt;ASP.NET Vertical Slice Project Template – How To Start Easily&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=aSbZ0y3nPJM&quot;&gt;The Missing Piece of Your .NET Logs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://wrapt.dev/blog/dotnet-dashboard-ui-middleware&quot;&gt;How to Add a UI or Dashboard as Middleware in your .NET Web API&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/vertical-slice-architecture&quot;&gt;Vertical Slice Architecture&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 11/06/2023</title>
+            <link href="/useful_links/2023-11-06-links-11-slash-6-slash-2023/"/>
+            <updated>2023-11-06T13:46:00Z</updated>
+            <id>/useful_links/2023-11-06-links-11-slash-6-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“All progress takes place outside the comfort zone.”&lt;br /&gt;
+--  Michael John Bobak
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://martinfowler.com/bliki/RefinementCodeReview.html&quot;&gt;RefinementCodeReview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/why-infrastructure-as-code-is-vital-for-modern-devops/&quot;&gt;Why Infrastructure as Code Is Vital for Modern DevOps&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UW8yKWX8YAA&quot;&gt;Performance Testing a DevDrive on Windows 11 LIVE and RAW with ZERO EDITS&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/hello-world/&quot;&gt;Hello, Semantic Kernel!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://dannorth.net/mckinsey-review/&quot;&gt;McKinsey Developer Productivity Review&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://robconery.com/career/allowing-yourself-to-screw-up/&quot;&gt;😳 Allowing Yourself to Screw Up&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://robconery.com/career/surviving-the-structured-interview/&quot;&gt;Surviving the Structured Interview&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://theconversation.com/friday-essay-what-is-time-activism-and-why-do-we-desperately-need-it-202750&quot;&gt;Friday essay: what is ‘time activism’ – and why do we desperately need it?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.npr.org/2021/10/16/1045396983/time-management-tips-oliver-burkeman&quot;&gt;You can’t control time, but you can change your relationship with the clock&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bigthink.com/the-learning-curve/emotional-intelligence-at-work/&quot;&gt;Why do high IQ people stagnate in their careers? Emotional intelligence&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.fastcompany.com/90915673/is-flow-the-secret-to-painless-productivity&quot;&gt;Is ‘flow’ the secret to painless productivity?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://getpocket.com/explore/item/time-management-won-t-save-you&quot;&gt;Time Management Won’t Save You&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://platform.uno/blog/uno-platform-5-0/&quot;&gt;Five is for 5X productivity. Announcing Uno Platform 5.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.telerik.com/blogs/net-8-final-rc-release-ties-blazor-loose-ends&quot;&gt;.NET 8’s Final RC Release Ties up Some Blazor Loose Ends&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.lhotka.net/2023/10/27/Flowing-State-in-Blazor-8&quot;&gt;Flowing State in Blazor 8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=eWjNLYNS-og&quot;&gt;Enforcing Software Design Rules with Architecture Tests&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://erikdarling.com/how-to-use-dynamic-sql-to-fix-sql-server-performance-problems-part-2/&quot;&gt;How To Use Dynamic SQL To Fix SQL Server Performance Problems Part 2&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/05/2023</title>
