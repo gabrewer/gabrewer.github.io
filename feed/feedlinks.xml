@@ -4,12 +4,42 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-07T14:08:53Z</updated>
+    <updated>2023-11-08T12:38:07Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/08/2023</title>
+            <link href="/useful_links/2023-11-08-links-11-slash-8-slash-2023/"/>
+            <updated>2023-11-08T12:38:07Z</updated>
+            <id>/useful_links/2023-11-08-links-11-slash-8-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“We are stuck with technology when what we really want is just stuff that works.”&lt;br /&gt;
+--  Douglas Adams
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://charity.wtf/2023/03/09/architects-anti-patterns-and-organizational-fuckery/&quot;&gt;Architects, Anti-Patterns, and Organizational Fuckery&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/assistants-the-future-of-semantic-kernel/&quot;&gt;Assistants: the future of Semantic Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://world.hey.com/jason/look-back-less-848e9db0&quot;&gt;Look back less&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://imwrightshardcode.com/2023/11/break-the-ice-blocking-your-job-search/&quot;&gt;Break the ice blocking your job search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://oasisofcourage.com/138-stop-stagnation-and-grow-faster-peak-performance-multiplier/&quot;&gt;138: Stop Stagnation and Grow Faster | Peak Performance Multiplier&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.samaltman.com/productivity&quot;&gt;Productivity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.telerik.com/blogs/angular-dev-version-17-told-you-renaissance-here&quot;&gt;Angular.dev and Version 17—I Told You the Renaissance was Here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://apievangelist.com/2023/11/06/twilio-makes-for-a-nice-and-clean-example-of-apis-json/&quot;&gt;Twilio Makes for a Nice and Clean Example of APIs.json&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-q-EiTw4uVY&quot;&gt;The .NET Extension Method You Should Know About&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stenbrinke.nl/blog/configuration-and-secret-management-in-dotnet/&quot;&gt;Everything you need to know about configuration and secret management in .NET&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mssqltips.com/sqlservertip/7835/unpivot-data-sql-server-cross-apply/&quot;&gt;Unpivoting Multiple Sets of Columns in SQL Server using CROSS APPLY&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/07/2023</title>
