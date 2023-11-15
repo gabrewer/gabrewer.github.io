@@ -4,12 +4,58 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-13T17:52:46Z</updated>
+    <updated>2023-11-15T17:40:47Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/15/2023</title>
+            <link href="/useful_links/2023-11-15-links-11-slash-15-slash-2023/"/>
+            <updated>2023-11-15T17:40:47Z</updated>
+            <id>/useful_links/2023-11-15-links-11-slash-15-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Start by doing what&#39;s necessary; then do what&#39;s possible; and suddenly you are doing the impossible..”&lt;br /&gt;
+--  Francis of Assisi
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.oreilly.com/radar/questions-for-2024/&quot;&gt;Questions for 2024&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoq.com/articles/architectural-decision-record-purpose/&quot;&gt;Has Your Architectural Decision Record Lost Its Purpose?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mountaingoatsoftware.com/blog/sprint-review-more-than-a-sprint-demo&quot;&gt;Sprint Review: More Than Just A Demo&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/blogs/2023/11/13/vscode-copilot-smarter&quot;&gt;Pursuit of wicked smartness in VS Code&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/introducing-v1-0-0-beta6-for-the-net-semantic-kernel-sdk/&quot;&gt;Introducing v1.0.0 Beta6 for the .NET Semantic Kernel SDK&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.simplethread.com/building-software-is-hard-change-is-harder/&quot;&gt;Building Software Is Hard, Change Is Harder&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://newsletter.goodtechthings.com/p/wait-is-cloud-bad&quot;&gt;Wait, is cloud bad?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.humanizingwork.com/groups-of-customers-lie/&quot;&gt;Groups of Customers Lie to You&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://haacked.com/archive/2023/11/13/failure/&quot;&gt;Failure suuuuucks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kellblog.com/2023/11/08/do-superachievers-read-business-books/&quot;&gt;Do Superachievers Read Business Books?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://age-of-product.com/illusion-velocity/&quot;&gt;The Illusion of Velocity — The Effect of Unsuitable Practices on Agility&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://itamargilad.com/outcome-roadmaps/&quot;&gt;Planning With Outcome Roadmaps&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://newsletter.getdx.com/p/human-challenges-software-engineering&quot;&gt;The Human Side of Software Engineering Teams&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/microsoft-learn-blog/announcing-microsoft-applied-skills-the-new-credentials-to/ba-p/3775645?WT.mc_id=academic-0000-gwynethp&quot;&gt;Announcing Microsoft Applied Skills, the new credentials to verify in-demand technical skills&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.postman.com/what-is-grpc/&quot;&gt;What is gRPC?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=345V2MU3E_w&quot;&gt;A better image reset for your CSS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://auth0.com/blog/why-migrate-from-api-keys-to-oauth2-access-tokens/&quot;&gt;Why You Should Migrate to OAuth 2.0 From API Keys&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meziantou.net/reducing-allocations-using-local-variables-to-scope-closures.htm&quot;&gt;Removing allocations by reducing closure scopes using local variables&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.stephencleary.com/2023/11/configureawait-in-net-8.html&quot;&gt;ConfigureAwait in .NET 8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://damienbod.com/2023/10/18/fix-missing-tokens-when-using-downstream-apis-and-microsoft-identity-in-asp-net-core/&quot;&gt;Fix missing tokens when using downstream APIs and Microsoft Identity in ASP.NET Core&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dotnettips.wordpress.com/2023/11/14/analyzing-performance-issues-in-microsoft-net-8/&quot;&gt;Analyzing Performance Issues in Microsoft .NET 8&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;python&quot; tabindex=&quot;-1&quot;&gt;Python&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=o06MyVhYte4&quot;&gt;15 Python Libraries You Should Know About in 2023&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/cosmosdb/azure-cosmos-db-design-patterns-part-2-data-binning/&quot;&gt;Azure Cosmos DB design patterns – Part 2: Data Binning&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/13/2023</title>
