@@ -4,12 +4,41 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-15T17:40:47Z</updated>
+    <updated>2023-11-19T13:52:00Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/19/2023</title>
+            <link href="/useful_links/2023-11-19-links-11-slash-19-slash-2023/"/>
+            <updated>2023-11-19T13:52:00Z</updated>
+            <id>/useful_links/2023-11-19-links-11-slash-19-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“You don’t have to see the whole staircase, just take the first step.”&lt;br /&gt;
+-- Martin Luther King, Jr.
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/what-are-business-rules-its-not-this/&quot;&gt;What are Business Rules? It’s not this.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://newsletter.getdx.com/p/software-engineering-okr&quot;&gt;OKRs in Software Engineering&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pulumi.com/blog/walkthrough-of-adopting-infrastructure-as-code/&quot;&gt;A Walkthrough of Adopting Infrastructure as Code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2023/11/design-to-code-handoff-process-uno-platform-figma/&quot;&gt;An Efficient Design-to-Code Handoff Process Using Uno Platform For Figma&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://redmonk.com/kholterhoff/2023/11/01/10-things-developers-want-from-ai-code-assistants/&quot;&gt;10 Things Developers Want from AI Code Assistants&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.thestack.technology/code-quality-the-overlooked-indicator-of-a-well-run-software-business/&quot;&gt;Code quality: Is this indicator of a well-run software business going overlooked by investors?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.battery.com/blog/are-you-selling-a-shovel-or-a-way-to-dig-a-hole/&quot;&gt;Are You Selling a Shovel – Or a Way to Dig a Hole?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/introducing-dotnet-aspire-simplifying-cloud-native-development-with-dotnet-8/&quot;&gt;Introducing .NET Aspire: Simplifying Cloud-Native Development with .NET 8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoworld.com/article/3709512/6-security-best-practices-for-cloud-native-applications.html&quot;&gt;6 security best practices for cloud-native applications&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/identity/custom-authentication-extensions/&quot;&gt;Adding flexibility to authentication with Microsoft Entra External ID custom extensions&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/1add3827-4233-4e31-9ce9-bcc34d64e76f&quot;&gt;A more flexible and enhanced way of logging in .NET 8&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/15/2023</title>
