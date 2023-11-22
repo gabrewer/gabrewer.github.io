@@ -4,12 +4,59 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-19T13:52:00Z</updated>
+    <updated>2023-11-21T15:05:12Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/21/2023</title>
+            <link href="/useful_links/2023-11-21-links-11-slash-21-slash-2023/"/>
+            <updated>2023-11-21T15:05:12Z</updated>
+            <id>/useful_links/2023-11-21-links-11-slash-21-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“It is better to have one person working with you than three people working for you.”&lt;br /&gt;
+--  Dwight D. Eisenhower
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://ronjeffries.com/articles/-y023/python/-9x280/283/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://testing.googleblog.com/2023/11/write-clean-code-to-reduce-cognitive.html&quot;&gt;Write Clean Code to Reduce Cognitive Load&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://apievangelist.com/2023/11/18/the-right-way-to-do-the-api-is-always-negotiated-in-the-moment/&quot;&gt;The Right Way To Do the API Is Always Negotiated in the Moment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://talesfrom.dev/blog/easy-becomes-complex&quot;&gt;Easy becomes complex&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-november-2023-release/&quot;&gt;Azure Developer CLI (azd) – November 2023 Release&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2023/11/20/visualize-entity-framework-relationships-and-additional-query-analysis-in-resharper-2023-3/&quot;&gt;Visualize Entity Framework Relationships and Additional Query Analysis in ReSharper 2023.3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/create-a-pull-request/&quot;&gt;Create a Pull Request with Summary Difference View Available in GA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=GrantDavies.NiahTextFilter2022&quot;&gt;Debug Output Filter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://koenvangilst.nl/blog/trunkbased-development&quot;&gt;Why I Prefer Trunk-Based Development&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/embedded-speech-is-now-generally-available/ba-p/3983047&quot;&gt;Embedded Speech is now generally available&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.lhotka.net/2023/11/19/The-Programmer-Gap&quot;&gt;The Programmer Gap&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.engadget.com/amazon-will-host-free-ai-ready-courses-in-an-effort-to-attract-new-talent-133851547.html&quot;&gt;Amazon will host free ‘AI Ready’ courses in an effort to attract new talent&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://billreiss.com/2023/11/17/new-samples-calling-openai-from-blazor-and-maui/&quot;&gt;New Samples Calling OpenAI from Blazor and MAUI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qc9VWbYLzRg&quot;&gt;Introducing Windows AI Studio | Microsoft Ignite 2023&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/the-liberators/in-depth-how-to-prevent-high-performing-teams-from-burning-out-409aa9896caa&quot;&gt;In-Depth: How To Prevent High-Performing Teams From Burning Out&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zaidesanton.substack.com/p/the-most-powerful-way-to-make-your&quot;&gt;The powerful method to make your team Great&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thagomizer.com/blog/2021/07/12/the-questions-doc.html&quot;&gt;The Questions Doc&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://getpocket.com/read/3526540081&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/typescript/announcing-typescript-5-3/&quot;&gt;Announcing TypeScript 5.3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.postman.com/grpc-vs-rest/&quot;&gt;gRPC vs. REST&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jonhilton.net/blazor-fetch-data/&quot;&gt;Where fetch data in your Blazor components&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://apievangelist.com/2023/11/17/seeing-code-execution-differently-at-the-api-gateway/&quot;&gt;Seeing Code Execution Differently At The API Gateway&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.ploeh.dk/2023/11/20/trimming-a-fake-object&quot;&gt;Trimming a Fake Object by Mark Seemann&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/oldnewthing/20231120-00/?p=109037&quot;&gt;If you’re going to crash on an unhandled exception, you may as well do it sooner rather than later&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/how-to-use-ef-core-interceptors&quot;&gt;How To Use EF Core Interceptors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/oldnewthing/20231117-00/?p=109028&quot;&gt;The theory behind the IHttpFilter interface&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://sqlkitty.com/import-flat-file-azure-sql-db/&quot;&gt;Importing Flat Files into Azure SQL DB&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.red-gate.com/simple-talk/databases/sql-server/t-sql-programming-sql-server/strategies-for-queries-against-bit-columns/&quot;&gt;Strategies for queries against bit columns&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/19/2023</title>
