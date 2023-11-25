@@ -4,12 +4,43 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-21T15:05:12Z</updated>
+    <updated>2023-11-24T06:52:27Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/24/2023</title>
+            <link href="/useful_links/2023-11-24-links-11-slash-24-slash-2023/"/>
+            <updated>2023-11-24T06:52:27Z</updated>
+            <id>/useful_links/2023-11-24-links-11-slash-24-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“As we express our gratitude, we must never forget that the highest appreciation is not to utter words but to live by them.”&lt;br /&gt;
+--  John F. Kennedy
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/serverless-transformation/eventbridge-storming-how-to-build-state-of-the-art-event-driven-serverless-architectures-e07270d4dee&quot;&gt;EventBridge Storming — How to build state-of-the-art Event-Driven Serverless Architectures&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.geepawhill.org/2021/09/29/many-more-much-smaller-steps-first-sketch/&quot;&gt;Many More Much Smaller Steps – First Sketch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ronjeffries.com/articles/-y023/code-signs-4/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/serverless-transformation/service-ports-finding-a-loosely-coupled-utopia-with-event-driven-serverless-6964aacd1487&quot;&gt;Service Ports: Finding a Loosely Coupled Utopia with Event-Driven Serverless&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pulumi.com/blog/going-beyond-with-advanced-infrastructure-as-code-use-cases/&quot;&gt;Going Beyond With Advanced Infrastructure as Code Use Cases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://awstip.com/autonomous-eventcatalog-for-documenting-eventbridge-events-73e6334f2400&quot;&gt;Autonomous EventCatalog for documenting EventBridge Events&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://staysaasy.com/startups/2023/10/30/startup-make-believe.html&quot;&gt;Startup Make-Believe&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://zaidesanton.substack.com/p/managing-superstars-can-drive-you&quot;&gt;Managing superstars can drive you crazy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zaidesanton.substack.com/p/why-team-leaders-give-up&quot;&gt;Why Team Leaders Give Up&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://newsletter.getdx.com/p/self-reflection-developer-productivity&quot;&gt;The Impact of Self-Reflection on Productivity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://leadership.garden/6-productivity-techniques/&quot;&gt;6 Productivity Techniques Which Won’t Burn You Out&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/fake-it-til-you-make-it-to-production/&quot;&gt;Fake It Til You Make It…To Production&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/21/2023</title>
