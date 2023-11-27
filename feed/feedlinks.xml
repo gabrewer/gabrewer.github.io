@@ -4,12 +4,40 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-24T06:52:27Z</updated>
+    <updated>2023-11-26T13:21:34Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/26/2023</title>
+            <link href="/useful_links/2023-11-26-links-11-slash-26-slash-2023/"/>
+            <updated>2023-11-26T13:21:34Z</updated>
+            <id>/useful_links/2023-11-26-links-11-slash-26-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Strive not to be a success, but rather to be of value.”&lt;br /&gt;
+--  Albert Einstein
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2023/11/introduction-full-stack-composability/&quot;&gt;An Introduction To Full Stack Composability&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2023/11/23/primary-constructors-using-csharp-12-in-rider-and-resharper/&quot;&gt;Primary Constructors – Using C# 12 in Rider and ReSharper&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=zjkBMFhNj_g&quot;&gt;[1hr Talk] Intro to Large Language Models&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/AI-For-Beginners/&quot;&gt;AI for Beginners&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.irisclasson.com/2023/11/22/when-you-get-a-lot-of-comments-on-a-pull-request-or-merge-request/&quot;&gt;When You Get a Lot of Comments on a Pull Request or Merge Request&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://careercutler.substack.com/p/6-tiny-wording-tweaks-to-level-up&quot;&gt;6 tiny wording tweaks to level up your communication as a software engineer&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://nestenius.se/2023/11/22/exploring-what-is-inside-the-asp-net-core-cookies/&quot;&gt;Exploring what is inside the ASP.NET Core cookies – Tore Nestenius : Trainer and Senior Software Developer&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.red-gate.com/simple-talk/databases/sql-server/bi-sql-server/what-is-microsoft-fabric-all-about/&quot;&gt;What is Microsoft Fabric all about?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/educator-developer-blog/getting-started-with-github-copilot-in-azure-data-studio/ba-p/3990586&quot;&gt;Getting Started with GitHub Copilot in Azure Data Studio&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/24/2023</title>
