@@ -4,12 +4,40 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-27T15:56:31Z</updated>
+    <updated>2023-11-28T12:24:03Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/28/2023</title>
+            <link href="/useful_links/2023-11-28-links-11-slash-28-slash-2023/"/>
+            <updated>2023-11-28T12:24:03Z</updated>
+            <id>/useful_links/2023-11-28-links-11-slash-28-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“The smallest act of kindness is worth more than the grandest intention.”&lt;br /&gt;
+--  Oscar Wilde
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://ronjeffries.com/articles/-y023/code-signs-10/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.howareyou.work/positive-feedback-tips-to-motivate-your-software-developers/&quot;&gt;How to Give Positive Feedback to Your Software Developers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://careercutler.substack.com/p/framing-the-1-most-important-communication&quot;&gt;Framing: The 1 most important communication concept every software engineer must know&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://astro.build/blog/astro-4-beta/&quot;&gt;Astro 4.0 Beta Release&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://increment.com/apis/web-api-versioning/&quot;&gt;On web API versioning&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.roundthecode.com/dotnet-blog/primary-constructors-caused-concerns-csharp-developers&quot;&gt;Primary constructors has caused concerns for C# developers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/introducing-the-reliable-web-app-pattern/&quot;&gt;Introducing the Reliable Web App Pattern for .NET&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://erikdarling.com/optimizing-common-table-expression-queries-in-sql-server/&quot;&gt;Optimizing Common Table Expression Queries In SQL Server&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gadgets&quot; tabindex=&quot;-1&quot;&gt;Gadgets&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcrunch.com/2023/11/27/amazons-new-195-thin-client-looks-just-like-a-fire-tv-cube/&quot;&gt;Amazon’s new $195 thin client looks just like a Fire TV Cube&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/27/2023</title>
