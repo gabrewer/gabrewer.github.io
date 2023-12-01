@@ -4,12 +4,39 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-28T12:24:03Z</updated>
+    <updated>2023-11-30T15:24:40Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/30/2023</title>
+            <link href="/useful_links/2023-11-30-links-11-slash-30-slash-2023/"/>
+            <updated>2023-11-30T15:24:40Z</updated>
+            <id>/useful_links/2023-11-30-links-11-slash-30-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“A mentor empowers a person to see a possible future, and believe it can be obtained.”&lt;br /&gt;
+--  Shawn Hitchcock
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://nordicapis.com/why-opentelemetry-is-the-next-big-thing-in-api-monitoring/&quot;&gt;Why OpenTelemetry Is the Next Big Thing in API Monitoring&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/focusing-on-entities-leads-nowhere-good/&quot;&gt;Focusing on “Entities” leads nowhere good.&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/write-your-git-commits-with-github-copilot/&quot;&gt;Write Your Git Commits with GitHub Copilot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bennadel.com/blog/4532-the-regex-of-everyday-things.htm&quot;&gt;The RegEx Of Everyday Things&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jdmeier.com/pains-needs-and-desired-outcomes/&quot;&gt;Why Master Pains, Needs, and Desired Outcomes&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jdmeier.com/learning-better-at-microsoft/&quot;&gt;How Microsoft Taught Me to Test Things and Try Things to Learn Better&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.donnfelker.com/make-every-second-count/&quot;&gt;Make Every Second Count: Strategies to Unleash Creativity and Success at Any Time&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.lhotka.net/2023/11/28/Per-User-Blazor-8-State&quot;&gt;Per-User Blazor 8 State&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://timheuer.com/blog/add-environment-variables-to-aspire-services/&quot;&gt;Adding environment vars to .NET Aspire services&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infragistics.com/community/blogs/b/infragistics/posts/blazor-state-management&quot;&gt;Blazor State Management: Best Practices To Consider&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/28/2023</title>
