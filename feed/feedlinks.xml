@@ -4,12 +4,83 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-11-30T15:24:40Z</updated>
+    <updated>2023-12-18T16:27:30Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 12/18/2023</title>
+            <link href="/useful_links/2023-12-18-links-12-slash-18-slash-2023/"/>
+            <updated>2023-12-18T16:27:30Z</updated>
+            <id>/useful_links/2023-12-18-links-12-slash-18-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“In any given moment we have two options: to step forward into growth or to step back into safety.”&lt;br /&gt;
+--  Abraham Maslow
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/how-the-opentelemetry-collector-scales-observability/&quot;&gt;How the OpenTelemetry Collector Scales Observability&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://fly.io/blog/rethinking-serverless-with-flame/&quot;&gt;Rethinking Serverless with FLAME&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/path-to-event-driven-architecture-start-capturing-intent/&quot;&gt;Path to Event-Driven Architecture. Start capturing INTENT!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ronjeffries.com/articles/-y023/code-signs-19/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=sf3Ai4271nA&quot;&gt;How to Create a DEV Environment with Multiple Dev Containers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pulumi.com/blog/scaling-apps-across-multiple-regions/&quot;&gt;Scaling Applications Across Multiple Regions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.docker.com/blog/docker-collaboration-snowflake-snowpark/&quot;&gt;Docker’s collaboration with Snowflake and Docker AI Advancements&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://engineercodex.substack.com/p/how-google-takes-the-pain-out-of/comments&quot;&gt;How Google takes the pain out of code reviews, with 97% dev satisfaction&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=A7nV0xF5vYg&quot;&gt;Create a .NET Web API with Entity Framework with GitHub Copilot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/visual-studio-17-9-preview-2-has-arrived/&quot;&gt;Visual Studio 17.9 Preview 2 has arrived!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/microsoft/windows-ai-studio&quot;&gt;microsoft/windows-ai-studio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/7-best-practices-for-developers-getting-started-with-genai/&quot;&gt;7 Best Practices for Developers Getting Started with GenAI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/build-your-own-copilots-with-azure-ai-studio/ba-p/4006387&quot;&gt;Build your own copilots with Azure AI Studio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/topics/training-certifications/12-days-of-no-cost-generative-ai-training&quot;&gt;12 days of no-cost training to learn generative AI this December&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.simplethread.com/why-don-t-they-just/&quot;&gt;Why Don’t They Just…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tylerhogge.com/2023/12/14/different-is-better-than-better/&quot;&gt;Different Is Better Than Better&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://staysaasy.com/management/2023/12/07/accelerating-product-velocity.html&quot;&gt;Practical Ways To Increase Product Velocity&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://kendallwmiller.com/blog/picking-ideas-that-win&quot;&gt;Picking Ideas that Win – Kendall W. Miller&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jezz-santos.medium.com/10-things-for-makers-7bb548bbf667&quot;&gt;10 things for makers&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.radicalcandor.com/blog/culture-of-feedback/&quot;&gt;How To Create A Culture Of Feedback&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jdmeier.com/great-lessons-from-indra-nooyi/&quot;&gt;Great Lessons from Indra Nooyi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2023/12/8-essential-qualities-of-successful-leaders&quot;&gt;8 Essential Qualities of Successful Leaders&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://newsletter.getdx.com/p/shopify-developer-experience-survey&quot;&gt;How Shopify’s Developer Experience Survey Works&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jpattonassociates.com/evaluating-product-managers/&quot;&gt;Evaluating Product Managers – We help you create successful product culture and process&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thoughtbot.com/blog/why-you-should-write-good-epics&quot;&gt;Why you should write good epics&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sensecurity.io/blog/time-hacking-the-scotty-principle&quot;&gt;Time Hacking: The Scotty Principle&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/how-linkedin-levels-up-your-skillset-with-ai/&quot;&gt;How LinkedIn Levels up Your Skillset … with AI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hellojames.co.uk/writing/better-feedback&quot;&gt;Getting better feedback on your work&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://everydeveloper.com/self-publishing/&quot;&gt;Self-Publishing as Technical Marketing&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/what-vues-creator-learned-the-hard-way-with-vue-3/&quot;&gt;What Vue’s Creator Learned the Hard Way with Vue 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.angular.io/check-out-angulars-support-for-the-view-transitions-api-3937376cfc19&quot;&gt;Check out Angular’s support for the View Transitions API&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bigmachine.io/course/accelerator/&quot;&gt;The Imposter’s Frontend Accelerator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://grpc.io/blog/postman-grpcweb/&quot;&gt;Can gRPC replace REST and WebSockets for Web Application Communication?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoworld.com/article/3711373/the-best-new-features-in-angular-17-a-kinder-faster-angular.html&quot;&gt;The best new features in Angular 17: A kinder, faster Angular&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/samples/browse/&quot;&gt;Browse code samples&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://auth0.com/blog/auth0-templates-for-dotnet-powerful-version/&quot;&gt;Auth0 Templates for .NET: A New Powerful Version Released&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://chris-ayers.com/2023/12/03/containerizing-dotnet-part-1&quot;&gt;Containerizing .NET - Part 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/5bf635cb-3533-4207-905f-81eb86512219&quot;&gt;Entity Framework - Storing complex objects as JSON&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.red-gate.com/simple-talk/development/dotnet-development/aws-step-functions-in-c-part-2/&quot;&gt;AWS Step Functions in C# – Part 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.devleader.ca/2023/12/07/exploring-an-example-vertical-slice-architecture-in-asp-net-core-what-you-need-to-know/&quot;&gt;Exploring An Example Vertical Slice Architecture in ASP.NET Core – What You Need To Know&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meziantou.net/inline-snapshot-testing-in-dotnet.htm&quot;&gt;Inline Snapshot testing in .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.martincostello.com/native-aot-make-dotnet-lambda-go-brr/&quot;&gt;.NET Native AoT Make AWS Lambda Function Go Brrr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://andrewlock.net/redacting-sensitive-data-with-microsoft-extensions-compliance/&quot;&gt;Redacting sensitive data in logs with Microsoft.Extensions.Compliance.Redaction&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/2023-12-07-upgrading-github-com-to-mysql-8-0/&quot;&gt;Upgrading GitHub.com to MySQL 8.0&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.engadget.com/proton-mail-now-has-a-desktop-app-in-beta-110021703.html&quot;&gt;Proton Mail now has a desktop app in beta&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/microsoft/PowerToys/releases/tag/v0.76.1&quot;&gt;Release v0.76.1&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;smart-home&quot; tabindex=&quot;-1&quot;&gt;Smart Home&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/2023-11-30-securing-our-home-labs-home-assistant-code-review/&quot;&gt;Securing our home labs: Home Assistant code review&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 11/30/2023</title>
