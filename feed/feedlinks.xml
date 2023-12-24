@@ -4,12 +4,80 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-12-18T16:27:30Z</updated>
+    <updated>2023-12-23T15:31:10Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 12/23/2023</title>
+            <link href="/useful_links/2023-12-23-links-12-slash-23-slash-2023/"/>
+            <updated>2023-12-23T15:31:10Z</updated>
+            <id>/useful_links/2023-12-23-links-12-slash-23-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Sometimes our light goes out but is blown into flame by another human being. Each of us owes deepest thanks to those who have rekindled this light.”&lt;br /&gt;
+--  Albert Schweitzer
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://event-driven.io/en/nay_to_aspire/&quot;&gt;Why I won’t use .NET Aspire for now&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://testing.googleblog.com/2023/12/let-code-speak-for-itself.html&quot;&gt;Let Code Speak for Itself&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/5-tips-for-building-resilient-architecture/&quot;&gt;5 Tips for Building Resilient Architecture&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2023/12/building-components-consumption-not-complexity-part2/&quot;&gt;Building Components For Consumption, Not Complexity (Part 2)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://event-driven.io/en/the_end_is_near_for_crud_data/&quot;&gt;Hitchhiker’s Guide To Moving Relational Data To Events&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.devleader.ca/2023/12/20/dealing-with-legacy-code-how-to-make-anything-more-testable/&quot;&gt;Dealing With Legacy Code – How To Make Anything More Testable&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blogs.windows.com/msedgedev/2023/12/20/inside-the-all-new-edge-devtools-ui/&quot;&gt;Inside the all-new Edge DevTools user interface&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/education/2023/12/18/learn-go-community-course/&quot;&gt;Learn Go This Week: A Language Built for Simplicity and Efficiency&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/ai-powered-rename-suggestions/&quot;&gt;Naming Made Easy: AI-Powered Rename Suggestions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.salesforce.com/blogs/2023/12/design-an-api-specification-using-mulesofts-visual-api-designer&quot;&gt;Design an API Specification Using MuleSoft’s Visual API Designer&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.developerscantina.com/p/semantic-kernel-prompt-functions/&quot;&gt;Semantic Kernel - From semantic functions to prompt functions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.semianalysis.com/p/inference-race-to-the-bottom-make&quot;&gt;Inference Race To The Bottom - Make It Up On Volume?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://community.aws/posts/future-proof-dotnet-app-with-amazon-bedrock&quot;&gt;Future-proof Your .NET Apps With Foundation Model Choice and Amazon Bedrock&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.codewithdan.com/what-are-some-good-generative-ai-prompt-engineering-resources/&quot;&gt;What are Some Good Generative AI Prompt Engineering Resources?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://ardalis.com/scaling-your-software-team-develop-vs-hiring/&quot;&gt;Scaling Your Software Team: Development vs. Hiring&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://seroter.com/2023/12/20/is-wiring-the-winning-organization-a-book-for-you-read-my-five-takeaways-and-decide-for-yourself/&quot;&gt;Is “Wiring the Winning Organization” a book for you? Read my five takeaways and decide for yourself.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://om.co/2023/12/18/implications-of-the-adobe-figma-deal-failure/&quot;&gt;Implications of the failure of the Adobe-Figma deal.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.pulumi.com/blog/future-cloud-infrastructure-10-trends-shaping-2024-and-beyond/&quot;&gt;Future of the Cloud: 10 Trends Shaping 2024 and Beyond&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.forbes.com/sites/tanyadalton/2023/05/16/time-management-is-dead-how-i-actually-boosted-my-teams-productivity/&quot;&gt;Time Management Is Dead: How I Actually Boosted My Team’s Productivity&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.pragmaticengineer.com/mentoring/&quot;&gt;Mentoring software engineers or engineering leaders&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.telerik.com/blogs/how-start-making-testing-mistake&quot;&gt;How to Start Over After Making a Testing Mistake&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jdmeier.com/strategic-thinking-is-the-most-valuable-leadership-skill/&quot;&gt;Strategic Thinking is the Most Valuable Leadership Skill Today&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.kindel.com/2023/12/17/dont-sell-ideas-debate-them/&quot;&gt;Don’t Sell Ideas – Debate Them&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://seths.blog/2023/12/focusing-attention-is-a-skill/&quot;&gt;Focusing attention is a skill&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/web-development-in-2023-javascript-still-rules-ai-emerges/&quot;&gt;Web Development in 2023: JavaScript Still Rules, AI Emerges&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tailwindcss.com/blog/tailwindcss-v3-4&quot;&gt;Tailwind CSS v3.4: Dynamic viewport units, :has() support, balanced headlines, subgrid, and more&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.telerik.com/blogs/is-blazor-future-everything-web&quot;&gt;Is Blazor the Future of Everything Web?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://johnnyreilly.com/bun-overview&quot;&gt;Overview of Bun, a JavaScript runtime&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://android-developers.googleblog.com/2023/12/increase-your-apps-availability-across-device-types.html&quot;&gt;Increase your app’s availability across device types&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.claudiobernasconi.ch/2023/12/15/dotnet-user-interface-frameworks-selection/&quot;&gt;What User Interface Framework Should You Choose for .NET Desktop Applications?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/announcing-dotnet-aspire-preview-2/&quot;&gt;Announcing .NET Aspire Preview 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://khalidabuhakmeh.com/memoizr-declarative-structured-concurrency-for-csharp&quot;&gt;MemoizR - Declarative Structured Concurrency for C#&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code-maze.com/autofac-fakeiteasy-package-basics/&quot;&gt;Introduction to Autofac FakeItEasy Package&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gist.github.com/atifaziz/8368a14c4e7b14885c92a2f76cafd72a&quot;&gt;morelinq.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://andrewlock.net/updates-to-the-stronglytypedid-library/&quot;&gt;Updates to the StronglyTypedId library - simplification, templating, and CodeFixes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techwatching.dev/posts/playing-with-dotnet8&quot;&gt;Playing with the .NET 8 Web API template&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code-maze.com/aspnetcore-register-multiple-interface-implementations/&quot;&gt;How to Register Multiple Implementations of the Same Interface in ASP.NET Core&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ijrussell.github.io/posts/csharp-discriminated-union/&quot;&gt;Discriminated Unions in C#&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/5-serilog-best-practices-for-better-structured-logging&quot;&gt;5 Serilog Best Practices For Better Structured Logging&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.thecodepainter.co.uk/blog/20231216/scanandindexof.html&quot;&gt;Scan and FindIndex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/whats-new-in-our-code-coverage-tooling/&quot;&gt;What’s New in Our Code Coverage Tooling?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://boldsign.com/blogs/9-reasons-why-your-organization-needs-esignatures/&quot;&gt;9 Reasons Why Your organization needs eSignatures?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=MdPTekwIAFE&quot;&gt;What’s in Windows Terminal 1.19 Preview&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/microsoft-clipchamp-easy-and-quick-video-creation/ba-p/4009496&quot;&gt;Microsoft Clipchamp—easy and quick video creation&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 12/18/2023</title>
