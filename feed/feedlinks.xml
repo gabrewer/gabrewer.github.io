@@ -4,12 +4,42 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-12-23T15:31:10Z</updated>
+    <updated>2023-12-27T16:45:48Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 12/27/2023</title>
+            <link href="/useful_links/2023-12-27-links-12-slash-27-slash-2023/"/>
+            <updated>2023-12-27T16:45:48Z</updated>
+            <id>/useful_links/2023-12-27-links-12-slash-27-slash-2023/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Success usually comes to those who are too busy to be looking for it.”&lt;br /&gt;
+--  Henry David Thoreau
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/cloudcommunity/Free-Certifications&quot;&gt;Free Certifications&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://heynote.com/&quot;&gt;Heynote&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/safely-use-secrets-in-http-requests-in-visual-studio-2022/&quot;&gt;Safely use secrets in HTTP requests in Visual Studio 2022&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/integerman/exploratory-data-analysis-with-f-plotlynet-and-mlnet-dataframes-f0o&quot;&gt;Exploratory Data Analysis with F#, Plotly.NET, and ML.NET DataFrames&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mattblodgett.com/2023/12/escaping-bikeshed.html&quot;&gt;Escaping the Bikeshed&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://world.hey.com/dhh/commit-to-competence-in-this-coming-year-feb7d7c5&quot;&gt;Commit to competence in this coming year&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.code4it.dev/blog/top-6-string-performance-tips/&quot;&gt;Top 6 Performance Tips when dealing with strings in C# 12 and .NET 8&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://timdeschryver.dev/blog/the-decorator-pattern-using-nets-dependency-injection&quot;&gt;Tim Deschryver&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mareks-082.medium.com/dark-side-of-the-primary-constructors-in-c-12-b9d75855d4df&quot;&gt;Dark side of the primary constructors in C# 12&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://juldhais.net/some-new-features-in-c-12-and-net-8-you-will-probably-use-for-the-asp-net-core-development-f06bf857dc1e&quot;&gt;Some New Features in C# 12 and .NET 8 You Will (Probably) Use for the ASP.NET Core Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/training/modules/dotnet-compliance-cloud-native-applications/&quot;&gt;Implement compliance in a cloud-native .NET 8 application&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/value-objects-in-dotnet-ddd-fundamentals&quot;&gt;Value Objects in .NET (DDD Fundamentals)&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 12/23/2023</title>
