@@ -4,17 +4,17 @@
     <ul class="flex items-center">
       <li class="mr-2">
         {% if pagination.previousPageLink %}
-          <a class="pagination__item" href="{{ pagination.href.previous | url }}">&larr; Newer Posts</a>
+          <a class="" href="{{ pagination.href.previous | url }}">&larr; Newer Posts</a>
         {% else %}
-          <span class="pagination__item">Newer Articles</span>
+          <span class="">Newer Articles</span>
         {% endif %}
       </li>
       <span> | </span>
       <li class="ml-2">
         {% if pagination.nextPageLink %}
-          <a class="pagination__item" href="{{ pagination.href.next | url }}">Older Posts &rarr;</a>
+          <a class="" href="{{ pagination.href.next | url }}">Older Posts &rarr;</a>
         {% else %}
-          <span class="pagination__item">Older Articles</span>
+          <span class="">Older Articles</span>
         {% endif %}
       </li>
     </ul>

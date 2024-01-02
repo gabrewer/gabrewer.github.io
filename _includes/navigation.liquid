@@ -1,15 +1,18 @@
-<nav role="navigation" class="blog-masthead">
-  <div class="container">
+<nav role="navigation" class="bg-blue-550 shadow-navigation">
+  <div class="max-w-screen-xl mx-auto">
     {% assign navPages = collections.all | eleventyNavigation %}
     {% if navPages.length > 0 %}
-      <div class="blog-nav">
+      <div>
         {% for entry in navPages %}
           {% assign state = '' %}
           {% if entry.url == page.url %}
-            {% assign state = ' active' %}
+            {% assign state = 'active' %}
           {% endif %}
           {% if entry.title %}
-            <a class="blog-nav-item{{state}}" href="{{ entry.url }}">
+            <a
+              class="relative inline-block px-2 py-1 font-normal text-xl no-underline {% if state == 'active' %}text-white{% else %}text-blue-300{% endif %} hover:text-white focus:text-white"
+              href="{{ entry.url }}"
+            >
               {{ entry.title }}
             </a>
           {% endif %}

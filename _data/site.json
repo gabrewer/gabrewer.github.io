@@ -1,7 +1,8 @@
 {
     "title": "gabrewer.com",
     "subtitle": "Life is too important to be take seriously.",
-    "description": "",
+    "description": "Personal site of Gregory A Brewer.",
+	"disclaimer": "The views expressed on this site are my own and do not necessarily reflect the views of my employer.",
     "baseurl": "https://gabrewer.com/",
     "url": "https://gabrewer.com/",
 	"disqus_short_name": "gabrewer",

@@ -1,5 +1,5 @@
 <footer class="bg-gray-300 py-3">
-  <div class="container mx-auto">
+  <div class="max-w-screen-xl mx-auto">
     <div class="grid grid-cols-2 gap-8">
       <div class="">
         <h2 class="text-3xl mb-2">{{ site.title | escape }}</h2>
@@ -21,6 +21,7 @@
       </div>
       <div class="">
         <p class="text-xl text-gray-600">{{- site.description | escape -}}</p>
+        <p class="text-base text-gray-600">{{- site.disclaimer | escape -}}</p>
       </div>
     </div>
   </div>

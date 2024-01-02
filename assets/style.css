@@ -191,6 +191,11 @@ pre.prettyprint {
   width: 98%;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 body,
 html {
   height: 100%;
@@ -202,11 +207,6 @@ body {
   grid-template-columns: auto 1200px auto;
   grid-template-rows: 40px 180px auto 150px;
   grid-template-areas: "nav nav nav" ". header ." ". main ." "footer footer footer";
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 header {

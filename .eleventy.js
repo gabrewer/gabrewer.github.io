@@ -10,29 +10,42 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const codeClipboard = require("eleventy-plugin-code-clipboard");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("assets/**/*.{svg,webp,png,jpeg}");
   eleventyConfig.addWatchTarget("_layouts/**/*");
   eleventyConfig.addWatchTarget("_includes/**/*");
 
-  const markdownLib = markdownIt({ html: true, typographer: true });
-  markdownLib.use(markdownItFootnote).use(markdownItAnchor);
-  eleventyConfig.setLibrary("md", markdownLib);
-
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(codeClipboard);
 
   eleventyConfig.addPassthroughCopy({ assets: "/" });
 
   eleventyConfig.addPlugin(pluginNavigation);
 
+  const markdownLib = markdownIt({ html: true, typographer: true }).use(
+    codeClipboard.markdownItCopyButton,
+    {
+      iconifyUrl: "/images/content-copy.svg",
+    }
+  );
+  markdownLib.use(markdownItFootnote).use(markdownItAnchor);
+  eleventyConfig.setLibrary("md", markdownLib);
+
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: "<!-- more -->",
     excerpt_alias: "feed_excerpt",
+  });
+
+  eleventyConfig.addWatchTarget("./_site/output.css");
+
+  eleventyConfig.addShortcode("version", function () {
+    return String(Date.now());
   });
 
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
