@@ -3,28 +3,57 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html><head>
+<html lang="en" class="text-gray-500 font-sans"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
+  <title>gabrewer.com</title>
+
+  <!-- OG cards -->
+  <meta property="og:title" content="gabrewer.com">
+  <meta property="og:description" content="Personal site of Gregory A Brewer.">
+  <meta property="og:site_name" content="gabrewer.com">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="/2/">
+  <!-- End OG cards -->
+
   <meta name="description" content="">
+  <meta name="generator" content="Eleventy - 11ty - https://11ty.dev">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/output.css">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/convert.css">
+  <link rel="stylesheet" href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Primer/19.3.0/tooltips.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/Primer/19.3.0/color-modes.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
 </head>
 <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]--><nav role="navigation" class="blog-masthead">
-  <div class="container">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]--><nav role="navigation" class="bg-blue-550 shadow-navigation">
+  <div class="max-w-screen-xl mx-auto">
     
     
-      <div class="blog-nav">
+      <div>
         
           
           
           
-            <a class="blog-nav-item" href="/">
+            <a
+              class="relative inline-block px-2 py-1 font-normal text-xl no-underline text-blue-300 hover:text-white focus:text-white"
+              href="/"
+            >
               Home
             </a>
           
@@ -32,7 +61,10 @@
           
           
           
-            <a class="blog-nav-item" href="/useful_links/">
+            <a
+              class="relative inline-block px-2 py-1 font-normal text-xl no-underline text-blue-300 hover:text-white focus:text-white"
+              href="/useful_links/"
+            >
               Useful Links
             </a>
           
@@ -40,7 +72,10 @@
           
           
           
-            <a class="blog-nav-item" href="/archive/">
+            <a
+              class="relative inline-block px-2 py-1 font-normal text-xl no-underline text-blue-300 hover:text-white focus:text-white"
+              href="/archive/"
+            >
               Blog Archives
             </a>
           
@@ -49,7 +84,7 @@
     
   </div>
 </nav>
-<header class="container w-full py-10">
+<header class="mx-auto w-full py-10">
   <div class="w-full">
     <div class="flex flex-col md:flex-row justify-between w-full">
       <div class="md:w-auto mb-4 md:mb-0">
@@ -94,23 +129,22 @@
     </div>
   </div>
 </header>
-<main class="page-content" aria-label="Content">
-            <div>
+<main class="" aria-label="Content"><div>
 
     <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Wednesday, February 13, 2013 at 4:57 AM UTC</p>
-  <h3 class="blog-post-title">
+        <div class="mb-16">
+  <p class="mb5 text-gray-400">Wednesday, February 13, 2013 at 4:57 AM UTC</p>
+  <h3 class="mb-1 text-3xl">
     <a href="/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/">
       Web Platform Installer crash when viewing Products or Applications
     </a>
   </h3>
   
-    <div class="post-comments">
+    <div class="">
       <a href="/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/#disqus_thread" data-disqus-identifier="2013-02-web-platform-installer-crash-when-viewing-products-or-applications">Post a comment</a>
     </div>
   
-  <div class="entry-content"><p>Today when I was trying to setup WordPress on my Windows 8 development machine the IIS Manager would crash with an System.OutOfMemoryException exception.</p> <div id="codeSnippetWrapper" style="overflow: auto; cursor: text; font-size: 8pt; border-top: silver 1px solid; font-family: 'Courier New', courier, monospace; border-right: silver 1px solid; border-bottom: silver 1px solid; padding-bottom: 4px; direction: ltr; text-align: left; padding-top: 4px; padding-left: 4px; margin: 20px 0px 10px; border-left: silver 1px solid; line-height: 12pt; padding-right: 4px; max-height: 200px; width: 97.5%; background-color: #f4f4f4"><pre id="codeSnippet" style="border-top-style: none; overflow: visible; font-size: 8pt; border-left-style: none; font-family: 'Courier New', courier, monospace; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; line-height: 12pt; padding-right: 0px; width: 100%; background-color: #f4f4f4">Exception:System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.<br> ---&gt; System.Reflection.TargetInvocationException: An exception occurred during the operation, making the result invalid.<br>Check InnerException <span style="color: #0000ff">for</span> exception details. ---&gt; System.OutOfMemoryException: Out of memory.</pre><br></div>
+  <div class=""><p>Today when I was trying to setup WordPress on my Windows 8 development machine the IIS Manager would crash with an System.OutOfMemoryException exception.</p> <div id="codeSnippetWrapper" style="overflow: auto; cursor: text; font-size: 8pt; border-top: silver 1px solid; font-family: 'Courier New', courier, monospace; border-right: silver 1px solid; border-bottom: silver 1px solid; padding-bottom: 4px; direction: ltr; text-align: left; padding-top: 4px; padding-left: 4px; margin: 20px 0px 10px; border-left: silver 1px solid; line-height: 12pt; padding-right: 4px; max-height: 200px; width: 97.5%; background-color: #f4f4f4"><pre id="codeSnippet" style="border-top-style: none; overflow: visible; font-size: 8pt; border-left-style: none; font-family: 'Courier New', courier, monospace; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; line-height: 12pt; padding-right: 0px; width: 100%; background-color: #f4f4f4">Exception:System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.<br> ---&gt; System.Reflection.TargetInvocationException: An exception occurred during the operation, making the result invalid.<br>Check InnerException <span style="color: #0000ff">for</span> exception details. ---&gt; System.OutOfMemoryException: Out of memory.</pre><br></div>
 <p>After doing a quick Bing search turn up this <a href="http://forums.iis.net/p/1192160/2042796.aspx/1?p=True&amp;t=634963126897202460" target="_blank">article</a> on the IIS.NET Forums and after clicking “Get New Web Platform Components” problem solved.</p>
 </div>
 </div>
@@ -118,19 +152,19 @@
     </article>
 
     <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Saturday, February 2, 2013 at 4:54 PM UTC</p>
-  <h3 class="blog-post-title">
+        <div class="mb-16">
+  <p class="mb5 text-gray-400">Saturday, February 2, 2013 at 4:54 PM UTC</p>
+  <h3 class="mb-1 text-3xl">
     <a href="/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/">
       Node.js, JQuery and Mocha on Windows 8 x64 and PowerShell
     </a>
   </h3>
   
-    <div class="post-comments">
+    <div class="">
       <a href="/2013/02/node-js-jquery-and-mocha-on-windows-8-x64-and-powershell/#disqus_thread" data-disqus-identifier="2013-02-node-js-jquery-and-mocha-on-windows-8-x64-and-powershell">Post a comment</a>
     </div>
   
-  <div class="entry-content"><p>Since the <a href="http://pnp.azurewebsites.net/en-us/events.htm" target="_blank">Microsoft Patterns and Practices symposium</a>, I have been wanting to get started learning Node.js.&nbsp; So I added the JumpStart Node.js to my <a href="http://my.safaribooksonline.com/" target="_blank">Safari Books Online</a> bookshelf and installed Node.js from <a title="http://nodejs.org/" href="http://nodejs.org/">http://nodejs.org/</a>.&nbsp; </p> <p>The sample in the first chapter uses a Mongo db provider (MongoLab) but I decided to install mongo locally instead.&nbsp; It installed easily using the <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/" target="_blank">Windows Quick Start</a>.</p> <p>I was on a roll until I got to the next chapter and tried to get the modules installed.&nbsp; The sample uses Mocha for its unit tests.&nbsp; It also uses jQuery.&nbsp; Both proved to be a challenge to get working on my Windows 8 machine.</p> <p>First issue is that Mocha requires a UNIX make command.&nbsp; To get this I installed <a href="http://cygwin.com/" target="_blank">Cygwin</a> with the development tools selected as specified in this <a href="http://stackoverflow.com/questions/9779700/mocha-requires-make-cant-find-a-make-exe-that-works-on-windows" target="_blank">StackOverflow post</a>.&nbsp; I then added the <font size="3" face="Consolas"><strong>Set-Alias make "c:\cygwin\bin\make.exe"</strong></font> to my PowerShell profile.</p> <p>That allowed the <strong><font size="3" face="Consolas">npm install mocha</font></strong> to succeed.</p> <p>My Node.js sample uses jQuery so the next error I ran into was that jQuery install was not succeeding.&nbsp; It failed on the Contextify dependency.&nbsp; After a little goggling with Bing, I found that there are two development tools you need for Node.js development on Windows.&nbsp; Python 2.7 and Visual C++.&nbsp; </p> <p>I had Python 2.7 installed but it wasn’t in the path, so that was a simple fix.&nbsp; If figured that the C++ dependency would be an issue since I do a bunch of C++ development.&nbsp; But when I ran the <font size="3" face="Consolas"><strong>npm install contextify</strong></font>, I received.</p><pre class="csharpcode">error MSB8008: Specified platform toolset (v110) <span class="kwrd">is</span> not installed or invalid.
+  <div class=""><p>Since the <a href="http://pnp.azurewebsites.net/en-us/events.htm" target="_blank">Microsoft Patterns and Practices symposium</a>, I have been wanting to get started learning Node.js.&nbsp; So I added the JumpStart Node.js to my <a href="http://my.safaribooksonline.com/" target="_blank">Safari Books Online</a> bookshelf and installed Node.js from <a title="http://nodejs.org/" href="http://nodejs.org/">http://nodejs.org/</a>.&nbsp; </p> <p>The sample in the first chapter uses a Mongo db provider (MongoLab) but I decided to install mongo locally instead.&nbsp; It installed easily using the <a href="http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/" target="_blank">Windows Quick Start</a>.</p> <p>I was on a roll until I got to the next chapter and tried to get the modules installed.&nbsp; The sample uses Mocha for its unit tests.&nbsp; It also uses jQuery.&nbsp; Both proved to be a challenge to get working on my Windows 8 machine.</p> <p>First issue is that Mocha requires a UNIX make command.&nbsp; To get this I installed <a href="http://cygwin.com/" target="_blank">Cygwin</a> with the development tools selected as specified in this <a href="http://stackoverflow.com/questions/9779700/mocha-requires-make-cant-find-a-make-exe-that-works-on-windows" target="_blank">StackOverflow post</a>.&nbsp; I then added the <font size="3" face="Consolas"><strong>Set-Alias make "c:\cygwin\bin\make.exe"</strong></font> to my PowerShell profile.</p> <p>That allowed the <strong><font size="3" face="Consolas">npm install mocha</font></strong> to succeed.</p> <p>My Node.js sample uses jQuery so the next error I ran into was that jQuery install was not succeeding.&nbsp; It failed on the Contextify dependency.&nbsp; After a little goggling with Bing, I found that there are two development tools you need for Node.js development on Windows.&nbsp; Python 2.7 and Visual C++.&nbsp; </p> <p>I had Python 2.7 installed but it wasn’t in the path, so that was a simple fix.&nbsp; If figured that the C++ dependency would be an issue since I do a bunch of C++ development.&nbsp; But when I ran the <font size="3" face="Consolas"><strong>npm install contextify</strong></font>, I received.</p><pre class="csharpcode">error MSB8008: Specified platform toolset (v110) <span class="kwrd">is</span> not installed or invalid.
 Please make sure that a supported PlatformToolset <span class="kwrd">value</span> <span class="kwrd">is</span> selected.</pre>
 <style type="text/css">.csharpcode, .csharpcode pre
 {
@@ -208,19 +242,19 @@ make: *** [test] Error 1</pre></p>
     </article>
 
     <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Tuesday, January 29, 2013 at 5:26 AM UTC</p>
-  <h3 class="blog-post-title">
+        <div class="mb-16">
+  <p class="mb5 text-gray-400">Tuesday, January 29, 2013 at 5:26 AM UTC</p>
+  <h3 class="mb-1 text-3xl">
     <a href="/2013/01/misleading-error-in-cluster-validation-wizard/">
       Misleading error in Cluster Validation Wizard
     </a>
   </h3>
   
-    <div class="post-comments">
+    <div class="">
       <a href="/2013/01/misleading-error-in-cluster-validation-wizard/#disqus_thread" data-disqus-identifier="2013-01-misleading-error-in-cluster-validation-wizard">Post a comment</a>
     </div>
   
-  <div class="entry-content"><p>This weekend we were migrating a Hyper-V cluster form Windows Server 2008 R2 to Windows Server 2012.&nbsp; Our hosts were HP DL360p Gen 8 servers connected to a HP P2000 G3 MSA iSCSI storage array.&nbsp; </p> <p>After getting our hosts all configured and connected to the SAN we were ready to install the cluster.&nbsp; When we ran the Cluster Validation Wizard we received some warnings.&nbsp; One of warnings seemed quite troubling.&nbsp; </p> <p><font face="Consolas">Test Disk 0 does not support SCSI-3 Persistent Reservations commands needed to support clustered Storage Pools. Some storage devices require specific firmware versions or settings to function properly with failover clusters. Please contact your storage administrator or storage vendor to check the configuration of the storage to allow it to function properly with failover clusters.</font></p> <style type="text/css">.csharpcode, .csharpcode pre
+  <div class=""><p>This weekend we were migrating a Hyper-V cluster form Windows Server 2008 R2 to Windows Server 2012.&nbsp; Our hosts were HP DL360p Gen 8 servers connected to a HP P2000 G3 MSA iSCSI storage array.&nbsp; </p> <p>After getting our hosts all configured and connected to the SAN we were ready to install the cluster.&nbsp; When we ran the Cluster Validation Wizard we received some warnings.&nbsp; One of warnings seemed quite troubling.&nbsp; </p> <p><font face="Consolas">Test Disk 0 does not support SCSI-3 Persistent Reservations commands needed to support clustered Storage Pools. Some storage devices require specific firmware versions or settings to function properly with failover clusters. Please contact your storage administrator or storage vendor to check the configuration of the storage to allow it to function properly with failover clusters.</font></p> <style type="text/css">.csharpcode, .csharpcode pre
 {
 	font-size: small;
 	color: black;
@@ -251,19 +285,19 @@ make: *** [test] Error 1</pre></p>
     </article>
 
     <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Tuesday, December 11, 2012 at 4:05 AM UTC</p>
-  <h3 class="blog-post-title">
+        <div class="mb-16">
+  <p class="mb5 text-gray-400">Tuesday, December 11, 2012 at 4:05 AM UTC</p>
+  <h3 class="mb-1 text-3xl">
     <a href="/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/">
       Passing values from your ASP.NET MVC Controller to Javascript
     </a>
   </h3>
   
-    <div class="post-comments">
+    <div class="">
       <a href="/2012/12/passing-values-from-your-asp-net-mvc-controller-to-javascript/#disqus_thread" data-disqus-identifier="2012-12-passing-values-from-your-asp-net-mvc-controller-to-javascript">Post a comment</a>
     </div>
   
-  <div class="entry-content"><p>Inspired by <a href="http://www.johnpapa.net/building-single-page-apps-with-knockout-jquery-and-web-api-ndash-the-story-begins" target="_blank">John Papa’s Single Page Application</a> series on <a href="http://www.pluralsight.com/training" target="_blank">Pluralsight</a>, in my latest project I am making heavy use of the JavaScript MVVM pattern.&nbsp; Since my application isn't a true single page application I found myself in some cases needing use values from my Controller in my JavaScript methods. </p> <p>After doing some research I came across this <a href="http://crazorsharp.blogspot.com/2012/02/passing-variables-from-your-controller.html" target="_blank">post from A. Friedman</a> about <a href="https://github.com/brooklynDev/NGon" target="_blank">Ngon</a> a port he created of the Ruby <a href="https://github.com/gazay/gon" target="_blank">Gon</a> gem.&nbsp; Ngon allows you to add a value to a ViewBag NGon property and then consume it in your JavaScript.</p> <p>To use Ngon I can just add the NGonActionFilterAttribute to my RegisterGlobalFilters</p><pre class="csharpcode"><span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">void</span> RegisterGlobalFilters(GlobalFilterCollection filters)
+  <div class=""><p>Inspired by <a href="http://www.johnpapa.net/building-single-page-apps-with-knockout-jquery-and-web-api-ndash-the-story-begins" target="_blank">John Papa’s Single Page Application</a> series on <a href="http://www.pluralsight.com/training" target="_blank">Pluralsight</a>, in my latest project I am making heavy use of the JavaScript MVVM pattern.&nbsp; Since my application isn't a true single page application I found myself in some cases needing use values from my Controller in my JavaScript methods. </p> <p>After doing some research I came across this <a href="http://crazorsharp.blogspot.com/2012/02/passing-variables-from-your-controller.html" target="_blank">post from A. Friedman</a> about <a href="https://github.com/brooklynDev/NGon" target="_blank">Ngon</a> a port he created of the Ruby <a href="https://github.com/gazay/gon" target="_blank">Gon</a> gem.&nbsp; Ngon allows you to add a value to a ViewBag NGon property and then consume it in your JavaScript.</p> <p>To use Ngon I can just add the NGonActionFilterAttribute to my RegisterGlobalFilters</p><pre class="csharpcode"><span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">void</span> RegisterGlobalFilters(GlobalFilterCollection filters)
 {
    filters.Add(<span class="kwrd">new</span> NGonActionFilterAttribute());
    filters.Add(<span class="kwrd">new</span> HandleErrorAttribute());
@@ -401,19 +435,19 @@ getActivityItems(callback);</p>
     </article>
 
     <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Tuesday, December 11, 2012 at 3:52 AM UTC</p>
-  <h3 class="blog-post-title">
+        <div class="mb-16">
+  <p class="mb5 text-gray-400">Tuesday, December 11, 2012 at 3:52 AM UTC</p>
+  <h3 class="mb-1 text-3xl">
     <a href="/2012/12/unable-to-open-database-project-after-upgrading-to-sql-server-2012-sp1/">
       Unable to open Database Project after upgrading to SQL Server 2012 SP1
     </a>
   </h3>
   
-    <div class="post-comments">
+    <div class="">
       <a href="/2012/12/unable-to-open-database-project-after-upgrading-to-sql-server-2012-sp1/#disqus_thread" data-disqus-identifier="2012-12-unable-to-open-database-project-after-upgrading-to-sql-server-2012-sp1">Post a comment</a>
     </div>
   
-  <div class="entry-content"><p>I recently upgraded SQL Server 2012 on my development machine to SP1.  Once it was installed, my solutions with SQL Server Database Projects complain that the version of SQL Server Data Tools is not compatible with the database runtime components install on this computer.</p>
+  <div class=""><p>I recently upgraded SQL Server 2012 on my development machine to SP1.  Once it was installed, my solutions with SQL Server Database Projects complain that the version of SQL Server Data Tools is not compatible with the database runtime components install on this computer.</p>
 <img class="alignnone size-medium wp-image-461" alt="/images/ssdt3-300x253.jpg" width="300" height="253" />
 <p>Both the “Learn more…” and “Get the latest version of SQL Server Data Tools…” links do not currently resolve to an active page.</p>
 <p>Luckily  I was able to find <a href="http://blog.wharton.com.au/" target="_blank">Mr. Wharty’s Ramblings - Everything SQL</a> blog which had the <a href="http://blog.wharton.com.au/2012/11/16/sql-server-2012-sp-1-breaks-sql-server-database-projects/" target="_blank">solution</a>, install the latest version of the <a href="http://msdn.microsoft.com/en-us/jj650015" target="_blank">SQL Server Data Tools – November 2012 update</a> and migrate the database projects.</p>
@@ -423,19 +457,19 @@ getActivityItems(callback);</p>
     </article>
 
     <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Sunday, July 8, 2012 at 3:50 AM UTC</p>
-  <h3 class="blog-post-title">
+        <div class="mb-16">
+  <p class="mb5 text-gray-400">Sunday, July 8, 2012 at 3:50 AM UTC</p>
+  <h3 class="mb-1 text-3xl">
     <a href="/2012/07/windows-8-installed-on-lenovo-w520-finally/">
       Windows 8 installed on Lenovo W520 - Finally
     </a>
   </h3>
   
-    <div class="post-comments">
+    <div class="">
       <a href="/2012/07/windows-8-installed-on-lenovo-w520-finally/#disqus_thread" data-disqus-identifier="2012-07-windows-8-installed-on-lenovo-w520-finally">Post a comment</a>
     </div>
   
-  <div class="entry-content"><p>Well, I finally got around to figuring out why I could not install the Windows 8 Release Preview on my Lenovo ThinkPad W520.  Every time I went to install the OS it would hang during boot.  That issue turned out to be that I needed to install on a <a href="http://support.lenovo.com/en_US/downloads/detail.page?&amp;DocID=HT073269" target="_blank">GPT disk using the UEFI bios</a>.</p>
+  <div class=""><p>Well, I finally got around to figuring out why I could not install the Windows 8 Release Preview on my Lenovo ThinkPad W520.  Every time I went to install the OS it would hang during boot.  That issue turned out to be that I needed to install on a <a href="http://support.lenovo.com/en_US/downloads/detail.page?&amp;DocID=HT073269" target="_blank">GPT disk using the UEFI bios</a>.</p>
 <p>Before doing that I installed the latest <a href="http://support.lenovo.com/en_US/downloads/detail.page?&amp;DocID=DS029675" target="_blank">bios from the Lenovo site</a>.</p>
 <p>After upgrading the Bios and backing up the little data I wanted to save, I proceeded to install the OS.  I went through the boot process fine, installed the installation files reboot and then hung at 90% when configuring devices.  After fiddling with the video driver settings Optimus, Integrated and Discrete, I tired disabling the wireless card and the install completed successfully.</p>
 <p>After the installation was complete, I installed the <a href="http://support.lenovo.com/en_US/downloads/detail.page?DocID=HT072084" target="_blank">Lenovo Windows 8 beta drivers</a> turned the wireless adapter back on, crossed my fingers and rebooted and I am finally running Windows 8 on my Lenovo W520!</p>
@@ -451,22 +485,22 @@ getActivityItems(callback);</p>
     <ul class="flex items-center">
       <li class="mr-2">
         
-          <a class="pagination__item" href="/1/">&larr; Newer Posts</a>
+          <a class="" href="/1/">&larr; Newer Posts</a>
         
       </li>
       <span> | </span>
       <li class="ml-2">
         
-          <a class="pagination__item" href="/3/">Older Posts &rarr;</a>
+          <a class="" href="/3/">Older Posts &rarr;</a>
         
       </li>
     </ul>
   </nav>
 
 </div><div class="sidebar">
-  <div class="sidebar-module sidebar-module-inset">
+  <div class="p-4 m-0 -mx-4 mb-4 bg-gray-100 rounded">
     <h4>About</h4>
-    <div class="contact">
+    <div>
       <p>
         Gregory A Brewer<br>
         Proud Step Father, Software Engineer, Poker Player, Wolverine<br>
@@ -479,7 +513,7 @@ getActivityItems(callback);</p>
     </div>
   </div>
 
-  <div class="categories">
+  <div class="p-4 m-0 -mx-4 mb-4">
     
     
       <span style="font-size: 144.28571428571428%">
@@ -568,7 +602,7 @@ getActivityItems(callback);</p>
     
   </div>
 
-  <div class="sidebar-module">
+  <div class="p-4 m-0 -mx-4 mb-4">
     <div class="textwidget">
       <a class="twitter-timeline" data-height="600" href="https://twitter.com/gbrewer?ref_src=twsrc%5Etfw">
         Tweets by gbrewer
@@ -577,9 +611,8 @@ getActivityItems(callback);</p>
     </div>
   </div>
 </div>
-
-        </main><footer class="bg-gray-300 py-3">
-  <div class="container mx-auto">
+</main><footer class="bg-gray-300 py-3">
+  <div class="max-w-screen-xl mx-auto">
     <div class="grid grid-cols-2 gap-8">
       <div class="">
         <h2 class="text-3xl mb-2">gabrewer.com</h2>
@@ -591,12 +624,19 @@ getActivityItems(callback);</p>
             </li></ul>
       </div>
       <div class="">
-        <p class="text-xl text-gray-600"></p>
+        <p class="text-xl text-gray-600">Personal site of Gregory A Brewer.</p>
+        <p class="text-base text-gray-600">The views expressed on this site are my own and do not necessarily reflect the views of my employer.</p>
       </div>
     </div>
   </div>
 </footer>
 <script src="" async defer></script>
-        <script id="dsq-count-scr" src="//gabrewer.disqus.com/count.js" async></script>
-    </body>
+    <script
+      id="dsq-count-scr"
+      src="//gabrewer.disqus.com/count.js"
+      async
+    ></script>
+    <script>function showTooltip(o,e){o.trigger.className.includes("tooltipped")||(o.trigger.children[0].className="tooltipped tooltipped-s",o.trigger.children[0].ariaLabel=e)}window.addEventListener("load",()=>{var o=new ClipboardJS(".code-copy");o.on("success",o=>showTooltip(o,"Copied!")),o.on("error",o=>showTooltip(o,"Failed..."))});</script>
+<script async src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+  </body>
 </html>

@@ -1,0 +1,85 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 1280px auto;
+  grid-template-rows: 40px 180px auto 150px;
+  grid-template-areas: "nav nav nav" ". header ." ". main ." "footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-columns: 900px auto 280px;
+  grid-template-areas: "home . sidebar";
+}
+
+.home {
+  grid-area: home;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  padding: 1em;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 640px 640px;
+  grid-template-areas: "footer-left footer-right";
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+/* standard */
+.post pre {
+  padding: 0 0.4em;
+}
+
+.post ul,
+.post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  padding: 0 0.2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+}
+
+/* copy to clipboard */
+.tooltipped::before {
+  color: #fcf !important;
+  border-bottom-color: #ffccff !important;
+}
+
+.tooltipped::after {
+  background-color: #fcf !important;
+  color: #303 !important;
+}
