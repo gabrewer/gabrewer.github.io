@@ -5,8 +5,6 @@
 	"disclaimer": "The views expressed on this site are my own and do not necessarily reflect the views of my employer.",
     "baseurl": "https://gabrewer.com/",
     "url": "https://gabrewer.com/",
-	"disqus_short_name": "gabrewer",
-	"disqus_show_comment_count": true,
 	"simple_search": "https://www.google.com/search",
     "author": {
 		"name": "Greg Brewer",
