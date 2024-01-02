@@ -99,6 +99,39 @@
 
     <article>
         <div class="blog-post">
+  <p class="blog-post-meta">Friday, September 12, 2014 at 3:39 AM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2014/09/setting-an-ip-address-using-netsh/">
+      Setting an IP address using netsh instead of arp -s on Windows 8.1
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2014/09/setting-an-ip-address-using-netsh/#disqus_thread" data-disqus-identifier="2014-09-setting-an-ip-address-using-netsh">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>I recently had to setup many Epson TM-T88V receipt printers for a POS installation and out of the box they are configured with a static address of 192.168.192.168.  Pressing the reset button for 3 seconds prints out the status of the printer including the MAC address so I though I would just use arp –s to configure the printers but I received an error.  So after a some googling with Bing I turned up this article that pointed me to the the fact that you need to use netsh with recent versions of Windows.</p>
+<p>First you need to get the name of the interface that the device is connected to.  Then you execute the netsh interface ipv4 add neighbors command.</p>
+<pre class="highlight prettyprint">netsh interface ipv4 show interfaces
+
+Idx     Met         MTU          State                Name
+---  ----------  ----------  ------------  ---------------------------
+  3          10        1500  connected     Ethernet
+  1          50  4294967295  connected     Loopback Pseudo-Interface 1
+ 63          10        1400  connected     vowire hosting
+ 10           5        1500  connected     vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch)
+ 29          10        1500  connected     vEthernet (VirtualBox Host-Only Ethernet Adapter Virtual Switch)
+
+netsh interface ipv4 add neighbors "Ethernet" 10.1.10.45 xx-xx-xx-xx-xx-xx
+
+</pre>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
   <p class="blog-post-meta">Friday, May 23, 2014 at 9:38 PM UTC</p>
   <h3 class="blog-post-title">
     <a href="/2014/05/cool-development-utility-xip-io/">
@@ -195,26 +228,6 @@
     </div>
   
   <div class="entry-content"><p>The ASP.NET and Web Tools 2012.2 update was released today.&nbsp; There were many updates including some big additions like OData support and SignalR.&nbsp;&nbsp; Some of the things that jump out at me form the release notes.</p> <p>“Paste JSON as a .NET class. Using this Special Paste command to paste JSON into a C# or VB.NET code file, and Visual Studio will automatically generate .NET classes inferred from the JSON.”</p> <p>“Mobile Emulator support adds extensibility hooks so that third-party emulators can be installed as a VSIX. The installed emulators will show up in the F5 dropdown, so that developers can preview their websites on a variety of mobile devices. Read more about this feature in Scott Hanselman’s blog entry on <a href="http://www.hanselman.com/blog/CrossBrowserDebuggingIntegratedIntoVisualStudioWithBrowserStack.aspx">the new BrowserStack integration with Visual Studio</a>.”</p> <p>“<strong>ASP.NET Web API OData</strong></p> <p>ASP.NET Web API OData gives you the flexibility you need to build OData endpoints with rich business logic over any data source” <h5>“ASP.NET SignalR</h5> <p>ASP.NET SignalR makes it simple to add real-time web capabilities to your ASP.NET application, using WebSockets if available and automatically falling back to other techniques when it isn’t.” <p>Related Blog Posts</p> <p><a href="http://www.asp.net/vnext/overview/fall-2012-update/aspnet-and-web-tools-20122-release-notes-rtw" target="_blank">ASP.NET and Web Tools 2012.2 Release Notes</a><br><a href="http://weblogs.asp.net/scottgu/archive/2013/02/18/announcing-release-of-asp-net-and-web-tools-2012-2-update.aspx" target="_blank">ScottGu - Announcing release of ASP.NET and Web Tools 2012.2 Update</a><br><a href="http://www.hanselman.com/blog/ReleasedASPNETAndWebTools20122InContext.aspx" target="_blank">Scott Hanselman - Released: ASP.NET and Web Tools 2012.2 in Context</a><br><a href="http://weblogs.asp.net/jgalloway/archive/2013/02/18/announcing-the-asp-net-and-web-tools-2012-2-release.aspx" target="_blank">Jon Galloway - Announcing the ASP.NET and Web Tools 2012.2 Release!</a><br><a href="http://madskristensen.net/post/Web-Tools-20122-and-Web-Essentials.aspx" target="_blank">Web Tools 2012.2 and Web Essentials</a></p>
-</div>
-</div>
-
-    </article>
-
-    <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Wednesday, February 13, 2013 at 4:57 AM UTC</p>
-  <h3 class="blog-post-title">
-    <a href="/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/">
-      Web Platform Installer crash when viewing Products or Applications
-    </a>
-  </h3>
-  
-    <div class="post-comments">
-      <a href="/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/#disqus_thread" data-disqus-identifier="2013-02-web-platform-installer-crash-when-viewing-products-or-applications">Post a comment</a>
-    </div>
-  
-  <div class="entry-content"><p>Today when I was trying to setup WordPress on my Windows 8 development machine the IIS Manager would crash with an System.OutOfMemoryException exception.</p> <div id="codeSnippetWrapper" style="overflow: auto; cursor: text; font-size: 8pt; border-top: silver 1px solid; font-family: 'Courier New', courier, monospace; border-right: silver 1px solid; border-bottom: silver 1px solid; padding-bottom: 4px; direction: ltr; text-align: left; padding-top: 4px; padding-left: 4px; margin: 20px 0px 10px; border-left: silver 1px solid; line-height: 12pt; padding-right: 4px; max-height: 200px; width: 97.5%; background-color: #f4f4f4"><pre id="codeSnippet" style="border-top-style: none; overflow: visible; font-size: 8pt; border-left-style: none; font-family: 'Courier New', courier, monospace; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; line-height: 12pt; padding-right: 0px; width: 100%; background-color: #f4f4f4">Exception:System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.<br> ---&gt; System.Reflection.TargetInvocationException: An exception occurred during the operation, making the result invalid.<br>Check InnerException <span style="color: #0000ff">for</span> exception details. ---&gt; System.OutOfMemoryException: Out of memory.</pre><br></div>
-<p>After doing a quick Bing search turn up this <a href="http://forums.iis.net/p/1192160/2042796.aspx/1?p=True&amp;t=634963126897202460" target="_blank">article</a> on the IIS.NET Forums and after clicking “Get New Web Platform Components” problem solved.</p>
 </div>
 </div>
 

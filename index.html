@@ -101,6 +101,40 @@
 
     <article>
         <div class="blog-post">
+  <p class="blog-post-meta">Tuesday, January 2, 2024 at 6:43 PM UTC</p>
+  <h3 class="blog-post-title">
+    <a href="/2024/01/dotnet-aspire-with-dapr-and-secret-store/">
+      .Net Aspire Preview 2 with Dapr and the secretstore
+    </a>
+  </h3>
+  
+    <div class="post-comments">
+      <a href="/2024/01/dotnet-aspire-with-dapr-and-secret-store/#disqus_thread" data-disqus-identifier="2024-01-dotnet-aspire-with-dapr-and-secret-store">Post a comment</a>
+    </div>
+  
+  <div class="entry-content"><p>In my recent SaaS personal projects, I’ve been exploring the capabilities of Dapr, based off of the <a href="https://github.com/dotnet-architecture/eShopOnDapr">eShopOnDapr</a> sample. Dapr, with its integrated APIs and best practices for building distributed applications, has significantly streamlined my development process. <a href="https://dapr.io/">Learn more about Dapr</a>.</p>
+<p>I’ve also been incorporating architectural insights and best practices from YouTube channels like Milan Jovanovic, Nick Chapsas, and Codewrinkles. Their guidance has refinined my approach to these solutions especially around using MediatR, Vertical Slice architecture and performance. Check out their insights:</p>
+<ul>
+<li><a href="https://www.youtube.com/@MilanJovanovicTech">Milan Jovanovic’s YouTube Channel</a></li>
+<li><a href="https://www.youtube.com/@nickchapsas">Nick Chapsas’s YouTube Channel</a></li>
+<li><a href="https://www.youtube.com/@Codewrinkles">Codewrinkles’s YouTube Channel</a></li>
+</ul>
+<p>The release of .NET 8 introduced the .NET Aspire 8.0 Preview 1 - an opinionated, cloud-ready stack ideal for building observable, production-ready, distributed applications compatible with Dapr. <a href="https://github.com/dotnet/aspire">View .NET Aspire on GitHub</a>.</p>
+<p>Integrating .NET Aspire into my projects was pretty straightforward. However, I encountered a few challenges, especially with Dapr configuration management across projects. I ended up copying the dapr config files into each projects. Aslo .NET Aspire Preview 1 lacked support for deploying Dapr components to Azure.</p>
+<p>With the advent of Preview 2, which impoves supports Dapr, I successfully updated my projects. However, I faced a challenge with the secret store configuration:</p>
+<pre class="language-csharp"><code class="language-csharp"><span class="token class-name"><span class="token keyword">var</span></span> secretStore <span class="token operator">=</span> builder<span class="token punctuation">.</span><span class="token function">AddDaprComponent</span><span class="token punctuation">(</span><span class="token string">"gab-secretstore"</span><span class="token punctuation">,</span> <span class="token string">"secretstores"</span><span class="token punctuation">,</span> <span class="token keyword">new</span><br>    <span class="token constructor-invocation class-name">DaprComponentOptions</span> <span class="token punctuation">{</span> LocalPath <span class="token operator">=</span> <span class="token string">"../dapr/components/"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br><span class="token class-name"><span class="token keyword">var</span></span> apiService <span class="token operator">=</span> builder<span class="token punctuation">.</span><span class="token generic-method"><span class="token function">AddProject</span><span class="token generic class-name"><span class="token punctuation">&lt;</span>Projects<span class="token punctuation">.</span>gabMileage_Mileage_Api<span class="token punctuation">></span></span></span><span class="token punctuation">(</span><span class="token string">"mileage-api"</span><span class="token punctuation">)</span><br>    <span class="token punctuation">.</span><span class="token function">WithDaprSidecar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><br>    <span class="token punctuation">.</span><span class="token function">WithReference</span><span class="token punctuation">(</span>secretStore<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+<p>This code snippet illustrates how Preview 2 allows specifying Dapr file locations, which was a game-changer in maintaining a centralized configuration. An initial oversight of omitting the trailing slash in the path led to a frustrating error “secret store is not configured”. In reviewing the logs of the Dapr sidecare revealed that the secretstore was not being loaded. Doing some debugging with the Aspire source provided the much-needed insight. Looking at the command line in the Aspire
+Dashboard showed that the resources path ommited the /component part of the path.</p>
+<pre class="language-csharp"><code class="language-csharp"><span class="token range operator">..</span><span class="token punctuation">.</span><br><span class="token keyword">foreach</span> <span class="token punctuation">(</span><span class="token class-name"><span class="token keyword">var</span></span> componentReferenceAnnotation <span class="token keyword">in</span> componentReferenceAnnotations<span class="token punctuation">)</span><br><span class="token punctuation">{</span><br><span class="token keyword">if</span> <span class="token punctuation">(</span>componentReferenceAnnotation<span class="token punctuation">.</span>Component<span class="token punctuation">.</span>Options<span class="token punctuation">?.</span>LocalPath <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token keyword">null</span><span class="token punctuation">)</span><br><span class="token punctuation">{</span><br><span class="token class-name"><span class="token keyword">var</span></span> localPathDirectory <span class="token operator">=</span> Path<span class="token punctuation">.</span><span class="token function">GetDirectoryName</span><span class="token punctuation">(</span><span class="token function">NormalizePath</span><span class="token punctuation">(</span>componentReferenceAnnotation<span class="token punctuation">.</span>Component<span class="token punctuation">.</span>Options<span class="token punctuation">.</span>LocalPath<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br><br>        <span class="token keyword">if</span> <span class="token punctuation">(</span>localPathDirectory <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token keyword">null</span><span class="token punctuation">)</span><br>        <span class="token punctuation">{</span><br>            aggregateResourcesPaths<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>localPathDirectory<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>    <span class="token punctuation">}</span><br>    <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>onDemandResourcesPaths<span class="token punctuation">.</span><span class="token function">TryGetValue</span><span class="token punctuation">(</span>componentReferenceAnnotation<span class="token punctuation">.</span>Component<span class="token punctuation">.</span>Name<span class="token punctuation">,</span> <span class="token keyword">out</span> <span class="token class-name"><span class="token keyword">var</span></span> onDemandResourcesPath<span class="token punctuation">)</span><span class="token punctuation">)</span><br>    <span class="token punctuation">{</span><br>        <span class="token class-name"><span class="token keyword">string</span></span> onDemandResourcesPathDirectory <span class="token operator">=</span> Path<span class="token punctuation">.</span><span class="token function">GetDirectoryName</span><span class="token punctuation">(</span>onDemandResourcesPath<span class="token punctuation">)</span><span class="token operator">!</span><span class="token punctuation">;</span><br><br>        <span class="token keyword">if</span> <span class="token punctuation">(</span>onDemandResourcesPathDirectory <span class="token keyword">is</span> <span class="token keyword">not</span> <span class="token keyword">null</span><span class="token punctuation">)</span><br>        <span class="token punctuation">{</span><br>            aggregateResourcesPaths<span class="token punctuation">.</span><span class="token function">Add</span><span class="token punctuation">(</span>onDemandResourcesPathDirectory<span class="token punctuation">)</span><span class="token punctuation">;</span><br>        <span class="token punctuation">}</span><br>    <span class="token punctuation">}</span><br><br><span class="token punctuation">}</span><br><span class="token range operator">..</span><span class="token punctuation">.</span></code></pre>
+<p>I’m currently developing a simplified version of these projects to experiment with new ideas before integrating them into production projects. You’re welcome to check out the progress and contribute your insights on my personal <a href="https://github.com/gabrewer/gabMileage">GitHub repository</a>.</p>
+<p>My journey with Dapr and .NET Aspire continues to be a learning curve. I’m excited to see how these tools evolve and how they can further enhance SaaS project development.</p>
+</div>
+</div>
+
+    </article>
+
+    <article>
+        <div class="blog-post">
   <p class="blog-post-meta">Saturday, August 4, 2018 at 3:39 AM UTC</p>
   <h3 class="blog-post-title">
     <a href="/2018/08/learning-current-angular-tool-best-practices/">
@@ -549,39 +583,6 @@ publish the packages I currently have installed.</p>
 <p>And now Collection+JSON results will display directly in the Firefox window.</p>
 <p><a href="/images/image_thumb7.png"><img src="/images/image_thumb7.png" alt="image" title="image"></a></p>
 <p>This technique will work for other types of +json media types as well such as Mason (application/vnd.mason+json) and HAL (application/vnd.hal+json).</p>
-</div>
-</div>
-
-    </article>
-
-    <article>
-        <div class="blog-post">
-  <p class="blog-post-meta">Friday, September 12, 2014 at 3:39 AM UTC</p>
-  <h3 class="blog-post-title">
-    <a href="/2014/09/setting-an-ip-address-using-netsh/">
-      Setting an IP address using netsh instead of arp -s on Windows 8.1
-    </a>
-  </h3>
-  
-    <div class="post-comments">
-      <a href="/2014/09/setting-an-ip-address-using-netsh/#disqus_thread" data-disqus-identifier="2014-09-setting-an-ip-address-using-netsh">Post a comment</a>
-    </div>
-  
-  <div class="entry-content"><p>I recently had to setup many Epson TM-T88V receipt printers for a POS installation and out of the box they are configured with a static address of 192.168.192.168.  Pressing the reset button for 3 seconds prints out the status of the printer including the MAC address so I though I would just use arp –s to configure the printers but I received an error.  So after a some googling with Bing I turned up this article that pointed me to the the fact that you need to use netsh with recent versions of Windows.</p>
-<p>First you need to get the name of the interface that the device is connected to.  Then you execute the netsh interface ipv4 add neighbors command.</p>
-<pre class="highlight prettyprint">netsh interface ipv4 show interfaces
-
-Idx     Met         MTU          State                Name
----  ----------  ----------  ------------  ---------------------------
-  3          10        1500  connected     Ethernet
-  1          50  4294967295  connected     Loopback Pseudo-Interface 1
- 63          10        1400  connected     vowire hosting
- 10           5        1500  connected     vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch)
- 29          10        1500  connected     vEthernet (VirtualBox Host-Only Ethernet Adapter Virtual Switch)
-
-netsh interface ipv4 add neighbors "Ethernet" 10.1.10.45 xx-xx-xx-xx-xx-xx
-
-</pre>
 </div>
 </div>
 
