@@ -159,27 +159,25 @@
 }
 .csharpcode .lnum { color: #606060; }
 </style>   <p>This appears to be a big problem because SCSI-3 Persistent Reservations are very important to the cluster working correctly.&nbsp; </p><!--more--><p>We had been using this same model of array in our Windows Server 2008 R2 clusters so we knew that the P2000 support SCSI-3 Persistent Reservations.&nbsp; So we went off to google it with bing to find the answer to what was happening with the Windows Server 2012 cluster.&nbsp; We found several posts on the HP support forums that had no solutions and found that HP had no VSS or VDS providers for the P2000 for Windows Server 2012 yet.&nbsp; (Which means no hardware snapshots with DPM yet)</p> <p>Then we started to look at the warning more closely.&nbsp; One of things we realized was it was a warning and not an error.&nbsp; It seem like a SCSI-3 Persistent Reservation failure would have been a fatal error to the cluster validation error.&nbsp; Then we realized that there were two SCSI-3 Persistent Test in the Server 2012 Cluster validation tests.&nbsp; One was “Validate SCSI-3 Persistent Reservation” and the other was “Validate Storage Spaces Persistent Reservation”.&nbsp; The first one passed and it was the second one that failed. </p> <p>It turns out that the test that was failing was for the new&nbsp; Windows Server 2012 feature of clustered Storage Spaces which only works on direct connected SATA or SAS JBOD disks, no RAID, iSCSI or Fibre Channel disks will ever pass this test.&nbsp; So we went ahead and created the cluster and everything is working great.</p> <p><a href="http://social.technet.microsoft.com/wiki/contents/articles/11382.storage-spaces-frequently-asked-questions-faq.aspx#What_types_of_storage_arrays_can_I_use_with_Storage_Spaces" target="_blank">From TechNet</a></p> <h4><font face="Consolas">What types of drives can I use with Storage Spaces?</font></h4> <p><font face="Consolas">You can use commodity drives attached via Serial-Attached SCSI (SAS), Serial ATA (SATA), or USB. Storage layers that abstract the physical disks are not compatible with Storage Spaces. This includes VHDs and pass-through disks in a virtual machine, and storage subsystems that layer a RAID implementation on top of the physical disks. iSCSI and Fibre Channel controllers are not supported by Storage Spaces.</font> <p>We did later find one link on <a href="http://serverfault.com/questions/449083/windows-2012-cluster-on-p6300-scsi-3-persistent-reservation-issues" target="_blank">ServerFault</a> that validated our conclusion that the warning was benign.&nbsp; So the warning that seem scary really turn out to be nothing.&nbsp; It seems like the warning message is very misleading as to the root cause of the issue that triggered it.</p>
-
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '/2013/01/misleading-error-in-cluster-validation-wizard/';
-      this.page.identifier = '/2013/01/misleading-error-in-cluster-validation-wizard/';
-    };
-
-    (function () {
-      var d = document,
-        s = d.createElement('script');
-      s.src = 'https://gabrewer.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>
-    Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-  </noscript>
-
+<div id="comment_thread">
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="gabrewer/gabrewer.github.io"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxOTEzMjMxNQ=="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOASPvm84CcJeC"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
 </div><div class="sidebar">
   <div class="p-4 m-0 -mx-4 mb-4 bg-gray-100 rounded">
     <h4>About</h4>
@@ -314,11 +312,6 @@
   </div>
 </footer>
 <script src="" async defer></script>
-    <script
-      id="dsq-count-scr"
-      src="//gabrewer.disqus.com/count.js"
-      async
-    ></script>
     <script>function showTooltip(o,e){o.trigger.className.includes("tooltipped")||(o.trigger.children[0].className="tooltipped tooltipped-s",o.trigger.children[0].ariaLabel=e)}window.addEventListener("load",()=>{var o=new ClipboardJS(".code-copy");o.on("success",o=>showTooltip(o,"Copied!")),o.on("error",o=>showTooltip(o,"Failed..."))});</script>
 <script async src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
   </body>

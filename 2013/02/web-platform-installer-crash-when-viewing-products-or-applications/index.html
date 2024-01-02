@@ -136,27 +136,25 @@
 
   <p>Today when I was trying to setup WordPress on my Windows 8 development machine the IIS Manager would crash with an System.OutOfMemoryException exception.</p> <div id="codeSnippetWrapper" style="overflow: auto; cursor: text; font-size: 8pt; border-top: silver 1px solid; font-family: 'Courier New', courier, monospace; border-right: silver 1px solid; border-bottom: silver 1px solid; padding-bottom: 4px; direction: ltr; text-align: left; padding-top: 4px; padding-left: 4px; margin: 20px 0px 10px; border-left: silver 1px solid; line-height: 12pt; padding-right: 4px; max-height: 200px; width: 97.5%; background-color: #f4f4f4"><pre id="codeSnippet" style="border-top-style: none; overflow: visible; font-size: 8pt; border-left-style: none; font-family: 'Courier New', courier, monospace; border-bottom-style: none; color: black; padding-bottom: 0px; direction: ltr; text-align: left; padding-top: 0px; border-right-style: none; padding-left: 0px; margin: 0em; line-height: 12pt; padding-right: 0px; width: 100%; background-color: #f4f4f4">Exception:System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.<br> ---&gt; System.Reflection.TargetInvocationException: An exception occurred during the operation, making the result invalid.<br>Check InnerException <span style="color: #0000ff">for</span> exception details. ---&gt; System.OutOfMemoryException: Out of memory.</pre><br></div>
 <p>After doing a quick Bing search turn up this <a href="http://forums.iis.net/p/1192160/2042796.aspx/1?p=True&amp;t=634963126897202460" target="_blank">article</a> on the IIS.NET Forums and after clicking “Get New Web Platform Components” problem solved.</p>
-
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/';
-      this.page.identifier = '/2013/02/web-platform-installer-crash-when-viewing-products-or-applications/';
-    };
-
-    (function () {
-      var d = document,
-        s = d.createElement('script');
-      s.src = 'https://gabrewer.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>
-    Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
-  </noscript>
-
+<div id="comment_thread">
+  <script
+    src="https://giscus.app/client.js"
+    data-repo="gabrewer/gabrewer.github.io"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxOTEzMjMxNQ=="
+    data-category="Announcements"
+    data-category-id="DIC_kwDOASPvm84CcJeC"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
 </div><div class="sidebar">
   <div class="p-4 m-0 -mx-4 mb-4 bg-gray-100 rounded">
     <h4>About</h4>
@@ -291,11 +289,6 @@
   </div>
 </footer>
 <script src="" async defer></script>
-    <script
-      id="dsq-count-scr"
-      src="//gabrewer.disqus.com/count.js"
-      async
-    ></script>
     <script>function showTooltip(o,e){o.trigger.className.includes("tooltipped")||(o.trigger.children[0].className="tooltipped tooltipped-s",o.trigger.children[0].ariaLabel=e)}window.addEventListener("load",()=>{var o=new ClipboardJS(".code-copy");o.on("success",o=>showTooltip(o,"Copied!")),o.on("error",o=>showTooltip(o,"Failed..."))});</script>
 <script async src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
   </body>
