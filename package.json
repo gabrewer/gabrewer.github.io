@@ -200,11 +200,11 @@
     "build:tailwind": "npx tailwindcss -i ./input.css -o _site/output.css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "ELEVENTY_ENV=development eleventy",
-    "start": "npm run watch:eleventy & npm run watch:tailwind",
-    "build": "npm run build:eleventy & npm run build:tailwind",
+    "start": "npm run watch:tailwind & npm run watch:eleventy",
+    "build": "npm run build:tailwind & npm run build:eleventy",
     "build:tailwind:prod": "npx tailwindcss -i ./input.css -o _site/output.css --minify",
     "build:eleventy:prod": "ELEVENTY_ENV=production eleventy",
-    "build:prod": "npm run build:eleventy:prod & npm run build:tailwind:prod"
+    "build:prod": "npm run build:tailwind:prod & npm run build:eleventy:prod"
   },
   "keywords": [],
   "author": "",
