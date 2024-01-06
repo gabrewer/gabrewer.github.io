@@ -4,12 +4,57 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2023-12-27T16:45:48Z</updated>
+    <updated>2024-01-05T12:21:51Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 01/05/2024</title>
+            <link href="/useful_links/2024-01-05-links-1-slash-5-slash-2024/"/>
+            <updated>2024-01-05T12:21:51Z</updated>
+            <id>/useful_links/2024-01-05-links-1-slash-5-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Most everything that you want is just outside your comfort zone.”&lt;br /&gt;
+--  Jack Canfield
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://ronjeffries.com/articles/-y023/badly-bad/&quot;&gt;Bad Software, Written Badly&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/donnemartin/system-design-primer&quot;&gt;donnemartin/system-design-primer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://martinfowler.com/bliki/LegacySeam.html&quot;&gt;LegacySeam&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/domain-modeling-gone-wrong-part-1/&quot;&gt;Domain Modeling Gone Wrong – Part 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nkdagility.com/blog/7-deadly-sins-of-agile-greed/&quot;&gt;7 Deadly Sins of Agile: Greed &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/observability-in-2024-more-opentelemetry-less-confusion/&quot;&gt;Observability in 2024: More OpenTelemetry, Less Confusion&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/developer-productivity-in-2024-new-metrics-more-genai/&quot;&gt;Developer Productivity in 2024: New Metrics, More GenAI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://textslashplain.com/2024/01/02/coding-at-google/&quot;&gt;Coding at Google&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/4-steps-for-building-event-driven-genai-applications/&quot;&gt;4 Steps for Building Event-Driven GenAI Applications &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.developerscantina.com/p/semantic-kernel-new-planners/&quot;&gt;Semantic Kernel - The new planners introduced in 1.0&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://justingarrison.com/blog/2023-12-30-amazons-silent-sacking/&quot;&gt;Amazon’s Silent Sacking&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://staysaasy.com/startups/2024/01/02/this-is-the-person-selling-your-product.html&quot;&gt;This Is the Person Selling Your Product&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jdmeier.com/how-would-your-manager-whiteboard-you/&quot;&gt;How Would Your Manager Whiteboard You?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.logrocket.com/product-management/open-door-policy-overview/&quot;&gt;Building trust with an open-door policy&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://rodtrent.substack.com/p/my-tips-for-working-at-microsoft&quot;&gt;A Job at Microsoft: Getting and Passing the Interview&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/alexhyettdev/giving-back-as-a-developer-5b13&quot;&gt;Giving back as a developer&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoq.com/news/2023/12/linkedin-grpc-protobuf-rest-json/&quot;&gt;Why LinkedIn chose gRPC+Protobuf over REST+JSON: Q&amp;amp;A with Karthik Ramgopal and Min Chen&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.codeproject.com/Articles/5374576/Implementing-Distributed-Transactions-with-the-Sag&quot;&gt;Implementing Distributed Transactions with the Saga Pattern on Azure&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.stephencleary.com/2023/12/the-joy-of-immutable-update-patterns.html&quot;&gt;C# Advent: The Joy of Immutable Update Patterns&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code-maze.com/csharp-broker-architectural-pattern/&quot;&gt;Broker Architectural Pattern in C#&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/bytehide/httpclienthandler-in-c-easy-guide-3490&quot;&gt;HttpClientHandler in C# - Easy Guide&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.red-gate.com/simple-talk/databases/postgresql/eager-aggregation-in-sql-queries/&quot;&gt;Eager Aggregation in SQL queries&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 12/27/2023</title>
