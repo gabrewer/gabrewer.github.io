@@ -4,12 +4,27 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-01-05T12:21:51Z</updated>
+    <updated>2024-08-02T13:04:11Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/02/2024</title>
+            <link href="/useful_links/2024-08-02-links-8-slash-2-slash-2024/"/>
+            <updated>2024-08-02T13:04:11Z</updated>
+            <id>/useful_links/2024-08-02-links-8-slash-2-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Practical-ASP-NET/Tailwind.Extensions.AspNetCore&quot;&gt;Use Tailwind’s JIT mode with dotnet run and dotnet watch run&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/gemcloud/integrating-tailwind-into-an-aspnet-core-project-3g4n&quot;&gt;Integrating Tailwind into an ASP.NET Core Project&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/madhukarkumar/the-parrotfish-principle-how-to-craft-compelling-product-messaging-9e4626e0af40&quot;&gt;The Parrotfish Principle: How to Craft Compelling Product Messaging&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://damienbod.com/2023/10/18/fix-missing-tokens-when-using-downstream-apis-and-microsoft-identity-in-asp-net-core/&quot;&gt;Fix missing tokens when using downstream APIs and Microsoft Identity in ASP.NET Core&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 01/05/2024</title>
