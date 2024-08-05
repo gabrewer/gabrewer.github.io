@@ -4,12 +4,55 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-02T13:04:11Z</updated>
+    <updated>2024-08-05T15:31:39Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/05/2024</title>
+            <link href="/useful_links/2024-08-05-links-8-slash-5-slash-2024/"/>
+            <updated>2024-08-05T15:31:39Z</updated>
+            <id>/useful_links/2024-08-05-links-8-slash-5-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“The greatest gift anyone can give another person: believing in them.”&lt;br /&gt;
+--  Jim Valvano
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoworld.com/article/3478485/the-rise-and-fall-of-stack-overflow.html&quot;&gt;The rise and fall of Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.ploeh.dk/2024/07/25/three-data-architectures-for-the-server/&quot;&gt;Three data architectures for the server by Mark Seemann&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/&quot;&gt;How to review code effectively: A GitHub staff engineer’s philosophy&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2024/07/11/snapshot-testing-in-net-with-verify/&quot;&gt;Snapshot Testing in .NET with Verify&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2024/07/10/full-line-code-completion-in-jetbrains-rider/&quot;&gt;Try Full Line Code Completion in JetBrains Rider 2024.1.4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/google-cloud/more-enjoyable-code-reviews-with-gemini-85ca661b843d&quot;&gt;More enjoyable Code Reviews with Gemini&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.redhat.com/articles/2024/08/01/open-source-ai-coding-assistance-granite-models&quot;&gt;Open source AI coding assistance with the Granite models&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/introducing-agents-in-semantic-kernel/&quot;&gt;Introducing Agents in Semantic Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://huyenchip.com/2024/07/25/genai-platform.html&quot;&gt;Building A Generative AI Platform&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://staysaasy.com/strategy/2024/07/07/i-like-dumb-plans.html&quot;&gt;I Like Dumb Plans&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2024/07/is-it-time-to-pivot-your-strategy&quot;&gt;Is It Time to Pivot Your Strategy?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/topics/startups/supporting-y-combinator-ai-startups-with-google-cloud-technology&quot;&gt;Launching a landmark partnership to support AI startups with Y Combinator&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2024/08/are-you-a-micromanager-or-too-hands-off&quot;&gt;Are You a Micromanager or Too Hands-Off?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2024/08/how-to-ask-for-help-without-making-yourself-look-bad&quot;&gt;How to Ask for Help Without Making Yourself Look Bad&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://weblogs.asp.net/ricardoperes/net-8-data-annotations-validation&quot;&gt;.NET 8 Data Annotations Validation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://weblogs.asp.net/ricardoperes/caching-httpclient-requests&quot;&gt;Caching HttpClient Requests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.postsharp.net/serilog-aspnetcore.html&quot;&gt;Adding Serilog to ASP.NET Core: a practical guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.nashtechglobal.com/net-aspire-supercharge-your-net-dx/&quot;&gt;.NET Aspire : Supercharge your .NET DX&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.postsharp.net/singleton&quot;&gt;The Singleton Pattern in C# Today Is Not Your Dad’s One!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://haacked.com/archive/2024/07/18/better-config-sections/&quot;&gt;Custom config sections using static virtual members in interfaces&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@murataslan1/whats-new-in-net-aspire-8-1-a-game-changer-for-cloud-native-development-9214a4a157ba&quot;&gt;What’s New in .NET Aspire 8.1: A Game-Changer for Cloud-Native Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://adamstorr.co.uk/blog/my-love-hate-relationship-with-pattern-matching/&quot;&gt;My Love Hate Relationship With Pattern Matching&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/02/2024</title>
