@@ -4,12 +4,41 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-05T15:31:39Z</updated>
+    <updated>2024-08-07T13:07:42Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/07/2024</title>
+            <link href="/useful_links/2024-08-07-links-8-slash-7-slash-2024/"/>
+            <updated>2024-08-07T13:07:42Z</updated>
+            <id>/useful_links/2024-08-07-links-8-slash-7-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;&quot;Most folks are about as happy as they make up their minds to be&quot;
+&lt;br /&gt; - Abraham Lincoln
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/is-vertical-slice-architecture-better-than-clean-architecture-or-ports-and-adapters/&quot;&gt;Is Vertical Slice Architecture better than Clean Architecture or Ports and Adapters?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudiomagazine.com/Articles/2024/07/30/prompty.aspx&quot;&gt;Microsoft Previews AI Prompt Playground for VS Code: Prompty&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.oreilly.com/radar/software-architecture-in-an-ai-world/&quot;&gt;Software Architecture in an AI World&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/2407.16833v1&quot;&gt;Title:Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://review.firstround.com/going-multi-product-11-tactics-for-tackling-your-next-bet/&quot;&gt;The Guide to Going Multi-Product: 11 Tactics for Tackling Your Next Bet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://staysaasy.com/leadership/2023/10/06/ambiguity.html&quot;&gt;(People on) Nice Teams Finish Last&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://architectelevator.com/cloud/lambda-is-a-halo-product/&quot;&gt;Is AWS Lambda a Halo Product?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://insight.kellogg.northwestern.edu/article/is-your-team-playing-it-too-safe&quot;&gt;Is Your Team Playing It Too Safe?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2024/07/when-asking-too-many-questions-undermines-your-leadership&quot;&gt;When Asking Too Many Questions Undermines Your Leadership&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://code-maze.com/blazor-cancel-http-request-on-leaving-a-component/&quot;&gt;How to Cancel an HTTP Request on Leaving a Blazor Component&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.syncfusion.com/blogs/post/timer-app-maui-radialgauge-timepicker&quot;&gt;Design a Timer App using .NET MAUI Radial Gauge and Timer Picker&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/05/2024</title>
