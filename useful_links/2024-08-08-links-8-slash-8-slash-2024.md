@@ -17,7 +17,7 @@ tags: links
 [API naming principle: If there is no direct object, then the direct object is the source object](https://devblogs.microsoft.com/oldnewthing/20240724-00/?p=110037)
 
 #### Testing
-[> TDD. You're Doing it Wrong](https://www.industriallogic.com/blog/tdd-youre-doing-it-wrong/)
+[TDD. You're Doing it Wrong](https://www.industriallogic.com/blog/tdd-youre-doing-it-wrong/)
 
 [Continuous Delivery on Google Cloud with Gitlab CI/CD and Cloud Deploy](https://cloud.google.com/blog/products/devops-sre/software-delivery-pipelines-with-gitlab-cicd-and-cloud-deploy)
 
