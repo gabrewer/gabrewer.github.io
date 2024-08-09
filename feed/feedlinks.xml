@@ -4,12 +4,45 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-08T14:07:40Z</updated>
+    <updated>2024-08-09T06:03:44Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/09/2024</title>
+            <link href="/useful_links/2024-08-09-links-8-slash-9-slash-2024/"/>
+            <updated>2024-08-09T06:03:44Z</updated>
+            <id>/useful_links/2024-08-09-links-8-slash-9-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“It’s easy to make a buck. It’s a lot tougher to make a difference.”&lt;br /&gt;
+--  Tom Brokaw
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://testing.googleblog.com/2024/07/in-praise-of-small-pull-requests.html&quot;&gt;In Praise of Small Pull Requests&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@luca.milan/enhancing-code-quality-with-modern-cloud-native-tools-403c55a55edd&quot;&gt;Enhancing Code Quality with Modern Cloud-Native Tools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.code4it.dev/blog/seed-inmemory-entityframework-bogus/&quot;&gt;Seeding in-memory Entity Framework with realistic data with Bogus&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://raygun.com/raygun-for-net-aspire&quot;&gt;Raygun for .NET Aspire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.warp.dev/blog/misconceptions-about-ai-powered-software-development&quot;&gt;Five misconceptions about AI-powered software development&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jamiemaguire.net/index.php/2024/07/27/semantic-kernel-creating-a-custom-webchat-agent-using-semantic-kernel-open-ai-gpt-4-and-asp-net-core/&quot;&gt;Semantic Kernel: Creating a Custom Webchat Agent Using Open AI GPT-4, and ASP.NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.developerscantina.com/p/semantic-kernel-multiagents/&quot;&gt;Using Semantic Kernel to create multi-agent scenarios&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gatesnotes.com/My-trip-to-the-frontier-of-AI-education&quot;&gt;My trip to the frontier of AI education&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.jimgrey.net/2024/07/03/lessons-learned-in-35-years-of-making-software/&quot;&gt;Lessons learned in 35 years of making software&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.twilio.com/en-us/blog/build-a-message-queue-for-emails-using-dot-net-azure-queue-triggers-and-twilio-sendgrid&quot;&gt;Build a message queue with email notification using .NET Azure storage queue function and Twilio SendGrid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://raygun.com/documentation/language-guides/dotnet/crash-reporting/aspire/&quot;&gt;Raygun For Teams&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeffreyfritz.com/2024/07/adding-antivirus-to-net-aspire-systems/&quot;&gt;Adding Antivirus to .NET Aspire Systems&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://build5nines.com/azure-functions-best-practices-for-performance-reliability-and-security/&quot;&gt;Azure Functions Best Practices for Performance, Reliability and Security&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software&quot; tabindex=&quot;-1&quot;&gt;Software&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://logseq.com&quot;&gt;A privacy-first, open-source knowledge base&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/08/2024</title>
@@ -24,7 +57,7 @@
 &lt;p&gt;&lt;a href=&quot;https://codeopinion.com/avoiding-long-running-http-api-requests/&quot;&gt;Avoiding long-running HTTP API requests&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/oldnewthing/20240724-00/?p=110037&quot;&gt;API naming principle: If there is no direct object, then the direct object is the source object&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.industriallogic.com/blog/tdd-youre-doing-it-wrong/&quot;&gt;&amp;gt; TDD. You’re Doing it Wrong&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.industriallogic.com/blog/tdd-youre-doing-it-wrong/&quot;&gt;TDD. You’re Doing it Wrong&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://cloud.google.com/blog/products/devops-sre/software-delivery-pipelines-with-gitlab-cicd-and-cloud-deploy&quot;&gt;Continuous Delivery on Google Cloud with Gitlab CI/CD and Cloud Deploy&lt;/a&gt;&lt;/p&gt;
 &lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.infoworld.com/article/2514123/8-reasons-developers-love-go-and-8-reasons-they-dont.html&quot;&gt;8 reasons developers love Go—and 8 reasons they don’t&lt;/a&gt;&lt;/p&gt;
