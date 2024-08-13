@@ -4,12 +4,42 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-09T06:03:44Z</updated>
+    <updated>2024-08-13T06:40:06Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/13/2024</title>
+            <link href="/useful_links/2024-08-13-links-8-slash-13-slash-2024/"/>
+            <updated>2024-08-13T06:40:06Z</updated>
+            <id>/useful_links/2024-08-13-links-8-slash-13-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Just believe in yourself. Even if you don’t, pretend that you do and, at some point, you will.”&lt;br /&gt;
+--  Venus Williams
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.infoq.com/articles/mastering-long-running-processes/&quot;&gt;Are You Done Yet? Mastering Long-Running Processes in Modern Architectures&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/tswiftma/initialize-asynchronous-data-in-xunit-collections-for-sharing-data-between-tests-39hc&quot;&gt;Initialize asynchronous data in XUnit Collections for sharing data between tests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/testing-modular-monoliths-system-integration-testing&quot;&gt;Testing Modular Monoliths: System Integration Testing&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.logrocket.com/playwright-adoption-guide/&quot;&gt;Playwright adoption guide: Overview, examples, and alternatives&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2024/08/09/cast-expressions-primary-constructors-collection-expressions-list-patterns-csharp-language-support-in-2024-2/&quot;&gt;Cast Expressions, Primary Constructors, Collection Expressions, List Patterns – C# Language Support in 2024.2&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/the-future-of-planners-in-semantic-kernel/&quot;&gt;The future of Planners in Semantic Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jfarrell.net/2024/07/17/using-semantic-kernel-to-perform-rag-queries/&quot;&gt;Using Semantic Kernel to perform RAG Queries&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudiomagazine.com/Articles/2024/07/22/rubicon-visual-studio.aspx&quot;&gt;Visual Studio Uses RUBICON to Improve AI Conversations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/planning-with-semantic-kernel-using-automatic-function-calling/&quot;&gt;Planning with Semantic Kernel using Automatic Function Calling&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/modern-work-app-consult-blog/exploring-the-advanced-rag-retrieval-augmented-generation/ba-p/4197836&quot;&gt;Exploring the Advanced RAG (Retrieval Augmented Generation) Service&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/educator-developer-blog/build-powerful-rag-apps-without-code-using-langflow-and-azure/ba-p/4193542&quot;&gt;Build Powerful RAG Apps Without Code Using LangFlow and Azure OpenAI&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2023/10/24/how-to-use-testcontainers-with-dotnet-unit-tests/&quot;&gt;How to use Testcontainers with .NET Unit Tests&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@michaelmaurice410/implementing-the-specification-pattern-in-c-with-entity-framework-core-bac5d8522480&quot;&gt;Implementing the Specification Pattern in C# with Entity Framework Core&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/09/2024</title>
