@@ -4,12 +4,70 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-13T06:40:06Z</updated>
+    <updated>2024-08-16T15:25:26Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/16/2024</title>
+            <link href="/useful_links/2024-08-16-links-8-slash-16-slash-2024/"/>
+            <updated>2024-08-16T15:25:26Z</updated>
+            <id>/useful_links/2024-08-16-links-8-slash-16-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Delusions of grandeur make me feel a lot better about myself.”&lt;br /&gt;
+--  Jane Wagner
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2024/08/15/resharper-2024-2/&quot;&gt;ReSharper 2024.2: Deepened C#12 and Initial C#13 Support, New AI Capabilities, Localization, and More&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2024/08/15/dotnet-tools-242-release/&quot;&gt;dotCover, dotMemory, dotPeek, and dotTrace 2024.2 Have Been Released!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/developer-skills/github/how-to-level-up-your-git-game-with-github-cli/&quot;&gt;How to level up your Git game with GitHub CLI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://rdel.substack.com/p/rdel-55-analyzing-the-2024-stack&quot;&gt;RDEL #55: Analyzing the 2024 Stack Overflow Developer Survey: How Engineers use AI (Part 2)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.jetbrains.com/dotnet/2024/08/15/rider-2024-2/&quot;&gt;Rider 2024.2: Full Line Code Completion, Reader Mode, Major Enhancements to Debugging, and More. &lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://stackoverflow.blog/2024/08/15/practical-tips-for-retrieval-augmented-generation-rag/&quot;&gt;Practical tips for retrieval-augmented generation (RAG)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://samestuffdifferentday.net/2024/08/14/protect-your-time/&quot;&gt;Protect your time!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/build-better-http-apis/&quot;&gt;Build better HTTP APIs&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/dotnet-9-preview-7/&quot;&gt;.NET 9 Preview 7 is now available!&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 08/14/2024</title>
+            <link href="/useful_links/2024-08-14-links-8-slash-14-slash-2024/"/>
+            <updated>2024-08-14T15:40:19Z</updated>
+            <id>/useful_links/2024-08-14-links-8-slash-14-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Confidence is 10% hard work and 90% delusion.”&lt;br /&gt;
+--  Tina Fey
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/visualstudio/visual-studio-2022-v17-11-your-feedback-in-action/&quot;&gt;Visual Studio 2022 v17.11 – Your feedback in action&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://newsletter.getdx.com/p/developer-use-case-with-ai-tools&quot;&gt;How developers want to use AI tools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/engineering/engineering-principles/the-ultimate-guide-to-developer-happiness/&quot;&gt;The ultimate guide to developer happiness&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.blog/ai-and-ml/generative-ai/what-are-ai-agents-and-why-do-they-matter/&quot;&gt;What are AI agents and why do they matter?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/azure-ai-model-catalog-dotnet-inference-sdk/&quot;&gt;Introducing the Azure AI Inference SDK: Access More AI Models with the Azure AI Model Catalog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/support-for-azure-ai-openai-and-openai-v2-is-here/&quot;&gt;Support for Azure.AI.OpenAI and OpenAI v2 is here&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.oreilly.com/radar/think-better/&quot;&gt;Think Better&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;security&quot; tabindex=&quot;-1&quot;&gt;Security&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/html/2408.03960v1&quot;&gt;Microservice Vulnerability Analysis: A Literature Review with Empirical Insights&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.peterritchie.com/posts/what-are-the-proposed-csharp-type-unions-and-how-do-they-relate-to-discriminated-unions&quot;&gt;What Are the Proposed C# Type Unions and How Do They Relate to Discriminated Unions?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.devops.dev/microsofts-alternative-to-redis-a-deep-dive-into-garnet-1630e4b33a51&quot;&gt;Microsoft’s Alternative to Redis: A Deep Dive into Garnet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://code-maze.com/?p=120880&quot;&gt;Introduction to the Wolverine Library in .NET&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/cosmosdb/a-better-way-to-navigate-your-data/&quot;&gt;What’s New in Azure Cosmos DB Data Explorer: A Better Way to Navigate Your Data&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;gadgets&quot; tabindex=&quot;-1&quot;&gt;Gadgets&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.engadget.com/computing/accessories/best-usb-c-hub-120051833.html&quot;&gt;The best USB-C hub for 2024&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/13/2024</title>
