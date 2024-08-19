@@ -4,12 +4,49 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-16T15:25:26Z</updated>
+    <updated>2024-08-19T16:52:41Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/19/2024</title>
+            <link href="/useful_links/2024-08-19-links-8-slash-19-slash-2024/"/>
+            <updated>2024-08-19T16:52:41Z</updated>
+            <id>/useful_links/2024-08-19-links-8-slash-19-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“The whole world steps aside for the man who knows where he is going.”&lt;br /&gt;
+--  James Allen
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;everyones-got-one%E2%80%A6&quot; tabindex=&quot;-1&quot;&gt;Everyones got one…&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://georgestocker.com/2024/08/16/agile-is-not-a-process/&quot;&gt;Agile is not a process.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://martyoo.medium.com/stop-team-topologies-fd954ea26eca&quot;&gt;Stop Team Topologies&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.ploeh.dk/2024/08/19/zippers/&quot;&gt;Zippers by Mark Seemann&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://code-maze.com/csharp-advanced-debugging/&quot;&gt;Advanced Debugging in C#&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@Fredtaylor1/2024-mac-developer-toolbox-essentials-for-full-stack-development-ff90c48fa7ec&quot;&gt;2024 Mac Developer Toolbox: Essentials for Full-Stack Development&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.exxactcorp.com/blog/deep-learning/how-to-improve-the-performance-of-a-rag-model&quot;&gt;How To Improve the Performance of a RAG Model&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.colinbreck.com/administrivia-reconsidering-the-engineering-and-management-tracks/&quot;&gt;Administrivia: Reconsidering the Engineering and Management Tracks&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://nesslabs.com/curse-of-knowledge&quot;&gt;The Curse of Knowledge&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://dynomight.substack.com/p/advice&quot;&gt;Why doesn’t advice work?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;accessibility&quot; tabindex=&quot;-1&quot;&gt;Accessibility&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://adrianroselli.com/2024/08/things-to-do-before-asking-is-this-accessible.html&quot;&gt;Things to Do Before Asking “Is This Accessible?”&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/identity/external-id-learning-module/&quot;&gt;Announcing a new learning module for evaluating and building with Microsoft Entra External ID&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://fiodar.substack.com/p/hosting-a-keycloak-container-in-dotnet-aspire&quot;&gt;Hosting a Keycloak Container in .NET Aspire&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/azure-sql/azure-sql-dev-containers/&quot;&gt;Simplify development with Dev Container templates for Azure SQL Database – Preview&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/16/2024</title>
