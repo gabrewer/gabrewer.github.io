@@ -4,12 +4,43 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-19T16:52:41Z</updated>
+    <updated>2024-08-26T16:31:23Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 08/26/2024</title>
+            <link href="/useful_links/2024-08-26-links-8-slash-26-slash-2024/"/>
+            <updated>2024-08-26T16:31:23Z</updated>
+            <id>/useful_links/2024-08-26-links-8-slash-26-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“You are very powerful, provided you know how powerful you are.”&lt;br /&gt;
+--  Yogi Bhajan
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.ploeh.dk/2024/08/26/a-list-zipper-in-c/&quot;&gt;A List Zipper in C# by Mark Seemann&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://learnyouahaskell.com/zippers&quot;&gt;Zippers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/serverless-sucks/&quot;&gt;Serverless Sucks?&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;design&quot; tabindex=&quot;-1&quot;&gt;Design&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://uxdesign.cc/fire-ready-aim-6d409ca1102d&quot;&gt;Fire, Ready, Aim&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/step-by-step-guide-to-building-a-powerful-ai-monitoring-dashboard-with-semantic-kernel-and-azure-monitor/&quot;&gt;Step-by-Step Guide to Building a Powerful AI Monitoring Dashboard with Semantic Kernel and Azure Monitor&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://neel04.github.io/my-website/blog/pytorch_rant/&quot;&gt;PyTorch is dead. Long live JAX.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://martinfowler.com/articles/exploring-gen-ai.html&quot;&gt;Exploring Generative AI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.engadget.com/ai/this-startup-wants-to-be-the-itunes-of-ai-content-licensing-162942714.html&quot;&gt;This startup wants to be the iTunes of AI content licensing&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blazorise.com/blog/blazor-and-tailwind-quick-setup-without-npm&quot;&gt;Blazor and Tailwind - Quick Setup Without npm&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/iis-support-blog/perfview-asp-net-core-stats-view/ba-p/4227176&quot;&gt;PerfView: ASP.NET Core Stats View&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jasonhaley.com/2024/08/23/introducing-eshopsupport-series/&quot;&gt;eShopSupport Series&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/a807373c-dcc6-42f9-995f-e69dcea1cd47&quot;&gt;To Soft Delete or Not to Soft Delete&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://antondevtips.com/blog/how-to-implement-audit-trail-in-asp-net-core-with-ef-core&quot;&gt;How to Implement Audit Trail in ASP.NET Core with EF Core&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/19/2024</title>
