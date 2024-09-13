@@ -4,12 +4,51 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-08-28T08:27:26Z</updated>
+    <updated>2024-09-13T16:20:26Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 09/13/2024</title>
+            <link href="/useful_links/2024-09-13-links-9-slash-13-slash-2024/"/>
+            <updated>2024-09-13T16:20:26Z</updated>
+            <id>/useful_links/2024-09-13-links-9-slash-13-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.”&lt;br /&gt;
+--  Ralph Waldo Emerson
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/09/09/cqrs-command-handlers-with-marten/&quot;&gt;CQRS Command Handlers with Marten&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/event-sourcing-101-terminology/&quot;&gt;Event Sourcing 101: Terminology&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/feature-flags-are-more-than-just-toggles/&quot;&gt;Feature Flags are more than just Toggles&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.ploeh.dk/2024/09/02/keeping-cross-cutting-concerns-out-of-application-code/&quot;&gt;Keeping cross-cutting concerns out of application code by Mark Seemann&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://machinelearningmastery.com/free-tools-every-ml-beginner-should-use/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/google-cloud/embeddings-how-to-select-the-right-one-135032315709&quot;&gt;Embeddings: How to select the right one?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://seroter.com/2024/09/12/3-ways-to-use-ai-to-grade-homework-assignments/&quot;&gt;3 ways to use AI to grade homework assignments&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bartwullems.blogspot.com/2024/09/semantic-kernel-multi-agent-systems.html&quot;&gt;Semantic Kernel - Multi agent systems&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/google-cloud/kaggle-model-upload-made-easy-a74acc5f15d5&quot;&gt;Kaggle Model Upload Made Easy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bartwullems.blogspot.com/2024/09/semantic-kernelagent-framework.html&quot;&gt;Semantic Kernel–Agent Framework&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.rosspettit.com/2024/08/for-years-tech-was-fighting-war-for.html&quot;&gt;For years, tech firms were fighting a war for talent. Now they are waging war on talent.&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://paulgraham.com/foundermode.html&quot;&gt;Founder Mode&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.svpg.com/coaching-feedback/&quot;&gt;Coaching Feedback&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.svpg.com/coaching-founder-mode/&quot;&gt;Coaching Founder Mode&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://every.to/chain-of-thought/why-generalists-own-the-future&quot;&gt;Why Generalists Own the Future&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://world.hey.com/dhh/for-what-it-ll-make-of-you-9469db5c&quot;&gt;For what it’ll make of you&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://asp-blogs.azurewebsites.net/ricardoperes/rate-limiting-in-asp-net-core&quot;&gt;Rate Limiting in ASP.NET Core&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/08/29/why-and-how-marten-is-a-great-document-database/&quot;&gt;Why and How Marten is a Great Document Database&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 08/28/2024</title>
