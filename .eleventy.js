@@ -4,15 +4,16 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const markdownItFootnote = require("markdown-it-footnote");
 
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const codeClipboard = require("eleventy-plugin-code-clipboard");
 
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
+  const { EleventyRenderPlugin, EleventyI18nPlugin, EleventyHtmlBasePlugin } =
+    await import("@11ty/eleventy");
+
   eleventyConfig.addWatchTarget("assets/**/*.{svg,webp,png,jpeg}");
   eleventyConfig.addWatchTarget("_layouts/**/*");
   eleventyConfig.addWatchTarget("_includes/**/*");
