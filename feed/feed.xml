@@ -4,12 +4,20 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feed.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-09-13T16:28:51Z</updated>
+    <updated>2024-10-07T17:19:10Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title></title>
+            <link href="/11ty-np/"/>
+            <updated>2024-10-07T17:19:02Z</updated>
+            <id>/11ty-np/</id>
+            <content type="html"></content>          
+        </entry>
         
         <entry>
             <title>.Net Aspire Preview 2 with Dapr and the secretstore</title>
