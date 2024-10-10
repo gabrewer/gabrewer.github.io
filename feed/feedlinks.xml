@@ -4,12 +4,46 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-10-09T06:50:13Z</updated>
+    <updated>2024-10-10T06:16:59Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 10/10/2024</title>
+            <link href="/useful_links/2024-10-10-links-10-slash-10-slash-2024/"/>
+            <updated>2024-10-10T06:16:59Z</updated>
+            <id>/useful_links/2024-10-10-links-10-slash-10-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“The question isn&#39;t who is going to let me, it&#39;s who is going to stop me.”&lt;br /&gt;
+--  Ayn Rand
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/47e4a351-0f1b-4bb5-a3d5-0ce4d7c1fa61&quot;&gt;How to test HttpClient inside API Tests&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://get.assembla.com/blog/git-project-management/&quot;&gt;Git Project Management: Advanced Git Strategies for Developers and Project Managers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://timdeschryver.dev/blog/my-recommendations-to-configure-visual-studio-code-for-angular-development&quot;&gt;My recommendations to configure Visual Studio Code for Angular Development&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/educator-developer-blog/evaluating-language-models-with-azure-ai-studio-a-step-by-step/ba-p/4241762&quot;&gt;Evaluating Language Models with Azure AI Studio: A Step-by-Step Guide&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mindtheproduct.com/5-lessons-i-learned-after-conducting-100-customer-interviews/&quot;&gt;5 lessons I learned after conducting 100 customer interviews&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.radicalcandor.com/blog/how-to-gauge-your-feedback/&quot;&gt;How To Gauge Your Feedback&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://astro.build/blog/astro-4150/&quot;&gt;Astro 4.15&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.builder.io/blog/vite&quot;&gt;Build Web Apps Absurdly Fast with Vite&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mostlylucid.net/blog/umaminetbotdetection&quot;&gt;Umami.Net and Bot Detection (English)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developer.mescius.com/blogs/the-top-50-tips-for-better-angular-development&quot;&gt;The Top 50 Tips for Better Angular Development&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://adamstorr.co.uk/blog/microsoft.identitymodel.tokens-has-finally-fixed-isnullorempty-foobar/&quot;&gt;Microsoft.IdentityModel.Tokens Has Finally Fixed IsNullOrEmpty Foobar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-9/&quot;&gt;Performance Improvements in .NET 9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://baaijte.net/blog/microsoft-fluentui-aspnetcore.components-4.10/&quot;&gt;What’s new for the Microsoft Fluent UI Blazor library 4.10&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/78753461-d80f-4f81-9b4d-6484066aa43e&quot;&gt;LINQ Joins on multiple columns in Entity Framework&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 10/09/2024</title>
