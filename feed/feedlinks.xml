@@ -4,12 +4,63 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-09-13T16:20:26Z</updated>
+    <updated>2024-10-09T06:50:13Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 10/09/2024</title>
+            <link href="/useful_links/2024-10-09-links-10-slash-9-slash-2024/"/>
+            <updated>2024-10-09T06:50:13Z</updated>
+            <id>/useful_links/2024-10-09-links-10-slash-9-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“The greatest use of a life is to spend it on something that will outlast it.”&lt;br /&gt;
+--  William James
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;i-dont-know-where-this-goes-but-it-is-good&quot; tabindex=&quot;-1&quot;&gt;I dont know where this goes but it is good&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/blog/drasi-microsofts-newest-open-source-project-simplifies-change-detection-and-reaction-in-complex-systems/&quot;&gt;Drasi: Microsoft’s newest open-source project simplifies change detection and reaction in complex systems&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://stripe.com/blog/introducing-stripes-new-api-release-process&quot;&gt;Introducing Stripe’s new API release process&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/09/09/cqrs-command-handlers-with-marten/&quot;&gt;CQRS Command Handlers with Marten&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/using-cursor-ai-as-part-of-your-development-workflow/&quot;&gt;Using Cursor AI as Part of Your Development Workflow&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@raphael.mansuy/the-rise-of-intelligent-agents-exploring-the-levels-of-agentic-platforms-ddc87cc97c03&quot;&gt;The Rise of Intelligent Agents: Exploring the Levels of Agentic Platforms&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/posts/omarsar_anthropics-recent-ai-prompt-engineering-activity-7237909744114413568-lzdJ&quot;&gt;Elvis S.’s Post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/why-rag-is-essential-for-next-gen-ai-development/&quot;&gt;Why RAG Is Essential for Next-Gen AI Development&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.pamelafox.org/2024/09/integrating-vision-into-rag-applications.html&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blogs.microsoft.com/blog/2024/10/01/an-ai-companion-for-everyone/&quot;&gt;An AI companion for everyone&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.mozilla.org/en/mozilla/ai/lumigator/&quot;&gt;Introducing Lumigator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bgr.com/tech/nvidia-stunned-the-world-with-a-chatgpt-rival-thats-as-good-as-gpt-4o/&quot;&gt;Nvidia stunned the world with a ChatGPT rival that’s as good as GPT-4o&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/announcing-the-stable-release-of-the-official-open-ai-library-for-dotnet/&quot;&gt;Announcing the stable release of the official OpenAI library for .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457&quot;&gt;How to Choose the Architecture for Your GenAI Application&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/&quot;&gt;Gemini 1.5 Flash-8B is now production ready&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://review.firstround.com/non-obvious-signs-of-early-startup-traction-and-how-to-spot-them/&quot;&gt;Non-Obvious Signs of Early Startup Traction — And How to Spot Them&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://review.firstround.com/how-to-measure-product-market-fit/&quot;&gt;How to Measure Product-Market Fit&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.humanizingwork.com/perception-isnt-reality-but/&quot;&gt;Perception ISN’T Reality, But…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://peterszasz.com/how-to-lead-your-team-when-the-house-is-on-fire/&quot;&gt;How to Lead Your Team when the House Is on Fire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.andysparks.co/hoo-boy/issue-15-audit-your-time-dont-waste-it&quot;&gt;Conducting a Time Audit&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://world.hey.com/jason/appetites-instead-of-estimates-192d39ba&quot;&gt;Appetites instead of estimates&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://bakadesuyo.com/2024/09/anger-2/&quot;&gt;How To Defeat Anger: 4 Secrets From The Ancients&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/refit-in-dotnet-building-robust-api-clients-in-csharp&quot;&gt;Refit in .NET: Building Robust API Clients in C#&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dotnettips.wordpress.com/2024/09/15/boost-your-net-projects-unleashing-the-power-of-spargines-array-extensions/&quot;&gt;Boost Your .NET Projects: Unleashing the Power of Spargine’s Array Extensions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.peterritchie.com/posts/avoiding-identity-obsession-in-dotnet-with-entity-framework-core&quot;&gt;Avoiding Identity Obsession in .NET with Entity Framework Core&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developmentwithadot.blogspot.com/2024/10/domain-events-with-net.html&quot;&gt;Domain Events with .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-9/&quot;&gt;Performance Improvements in .NET 9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.syncfusion.com/blogs/post/introducing-new-react-ai-assistview&quot;&gt;Introducing the New React AI AssistView Component&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jasonhaley.com/2024/10/04/eshopsupport-aspire-projects/&quot;&gt;eShopSupport Series: Aspire Projects (AppHost and ServiceDefaults)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/dot_nettips_a4e90828daa4/unlock-the-power-of-net-aspire-46mg&quot;&gt;🚀 Unlock the Power of .NET Aspire! 🚀&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/988c047a-914a-446d-bd28-4840643dcfb9&quot;&gt;Centralize your packages in .NET with NuGet&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 09/13/2024</title>
