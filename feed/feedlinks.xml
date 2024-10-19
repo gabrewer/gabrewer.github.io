@@ -4,12 +4,113 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-10-10T06:16:59Z</updated>
+    <updated>2024-10-19T05:10:49Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 10/19/2024</title>
+            <link href="/useful_links/2024-10-19-links-10-slash-19-slash-2024/"/>
+            <updated>2024-10-19T05:10:49Z</updated>
+            <id>/useful_links/2024-10-19-links-10-slash-19-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“If people like you, they’ll listen to you, but if they trust you, they’ll do business with you.”&lt;br /&gt;
+--  Zig Ziglar
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.honeycomb.io/blog/engineers-checklist-logging-best-practices&quot;&gt;An Engineer’s Checklist of Logging Best Practices&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codeopinion.com/api-error-messages-for-a-good-developer-experience/&quot;&gt;API Error Messages for a GOOD Developer Experience&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://michaelscodingspot.com/free-book/&quot;&gt;My book “Practical Debugging for .NET Developers” is now Free!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cazzulino.com/secrets-tests.html&quot;&gt;Condition xunit tests to presence of user secrets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nblumhardt.com/2024/10/sampling-in-serilog-tracing/&quot;&gt;Trace sampling in SerilogTracing&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/bbfb8333-e05a-4de7-88b9-17ac2248d77f&quot;&gt;Git Tricks: Get the last checked out branch&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/dotnet/building-github-copilot-into-visual-studio/&quot;&gt;How we build GitHub Copilot into Visual Studio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://newsletter.getdx.com/p/why-developers-lose-trust-with-ai&quot;&gt;Designing for Trust in AI-Powered Developer Tooling&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/new-function-calling-model-available-in-net-for-semantic-kernel/&quot;&gt;New Function Calling Available in .NET for Semantic Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudiomagazine.com/Articles/2024/10/09/Microsoft-Eases-Integration-with-Semantic-Kernel-AI-SDK.aspx&quot;&gt;Microsoft Eases Integration with Semantic Kernel AI SDK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/observability-in-semantic-kernel/&quot;&gt;Observability in Semantic Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudiomagazine.com/Articles/2024/10/11/See-Prompts-Microsoft-Engineers-Use-for-Bleeding-Edge-Multimodal-RAG-AI-Research.aspx&quot;&gt;See Prompts Microsoft Engineers Use for Bleeding-Edge Multimodal RAG AI Research&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://glaforge.dev/talks/2024/10/14/advanced-rag-techniques/&quot;&gt;Advanced RAG Techniques&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-rag-on-phi-3-locally-using-embeddings-on-vs-code-ai/ba-p/4246839&quot;&gt;Building RAG on Phi-3 locally using embeddings on VS Code AI Toolkit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jasonhaley.com/2024/09/20/eshopsupport-evaluator/&quot;&gt;eShopSupport Series: Evaluator Project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/ai-ai-platform-blog/new-hugging-face-models-on-azure-ai-phi-3-variants-from-the/ba-p/4272197&quot;&gt;New Hugging Face Models on Azure AI: Phi-3 Variants from the Community&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/the-architects-guide-to-interoperability-in-the-ai-data-stack/&quot;&gt;The Architect’s Guide to Interoperability in the AI Data Stack&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/premier-developer/autogen-rag/&quot;&gt;Autogen RAG&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertglazer.substack.com/p/great-company-qualities&quot;&gt;Key Qualities of Great Companies : Friday Forward (#453)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/&quot;&gt;How Hard Should Your Employer Work To Retain You?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://leadership.garden/brandolinis-law/&quot;&gt;Navigating the BS Maze: A Tech Leader’s Guide to Brandolini’s Law&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://leadership.garden/the-sailboat-retrospective/&quot;&gt;Set Sail for Success: Why Your Team Needs to Try the Sailboat Retrospective&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://hbr.org/2024/10/6-essential-leadership-skills-and-how-to-develop-them&quot;&gt;6 Essential Leadership Skills — and How to Develop Them&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://blog.developer.adobe.com/how-accessify-was-built-an-adobe-express-add-on-that-ensures-your-content-is-accessible-62520c603a2b&quot;&gt;How Accessify Was Built: An Adobe Express Add-On That Ensures Your Content Is Accessible&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;mobile-development&quot; tabindex=&quot;-1&quot;&gt;Mobile Development&lt;/h4&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/09/22/multi-tenancy-in-wolverine-messaging/&quot;&gt;Multi-Tenancy in Wolverine Messaging&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-ai-dev-space-with-a-little-assistance-from-aspire/ba-p/4266806&quot;&gt;Building an AI Dev Space With a Little Assistance from Aspire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://andrewlock.net/working-with-the-result-pattern-part-2-safety-and-simplicity-with-linq/&quot;&gt;Working with the result pattern&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/10/16/wolverine-3-0-is-live/&quot;&gt;Wolverine 3.0 is Live!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cazzulino.com/typed-chat.html&quot;&gt;Typed chat completions with OpenAI and .NET 9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/CommunityToolkit/Aspire&quot;&gt;CommunityToolkit/Aspire&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Links - 10/16/2024</title>
+            <link href="/useful_links/2024-10-16-links-10-slash-16-slash-2024/"/>
+            <updated>2024-10-16T06:05:02Z</updated>
+            <id>/useful_links/2024-10-16-links-10-slash-16-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Just because something doesn&#39;t do what you planned it to do doesn&#39;t mean it&#39;s useless.”&lt;br /&gt;
+--  Thomas A. Edison
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.honeycomb.io/blog/engineers-checklist-logging-best-practices&quot;&gt;An Engineer’s Checklist of Logging Best Practices&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://stripe.com/blog/introducing-stripes-new-api-release-process&quot;&gt;Introducing Stripe’s new API release process&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;developer-tools-%2F-libraries&quot; tabindex=&quot;-1&quot;&gt;Developer Tools / Libraries&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://sq.io/&quot;&gt;sq&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/bbfb8333-e05a-4de7-88b9-17ac2248d77f&quot;&gt;Git Tricks: Get the last checked out branch&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cazzulino.com/secrets-tests.html&quot;&gt;Condition xunit tests to presence of user secrets&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://nblumhardt.com/2024/10/sampling-in-serilog-tracing/&quot;&gt;Trace sampling in SerilogTracing&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-rag-on-phi-3-locally-using-embeddings-on-vs-code-ai/ba-p/4246839&quot;&gt;Building RAG on Phi-3 locally using embeddings on VS Code AI Toolkit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/&quot;&gt;Gemini 1.5 Flash-8B is now production ready&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://towardsdatascience.com/how-to-choose-the-architecture-for-your-genai-application-6053e862c457&quot;&gt;How to Choose the Architecture for Your GenAI Application&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/premier-developer/autogen-rag/&quot;&gt;Autogen RAG&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudiomagazine.com/Articles/2024/10/11/See-Prompts-Microsoft-Engineers-Use-for-Bleeding-Edge-Multimodal-RAG-AI-Research.aspx&quot;&gt;See Prompts Microsoft Engineers Use for Bleeding-Edge Multimodal RAG AI Research&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://visualstudiomagazine.com/Articles/2024/10/09/Microsoft-Eases-Integration-with-Semantic-Kernel-AI-SDK.aspx&quot;&gt;Microsoft Eases Integration with Semantic Kernel AI SDK&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jasonhaley.com/2024/09/20/eshopsupport-evaluator/&quot;&gt;eShopSupport Series: Evaluator Project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/new-function-calling-model-available-in-net-for-semantic-kernel/&quot;&gt;New Function Calling Available in .NET for Semantic Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://devblogs.microsoft.com/semantic-kernel/observability-in-semantic-kernel/&quot;&gt;Observability in Semantic Kernel&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://review.firstround.com/how-to-measure-product-market-fit/&quot;&gt;How to Measure Product-Market Fit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertglazer.substack.com/p/great-company-qualities&quot;&gt;Key Qualities of Great Companies : Friday Forward (#453)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.humanizingwork.com/perception-isnt-reality-but/&quot;&gt;Perception ISN’T Reality, But…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://charity.wtf/2024/10/11/how-hard-should-your-employer-work-to-retain-you/&quot;&gt;How Hard Should Your Employer Work To Retain You?&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://leadership.garden/brandolinis-law/&quot;&gt;Navigating the BS Maze: A Tech Leader’s Guide to Brandolini’s Law&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;professional-development&quot; tabindex=&quot;-1&quot;&gt;Professional Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://world.hey.com/jason/appetites-instead-of-estimates-192d39ba&quot;&gt;Appetites instead of estimates&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://developmentwithadot.blogspot.com/2024/10/domain-events-with-net.html&quot;&gt;Domain Events with .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jasonhaley.com/2024/10/04/eshopsupport-aspire-projects/&quot;&gt;eShopSupport Series: Aspire Projects (AppHost and ServiceDefaults)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/988c047a-914a-446d-bd28-4840643dcfb9&quot;&gt;Centralize your packages in .NET with NuGet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.cazzulino.com/typed-chat.html&quot;&gt;Typed chat completions with OpenAI and .NET 9&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-an-ai-dev-space-with-a-little-assistance-from-aspire/ba-p/4266806&quot;&gt;Building an AI Dev Space With a Little Assistance from Aspire&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://andrewlock.net/working-with-the-result-pattern-part-2-safety-and-simplicity-with-linq/&quot;&gt;Working with the result pattern&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/09/22/multi-tenancy-in-wolverine-messaging/&quot;&gt;Multi-Tenancy in Wolverine Messaging&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 10/10/2024</title>
