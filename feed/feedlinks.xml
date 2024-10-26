@@ -4,12 +4,33 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-10-19T05:10:49Z</updated>
+    <updated>2024-10-26T16:41:11Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 10/26/2024</title>
+            <link href="/useful_links/2024-10-26-links-10-slash-26-slash-2024/"/>
+            <updated>2024-10-26T16:41:11Z</updated>
+            <id>/useful_links/2024-10-26-links-10-slash-26-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“Success is not final; failure is not fatal: it is the courage to continue that counts.”&lt;br /&gt;
+--  Winston Churchill
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://thenewstack.io/openai-structured-outputs-how-to-guide-for-developers/&quot;&gt;OpenAI Structured Outputs: How-To Guide for Developers&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/announcing-the-availability-of-phi-3-5-moe-in-azure-ai-studio/ba-p/4256278&quot;&gt;Announcing the Availability of Phi-3.5-MoE in Azure AI Studio and GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://itamargilad.com/decisions-part-2/&quot;&gt;A Culture of Good Decision-Making (Part 2)&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/10/22/sending-messages-to-the-original-sender-with-wolverine/&quot;&gt;Sending Messages to the Original Sender with Wolverine&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://andrewlock.net/working-with-the-result-pattern-part-3-adding-more-extensions/&quot;&gt;Adding more extensions to Result&lt;T&gt;&lt;/T&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/698c45c3-58c5-4157-b4da-2cde4e27862e&quot;&gt;Comparing the performance between the Minimal API and classic Controllers&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 10/19/2024</title>
