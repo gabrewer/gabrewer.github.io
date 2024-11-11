@@ -4,12 +4,51 @@
     <subtitle>Life is too important to be take seriously.</subtitle>
     <link href="https://gabrewer.com/feed/feedlink.xml" rel="self"/>
     <link href="https://gabrewer.com/"/>
-    <updated>2024-10-30T06:51:05Z</updated>
+    <updated>2024-11-11T08:16:58Z</updated>
     <id>https://gabrewer.com/</id>
     <author>
         <name>Greg Brewer</name>
         <email>greg@gabrewer.com</email>
     </author>
+        
+        <entry>
+            <title>Links - 11/11/2024</title>
+            <link href="/useful_links/2024-11-11-links-11-slash-11-slash-2024/"/>
+            <updated>2024-11-11T08:16:58Z</updated>
+            <id>/useful_links/2024-11-11-links-11-slash-11-slash-2024/</id>
+            <content type="html">&lt;h4 id=&quot;quote-of-the-day&quot; tabindex=&quot;-1&quot;&gt;Quote of the Day&lt;/h4&gt;
+&lt;blockquote&gt;“In any given moment we have two options: to step forward into growth or step back into safety.”&lt;br /&gt;
+--  Abraham Maslow
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;testing&quot; tabindex=&quot;-1&quot;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://pmichaels.net/message-bus-dye-test/&quot;&gt;Message Bus Dye Test&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;software-development&quot; tabindex=&quot;-1&quot;&gt;Software Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://swizec.com/blog/why-software-only-moves-forward&quot;&gt;Why software only moves forward&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://verbosemode.dev/p/if-youre-not-refactoring-every-day&quot;&gt;If You’re Not Refactoring Every Day, You’re Making a Mistake&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.exxactcorp.com/blog/deep-learning/top-5-tips-for-fine-tuning-llms&quot;&gt;Top 5 Tips for Fine-Tuning LLMs&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;business&quot; tabindex=&quot;-1&quot;&gt;Business&lt;/h4&gt;
+&lt;h4 id=&quot;leadership%2Fmanagement&quot; tabindex=&quot;-1&quot;&gt;Leadership/Management&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://lauratacho.com/blog/dumb-leadership-mistakes-ive-made&quot;&gt;Dumb Leadership Mistakes I’ve Made&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dotneteers.net/why-great-leaders-push-authority-down-not-information-up/&quot;&gt;Why Great Leaders Push Authority Down, Not Information Up&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;personal-development&quot; tabindex=&quot;-1&quot;&gt;Personal Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://leebyron.com/til/intent/&quot;&gt;til / radiate intent — Lee Byron&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;web-and-cloud-development&quot; tabindex=&quot;-1&quot;&gt;Web and Cloud Development&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/blog/appsonazureblog/introducing-the-modern-web-app-pattern-for-net/4278895&quot;&gt;Introducing the modern web app pattern for .NET&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/the-different-and-modern-ways-to-toggle-content/&quot;&gt;The Different (and Modern) Ways to Toggle Content&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://techcommunity.microsoft.com/blog/microsoftsecurityandcompliance/add-authentication-to-apps-in-minutes/4282779&quot;&gt;Add Authentication to Apps in Minutes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.preemptive.com/blog/software-development-security-best-practices/&quot;&gt;11 Best Practices for Software Development Security&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://arinco.com.au/blog/simple-approach-to-modern-access-control-in-entra-id/&quot;&gt;Simple approach to modern Access Control in Entra ID&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;dotnet&quot; tabindex=&quot;-1&quot;&gt;DotNet&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://aws.amazon.com/blogs/developer/structured-logging-for-net-lambda/&quot;&gt;JSON Structured Logging for .NET Lambda Functions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.freecodecamp.org/news/set-semantic-versioning-for-net/&quot;&gt;How to Set Semantic Versioning for .NET Core Apps and Libraries&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://blog.peterritchie.com/posts/working-with-dto-auto-translators--mapperly&quot;&gt;Working With DTO Auto Translators – Mapperly&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://steven-giesel.com/blogPost/79ab37d4-5fdf-4c36-8b99-ac17bbe1fc01&quot;&gt;An awaitable Blazor Modal Dialog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.milanjovanovic.tech/blog/implementing-idempotent-rest-apis-in-aspnetcore&quot;&gt;Implementing Idempotent REST APIs in ASP.NET Core&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;database&quot; tabindex=&quot;-1&quot;&gt;Database&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://jeremydmiller.com/2024/11/03/network-round-trips-are-evil-so-batch-your-queries-when-you-can/&quot;&gt;Network Round Trips are Evil, So Batch Your Queries When You Can&lt;/a&gt;&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Links - 10/30/2024</title>
