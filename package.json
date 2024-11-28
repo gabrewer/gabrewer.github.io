@@ -45,7 +45,7 @@
     "domhandler": "^4.3.1",
     "domutils": "^2.8.0",
     "ee-first": "^1.1.1",
-    "ejs": "^3.1.9",
+    "ejs": "^3.1.10",
     "encodeurl": "^1.0.2",
     "entities": "^3.0.1",
     "errno": "^0.1.8",
