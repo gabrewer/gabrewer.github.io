@@ -1,0 +1,81 @@
+---
+const themes = [
+  { id: 'light', label: 'Light' },
+  { id: 'dark', label: 'Dark' },
+  { id: 'abyss', label: 'Abyss' },
+  { id: 'aqua', label: 'Aqua' },
+  { id: 'caramellatte', label: 'Caramellatte' },
+  { id: 'cyberpunk', label: 'Cyberpunk' },
+  { id: 'dim', label: 'Dim' },
+  { id: 'garden', label: 'Garden' },
+  { id: 'lemonade', label: 'Lemonade' },
+  { id: 'luxury', label: 'Luxury' },
+  { id: 'retro', label: 'Retro' },
+  { id: 'silk', label: 'Silk' },
+  { id: 'synthwave', label: 'Synthwave' },
+  { id: 'valentine', label: 'Valentine' },
+];
+---
+
+<div class="dropdown dropdown-end">
+  <button
+    tabindex="0"
+    role="button"
+    class="btn btn-ghost btn-sm gap-1"
+    aria-label="Change theme"
+    aria-haspopup="listbox"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="4"/>
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+    </svg>
+    <span class="hidden sm:inline text-sm">Theme</span>
+    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="m6 9 6 6 6-6"/>
+    </svg>
+  </button>
+  <ul
+    tabindex="0"
+    role="listbox"
+    aria-label="Select theme"
+    class="dropdown-content bg-base-200 border border-base-300 rounded-box z-50 mt-2 max-h-80 w-40 overflow-y-auto p-1 shadow-xl"
+  >
+    {themes.map((theme) => (
+      <li role="option" aria-selected="false">
+        <button
+          class="theme-btn w-full rounded-btn px-3 py-2 text-left text-sm hover:bg-base-300 focus:bg-base-300 focus:outline-none"
+          data-theme={theme.id}
+        >
+          {theme.label}
+        </button>
+      </li>
+    ))}
+  </ul>
+</div>
+
+<script>
+  // Highlight active theme on dropdown open
+  function highlightActiveTheme() {
+    const current = document.documentElement.getAttribute('data-theme') ?? 'light';
+    document.querySelectorAll<HTMLButtonElement>('.theme-btn').forEach((btn) => {
+      const isActive = btn.dataset.theme === current;
+      btn.classList.toggle('bg-primary', isActive);
+      btn.classList.toggle('text-primary-content', isActive);
+    });
+  }
+
+  // Apply theme
+  document.querySelectorAll<HTMLButtonElement>('.theme-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const theme = btn.dataset.theme ?? 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      highlightActiveTheme();
+    });
+  });
+
+  // Highlight on open
+  const dropdownBtn = document.querySelector<HTMLElement>('.dropdown button[aria-haspopup]');
+  dropdownBtn?.addEventListener('click', highlightActiveTheme);
+  dropdownBtn?.addEventListener('focus', highlightActiveTheme);
+</script>

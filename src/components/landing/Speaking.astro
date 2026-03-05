@@ -1,0 +1,39 @@
+---
+// Speaking & Training section
+const engagements = [
+  {
+    institution: 'University of Michigan',
+    course: 'EECS 441 — Mobile App Development for Entrepreneurs',
+    topic: 'Engineering in the Age of AI',
+    description: 'How AI tools reshape software development workflows and what that means for the next generation of engineers.',
+    type: 'Guest Lecture',
+  },
+];
+---
+
+<section aria-labelledby="speaking-heading" class="space-y-4">
+  <div class="badge badge-secondary badge-outline">Speaking &amp; Training</div>
+  <h2 id="speaking-heading" class="text-2xl font-bold">Talks &amp; Training</h2>
+
+  <div class="space-y-3">
+    {engagements.map((eng) => (
+      <div class="card bg-base-200 border border-base-300">
+        <div class="card-body py-4">
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <p class="font-semibold">{eng.institution}</p>
+              <p class="text-sm text-base-content/60 mt-0.5">{eng.course}</p>
+              <p class="text-sm text-base-content/80 mt-2 italic">&ldquo;{eng.topic}&rdquo;</p>
+              <p class="text-sm text-base-content/70 mt-1">{eng.description}</p>
+            </div>
+            <span class="badge badge-ghost badge-sm shrink-0 mt-0.5">{eng.type}</span>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <p class="text-sm text-base-content/60">
+    Available for conference talks, engineering team workshops, and guest lectures.
+  </p>
+</section>

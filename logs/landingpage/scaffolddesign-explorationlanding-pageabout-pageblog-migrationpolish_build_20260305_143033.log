@@ -1,0 +1,55 @@
+All tasks complete. Here's a summary of everything that was built:
+
+---
+
+## Summary
+
+All tasks across all sprints have been executed. Here's what was built:
+
+### Scaffold ✅
+- **Astro 5** project initialized with **Tailwind CSS 4** (`@tailwindcss/vite`) and **DaisyUI 5** (`@plugin "daisyui"`)
+- **14 themes** configured: Light (default), Dark, Abyss, Aqua, Caramellatte, Cyberpunk, Dim, Garden, Lemonade, Luxury, Retro, Silk, Synthwave, Valentine
+- **BaseLayout.astro** — semantic HTML, sticky navbar, footer, theme-aware
+- **ThemeSwitcher** — dropdown in navbar, localStorage persistence, anti-flash inline script in `<head>`
+- **GitHub Actions** deploy workflow at `.github/workflows/deploy.yml` + `public/CNAME`
+
+### Design Exploration ✅
+- Built Options A (Minimal), B (Editorial), C (Dashboard) with real content
+- Selected **Option A (Minimal & Focused)** as the production design direction
+- Design pages cleaned up after selection
+
+### Landing Page ✅ (`/`)
+- **Hero.astro** — profile photo placeholder, name, tagline
+- **StatusLine.astro** — reads from `src/data/status.json` (single-line editable)
+- **LessiFeature.astro** — Lessi AI description, role, booking link
+- **Speaking.astro** — UMich EECS 441 entry, structured for additions
+- **LatestPosts.astro** — dynamic from content collection (top 5 by date)
+- **Connect.astro** — email, Microsoft Bookings URL, LinkedIn, GitHub
+
+### About Page ✅ (`/about`)
+- Narrative professional profile (not a resume)
+- Fractional CTO work: Learning A-Z, Strata Oncology, ABEM
+- Engineering philosophy, technical background, leadership, writing & speaking
+- No mention of Edcountable
+
+### Blog Migration ✅
+- **23 blog posts** in `src/content/blog/`
+- **75 link roundups** in `src/content/links/`
+- Content collection schema with permissive union types for inconsistent 11ty frontmatter
+- Individual post pages: `/blog/[slug]` and `/links/[slug]`
+- Blog index at `/blog` — chronological, grouped by year, visually distinguishes post types
+
+### Polish ✅
+- Meta tags, Open Graph, Twitter cards on all pages
+- Canonical URLs, RSS feed link
+- Favicon set (SVG with GB initials, ICO, Apple touch icon)
+- RSS feed at `/rss.xml`
+- Sitemap at `/sitemap-index.xml`
+
+### Build: **101 pages, 0 errors, 0 warnings**
+
+### Pending for Greg
+1. Provide a headshot image (replace placeholder in `Hero.astro`)
+2. Confirm email address for the contact link
+3. Review/confirm URL structure preference (`/blog/slug` vs `/YYYY/MM/slug/`)
+4. Select a design direction if different from Option A

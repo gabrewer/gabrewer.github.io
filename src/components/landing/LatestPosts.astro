@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+
+// Get latest 5 blog posts (not link roundups) sorted by date
+const allPosts = await getCollection('blog');
+const posts = allPosts
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 5)
+  .map((p) => ({
+    title: p.data.title,
+    date: p.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }),
+    isoDate: p.data.date.toISOString(),
+    href: `/blog/${p.slug}`,
+  }));
+---
+
+<section aria-labelledby="posts-heading" class="space-y-4">
+  <div class="flex items-center justify-between">
+    <h2 id="posts-heading" class="text-2xl font-bold">Latest Writing</h2>
+    <a href="/blog" class="text-sm text-primary hover:underline font-medium">All posts &rarr;</a>
+  </div>
+
+  <ul class="space-y-1" role="list">
+    {posts.map((post) => (
+      <li>
+        <a
+          href={post.href}
+          class="group flex items-start justify-between gap-4 rounded-btn px-3 py-3 -mx-3 hover:bg-base-200 transition-colors"
+        >
+          <span class="font-medium group-hover:text-primary transition-colors leading-snug">{post.title}</span>
+          <time
+            datetime={post.isoDate}
+            class="text-sm text-base-content/50 shrink-0 mt-0.5 whitespace-nowrap"
+          >
+            {post.date}
+          </time>
+        </a>
+      </li>
+    ))}
+  </ul>
+</section>

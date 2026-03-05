@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/landing/Hero.astro';
+import StatusLine from '../components/landing/StatusLine.astro';
+import LessiFeature from '../components/landing/LessiFeature.astro';
+import Speaking from '../components/landing/Speaking.astro';
+import LatestPosts from '../components/landing/LatestPosts.astro';
+import Connect from '../components/landing/Connect.astro';
+---
+
+<BaseLayout
+  title="Greg Brewer — Founder · CTO · AI Engineer"
+  description="Greg Brewer is a Founder, CTO, and AI Engineer applying engineering discipline to the AI agentic coding landscape. Co-Founder & CTO of Lessi AI."
+>
+  <div class="max-w-2xl mx-auto px-4 py-16 space-y-16">
+
+    <!-- Identity + tagline -->
+    <Hero />
+
+    <!-- Current status -->
+    <StatusLine />
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- Lessi AI -->
+    <LessiFeature />
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- Speaking & Training -->
+    <Speaking />
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- Latest blog posts -->
+    <LatestPosts />
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <!-- Connect / Contact -->
+    <Connect />
+
+  </div>
+</BaseLayout>
