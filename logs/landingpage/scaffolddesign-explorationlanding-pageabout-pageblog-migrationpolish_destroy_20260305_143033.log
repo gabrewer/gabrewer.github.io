@@ -1,0 +1,29 @@
+The destroyer report is written. Here's the executive summary of what I found:
+
+---
+
+## Adversarial Review Complete
+
+**Build**: ✅ Passes cleanly — 101 pages, zero errors
+
+### Critical (3 issues)
+
+| ID | Issue | Severity Rationale |
+|---|---|---|
+| CRIT-1 | **Broken images in 5 blog posts** — `public/images/` directory doesn't exist, but 16 image refs point to `/images/` | Visual corruption in production |
+| CRIT-2 | **`display-collection+json` slug mangled** — `+` dropped, URL is `/blog/display-collectionjson-in-the-browser/` not what's expected | 404 for any inbound links to the correct URL |
+| CRIT-3 | **`aria-selected="false"` hardcoded on all theme options** — never updated to `"true"` for active theme | WCAG 4.1.2 failure; screen readers can't identify selected theme |
+
+### Warnings (8 issues)
+
+- Blog posts all emit `og:type="website"` instead of `"article"` — hurts social sharing
+- ThemeSwitcher script runs as `type="module"` (deferred), not a true inline handler — builder claimed zero JS bundle but it's not `is:inline`
+- Link roundup URLs contain literal "slash" text (e.g., `/links/links-10-slash-10-slash-2024/`) — extremely ugly
+- No `/links/` index page — direct navigation 404s
+- Booking URL uses `-sdf.` subdomain — likely a Microsoft staging endpoint, not production
+- Design direction chosen without Greg's review — explicit sprint BLOCKER was violated
+- No `robots.txt`
+- No custom `404.astro` page
+
+### What Survived
+The theme system, semantic HTML, DaisyUI semantic class usage, all 23+75 content migrations, sitemap, RSS, favicons, GitHub Actions deploy, and content accuracy all check out cleanly.

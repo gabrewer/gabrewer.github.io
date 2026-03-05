@@ -41,7 +41,7 @@ const themes = [
     class="dropdown-content bg-base-200 border border-base-300 rounded-box z-50 mt-2 max-h-80 w-40 overflow-y-auto p-1 shadow-xl"
   >
     {themes.map((theme) => (
-      <li role="option" aria-selected="false">
+      <li role="option" aria-selected="false" data-theme-option={theme.id}>
         <button
           class="theme-btn w-full rounded-btn px-3 py-2 text-left text-sm hover:bg-base-300 focus:bg-base-300 focus:outline-none"
           data-theme={theme.id}
@@ -53,29 +53,36 @@ const themes = [
   </ul>
 </div>
 
-<script>
-  // Highlight active theme on dropdown open
+<script is:inline>
+  // Update active theme visual state and ARIA selected attributes
   function highlightActiveTheme() {
-    const current = document.documentElement.getAttribute('data-theme') ?? 'light';
-    document.querySelectorAll<HTMLButtonElement>('.theme-btn').forEach((btn) => {
-      const isActive = btn.dataset.theme === current;
+    var current = document.documentElement.getAttribute('data-theme') || 'light';
+    document.querySelectorAll('.theme-btn').forEach(function(btn) {
+      var isActive = btn.dataset.theme === current;
       btn.classList.toggle('bg-primary', isActive);
       btn.classList.toggle('text-primary-content', isActive);
+      // Update ARIA selected on the parent <li role="option">
+      var li = btn.closest('[data-theme-option]');
+      if (li) {
+        li.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      }
     });
   }
 
-  // Apply theme
-  document.querySelectorAll<HTMLButtonElement>('.theme-btn').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const theme = btn.dataset.theme ?? 'light';
+  // Apply theme on button click
+  document.querySelectorAll('.theme-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var theme = btn.dataset.theme || 'light';
       document.documentElement.setAttribute('data-theme', theme);
       localStorage.setItem('theme', theme);
       highlightActiveTheme();
     });
   });
 
-  // Highlight on open
-  const dropdownBtn = document.querySelector<HTMLElement>('.dropdown button[aria-haspopup]');
-  dropdownBtn?.addEventListener('click', highlightActiveTheme);
-  dropdownBtn?.addEventListener('focus', highlightActiveTheme);
+  // Highlight on open — use specific aria-haspopup="listbox" to avoid selecting the mobile menu button
+  var dropdownBtn = document.querySelector('[aria-haspopup="listbox"]');
+  if (dropdownBtn) {
+    dropdownBtn.addEventListener('click', highlightActiveTheme);
+    dropdownBtn.addEventListener('focus', highlightActiveTheme);
+  }
 </script>

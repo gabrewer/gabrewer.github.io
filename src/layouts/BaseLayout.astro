@@ -7,6 +7,7 @@ interface Props {
   description?: string;
   ogImage?: string;
   canonicalUrl?: string;
+  ogType?: 'website' | 'article';
 }
 
 const {
@@ -14,6 +15,7 @@ const {
   description = 'Greg Brewer is a Founder, CTO, and AI Engineer applying engineering discipline to the AI agentic coding landscape.',
   ogImage = '/og-image.png',
   canonicalUrl,
+  ogType = 'website',
 } = Astro.props;
 
 const siteUrl = 'https://gabrewer.com';
@@ -30,7 +32,7 @@ const canonical = canonicalUrl ?? new URL(Astro.url.pathname, siteUrl).toString(
     <link rel="canonical" href={canonical} />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:url" content={canonical} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />

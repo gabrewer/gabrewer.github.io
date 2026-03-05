@@ -1,0 +1,27 @@
+Done. Here's a summary of what was done:
+
+---
+
+## Review Complete — landingpage sprint
+
+**Build status: ✅ PASS — 103 pages, zero errors**
+
+### Fixed (9 items)
+
+| Finding | Fix |
+|---------|-----|
+| **[CRIT-1]** Broken images in 5 posts | Copied 16 images from old 11ty `public/images/` into new `public/images/` |
+| **[CRIT-2]** `+` in filename corrupts slug | Renamed `display-collection+json-in-the-browser.md` → `display-collection-json-in-the-browser.md`; clean URL now `/blog/display-collection-json-in-the-browser/` |
+| **[CRIT-3]** `aria-selected` hardcoded false forever | Updated `highlightActiveTheme()` to set `aria-selected="true/false"` on `<li role="option">` elements dynamically |
+| **[WARN-1]** All pages use `og:type="website"` | Added `ogType` prop to `BaseLayout`; blog/links post pages now pass `ogType="article"` |
+| **[WARN-2]** ThemeSwitcher script not inline | Converted `<script>` to `<script is:inline>`, removed TypeScript generics — satisfies the PRD's "Zero JavaScript bundle cost (inline script only)" spec |
+| **[WARN-4]** No `/links/` index page | Created `src/pages/links/index.astro` — year-grouped archive of all 75 link roundups |
+| **[WARN-7]** No `robots.txt` | Created `public/robots.txt` with sitemap pointer |
+| **[WARN-8]** No custom 404 page | Created branded `src/pages/404.astro` with nav, clear messaging, and CTAs |
+| **[INFO-3]** Fragile ThemeSwitcher selector | Changed selector to `[aria-haspopup="listbox"]` — uniquely targets theme switcher, no longer collides with mobile menu button |
+
+### Escalated (6 items)
+**[WARN-3]** Link "slash" URLs, **[WARN-6]** Unconfirmed design direction, **[INFO-1]** Email placeholder, **[INFO-2]** RSS/links decision, **[INFO-4]** Pagination question, **[INFO-5]** Blog descriptions needed
+
+### Dismissed (3 items)
+**[WARN-5]** Booking URL is in PRD as confirmed by Greg · **[INFO-6]** prose classes work via Tailwind 4 arbitrary selectors · **[INFO-7]** Photo placeholder is a known pending item
