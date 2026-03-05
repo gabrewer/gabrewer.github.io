@@ -1,0 +1,29 @@
+The sprint plan and breadcrumbs are written. Here's a summary:
+
+## Sprint Plan Summary — `landingpage`
+
+| Sprint | Tasks | Purpose |
+|--------|-------|---------|
+| **scaffold** (5 tasks) | init-astro-project, base-layout, theme-switcher, placeholder-pages, github-actions-deploy | Astro + Tailwind CSS 4 + DaisyUI 5 project with working theme switcher and CI/CD |
+| **design-exploration** (4 tasks) | design-option-a, design-option-b, design-option-c, design-index | 3 working design prototypes for Greg to choose from |
+| **landing-page** (2 tasks) | build-landing-page, cleanup-design-pages | Production landing page based on Greg's selection |
+| **about-page** (1 task) | build-about-page | Professional background page from personal-info.md |
+| **blog-migration** (6 tasks) | setup-content-collection, migrate-blog-posts, migrate-useful-links, blog-post-page, blog-index-page, dynamic-latest-posts | Full migration of 23 posts + 75 link roundups |
+| **polish** (5 tasks) | meta-and-seo, favicon, rss-feed, performance-audit, final-review | SEO, performance, and launch readiness |
+
+## Key Decisions
+- **Separate content collections** for blog posts vs. link roundups (flagged for Greg's confirmation)
+- **Design exploration as real Astro pages** with working theme switcher
+- **Explicit blocker** between design-exploration and landing-page sprints (Greg must choose)
+- **Skipped** Domain Modeler and API Developer phases (static site, no backend)
+
+## Flagged Ambiguities (5)
+1. Design selection needed before Sprint 3
+2. Profile photo not yet provided — using placeholder
+3. Email address for contact section unresolved
+4. Useful links inclusion scope needs confirmation
+5. URL preservation strategy (old `/YYYY/MM/slug/` vs new paths)
+
+Files written:
+- `sprints/landingpage/plan.md`
+- `breadcrumbs/landingpage/planning/pm.md`
