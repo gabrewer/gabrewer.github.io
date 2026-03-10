@@ -1,0 +1,14 @@
+Morning briefing written to `logs/landingpage/morning-briefing.md`.
+
+**Summary of where things stand:**
+
+- All 6 sprints executed, 103 pages built, zero errors
+- Destroyer found 17 issues; 9 fixed, 3 dismissed, 6 escalated to Greg
+- Greg has responded to all 6 escalated items
+
+**4 action items for the next build, in priority order:**
+
+1. **Design overhaul** — Greg rejected Option A as "too basic" and wants more options. This blocks the landing page.
+2. **Rename 75 link roundup files** to `YYYY-MM-DD.md` format (Greg approved)
+3. **Remove link roundups from `/blog` index** — Greg wants them on a separate page only
+4. **Create `/links.xml` RSS feed** for link roundups (Greg wants a separate feed)

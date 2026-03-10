@@ -1,0 +1,10 @@
+Morning briefing written to `logs/landingpage/morning-briefing.md`.
+
+**Summary**: All 6 sprints completed in one session — 103 pages built, zero errors. The Destroyer found 17 issues; 9 were fixed by the Review Agent, 3 dismissed, and **6 escalated for your attention**. The most important items needing your input:
+
+1. **Confirm the design direction** — Option A was chosen without your review (PRD blocker violated)
+2. **Link roundup URLs** — contain literal "slash" in the path; needs your format preference
+3. **Contact email** — `greg@gabrewer.com` is a guess; confirm or correct
+4. **RSS scope** — should link roundups be included?
+5. **Blog pagination** — 98 posts on one page; acceptable or paginate?
+6. **Blog descriptions** — missing from all 23 posts; affects SEO

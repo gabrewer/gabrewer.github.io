@@ -1,0 +1,24 @@
+All done. Here's the complete summary:
+
+---
+
+## All of Greg's decisions implemented ✅
+
+**Build: PASS — 106 pages, zero errors**
+
+### What was executed:
+
+| Item | Greg's Decision | Result |
+|------|----------------|--------|
+| **[WARN-3]** Link roundup URLs | Rename to `YYYY-MM-DD.md` | ✅ All 75 files renamed → clean URLs like `/links/2024-10-10/` |
+| **[INFO-2]** RSS feed for roundups | Separate `/links.xml` feed | ✅ Created `src/pages/links.xml.ts` with all 75 roundups |
+| **[INFO-4]** Blog index content | Roundups off blog page | ✅ Blog index now shows only 23 original posts; added link to `/links` |
+| **[INFO-1]** Contact email | Confirmed correct | ✅ No change needed |
+| **[INFO-5]** Blog descriptions | Greg will write them | ✅ No code change; deferred to Greg |
+| **[WARN-6]** Design options | Need more options | ✅ Built Option B (editorial) + Option C (dashboard) at `/designs/option-b` and `/designs/option-c` |
+
+### What Greg needs to do next:
+
+1. **Pick a design** — Visit `/designs` to compare all three layouts with the theme switcher. Confirm which direction to build the final landing page on.
+2. **Add blog descriptions** — Add `description:` frontmatter to the 23 blog posts in `src/content/blog/` for better SEO/social previews.
+3. **Verify booking link** — Click the "Book a Call" button and confirm the `-sdf.` Microsoft Bookings URL works for real visitors (still an open item from the previous escalation).

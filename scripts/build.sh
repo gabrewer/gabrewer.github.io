@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Allow running from inside a Claude Code session
+unset CLAUDECODE 2>/dev/null || true
+
 ###############################################################################
 # Team Lead / Coordinator
 #
@@ -30,6 +33,7 @@ if [[ $# -lt 1 ]] || [[ "$1" == --* ]]; then
   echo "  <feature-name>           Required. e.g. 'landingpage'"
   echo "  --from <sprint-slug>     Resume from a specific sprint"
   echo "  --only <sprint-slug>     Run only one sprint"
+  echo "  --resolve <sprint-slug>  Apply human decisions from escalated.md"
   echo "  --plan-only              Only run Phase 1 (planning)"
   echo "  --dry-run                Print what would run"
   exit 1
@@ -46,6 +50,7 @@ MASTER_LOG="$LOG_DIR/build_${TIMESTAMP}.log"
 MAX_TURNS=200
 FROM_SPRINT=""
 ONLY_SPRINT=""
+RESOLVE_SPRINT=""
 PLAN_ONLY=false
 DRY_RUN=false
 
@@ -53,6 +58,7 @@ while [[ $# -gt 0 ]]; do
   case $1 in
     --from) FROM_SPRINT="$2"; shift 2 ;;
     --only) ONLY_SPRINT="$2"; shift 2 ;;
+    --resolve) RESOLVE_SPRINT="$2"; shift 2 ;;
     --plan-only) PLAN_ONLY=true; shift ;;
     --dry-run) DRY_RUN=true; shift ;;
     *) echo "Unknown option: $1"; exit 1 ;;
@@ -207,7 +213,7 @@ get_sprint_slugs() {
     log "ERROR" "Sprint plan not found at $SPRINT_DIR/plan.md"
     exit 1
   fi
-  grep '^## Sprint: ' "$SPRINT_DIR/plan.md" | sed 's/^## Sprint: //' | tr -d '[:space:]' || true
+  grep '^## Sprint: ' "$SPRINT_DIR/plan.md" | sed 's/^## Sprint: //' | sed 's/[[:space:]]*$//' || true
 }
 
 should_run_sprint() {
@@ -308,6 +314,81 @@ Write escalated items (if any) to breadcrumbs/${FEATURE}/${sprint_slug}/escalate
 }
 
 ###############################################################################
+# Resolve: Apply human decisions from escalated.md
+###############################################################################
+
+resolve_sprint() {
+  local sprint_slug="$1"
+
+  banner "RESOLVE: ${FEATURE}/${sprint_slug}"
+
+  local escalated="$BREADCRUMB_DIR/$sprint_slug/escalated.md"
+  if [[ ! -f "$escalated" ]]; then
+    # Check for the concatenated slug from the previous buggy run
+    local concat_slug
+    concat_slug=$(ls -d "$BREADCRUMB_DIR"/*/ 2>/dev/null | while read -r d; do
+      local name
+      name=$(basename "$d")
+      if [[ "$name" == *"$sprint_slug"* && "$name" != "$sprint_slug" ]]; then
+        echo "$name"
+        break
+      fi
+    done)
+    if [[ -n "$concat_slug" && -f "$BREADCRUMB_DIR/$concat_slug/escalated.md" ]]; then
+      escalated="$BREADCRUMB_DIR/$concat_slug/escalated.md"
+      log "INFO" "Found escalated file at legacy path: $escalated"
+    else
+      log "ERROR" "No escalated.md found for ${FEATURE}/${sprint_slug}"
+      exit 1
+    fi
+  fi
+
+  mkdir -p "$BREADCRUMB_DIR/$sprint_slug"
+
+  # ── Step 1: Reviewer reads human decisions and applies fixes ───────────
+  log "INFO" "${FEATURE}/${sprint_slug} — RESOLVE: applying human decisions"
+
+  run_agent "reviewer" \
+    "Feature: ${FEATURE}
+Sprint: ${sprint_slug}
+
+Greg has added his decisions to the escalated items file. Read it at: ${escalated#$PROJECT_DIR/}
+
+For each item where Greg provided a 'Decision from Greg', implement that decision:
+- Read the original finding to understand context
+- Apply the fix according to Greg's instructions
+- Verify with npm run build
+
+Also read the PRD at PRD.md and sprints/${FEATURE}/plan.md for context.
+
+Write your resolution report to breadcrumbs/${FEATURE}/${sprint_slug}/review.md (append or update if it exists).
+Update the escalated file to mark resolved items." \
+    "$LOG_DIR/${sprint_slug}_resolve_${TIMESTAMP}.log" \
+    "Resolve escalated items for ${FEATURE}/${sprint_slug}"
+
+  git_commit "$sprint_slug" "review"
+
+  # ── Step 2: Quick destroy pass to verify fixes ─────────────────────────
+  log "INFO" "${FEATURE}/${sprint_slug} — RESOLVE: verification pass"
+
+  run_agent "destroyer" \
+    "Feature: ${FEATURE}
+Sprint: ${sprint_slug}
+
+This is a verification pass after resolving escalated items. Focus on:
+1. Does npm run build succeed?
+2. Were the escalated items actually fixed? Check: ${escalated#$PROJECT_DIR/}
+3. Did the fixes introduce any new issues?
+
+Write findings to breadcrumbs/${FEATURE}/${sprint_slug}/destroyer-verify.md.
+Be brief — this is a targeted check, not a full audit." \
+    "$LOG_DIR/${sprint_slug}_destroy_verify_${TIMESTAMP}.log" \
+    "Verify resolved items for ${FEATURE}/${sprint_slug}"
+
+  log "INFO" "${FEATURE}/${sprint_slug} — RESOLVE COMPLETE"
+}
+
+###############################################################################
 # Phase 3: Morning Briefing
 ###############################################################################
 
@@ -362,6 +443,15 @@ main() {
 
   cd "$PROJECT_DIR"
   git_init_if_needed
+
+  # ── Resolve mode: apply human decisions and exit ────────────────────────
+  if [[ -n "$RESOLVE_SPRINT" ]]; then
+    local resolve_start=$SECONDS
+    resolve_sprint "$RESOLVE_SPRINT"
+    local resolve_duration=$(( SECONDS - resolve_start ))
+    log "INFO" "Resolve completed in ${resolve_duration}s"
+    return 0
+  fi
 
   # Clean up any stale from-sprint flag
   rm -f "$LOG_DIR/.from_sprint_found"

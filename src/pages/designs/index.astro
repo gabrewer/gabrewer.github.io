@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Design Options — Greg Brewer"
+  description="Three landing page design explorations for Greg Brewer's personal site."
+>
+  <div class="max-w-2xl mx-auto px-4 py-16 space-y-10">
+
+    <div>
+      <h1 class="text-3xl font-bold tracking-tight">Design Options</h1>
+      <p class="text-base-content/70 mt-3 leading-relaxed">
+        Three distinct layout approaches for Greg Brewer's landing page. Each uses the same content
+        but differs in visual hierarchy, grid structure, and personality. Use the theme switcher in
+        the nav to preview how each option responds to all 14 configured themes.
+      </p>
+    </div>
+
+    <div class="space-y-4">
+
+      <a href="/" class="card bg-base-200 border border-base-300 hover:border-primary hover:shadow-md transition-all block group">
+        <div class="card-body">
+          <div class="flex items-start justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="badge badge-primary">Option A</span>
+                <span class="badge badge-ghost">Current</span>
+              </div>
+              <h2 class="text-xl font-bold group-hover:text-primary transition-colors">Minimal / Focused</h2>
+              <p class="text-base-content/70 text-sm leading-relaxed">
+                Centered single-column layout with generous whitespace. Content flows as you scroll.
+                Feels like a senior engineer's personal page — confident, unhurried, precise.
+              </p>
+              <ul class="text-sm text-base-content/60 space-y-1 mt-2">
+                <li>Single column, centered, max-width constrained</li>
+                <li>Large whitespace between sections</li>
+                <li>Profile photo + name centered at top</li>
+                <li>Clean dividers between sections</li>
+              </ul>
+            </div>
+            <svg class="w-5 h-5 text-base-content/30 group-hover:text-primary transition-colors shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </div>
+        </div>
+      </a>
+
+      <a href="/designs/option-b" class="card bg-base-200 border border-base-300 hover:border-secondary hover:shadow-md transition-all block group">
+        <div class="card-body">
+          <div class="flex items-start justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="badge badge-secondary">Option B</span>
+              </div>
+              <h2 class="text-xl font-bold group-hover:text-secondary transition-colors">Editorial / Magazine</h2>
+              <p class="text-base-content/70 text-sm leading-relaxed">
+                Asymmetric two-column grid with blog content given newspaper-front-page weight.
+                Feels like someone who writes and thinks publicly — expressive, content-forward.
+              </p>
+              <ul class="text-sm text-base-content/60 space-y-1 mt-2">
+                <li>2/3 + 1/3 asymmetric column grid</li>
+                <li>Featured post card at top of writing section</li>
+                <li>Left-aligned identity block, inline with content</li>
+                <li>Strong typographic contrast between heading sizes</li>
+              </ul>
+            </div>
+            <svg class="w-5 h-5 text-base-content/30 group-hover:text-secondary transition-colors shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </div>
+        </div>
+      </a>
+
+      <a href="/designs/option-c" class="card bg-base-200 border border-base-300 hover:border-accent hover:shadow-md transition-all block group">
+        <div class="card-body">
+          <div class="flex items-start justify-between gap-4">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="badge badge-accent">Option C</span>
+              </div>
+              <h2 class="text-xl font-bold group-hover:text-accent transition-colors">Dashboard / Builder's Workbench</h2>
+              <p class="text-base-content/70 text-sm leading-relaxed">
+                Responsive card grid — every section is a distinct panel. Information-dense on
+                desktop, everything visible at a glance. Feels like a builder's control panel.
+              </p>
+              <ul class="text-sm text-base-content/60 space-y-1 mt-2">
+                <li>2–3 column card grid on desktop, single column mobile</li>
+                <li>Each section is a DaisyUI card component</li>
+                <li>Stats strip with "30+ years", role, project highlights</li>
+                <li>Lessi AI as a featured wide card at top</li>
+              </ul>
+            </div>
+            <svg class="w-5 h-5 text-base-content/30 group-hover:text-accent transition-colors shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <p class="text-sm text-base-content/50">
+      All options use DaisyUI semantic color tokens — theme switching works identically on every design.
+    </p>
+
+  </div>
+</BaseLayout>

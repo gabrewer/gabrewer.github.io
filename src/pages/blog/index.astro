@@ -2,44 +2,18 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
-// Get all blog posts and link roundups
+// Blog posts only — link roundups live at /links
 const blogPosts = await getCollection('blog');
-const linkPosts = await getCollection('links');
-
-// Combine with type labels and sort by date descending
-type PostEntry = {
-  title: string;
-  date: Date;
-  slug: string;
-  href: string;
-  type: 'post' | 'links';
-};
-
-const allPosts: PostEntry[] = [
-  ...blogPosts.map((p) => ({
-    title: p.data.title,
-    date: p.data.date,
-    slug: p.slug,
-    href: `/blog/${p.slug}`,
-    type: 'post' as const,
-  })),
-  ...linkPosts.map((p) => ({
-    title: p.data.title,
-    date: p.data.date,
-    slug: p.slug,
-    href: `/links/${p.slug}`,
-    type: 'links' as const,
-  })),
-].sort((a, b) => b.date.getTime() - a.date.getTime());
+const sorted = blogPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
 function formatDate(d: Date) {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 
 // Group by year for display
-const byYear = new Map<number, PostEntry[]>();
-for (const post of allPosts) {
-  const year = post.date.getFullYear();
+const byYear = new Map<number, typeof sorted>();
+for (const post of sorted) {
+  const year = post.data.date.getFullYear();
   if (!byYear.has(year)) byYear.set(year, []);
   byYear.get(year)!.push(post);
 }
@@ -56,21 +30,12 @@ const years = Array.from(byYear.keys()).sort((a, b) => b - a);
     <header class="space-y-2">
       <h1 class="text-4xl font-bold">Blog</h1>
       <p class="text-base-content/70">
-        {blogPosts.length} posts &middot; {linkPosts.length} link roundups
+        {sorted.length} posts — writing on AI engineering, software architecture, and leadership
+      </p>
+      <p class="text-sm text-base-content/50">
+        Looking for curated links? See the <a href="/links" class="text-primary hover:underline">Link Roundups</a> archive.
       </p>
     </header>
-
-    <!-- Legend -->
-    <div class="flex items-center gap-4 text-sm text-base-content/60">
-      <span class="flex items-center gap-2">
-        <span class="badge badge-primary badge-sm">Post</span>
-        Writing
-      </span>
-      <span class="flex items-center gap-2">
-        <span class="badge badge-outline badge-sm">Links</span>
-        Link Roundups
-      </span>
-    </div>
 
     <!-- Posts by year -->
     <div class="space-y-10">
@@ -83,22 +48,17 @@ const years = Array.from(byYear.keys()).sort((a, b) => b - a);
             {byYear.get(year)!.map((post) => (
               <li>
                 <a
-                  href={post.href}
+                  href={`/blog/${post.slug}`}
                   class="group flex items-start justify-between gap-4 py-3 border-b border-base-200 last:border-0 hover:bg-base-200 -mx-3 px-3 rounded transition-colors"
                 >
-                  <div class="flex items-start gap-3 min-w-0">
-                    {post.type === 'links' && (
-                      <span class="badge badge-outline badge-xs mt-1 shrink-0">Links</span>
-                    )}
-                    <span class="font-medium group-hover:text-primary transition-colors leading-snug">
-                      {post.title}
-                    </span>
-                  </div>
+                  <span class="font-medium group-hover:text-primary transition-colors leading-snug">
+                    {post.data.title}
+                  </span>
                   <time
-                    datetime={post.date.toISOString()}
+                    datetime={post.data.date.toISOString()}
                     class="text-sm text-base-content/40 shrink-0 whitespace-nowrap mt-0.5"
                   >
-                    {formatDate(post.date)}
+                    {formatDate(post.data.date)}
                   </time>
                 </a>
               </li>
