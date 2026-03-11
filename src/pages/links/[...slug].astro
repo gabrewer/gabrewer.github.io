@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import LinksContent from '../../components/links/LinksContent.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('links');
@@ -39,14 +40,9 @@ const formattedDate = date.toLocaleDateString('en-US', {
     </header>
 
     <!-- Content -->
-    <div class="prose prose-lg max-w-none
-      prose-headings:font-bold prose-headings:text-base-content
-      prose-h4:text-base prose-h4:font-semibold prose-h4:text-base-content/80 prose-h4:uppercase prose-h4:tracking-wide
-      prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-      prose-code:bg-base-200 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:font-normal prose-code:before:content-none prose-code:after:content-none
-    ">
+    <LinksContent>
       <Content />
-    </div>
+    </LinksContent>
 
     <!-- Footer navigation -->
     <footer class="pt-6 border-t border-base-300">

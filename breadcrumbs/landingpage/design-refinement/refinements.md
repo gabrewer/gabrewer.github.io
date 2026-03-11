@@ -68,3 +68,12 @@ These changes were made outside the automated pipeline during a design review wi
 - **Files changed**: `src/pages/links/index.astro` (rewritten), `src/pages/links/[page].astro` (new)
 - **Alternatives considered**: Query-parameter pagination (not possible with Astro static builds — requires file-based routes). Infinite scroll (rejected — adds JS complexity, worse for accessibility). Kept individual post pages at `/links/[slug]` for direct linking.
 - **Confidence**: high
+
+### Refinement: Links page — scoped component approach for content styling
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Created `LinksContent.astro` wrapper component with scoped CSS to style rendered markdown content. Replaces inline Tailwind prose modifiers with targeted CSS selectors: h4 category headers get primary-colored underlined section dividers, blockquotes become featured callout cards with bg-base-200 and primary left border, link-only paragraphs display as bulleted items with `›` markers via `:has(> a:only-child)`. Removed post count from feed page headers. Applied component consistently across all three links pages (index, [page], [...slug]).
+- **Why**: Greg found the prose-modifier approach was a "weak attempt" — category headers blended in, Quote of the Day didn't stand out, links weren't clearly clickable items. Prose utility classes don't have enough specificity to target the markdown structure (bare link paragraphs, mixed h4 usage). Greg suggested following Astro's blog layout pattern — use a component with scoped styles like the old 11ty BlogPost layout, rather than fighting with prose overrides.
+- **Files changed**: `src/components/links/LinksContent.astro` (new), `src/pages/links/index.astro`, `src/pages/links/[page].astro`, `src/pages/links/[...slug].astro`
+- **Alternatives considered**: (1) Fix markdown source to use bullet lists — cleanest but requires changing 76 files. (2) Remark/rehype plugin to transform AST — too much infrastructure. (3) Custom rendering by parsing HTML output — most complex. (4) More aggressive prose modifiers — already tried, insufficient. Landed on scoped CSS component as the best balance of control and simplicity.
+- **Confidence**: high

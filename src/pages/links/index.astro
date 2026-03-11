@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import LinksContent from '../../components/links/LinksContent.astro';
 
 const POSTS_PER_PAGE = 10;
 
@@ -37,7 +38,7 @@ function formatDate(d: Date) {
     <header class="space-y-2">
       <h1 class="text-4xl font-bold">Useful Links</h1>
       <p class="text-base-content/70">
-        {sorted.length} roundups — curated links on AI, engineering, leadership, and more.
+        Curated links on AI, engineering, leadership, and more.
       </p>
     </header>
 
@@ -59,16 +60,9 @@ function formatDate(d: Date) {
             </h2>
           </header>
 
-          <div class="prose max-w-none
-            prose-headings:font-bold prose-headings:text-base-content
-            prose-h4:text-sm prose-h4:font-semibold prose-h4:text-base-content/70 prose-h4:uppercase prose-h4:tracking-wide prose-h4:mt-4 prose-h4:mb-1
-            prose-p:my-1
-            prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-            prose-blockquote:border-primary prose-blockquote:text-base-content/80 prose-blockquote:font-normal
-            prose-ul:my-1 prose-li:my-0
-          ">
+          <LinksContent>
             <Content />
-          </div>
+          </LinksContent>
         </article>
       ))}
     </div>

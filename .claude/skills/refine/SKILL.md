@@ -1,8 +1,8 @@
 ---
 name: refine
 description: Apply a small interactive change with full discipline — edit, verify, destroy, breadcrumb, commit. Use when making targeted refinements to the site.
-disable-model-invocation: true
-argument-hint: [description of the change]
+disable-model-invocation: false
+argument-hint: "[description of the change]"
 ---
 
 You are executing the /refine skill. This is the interactive counterpart to the unattended build pipeline. It applies the SAME discipline as the full sprint cycle but scoped to a single change.
