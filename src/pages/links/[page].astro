@@ -4,13 +4,24 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const POSTS_PER_PAGE = 10;
 
+export async function getStaticPaths() {
+  const postsPerPage = 10;
+  const posts = await getCollection('links');
+  const totalPages = Math.ceil(posts.length / postsPerPage);
+
+  // Generate pages 2..N (page 1 is index.astro)
+  return Array.from({ length: totalPages - 1 }, (_, i) => ({
+    params: { page: String(i + 2) },
+  }));
+}
+
+const page = Number(Astro.params.page);
 const posts = await getCollection('links');
 const sorted = posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
-
 const totalPages = Math.ceil(sorted.length / POSTS_PER_PAGE);
-const paged = sorted.slice(0, POSTS_PER_PAGE);
 
-// Render content for each post on this page
+const paged = sorted.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+
 const rendered = await Promise.all(
   paged.map(async (post) => {
     const { Content } = await post.render();
@@ -26,10 +37,12 @@ function formatDate(d: Date) {
     day: 'numeric',
   });
 }
+
+const newerHref = page === 2 ? '/links' : `/links/${page - 1}`;
 ---
 
 <BaseLayout
-  title="Useful Links — Greg Brewer"
+  title={`Useful Links — Page ${page} — Greg Brewer`}
   description="Daily curated links covering AI, software engineering, architecture, leadership, and tools worth reading."
 >
   <div class="max-w-4xl mx-auto px-4 py-12 space-y-10">
@@ -74,29 +87,34 @@ function formatDate(d: Date) {
     </div>
 
     <!-- Pagination -->
-    {totalPages > 1 && (
-      <nav aria-label="Pagination" class="flex justify-center items-center gap-2 pt-4">
-        <span class="btn btn-ghost btn-sm btn-disabled">
+    <nav aria-label="Pagination" class="flex justify-center items-center gap-2 pt-4">
+      <a href={newerHref} class="btn btn-ghost btn-sm">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m15 18-6-6 6-6"/>
+        </svg>
+        Newer
+      </a>
+
+      <span class="text-sm text-base-content/60">
+        Page {page} of {totalPages}
+      </span>
+
+      {page < totalPages ? (
+        <a href={`/links/${page + 1}`} class="btn btn-ghost btn-sm">
+          Older
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="m15 18-6-6 6-6"/>
+            <path d="m9 18 6-6-6-6"/>
           </svg>
-          Newer
+        </a>
+      ) : (
+        <span class="btn btn-ghost btn-sm btn-disabled">
+          Older
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m9 18 6-6-6-6"/>
+          </svg>
         </span>
-
-        <span class="text-sm text-base-content/60">
-          Page 1 of {totalPages}
-        </span>
-
-        {totalPages > 1 && (
-          <a href="/links/2" class="btn btn-ghost btn-sm">
-            Older
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <path d="m9 18 6-6-6-6"/>
-            </svg>
-          </a>
-        )}
-      </nav>
-    )}
+      )}
+    </nav>
 
   </div>
 </BaseLayout>

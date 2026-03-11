@@ -59,3 +59,12 @@ These changes were made outside the automated pipeline during a design review wi
 - **Files changed**: `src/layouts/BaseLayout.astro`
 - **Alternatives considered**: none
 - **Confidence**: high
+
+### Refinement: Useful Links page redesign — archive list to inline feed
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Completely redesigned `/links` index page. Was a flat archive list grouped by year requiring click-through to read content. Now a scrollable feed that renders full post content inline (quote of the day, categorized links) matching the format of the original 11ty site at gabrewer.com/useful_links/. Each entry is a `bg-base-200 rounded-box` card. Added file-based pagination (10 posts per page) via `[page].astro` for pages 2+. Page 1 is `index.astro`. Updated width to `max-w-4xl` to match landing page.
+- **Why**: Greg wants to start posting daily link roundups and wants them consumable without clicking into each one. The original 11ty format showed everything inline and that's the experience he wants to preserve.
+- **Files changed**: `src/pages/links/index.astro` (rewritten), `src/pages/links/[page].astro` (new)
+- **Alternatives considered**: Query-parameter pagination (not possible with Astro static builds — requires file-based routes). Infinite scroll (rejected — adds JS complexity, worse for accessibility). Kept individual post pages at `/links/[slug]` for direct linking.
+- **Confidence**: high
