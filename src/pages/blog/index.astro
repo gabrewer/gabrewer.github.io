@@ -1,9 +1,17 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogContent from '../../components/blog/BlogContent.astro';
 
 const blogPosts = await getCollection('blog');
 const sorted = blogPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+
+const rendered = await Promise.all(
+  sorted.map(async (post) => {
+    const { Content } = await post.render();
+    return { post, Content };
+  })
+);
 
 function formatDate(d: Date) {
   return d.toLocaleDateString('en-US', {
@@ -28,30 +36,33 @@ function formatDate(d: Date) {
       </p>
     </header>
 
-    <div class="space-y-6">
-      {sorted.map((post) => (
-        <article class="border-b border-base-200 pb-6 last:border-0">
-          <h2 class="text-xl font-medium mb-1">
-            <a href={`/blog/${post.slug}`} class="text-primary hover:underline">
-              {post.data.title}
-            </a>
-          </h2>
-          <time
-            datetime={post.data.date.toISOString()}
-            class="text-sm text-base-content/50 block mb-2"
-          >
-            {formatDate(post.data.date)}
-          </time>
-          {post.data.categories && post.data.categories.length > 0 && (
-            <div class="flex flex-wrap gap-2 mb-2">
-              {post.data.categories.map((cat: string) => (
-                <span class="badge badge-sm badge-ghost">{cat}</span>
-              ))}
-            </div>
-          )}
-          {post.data.description && (
-            <p class="text-base-content/70">{post.data.description}</p>
-          )}
+    <div class="space-y-10">
+      {rendered.map(({ post, Content }) => (
+        <article class="bg-base-200 rounded-box p-6 md:p-8">
+          <header class="space-y-1 pb-4 mb-6 border-b border-base-300">
+            <time
+              datetime={post.data.date.toISOString()}
+              class="text-sm font-medium text-primary"
+            >
+              {formatDate(post.data.date)}
+            </time>
+            <h2 class="text-xl font-bold">
+              <a href={`/blog/${post.slug}`} class="hover:text-primary transition-colors">
+                {post.data.title}
+              </a>
+            </h2>
+            {post.data.categories && post.data.categories.length > 0 && (
+              <div class="flex flex-wrap gap-2 pt-1">
+                {post.data.categories.map((cat: string) => (
+                  <span class="badge badge-sm badge-ghost">{cat}</span>
+                ))}
+              </div>
+            )}
+          </header>
+
+          <BlogContent>
+            <Content />
+          </BlogContent>
         </article>
       ))}
     </div>

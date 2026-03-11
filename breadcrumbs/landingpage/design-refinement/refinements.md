@@ -95,3 +95,12 @@ These changes were made outside the automated pipeline during a design review wi
 - **Files changed**: `src/pages/links.xml.ts`, `src/pages/links/[...slug].astro`, `src/pages/blog/index.astro`
 - **Alternatives considered**: none — clear request
 - **Confidence**: high
+
+### Refinement: Blog page — full content inline with BlogContent component
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Rewrote `/blog/index.astro` to render full post content inline (like the links feed) instead of just title/date. Created `BlogContent.astro` wrapper component with scoped CSS that handles: legacy HTML tables with hardcoded `width="900"` attributes (forced to 100% with table-layout:fixed), Shiki code blocks (rounded corners, padding, margins — not fighting inline dark theme), image containment (max-width:100%, margin), inline code styling, and blockquote accents. Applied component to both blog index and individual post pages for consistency.
+- **Why**: Greg pointed out the blog page had no content — just titles and dates. None of the blog posts have a `description` field so the page was empty. Also found tables overflowing containers (Chocolatey post has `width="900"` HTML tables), images running into text, and code blocks lacking spacing. Iterated through several rounds of Playwright screenshots to verify fixes.
+- **Files changed**: `src/components/blog/BlogContent.astro` (new), `src/pages/blog/index.astro`, `src/pages/blog/[...slug].astro`
+- **Alternatives considered**: Prose modifier classes only (insufficient — can't target legacy HTML table attributes or override Shiki inline styles). Page-level `<style>` block (Astro scoping prevented styles from reaching `<Content />` children — had to use `:global()` in a wrapper component).
+- **Confidence**: high
