@@ -77,3 +77,21 @@ These changes were made outside the automated pipeline during a design review wi
 - **Files changed**: `src/components/links/LinksContent.astro` (new), `src/pages/links/index.astro`, `src/pages/links/[page].astro`, `src/pages/links/[...slug].astro`
 - **Alternatives considered**: (1) Fix markdown source to use bullet lists — cleanest but requires changing 76 files. (2) Remark/rehype plugin to transform AST — too much infrastructure. (3) Custom rendering by parsing HTML output — most complex. (4) More aggressive prose modifiers — already tried, insufficient. Landed on scoped CSS component as the best balance of control and simplicity.
 - **Confidence**: high
+
+### Refinement: Blog index — archive list to proper blog listing
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Rewrote `/blog/index.astro` from a year-grouped archive (just title + date) to a proper blog listing matching the old gabrewer.com blog page. Each post now shows: title as primary-colored link, full formatted date, category tags as DaisyUI `badge-ghost` badges, and description when available. Removed year grouping, post count, and the "Looking for curated links?" cross-link. Widened from `max-w-2xl` to `max-w-4xl` to match rest of site.
+- **Why**: Greg said the blog page was "very bad" — it looked like it took the blog archives page instead of the main blog page. The old 11ty site's `/blog/` showed a proper listing with title, date, categories, and description per post.
+- **Files changed**: `src/pages/blog/index.astro`
+- **Alternatives considered**: Keep year grouping with richer post cards (rejected — the old site didn't group by year). Add pagination (not needed yet with only 23 posts).
+- **Confidence**: high
+
+### Refinement: Rename "Link Roundups" to "Useful Links" site-wide
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Replaced all user-facing instances of "Link Roundups" with "Useful Links" across RSS feed title/descriptions, individual link post page breadcrumb and meta description, blog page cross-link, and back-navigation link text.
+- **Why**: Greg requested consistency — the nav says "Useful Links", the page title says "Useful Links", so all references should match.
+- **Files changed**: `src/pages/links.xml.ts`, `src/pages/links/[...slug].astro`, `src/pages/blog/index.astro`
+- **Alternatives considered**: none — clear request
+- **Confidence**: high

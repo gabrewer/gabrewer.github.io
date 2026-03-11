@@ -24,7 +24,7 @@ const formattedDate = date.toLocaleDateString('en-US', {
 
 <BaseLayout
   title={`${post.data.title} — Greg Brewer`}
-  description={`Link roundup: ${post.data.title}`}
+  description={`Useful Links: ${post.data.title}`}
   ogType="article"
 >
   <article class="max-w-2xl mx-auto px-4 py-12 space-y-8">
@@ -32,7 +32,7 @@ const formattedDate = date.toLocaleDateString('en-US', {
     <!-- Header -->
     <header class="space-y-3 pb-6 border-b border-base-300">
       <div class="flex items-center gap-2 text-sm text-base-content/50">
-        <a href="/links" class="hover:text-primary transition-colors">Link Roundups</a>
+        <a href="/links" class="hover:text-primary transition-colors">Useful Links</a>
         <span aria-hidden="true">/</span>
         <time datetime={date.toISOString()}>{formattedDate}</time>
       </div>
@@ -50,7 +50,7 @@ const formattedDate = date.toLocaleDateString('en-US', {
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="m15 18-6-6 6-6"/>
         </svg>
-        All link roundups
+        All useful links
       </a>
     </footer>
 
