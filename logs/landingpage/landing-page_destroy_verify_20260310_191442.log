@@ -1,0 +1,21 @@
+## Verification Complete
+
+**Build**: ✅ PASS — 106 pages, zero errors or warnings.
+
+### All Escalated Items Verified:
+
+| Item | Result |
+|------|--------|
+| **WARN-3** Link URLs → ISO date format | ✅ All 75 files renamed correctly, zero deviations |
+| **WARN-6** Design options B & C | ✅ Both pages built and in `dist/designs/` |
+| **INFO-1** Contact email | ✅ `greg@gabrewer.com` confirmed in place |
+| **INFO-2** `/links.xml` RSS feed | ✅ Separate feed generated alongside `rss.xml` |
+| **INFO-4** Blog index excludes roundups | ✅ Blog-only, with contextual link to `/links` |
+| **INFO-5** Blog descriptions | ⏳ Deferred as expected |
+
+### One Pre-Existing Issue to Note:
+**WARN-5** (the `-sdf.` booking subdomain) is still open — no decision from Greg yet. The new design option pages (`option-b.astro`, `option-c.astro`) correctly inherited the same URL constant, so the issue is now in 4 files instead of 2. Not a regression, but worth flagging when Greg resolves the booking URL question.
+
+### New Regressions: None found.
+
+Report written to `breadcrumbs/landingpage/landing-page/destroyer-verify.md`.

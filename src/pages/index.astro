@@ -12,33 +12,34 @@ import Connect from '../components/landing/Connect.astro';
   title="Greg Brewer — Founder · CTO · AI Engineer"
   description="Greg Brewer is a Founder, CTO, and AI Engineer applying engineering discipline to the AI agentic coding landscape. Co-Founder & CTO of Lessi AI."
 >
-  <div class="max-w-2xl mx-auto px-4 py-16 space-y-16">
+  <div class="py-16 space-y-16">
 
-    <!-- Identity + tagline -->
-    <Hero />
+    <!-- Identity + current status (narrow column) -->
+    <div class="max-w-2xl mx-auto px-4 space-y-8">
+      <Hero />
+      <StatusLine />
+    </div>
 
-    <!-- Current status -->
-    <StatusLine />
-
-    <div class="divider" aria-hidden="true"></div>
-
-    <!-- Lessi AI -->
+    <!-- Lessi AI — full-width featured section (the visual peak of the page) -->
     <LessiFeature />
 
-    <div class="divider" aria-hidden="true"></div>
+    <!-- Remaining sections (narrow column) -->
+    <div class="max-w-2xl mx-auto px-4 space-y-16">
 
-    <!-- Speaking & Training -->
-    <Speaking />
+      <!-- Speaking & Training -->
+      <Speaking />
 
-    <div class="divider" aria-hidden="true"></div>
+      <div class="divider" aria-hidden="true"></div>
 
-    <!-- Latest blog posts -->
-    <LatestPosts />
+      <!-- Latest blog posts -->
+      <LatestPosts />
 
-    <div class="divider" aria-hidden="true"></div>
+      <div class="divider" aria-hidden="true"></div>
 
-    <!-- Connect / Contact -->
-    <Connect />
+      <!-- Connect / Contact -->
+      <Connect />
+
+    </div>
 
   </div>
 </BaseLayout>

@@ -1,24 +1,27 @@
 ---
-// Profile photo placeholder until Greg provides a headshot
+// Hero section — leads with positioning statement (not name)
+// Per design-refinement: positioning statement is the visual headline
 ---
 
 <section class="text-center space-y-6" aria-labelledby="hero-heading">
-  <!-- Profile photo placeholder -->
-  <div class="avatar mx-auto" role="img" aria-label="Greg Brewer profile photo placeholder">
-    <div class="w-32 h-32 rounded-full bg-base-300 flex items-center justify-center ring-2 ring-primary ring-offset-2 ring-offset-base-100">
-      <span class="text-3xl font-bold text-base-content/30" aria-hidden="true">GB</span>
-    </div>
-  </div>
+  <!-- Positioning statement — the visual headline -->
+  <h1
+    id="hero-heading"
+    class="text-4xl md:text-5xl font-bold tracking-tight text-primary leading-tight"
+  >
+    Exploring ways to apply engineering principles to the AI coding landscape.
+  </h1>
 
+  <!-- Name and title — clearly secondary in visual weight -->
   <div>
-    <h1 id="hero-heading" class="text-4xl md:text-5xl font-bold tracking-tight">Greg Brewer</h1>
-    <p class="text-lg text-base-content/60 mt-2 font-medium">
-      Founder &middot; CTO &middot; AI Engineer &middot; Software Architect
+    <p class="text-xl font-semibold text-base-content">Greg Brewer</p>
+    <p class="text-base text-base-content/60 font-medium mt-1">
+      Founder &middot; CTO &middot; AI Engineer
     </p>
   </div>
 
-  <p class="text-xl text-base-content/80 leading-relaxed max-w-xl mx-auto">
-    Applying engineering discipline to the AI agentic coding landscape.
+  <!-- Tagline — present but understated -->
+  <p class="text-base text-base-content/60 leading-relaxed italic">
     I build systems that help people make better decisions.
   </p>
 </section>

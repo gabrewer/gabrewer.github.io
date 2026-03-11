@@ -1,0 +1,32 @@
+All four tasks are complete. Here's a summary of what was done in the `design-refinement` sprint:
+
+---
+
+## ✅ Sprint: design-refinement — Complete
+
+### Task 1: `hero-rework`
+**`Hero.astro`** was completely reworked:
+- **Positioning statement** is now the `<h1>` headline in `text-primary` — large, bold, impossible to miss
+- **Name + title** moved to a secondary paragraph with reduced visual weight
+- **Tagline** is present but understated (`text-base-content/60 italic`)
+- **Avatar removed** entirely from the Hero section
+
+### Task 2: `accent-color-pops`
+Strategic color applied across components:
+- **StatusLine**: pulsing dot changed from `bg-success` → `bg-primary`
+- **Speaking**: institution name uses `text-primary`, topic uses `text-accent`, type badge is now `badge-primary`
+- **Connect**: Book a Call button upgraded from `btn-outline` → `btn-accent`; secondary links now use `text-primary`
+
+### Task 3: `lessi-featured-section`
+**`LessiFeature.astro`** is now the visual peak of the page:
+- Full-width `bg-primary text-primary-content` colored block
+- Inner content uses `max-w-4xl` — wider than the rest of the page's `max-w-2xl`
+- Generous `py-14` padding with elevated typography (`text-lg` lead paragraph)
+- **`index.astro`** restructured into three zones (narrow → full-width Lessi → narrow) to enable the breakout
+
+### Task 4: `photo-in-connect`
+**`Connect.astro`** now opens with:
+- `w-24 h-24` GB initials avatar with `ring-2 ring-primary` treatment
+- Positioned above the section heading — the human moment right before the CTA decision
+
+**Build**: ✅ `npm run build` — 106 pages, 0 errors, 0 warnings

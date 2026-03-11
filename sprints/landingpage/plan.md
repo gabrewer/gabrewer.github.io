@@ -344,6 +344,78 @@ Date: 2026-03-05
 
 ---
 
+## Sprint: design-refinement
+
+**Name**: Landing Page Design Refinement
+
+This sprint refines the Option A (Minimal & Focused) landing page design based on Greg's feedback. The page structure stays the same but the visual treatment changes significantly.
+
+### Task: hero-rework
+- **Type**: prescriptive
+- **Description**: Rework the Hero component to lead with the positioning statement as the bold headline, not Greg's name. The new hierarchy:
+  1. **Positioning statement** (large, bold, accent-colored): "Exploring ways to apply engineering principles to the AI coding landscape."
+  2. **Name and title** (secondary, smaller): "Greg Brewer — Founder, CTO, AI Engineer"
+  3. **Tagline** (grounding): "I build systems that help people make better decisions."
+  Remove the profile photo/avatar from the Hero component — it moves to the Connect section.
+- **Acceptance Criteria**:
+  - [ ] Positioning statement is the visual headline, rendered large and bold
+  - [ ] Positioning statement uses `text-primary` or `text-accent` to pop against the base background
+  - [ ] Name/title is clearly secondary in visual weight
+  - [ ] Tagline present but understated
+  - [ ] No profile photo or avatar in the hero section
+  - [ ] `npm run build` succeeds
+- **Dependencies**: none
+- **Assigned to**: frontend-builder
+
+### Task: accent-color-pops
+- **Type**: prescriptive
+- **Description**: Add strategic accent color throughout the page to create visual anchors. Currently everything is muted and same-temperature. Apply color to:
+  - The StatusLine pulse dot: use `bg-accent` or `bg-primary`
+  - Speaking section: event titles or dates get `text-primary` or `text-accent`
+  - Connect section CTA buttons: use `btn-primary` and `btn-accent` instead of neutral/ghost
+  - Any links or interactive elements should use `text-primary` with hover states
+  Do NOT add color everywhere — be strategic. The color should guide the eye to key moments.
+- **Acceptance Criteria**:
+  - [ ] StatusLine dot uses a semantic accent/primary color
+  - [ ] Speaking section has at least one accent-colored element per engagement
+  - [ ] Connect buttons use `btn-primary` or `btn-accent`
+  - [ ] Links use `text-primary` with visible hover states
+  - [ ] Page still feels clean, not noisy — color is strategic, not decorative
+  - [ ] All colors use DaisyUI semantic classes (no hardcoded colors)
+  - [ ] `npm run build` succeeds
+- **Dependencies**: hero-rework
+- **Assigned to**: frontend-builder
+
+### Task: lessi-featured-section
+- **Type**: prescriptive
+- **Description**: Restyle the LessiFeature component to break out visually from the rest of the page. Give it a colored background section using `bg-primary text-primary-content` (or `bg-secondary text-secondary-content` — builder should test both and pick whichever looks better across themes). This section should feel like the visual peak of the page — the thing your eye is drawn to. Consider:
+  - Making it wider than the normal content column (break out of `max-w-2xl` to `max-w-4xl` or full-width with padded content)
+  - Adding slightly more padding/breathing room
+  - Using `rounded-box` or a subtle card treatment
+  Keep the content the same, just elevate the visual treatment.
+- **Acceptance Criteria**:
+  - [ ] LessiFeature section has a colored background that contrasts with the rest of the page
+  - [ ] Text within the section is readable (uses matching `-content` color class)
+  - [ ] Section visually breaks out from the normal column width
+  - [ ] Looks good across at least 3 different DaisyUI themes (light, dark, one other)
+  - [ ] `npm run build` succeeds
+- **Dependencies**: hero-rework
+- **Assigned to**: frontend-builder
+
+### Task: photo-in-connect
+- **Type**: prescriptive
+- **Description**: Move the profile photo/avatar to the Connect section. Place it above or alongside the contact CTAs. The photo humanizes the "reach out" moment — Greg's face appears right as the visitor is deciding whether to make contact. Keep using the "GB" initials placeholder for now (real photo will be added later). Style it as a larger avatar than the original hero version — `w-24 h-24` or similar.
+- **Acceptance Criteria**:
+  - [ ] Profile avatar/placeholder appears in the Connect section
+  - [ ] Avatar is visually prominent (larger than the original hero version)
+  - [ ] Positioned naturally relative to the contact CTAs
+  - [ ] No avatar/photo remains in the Hero section
+  - [ ] `npm run build` succeeds
+- **Dependencies**: hero-rework, accent-color-pops
+- **Assigned to**: frontend-builder
+
+---
+
 ## Ambiguity Flags
 
 The following items from the PRD are ambiguous or unresolved and should NOT be guessed at:

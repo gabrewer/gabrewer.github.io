@@ -1,43 +1,54 @@
 ---
-// Lessi AI feature section
+// Lessi AI feature section — elevated full-width treatment
+// Uses bg-primary text-primary-content to create the visual peak of the page
+// Breaks out of the standard max-w-2xl column — rendered full-width from index.astro
 ---
 
-<section aria-labelledby="lessi-heading" class="space-y-4">
-  <div class="flex items-center gap-3">
-    <div class="badge badge-primary badge-outline">What I&apos;m Building</div>
-  </div>
-  <h2 id="lessi-heading" class="text-2xl font-bold">Lessi AI</h2>
-  <p class="text-base-content/70 text-sm font-medium uppercase tracking-wide">Co-Founder &amp; CTO</p>
+<section aria-labelledby="lessi-heading" class="w-full bg-primary text-primary-content">
+  <div class="max-w-4xl mx-auto px-8 py-14 space-y-5">
+    <!-- Section label -->
+    <div>
+      <span class="inline-block border border-primary-content/40 text-primary-content/80 text-xs font-semibold uppercase tracking-widest rounded-full px-3 py-1">
+        What I&apos;m Building
+      </span>
+    </div>
 
-  <p class="text-base-content/80 leading-relaxed">
-    <strong>Lessi</strong> is an AI platform designed to help <strong>special education teachers</strong>
-    create high-quality instructional materials tailored to the needs of every student.
-  </p>
+    <h2 id="lessi-heading" class="text-3xl font-bold">Lessi AI</h2>
+    <p class="text-primary-content/70 text-sm font-semibold uppercase tracking-wide">
+      Co-Founder &amp; CTO
+    </p>
 
-  <p class="text-base-content/80 leading-relaxed">
-    The platform uses AI to generate and adapt lesson plans, assessments, reading passages,
-    and instructional supports — all aligned with students&apos; IEPs, state and national
-    standards, and evidence-based instructional practices.
-  </p>
+    <p class="text-primary-content/90 leading-relaxed text-lg">
+      <strong class="text-primary-content font-semibold">Lessi</strong> is an AI platform designed
+      to help <strong class="text-primary-content font-semibold">special education teachers</strong>
+      create high-quality instructional materials tailored to the needs of every student.
+    </p>
 
-  <p class="text-base-content/80 leading-relaxed">
-    Lessi combines AI generation, structured educational content, and teacher workflows to
-    dramatically reduce preparation time while improving instruction quality.
-  </p>
+    <p class="text-primary-content/80 leading-relaxed">
+      The platform uses AI to generate and adapt lesson plans, assessments, reading passages,
+      and instructional supports &mdash; all aligned with students&apos; IEPs, state and national
+      standards, and evidence-based instructional practices.
+    </p>
 
-  <div>
-    <a
-      href="https://www.lessi.ai"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="btn btn-primary btn-sm"
-    >
-      Visit Lessi AI
-      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-        <polyline points="15 3 21 3 21 9"/>
-        <line x1="10" y1="14" x2="21" y2="3"/>
-      </svg>
-    </a>
+    <p class="text-primary-content/80 leading-relaxed">
+      Lessi combines AI generation, structured educational content, and teacher workflows to
+      dramatically reduce preparation time while improving instruction quality.
+    </p>
+
+    <div class="pt-2">
+      <a
+        href="https://www.lessi.ai"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-sm border-primary-content/60 text-primary-content bg-transparent hover:bg-primary-content/15 hover:border-primary-content"
+      >
+        Visit Lessi AI
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+          <polyline points="15 3 21 3 21 9"/>
+          <line x1="10" y1="14" x2="21" y2="3"/>
+        </svg>
+      </a>
+    </div>
   </div>
 </section>

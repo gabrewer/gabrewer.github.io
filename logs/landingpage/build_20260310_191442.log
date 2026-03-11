@@ -16,3 +16,9 @@
 [2026-03-10 19:14:42] [INFO] landingpage/landing-page — RESOLVE: applying human decisions
 [2026-03-10 19:14:42] [INFO] Agent: reviewer — Resolve escalated items for landingpage/landing-page
 [2026-03-10 19:23:37] [INFO] Agent reviewer completed in 535s
+[2026-03-10 19:23:37] [INFO] Committed: fix(landingpage/landing-page): review fixes applied
+[2026-03-10 19:23:37] [INFO] landingpage/landing-page — RESOLVE: verification pass
+[2026-03-10 19:23:37] [INFO] Agent: destroyer — Verify resolved items for landingpage/landing-page
+[2026-03-10 19:24:52] [INFO] Agent destroyer completed in 75s
+[2026-03-10 19:24:52] [INFO] landingpage/landing-page — RESOLVE COMPLETE
+[2026-03-10 19:24:52] [INFO] Resolve completed in 610s
