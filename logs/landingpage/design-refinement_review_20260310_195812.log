@@ -1,0 +1,30 @@
+All done. Here's the full triage summary:
+
+---
+
+## Review Complete — landingpage/design-refinement
+
+### Fixed (7 items)
+
+| Finding | Fix |
+|---|---|
+| **[CRIT-1]** Design pages still live & indexed | Deleted `src/pages/designs/` — sitemap confirmed clean |
+| **[CRIT-2]** Stale Option A description | Resolved by CRIT-1 deletion |
+| **[WARN-1]** Missing `aria-expanded` on dropdowns | Added to ThemeSwitcher trigger + mobile hamburger, with JS toggling on open/close/select |
+| **[WARN-2]** `aria-haspopup="true"` on hamburger | Changed to `aria-haspopup="menu"` (correct ARIA 1.1 value for a nav list) |
+| **[WARN-3]** Redundant `role="button"` on native buttons | Removed from both ThemeSwitcher and hamburger |
+| **[WARN-6]** No active nav state / `aria-current` | Added `aria-current="page"` + `text-primary font-semibold` to active nav link on all pages |
+| **[INFO-1]** `localStorage` unguarded | Wrapped in try/catch in anti-flash IIFE and theme selection handler |
+
+### Escalated (2 items — need Greg's decision)
+
+- **[WARN-4]** LessiFeature floating island vs. full-bleed stripe — design intent question; options documented in `escalated.md`
+- **[WARN-5]** Email `greg@gabrewer.com` — PRD Open Question #3 was never formally resolved; needs explicit confirmation before launch
+
+### Dismissed (2 items)
+
+- **[INFO-2]** Two-tone badge hierarchy in Speaking — intentional visual hierarchy, no hardcoded colors
+- **[INFO-3]** LessiFeature button Tailwind opacity modifiers — builder-documented intentional choice, no DaisyUI equivalent, CSS output verified correct
+
+### Build Status
+✅ **PASS** — 103 pages, 0 errors, 0 warnings (down from 106, exactly the 3 deleted designs pages)

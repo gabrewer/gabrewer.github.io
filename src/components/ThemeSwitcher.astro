@@ -17,13 +17,14 @@ const themes = [
 ];
 ---
 
-<div class="dropdown dropdown-end">
+<div class="dropdown dropdown-end" id="theme-switcher-dropdown">
   <button
     tabindex="0"
-    role="button"
+    id="theme-switcher-btn"
     class="btn btn-ghost btn-sm gap-1"
     aria-label="Change theme"
     aria-haspopup="listbox"
+    aria-expanded="false"
   >
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
       <circle cx="12" cy="12" r="4"/>
@@ -74,15 +75,30 @@ const themes = [
     btn.addEventListener('click', function() {
       var theme = btn.dataset.theme || 'light';
       document.documentElement.setAttribute('data-theme', theme);
-      localStorage.setItem('theme', theme);
+      try { localStorage.setItem('theme', theme); } catch(e) {}
       highlightActiveTheme();
+      // Close dropdown: collapse aria-expanded
+      var sb = document.getElementById('theme-switcher-btn');
+      if (sb) sb.setAttribute('aria-expanded', 'false');
     });
   });
 
-  // Highlight on open — use specific aria-haspopup="listbox" to avoid selecting the mobile menu button
-  var dropdownBtn = document.querySelector('[aria-haspopup="listbox"]');
-  if (dropdownBtn) {
-    dropdownBtn.addEventListener('click', highlightActiveTheme);
-    dropdownBtn.addEventListener('focus', highlightActiveTheme);
+  // Handle aria-expanded and highlight on open
+  var switcherBtn = document.getElementById('theme-switcher-btn');
+  var switcherDropdown = document.getElementById('theme-switcher-dropdown');
+  if (switcherBtn) {
+    switcherBtn.addEventListener('click', function() {
+      var expanded = switcherBtn.getAttribute('aria-expanded') === 'true';
+      switcherBtn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      highlightActiveTheme();
+    });
+    switcherBtn.addEventListener('focus', highlightActiveTheme);
+  }
+  if (switcherDropdown) {
+    switcherDropdown.addEventListener('focusout', function(e) {
+      if (!switcherDropdown.contains(e.relatedTarget)) {
+        if (switcherBtn) switcherBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
   }
 </script>
