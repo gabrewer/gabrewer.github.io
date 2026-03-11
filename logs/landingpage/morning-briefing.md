@@ -1,32 +1,32 @@
 # Morning Briefing — landingpage
 **Date**: 2026-03-10
-**Feature**: Personal landing page at gabrewer.com
+**Prepared by**: Team Lead
 
 ---
 
 ## 1. What Was Done
 
-All 6 sprints from the plan have been executed in a single build pass:
+### Sprints Completed
+All 7 sprints from the plan have been executed:
 
-| Sprint | Status | Tasks |
-|--------|--------|-------|
-| **scaffold** | Complete | init-astro-project, base-layout, theme-switcher, placeholder-pages, github-actions-deploy |
-| **design-exploration** | Complete | 3 design options built (A, B, C) + index page; all removed after selection |
-| **landing-page** | Complete | build-landing-page, cleanup-design-pages |
-| **about-page** | Complete | build-about-page |
-| **blog-migration** | Complete | setup-content-collection, migrate-blog-posts (23), migrate-useful-links (75), blog-post-page, blog-index-page, dynamic-latest-posts |
-| **polish** | Complete | meta-and-seo, favicon, rss-feed, final-review; performance-audit partial (no Lighthouse env) |
+| Sprint | Status | Key Output |
+|--------|--------|------------|
+| **scaffold** | ✅ Complete | Astro 5 + Tailwind CSS 4 + DaisyUI 5; BaseLayout; ThemeSwitcher (14 themes); placeholder pages; GitHub Actions deploy |
+| **design-exploration** | ✅ Complete | Three design options (A: Minimal, B: Editorial, C: Dashboard) built as working pages; cleaned up after selection |
+| **landing-page** | ✅ Complete | Production landing page at `/` using Option A; componentized: Hero, StatusLine, LessiFeature, Speaking, LatestPosts, Connect |
+| **about-page** | ✅ Complete | Narrative about page; professional experience, philosophy, technical background, leadership, writing/speaking; Edcountable correctly omitted |
+| **blog-migration** | ✅ Complete | 23 blog posts + 75 link roundups migrated; content collections; dynamic routes; blog & links indexes; dynamic LatestPosts |
+| **polish** | ✅ Complete | Meta/SEO/OG tags, favicon (GB SVG), RSS feed, robots.txt, custom 404, sitemap |
+| **design-refinement** | ✅ Complete | Hero reworked (positioning statement as headline), accent color pops, LessiFeature full-width bg-primary, avatar moved to Connect |
 
-**Build output**: 103 pages, zero errors, zero warnings.
+### Task Count
+- **27 tasks** defined across all sprints
+- **All 27 completed** (Lighthouse audit partial — no browser environment available)
 
-### Commit History
-
-```
-7e8ef4a fix(landingpage/...): review fixes applied
-6a40973 feat(landingpage/...): build complete
-9848fb9 chore(landingpage): sprint plan generated from PRD
-8ab9993 Initial commit — project files
-```
+### Final Build
+- **103 pages** generated
+- **0 errors, 0 warnings**
+- Build time: ~2 seconds
 
 ---
 
@@ -34,96 +34,138 @@ All 6 sprints from the plan have been executed in a single build pass:
 
 | Decision | Chosen | Reasoning | Confidence |
 |----------|--------|-----------|------------|
-| **Tech stack** | Astro 5 + Tailwind CSS 4 + DaisyUI 5 | Tailwind 4 uses Vite plugin (not PostCSS); DaisyUI 5 uses `@plugin` CSS syntax | High |
-| **Theme config** | 14 themes via CSS `@plugin "daisyui"` | DaisyUI 5 pattern; light default, dark prefersdark | High |
-| **Theme switcher** | Vanilla inline script, zero JS bundle | Anti-flash script in `<head>` with `is:inline`; no framework hydration | High |
-| **Design direction** | Option A — "Minimal & Focused" | Builder chose unilaterally (PRD blocker violated); centered single-column | Medium |
-| **Blog URLs** | `/blog/[slug]` not `/YYYY/MM/slug/` | Simpler; 11ty URL preservation flagged for Greg | Medium |
-| **Link roundup URLs** | `/links/[slug]` separate from `/blog/` | Different content type, different template | Medium |
-| **Content collections** | Separate `blog` (23) and `links` (75) collections | Different frontmatter, different rendering needs | Medium |
-| **Schema approach** | Permissive union types for tags/categories | Handles both string and array formats from 11ty inconsistencies | High |
+| **Tech stack** | Astro 5 + Tailwind CSS 4 (Vite plugin) + DaisyUI 5 (`@plugin` CSS syntax) | Correct approach for TW4; no PostCSS needed | High |
+| **Theme switcher** | Vanilla inline `is:inline` script, zero JS bundle | Anti-flash script in `<head>` prevents FOUC; no framework hydration | High |
+| **Design direction** | Option A — "Minimal & Focused" (refined) | Builder chose initially (PRD blocker violated); Greg said "too basic" → Options B & C built → Greg hasn't made final pick → refinement sprint applied to Option A | Medium |
+| **Blog URLs** | `/blog/[slug]` not `/YYYY/MM/slug/` | Pre-migrated posts had clean slugs; simpler; flagged for Greg | Medium |
+| **Separate content collections** | `blog` (23 posts) + `links` (75 roundups) | Different content types, frontmatter, rendering needs | Medium |
+| **Link roundup URLs** | `/links/YYYY-MM-DD/` (ISO date slugs) | Greg approved rename from `-slash-` format | High |
+| **Blog/links separation** | Blog index shows only original writing; links have own archive + RSS feed | Greg: "blog page should not have link roundups" | High |
+| **RSS feeds** | `/rss.xml` (blog) + `/links.xml` (roundups) | Greg chose separate over combined | High |
+| **Contact email** | `greg@gabrewer.com` confirmed | Greg confirmed; PRD Open Question #3 closed | High |
+| **Blog descriptions** | Deferred to Greg | Greg: "I will add descriptions"; fallback to "Title by Greg Brewer" | High |
 | **Edcountable** | Omitted entirely | PRD Resolved Decision #7 | High |
-| **Skip domain modeler/API phases** | No backend work | Static site; per user instruction | High |
+| **Schema** | Permissive union types for tags/categories | Handles both string and array formats from 11ty inconsistencies | High |
 
 ---
 
 ## 3. Issues Encountered
 
-### Destroyer Found 17 Issues Total
+### Destroyer Round 1 (post-initial build) — 17 findings
+**3 Critical, 8 Warnings, 6 Info**
 
-**Critical (3) — all fixed:**
+| ID | Severity | Issue | Resolution |
+|----|----------|-------|------------|
+| CRIT-1 | Critical | Broken images in 5 blog posts — no `public/images/` dir | **Fixed** — copied 16 images from 11ty source |
+| CRIT-2 | Critical | `+` in filename silently dropped from slug | **Fixed** — renamed to `-json-` |
+| CRIT-3 | Critical | ThemeSwitcher `aria-selected` never updated (WCAG 4.1.2) | **Fixed** — dynamic ARIA updates |
+| WARN-1 | Warning | `og:type="website"` on blog posts | **Fixed** — `ogType` prop, now `"article"` |
+| WARN-2 | Warning | ThemeSwitcher script was bundled module, not `is:inline` | **Fixed** — converted to inline |
+| WARN-3 | Warning | Link roundup URLs contain literal "slash" | **Fixed** — renamed to ISO date format (Greg approved) |
+| WARN-4 | Warning | No `/links/` index page (404) | **Fixed** — created links archive |
+| WARN-5 | Warning | Booking URL uses `-sdf.` subdomain | **Dismissed** — PRD-confirmed URL; re-escalated for verification |
+| WARN-6 | Warning | Design chosen without Greg's review | **Addressed** — Options B & C built; awaiting Greg's final pick |
+| WARN-7 | Warning | Missing `robots.txt` | **Fixed** |
+| WARN-8 | Warning | No custom 404 page | **Fixed** — branded 404 with nav and CTAs |
+| INFO-1 | Info | Email `greg@gabrewer.com` unconfirmed | **Resolved** — Greg confirmed |
+| INFO-2 | Info | RSS excludes link roundups | **Fixed** — separate `/links.xml` created |
+| INFO-3 | Info | Fragile ThemeSwitcher dropdown selector | **Fixed** — robust `[aria-haspopup="listbox"]` selector |
+| INFO-4 | Info | No blog pagination (98 posts) | **Fixed** — blog index now shows only 23 blog posts; links separate |
+| INFO-5 | Info | Missing blog post descriptions for SEO | **Deferred** — Greg will add manually |
+| INFO-6 | Info | `prose` classes without `@tailwindcss/typography` | **Dismissed** — DaisyUI 5 provides base prose; needs visual QA |
+| INFO-7 | Info | Profile photo is "GB" placeholder | **Dismissed** — awaiting headshot |
 
-| ID | Issue | Fix |
-|----|-------|-----|
-| CRIT-1 | Broken images in 5 blog posts (16 refs, no `public/images/`) | Copied images from 11ty source |
-| CRIT-2 | `display-collection+json` slug dropped the `+` silently | Renamed file to use `-json-` |
-| CRIT-3 | ThemeSwitcher `aria-selected` never updated (WCAG 4.1.2) | Added dynamic `aria-selected` toggling |
+### Destroyer Round 2 (post-design-refinement) — 12 findings
+**2 Critical, 6 Warnings, 4 Info**
 
-**Warnings (8) — 5 fixed, 1 dismissed, 2 escalated:**
-
-| ID | Issue | Resolution |
-|----|-------|------------|
-| WARN-1 | Blog posts used `og:type="website"` | Fixed — now `"article"` |
-| WARN-2 | ThemeSwitcher script was bundled module | Fixed — converted to `is:inline` |
-| WARN-3 | Link roundup URLs contain literal "slash" | Escalated |
-| WARN-4 | No `/links/` index page (404) | Fixed — created links index |
-| WARN-5 | Booking URL uses `-sdf.` subdomain | Dismissed — PRD-confirmed URL |
-| WARN-6 | Design chosen without Greg's review | Escalated |
-| WARN-7 | Missing `robots.txt` | Fixed |
-| WARN-8 | No custom 404 page | Fixed — branded 404 with nav |
-
-**Info (7) — 1 fixed, 3 dismissed, 3 escalated:**
-
-| ID | Issue | Resolution |
-|----|-------|------------|
-| INFO-1 | Email placeholder unconfirmed | Escalated |
-| INFO-2 | RSS excludes link roundups | Escalated |
-| INFO-3 | Fragile ThemeSwitcher selector | Fixed |
-| INFO-4 | No blog pagination (98 posts) | Escalated |
-| INFO-5 | Missing blog post descriptions | Escalated |
-| INFO-6 | `prose` classes without typography plugin | Dismissed — visual QA only |
-| INFO-7 | Profile photo is "GB" placeholder | Dismissed — awaiting headshot |
+| ID | Severity | Issue | Resolution |
+|----|----------|-------|------------|
+| CRIT-1 | Critical | Design exploration pages still live and in sitemap | **Fixed** — `src/pages/designs/` deleted |
+| CRIT-2 | Critical | Stale Option A description in designs index | **Fixed** — resolved by deletion |
+| WARN-1 | Warning | Missing `aria-expanded` on dropdown buttons | **Fixed** — added with JS toggle |
+| WARN-2 | Warning | `aria-haspopup="true"` should be `"menu"` | **Fixed** |
+| WARN-3 | Warning | Redundant `role="button"` on native buttons | **Fixed** — removed |
+| WARN-4 | Warning | LessiFeature floating island vs. full-bleed stripe | **Escalated** — design intent question for Greg |
+| WARN-5 | Warning | Email address needs final sign-off | **Escalated** — previously confirmed but re-flagged |
+| WARN-6 | Warning | No active navigation state indicator | **Fixed** — `aria-current="page"` + visual styling |
+| INFO-1 | Info | localStorage access with no error handling | **Fixed** — try/catch wrapper |
+| INFO-2 | Info | Two-tone badge hierarchy in Speaking | **Dismissed** — intentional hierarchy |
+| INFO-3 | Info | LessiFeature button uses Tailwind opacity, not DaisyUI btn | **Dismissed** — intentional for bg-primary context |
+| INFO-4 | Info | Phantom `/designs/` URLs reachable | **Fixed** — resolved by CRIT-1 deletion |
 
 ---
 
 ## 4. Current State
 
-- **Build**: PASSES — 103 pages, zero errors, zero warnings
-- **Stack**: Astro 5, Tailwind CSS 4, DaisyUI 5
-- **Pages**: Landing (`/`), About (`/about`), Blog index (`/blog`), Links index (`/links/`), 23 blog posts, 75 link roundups, 404, RSS feed, sitemap
-- **Infrastructure**: GitHub Actions deploy workflow, CNAME for gabrewer.com, robots.txt, sitemap
-- **Themes**: 14 DaisyUI themes with working switcher, localStorage persistence, no FOUC
-- **Content**: All 98 posts migrated from 11ty, dynamic LatestPosts on landing page
-- **SEO**: OG tags (article type for posts), Twitter cards, canonical URLs, RSS feed, sitemap
-- **Not yet deployed**: Site built locally; needs push to main to trigger deployment
+### What's Working
+- **103 pages** build cleanly (0 errors, 0 warnings)
+- Landing page at `/` with refined design (positioning-led hero, accent colors, full-width Lessi section, avatar in Connect)
+- About page at `/about` with full narrative content
+- Blog at `/blog` — 23 original posts with individual pages and prose typography
+- Link roundups at `/links` — 75 posts with clean ISO-date URLs and dedicated archive
+- Theme switcher: 14 DaisyUI themes, localStorage, anti-flash, proper ARIA
+- RSS feeds: `/rss.xml` (blog) + `/links.xml` (links)
+- SEO: OG tags (article type for posts), Twitter cards, canonical URLs, sitemap, robots.txt
+- Accessibility: ARIA listbox on theme switcher, `aria-expanded` on dropdowns, `aria-current="page"` on nav, correct heading hierarchy, `aria-hidden` on decorative SVGs
+- Infrastructure: GitHub Actions deploy workflow, CNAME (`gabrewer.com`), custom 404
 
-### Pending Items (no action needed yet)
-- Lighthouse performance audit (no browser env available)
-- Visual QA of prose typography across themes
-- Profile photo (waiting on Greg's headshot)
-- Blog post descriptions for SEO (Greg will write)
+### What Needs Visual/Manual Testing
+- Lighthouse performance audit (no browser environment)
+- Cross-theme visual rendering across all 14 themes
+- Prose typography rendering (DaisyUI 5 prose vs. `@tailwindcss/typography`)
+- Keyboard navigation end-to-end
+- Booking URL functionality verification
 
 ---
 
-## 5. Escalated Items — Greg's Decisions Received
+## 5. Escalated Items Requiring Human Attention
 
-All 6 escalated items have received decisions from Greg in `escalated.md`:
+### Open — Needs Greg's Decision
 
-| ID | Issue | Greg's Decision | Action Required |
-|----|-------|-----------------|-----------------|
-| **WARN-3** | Link roundup URLs contain literal "slash" (`links-10-slash-10-slash-2024`) | **Rename to `YYYY-MM-DD.md` format** | Rename all 75 files to produce `/links/2024-10-10/` style URLs |
-| **WARN-6** | Design direction chosen without review | **"The design is too basic, I need more options"** | **Rebuild design exploration with new/improved options** |
-| **INFO-1** | Contact email `greg@gabrewer.com` | **Confirmed correct** | No action needed |
-| **INFO-2** | RSS feed excludes link roundups | **Create separate feed at `/links.xml`** | Build second RSS feed for links collection |
-| **INFO-4** | Blog index shows all 98 posts | **"Blog page should not have link roundups; separate page"** | Remove link roundups from `/blog` index |
-| **INFO-5** | Blog post descriptions missing | **"I will add descriptions"** | Greg will add `description:` frontmatter manually |
+| Item | Detail | Action Needed |
+|------|--------|---------------|
+| **Booking URL** (`-sdf.` subdomain) | `https://outlook-sdf.office.com/bookwithme/...` appears in `Connect.astro` and `about.astro`. The `-sdf.` subdomain may be a Microsoft staging environment. | Greg must click the link and verify it works for real visitors before launch. |
+| **LessiFeature: island vs. stripe** | The `bg-primary` section has 4rem gaps above/below creating a floating island effect. Builder intended "visual peak." On dark themes (Abyss, Synthwave) it may look disconnected. | Greg to review visually and decide: keep island or restructure for true full-bleed stripe. |
+| **Design direction** | Greg said Option A was "too basic." Options B & C were built, then design refinement was applied to Option A. Design pages were cleaned up. Greg has **not** made a final design pick. | Greg to review current refined landing page and confirm or request changes. |
+| **Blog post descriptions** | None of the 23 posts have `description:` frontmatter. Meta descriptions fall back to "Title by Greg Brewer." | Greg committed to adding these manually. Low priority but affects SEO/social sharing. |
+| **URL preservation** | Old 11ty URLs at `/YYYY/MM/slug/` will 404 on new site. No redirects implemented. | Greg to decide if redirects are needed for inbound links from the old site. |
+| **Profile photo** | "GB" text placeholder in Connect section. | Greg to provide headshot image. |
 
-### Priority Actions for Next Build
+### Resolved (Previously Escalated)
 
-1. **WARN-6 — Design overhaul** (highest priority): Greg rejected Option A as "too basic" and wants more options. New design exploration pages must be created before the landing page can be finalized. The previous design pages were deleted during cleanup.
-2. **WARN-3 — Rename 75 link roundup files** to `YYYY-MM-DD.md` format for clean URLs.
-3. **INFO-4 — Separate blog and links indexes**: Remove link roundups from the `/blog` page; they already have `/links/`.
-4. **INFO-2 — Create `/links.xml`** RSS feed for link roundup posts.
+| Item | Resolution |
+|------|------------|
+| Link roundup URL format | Renamed to `YYYY-MM-DD.md` per Greg |
+| Blog/links separation | Blog index shows only blog posts per Greg |
+| RSS for link roundups | Separate `/links.xml` created per Greg |
+| Contact email | `greg@gabrewer.com` confirmed by Greg |
+
+---
+
+## 6. Commit History
+
+```
+c62ee3a fix(landingpage/design-refinement): review fixes applied
+87461eb feat(landingpage/design-refinement): build complete
+bbc4dc4 fix(landingpage/landing-page): review fixes applied
+7e8ef4a fix(landingpage/scaffolddesign-explorationlanding-pageabout-pageblog-migrationpolish): review fixes applied
+6a40973 feat(landingpage/scaffolddesign-explorationlanding-pageabout-pageblog-migrationpolish): build complete
+9848fb9 chore(landingpage): sprint plan generated from PRD
+8ab9993 Initial commit — project files
+```
+
+---
+
+## 7. Recommended Next Steps
+
+1. **Greg to review the live landing page** and confirm refined Option A design (or select B/C/hybrid)
+2. **Greg to verify booking URL** works end-to-end for real visitors
+3. **Greg to decide LessiFeature visual treatment** (island vs. stripe) — review on dark themes
+4. **Greg to add `description:` frontmatter** to blog posts for SEO
+5. **Run Lighthouse audit** in browser once deployed
+6. **Decide on URL redirects** for old 11ty URLs if inbound links exist
+7. **Replace "GB" placeholder** with actual headshot when available
+8. **Deploy** — push to `main` to trigger GitHub Actions workflow
 
 ---
 

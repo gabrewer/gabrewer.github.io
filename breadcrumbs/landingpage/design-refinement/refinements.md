@@ -1,0 +1,61 @@
+# Interactive Refinements — landingpage/design-refinement
+
+Catchup breadcrumbs for changes made during interactive session on 2026-03-10.
+These changes were made outside the automated pipeline during a design review with Greg.
+
+---
+
+### Refinement: Lessi AI section — full-bleed to contained card
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Changed LessiFeature from a full-width `bg-primary` stripe to a contained card with `bg-base-200 rounded-box` inside the content column
+- **Why**: Greg found the full-bleed primary background "too much" — overwhelming and dominant. Tried `bg-secondary` next which was "much worse." Landed on `bg-base-200` — a subtle lift off the background that distinguishes the section without fighting with everything else. The accent colors on buttons, links, and status dot are doing enough color work.
+- **Files changed**: `src/components/landing/LessiFeature.astro`, `src/pages/index.astro`
+- **Alternatives considered**: full-width `bg-primary` (too dominant), `bg-secondary` (worse), `bg-accent` (not tried), `bg-base-200` (selected — subtle but effective)
+- **Confidence**: high — Greg confirmed "perfect"
+
+### Refinement: Page width max-w-2xl to max-w-4xl
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Widened the main content column from `max-w-2xl` (672px) to `max-w-4xl` (896px)
+- **Why**: Greg said the page was "too narrow on larger screens"
+- **Files changed**: `src/pages/index.astro`
+- **Alternatives considered**: `max-w-3xl` (768px) as middle ground — not needed, `max-w-4xl` was accepted
+- **Confidence**: high
+
+### Refinement: Gravatar in header navbar
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Added Greg's Gravatar photo (32px, rounded) next to his name in the navbar. Replaced the "GB" initials placeholder.
+- **Why**: Greg wanted "a small photo by my name in the upper left of the header" — adds personality and recognition to the nav
+- **Files changed**: `src/layouts/BaseLayout.astro`
+- **Alternatives considered**: Keep initials placeholder (Greg preferred real photo), use a local image file (Gravatar is easier and already available)
+- **Confidence**: high
+- **Gravatar URL**: `https://2.gravatar.com/avatar/9e475f93cce80d8702128abda3c29861197ddc3a84260c1abecee39470c1e442?s=64`
+
+### Refinement: Gravatar in Connect section
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Replaced "GB" initials placeholder in the Connect section with Greg's Gravatar (192px, rounded, primary ring)
+- **Why**: Consistent with header change — real photo humanizes the "reach out" moment better than initials
+- **Files changed**: `src/components/landing/Connect.astro`
+- **Alternatives considered**: none — direct follow-on from header change
+- **Confidence**: high
+
+### Refinement: Useful Links top-level navigation
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Added "Useful Links" nav item to both desktop and mobile menus, linking to `/links`. Positioned between Blog and About. Includes active state styling and `aria-current="page"`.
+- **Why**: Greg plans to post link roundups daily and wants them promoted to top-level navigation, not buried under Blog
+- **Files changed**: `src/layouts/BaseLayout.astro`
+- **Alternatives considered**: none — clear request
+- **Confidence**: high
+
+### Refinement: Footer Astro & DaisyUI on one line
+- **Date**: 2026-03-10
+- **Who**: Frontend Builder (interactive)
+- **What**: Changed footer from multi-line "Built with / Astro / and / DaisyUI" to single-line "Built with Astro & DaisyUI"
+- **Why**: Greg's request — reads cleaner on one line
+- **Files changed**: `src/layouts/BaseLayout.astro`
+- **Alternatives considered**: none
+- **Confidence**: high

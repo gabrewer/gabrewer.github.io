@@ -1,0 +1,8 @@
+Morning briefing written to `logs/landingpage/morning-briefing.md`.
+
+**Summary of the project state:**
+
+- **All 7 sprints complete** — 27 tasks done, 103 pages building cleanly
+- **29 Destroyer findings** across 2 rounds — all critical and warning items fixed; 6 items escalated to Greg
+- **Greg provided decisions** on link URLs (ISO dates), blog/links separation, RSS feeds, and email confirmation
+- **Still open for Greg**: design direction final pick, booking URL verification, LessiFeature island vs. stripe, blog descriptions, URL redirects, profile photo
