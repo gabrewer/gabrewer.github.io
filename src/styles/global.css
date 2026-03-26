@@ -2,3 +2,8 @@
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark, abyss, aqua, caramellatte, cyberpunk, dim, garden, lemonade, luxury, retro, silk, synthwave, valentine;
 }
+
+[data-theme="light"] {
+  --color-primary: oklch(40% 0.24 260);
+  --color-primary-content: oklch(98% 0 0);
+}
