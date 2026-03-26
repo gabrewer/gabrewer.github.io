@@ -152,7 +152,7 @@ I write about:
 
 Recent topics include:
 
-- Engineering in the age of AI
+- Engineering at the speed of AI
 - Multi-agent system design
 - Modern .NET architectures
 - Managing complexity in software systems
