@@ -7,7 +7,7 @@ const POSTS_PER_PAGE = 10;
 
 export async function getStaticPaths() {
   const postsPerPage = 10;
-  const posts = await getCollection('links');
+  const posts = await getCollection('links', ({ data }) => import.meta.env.DEV || !data.draft);
   const totalPages = Math.ceil(posts.length / postsPerPage);
 
   // Generate pages 2..N (page 1 is index.astro)
@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 const page = Number(Astro.params.page);
-const posts = await getCollection('links');
+const posts = await getCollection('links', ({ data }) => import.meta.env.DEV || !data.draft);
 const sorted = posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 const totalPages = Math.ceil(sorted.length / POSTS_PER_PAGE);
 

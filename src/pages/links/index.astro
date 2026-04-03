@@ -5,7 +5,7 @@ import LinksContent from '../../components/links/LinksContent.astro';
 
 const POSTS_PER_PAGE = 10;
 
-const posts = await getCollection('links');
+const posts = await getCollection('links', ({ data }) => import.meta.env.DEV || !data.draft);
 const sorted = posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
 const totalPages = Math.ceil(sorted.length / POSTS_PER_PAGE);
