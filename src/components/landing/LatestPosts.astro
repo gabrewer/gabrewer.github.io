@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 
 // Get latest 5 blog posts (not link roundups) sorted by date
-const allPosts = await getCollection('blog');
+const allPosts = await getCollection('blog', ({ data }) => import.meta.env.DEV || !data.draft);
 const posts = allPosts
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 5)
@@ -10,7 +10,7 @@ const posts = allPosts
     title: p.data.title,
     date: p.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }),
     isoDate: p.data.date.toISOString(),
-    href: `/blog/${p.slug}`,
+    href: `/blog/${p.data.slug || p.slug}`,
   }));
 ---
 

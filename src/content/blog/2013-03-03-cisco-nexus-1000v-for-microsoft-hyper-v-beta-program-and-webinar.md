@@ -1,6 +1,7 @@
 ---
 title: Cisco Nexus 1000V for Microsoft Hyper-V Beta Program and Webinar
 date: 2013-03-03T11:52:00 -4:00
+slug: cisco-nexus-1000v-for-microsoft-hyper-v-beta-program-and-webinar
 author: gabrewer
 comments: true
 categories: [Hyper-V, Hyper-V, Networking]

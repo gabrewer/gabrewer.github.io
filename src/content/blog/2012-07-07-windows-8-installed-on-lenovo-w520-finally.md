@@ -1,6 +1,7 @@
 ---
 title: Windows 8 installed on Lenovo W520 - Finally
 date: 2012-07-07T23:50:00 -4:00
+slug: windows-8-installed-on-lenovo-w520-finally
 author: gabrewer
 comments: true
 categories: [Hardware, Lenovo]

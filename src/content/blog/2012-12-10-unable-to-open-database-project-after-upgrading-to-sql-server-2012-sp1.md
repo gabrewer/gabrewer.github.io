@@ -1,6 +1,7 @@
 ---
 title: Unable to open Database Project after upgrading to SQL Server 2012 SP1
 date: 2012-12-10T23:52:00 -4:00
+slug: unable-to-open-database-project-after-upgrading-to-sql-server-2012-sp1
 author: gabrewer
 comments: true
 categories: [Development, SQL Server, Visual Studio]

@@ -1,6 +1,7 @@
 ---
 title: Cool Development Utility - smtp4dev
 date: 2012-02-26T23:37:00 -4:00
+slug: cool-development-utility-smtp4dev
 author: gabrewer
 comments: true
 categories: [Development, Tools]

@@ -1,6 +1,7 @@
 ---
 title: Setting an IP address using netsh instead of arp -s on Windows 8.1
 date: 2014-09-11T23:39:00 -4:00
+slug: setting-an-ip-address-using-netsh
 author: gabrewer
 comments: true
 categories: [Hardware]

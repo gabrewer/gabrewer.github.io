@@ -4,9 +4,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogContent from '../../components/blog/BlogContent.astro';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const posts = await getCollection('blog', ({ data }) => import.meta.env.DEV || !data.draft);
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.data.slug || post.slug },
     props: { post },
   }));
 }

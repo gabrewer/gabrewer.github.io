@@ -1,6 +1,7 @@
 ---
 title: Cool Development Utility - xip.io
 date: 2014-05-23T17:38:00 -4:00
+slug: cool-development-utility-xip-io
 author: gabrewer
 comments: true
 categories: [Development, Tools]

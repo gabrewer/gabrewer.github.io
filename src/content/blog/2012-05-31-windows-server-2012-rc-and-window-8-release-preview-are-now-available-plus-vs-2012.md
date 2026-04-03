@@ -1,6 +1,7 @@
 ---
 title: Windows Server 2012 RC and Window 8 Release Preview are now available - Plus VS 2012
 date: 2012-05-31T23:45:00 -4:00
+slug: windows-server-2012-rc-and-window-8-release-preview-are-now-available-plus-vs-2012
 author: gabrewer
 comments: true
 categories: [Software, Visual Studio, Windows Server]

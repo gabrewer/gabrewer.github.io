@@ -1,6 +1,7 @@
 ---
 title: My first pull request - WebApiContrib.Formatting.CollectionJson
 date: 2013-08-17T16:39:00 -4:00
+slug: my-first-pull-request-webapicontrib-formatting-collectionjson
 author: gabrewer
 comments: true
 categories: [Development, WEBAPI]

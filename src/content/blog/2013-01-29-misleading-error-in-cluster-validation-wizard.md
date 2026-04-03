@@ -1,6 +1,7 @@
 ---
 title: Misleading error in Cluster Validation Wizard
 date: 2013-01-29T01:26:00 -4:00
+slug: misleading-error-in-cluster-validation-wizard
 author: gabrewer
 comments: true
 categories: [Clustering, Hardware, Hyper-V]

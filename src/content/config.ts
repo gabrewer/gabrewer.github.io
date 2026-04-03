@@ -15,12 +15,14 @@ const categoriesSchema = z.union([
 const blogSchema = z.object({
   title: z.string(),
   date: z.coerce.date(),
+  draft: z.boolean().optional(),
   author: z.string().optional(),
   comments: z.boolean().optional(),
   categories: categoriesSchema,
   tags: tagsSchema,
   description: z.string().optional(),
   permalink: z.string().optional(),
+  slug: z.string().optional(),
 });
 
 const blog = defineCollection({

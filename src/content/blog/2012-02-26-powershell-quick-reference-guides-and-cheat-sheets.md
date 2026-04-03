@@ -1,6 +1,7 @@
 ---
 title: PowerShell Quick Reference Guides and Cheat Sheets
 date: 2012-02-26T23:33:00 -4:00
+slug: powershell-quick-reference-guides-and-cheat-sheets
 author: gabrewer
 comments: true
 categories: [PowerShell]

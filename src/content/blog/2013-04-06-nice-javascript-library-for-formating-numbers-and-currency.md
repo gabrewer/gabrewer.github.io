@@ -1,6 +1,7 @@
 ---
 title: Nice JavaScript library for formating numbers and currency
 date: 2013-04-06T15:56:00 -4:00
+slug: nice-javascript-library-for-formating-numbers-and-currency
 author: gabrewer
 comments: true
 categories: [Development, JavaScript]

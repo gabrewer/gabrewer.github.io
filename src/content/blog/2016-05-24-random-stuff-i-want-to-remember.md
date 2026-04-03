@@ -1,6 +1,7 @@
 ---
 title: Random Stuff I want to remember
 date: 2016-05-24T23:39:00 -4:00
+slug: random-stuff-i-want-to-remember
 author: gabrewer
 comments: true
 categories: [Random]

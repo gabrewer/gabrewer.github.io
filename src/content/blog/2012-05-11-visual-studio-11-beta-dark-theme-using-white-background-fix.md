@@ -1,6 +1,7 @@
 ---
 title: Visual Studio 11 Beta - Dark Theme using White Background - Fix
 date: 2012-05-11T23:42:00 -4:00
+slug: visual-studio-11-beta-dark-theme-using-white-background-fix
 author: gabrewer
 comments: true
 categories: [Development, Tools]

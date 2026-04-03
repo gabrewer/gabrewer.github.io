@@ -1,6 +1,7 @@
 ---
 title: Node.js, JQuery and Mocha on Windows 8 x64 and PowerShell
 date: 2013-02-02T12:54:00 -4:00
+slug: node-js-jquery-and-mocha-on-windows-8-x64-and-powershell
 author: gabrewer
 comments: true
 categories: [Development, Node.js, PowerShell]

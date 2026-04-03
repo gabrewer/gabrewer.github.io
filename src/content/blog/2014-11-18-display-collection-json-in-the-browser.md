@@ -1,6 +1,7 @@
 ---
 title: Display Collection+JSON in the browser
 date: 2014-11-18T23:39:00 -4:00
+slug: display-collection-json-in-the-browser
 author: gabrewer
 comments: true
 categories: ["Development"]
