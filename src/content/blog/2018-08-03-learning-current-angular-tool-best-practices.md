@@ -1,6 +1,7 @@
 ---
 title: Learning Current Angular Tool Best Practices
 date: 2018-08-03T23:39:00 -4:00
+slug: learning-current-angular-tool-best-practices
 author: gabrewer
 comments: true
 categories: ["Development", "Angular"]

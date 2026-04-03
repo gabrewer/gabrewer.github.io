@@ -1,6 +1,7 @@
 ---
 title: Chocolatey Kickstarter Funded! A list of my current packages
 date: 2014-12-14T23:39:00 -4:00
+slug: chocolatey-kickstarter-funded-a-list-of-my-current-packages
 author: gabrewer
 comments: true
 categories: ["Development", "Software"]

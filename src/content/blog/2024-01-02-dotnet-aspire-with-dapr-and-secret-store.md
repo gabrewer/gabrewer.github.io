@@ -1,6 +1,7 @@
 ---
 title: .Net Aspire Preview 2 with Dapr and the secretstore
 date: 2024-01-02T13:43:00 -5:00
+slug: dotnet-aspire-with-dapr-and-secret-store
 author: gabrewer
 comments: true
 categories: ["Development", ".Net"]

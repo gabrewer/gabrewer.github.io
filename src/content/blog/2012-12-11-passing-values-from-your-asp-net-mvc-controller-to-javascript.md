@@ -1,6 +1,7 @@
 ---
 title: Passing values from your ASP.NET MVC Controller to Javascript
 date: 2012-12-11T00:05:00 -4:00
+slug: passing-values-from-your-asp-net-mvc-controller-to-javascript
 author: gabrewer
 comments: true
 categories: [ASP.NET, Development, JavaScript, MVC]

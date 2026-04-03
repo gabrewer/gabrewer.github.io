@@ -1,6 +1,7 @@
 ---
 title: Web Platform Installer crash when viewing Products or Applications
 date: 2013-02-13T00:57:00 -4:00
+slug: web-platform-installer-crash-when-viewing-products-or-applications
 author: gabrewer
 comments: true
 categories: [Development, IIS, WordPress]

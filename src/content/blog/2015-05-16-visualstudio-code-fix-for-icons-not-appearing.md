@@ -1,6 +1,7 @@
 ---
 title: VisualStudio Code fix for icons not appearing
 date: 2015-05-16T23:39:00 -4:00
+slug: visualstudio-code-fix-for-icons-not-appearing
 author: gabrewer
 comments: true
 categories: ["Development"]

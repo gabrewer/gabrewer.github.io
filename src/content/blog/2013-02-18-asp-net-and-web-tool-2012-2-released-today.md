@@ -1,6 +1,7 @@
 ---
 title: ASP.NET and Web Tool 2012.2 Released Today
 date: 2013-02-18T17:19:00-04:00
+slug: asp-net-and-web-tool-2012-2-released-today
 author: gabrewer
 comments: true
 categories: ["ASP.NET", "Development", "Visual Studio", "WEBAPI"]

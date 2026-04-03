@@ -1,6 +1,7 @@
 ---
 title: ASP.NET Web API replaces WCF Web API
 date: 2012-02-26T23:33:00 -4:00
+slug: asp-net-web-api-replaces-wcf-web-api
 author: gabrewer
 comments: true
 categories: [ASP.NET, Development, WCF, WEBAPI]
