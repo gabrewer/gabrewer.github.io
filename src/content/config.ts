@@ -17,7 +17,7 @@ const blogSchema = z.object({
   date: z.coerce.date(),
   draft: z.boolean().optional(),
   author: z.string().optional(),
-  comments: z.boolean().optional(),
+  comments: z.boolean().default(true),
   categories: categoriesSchema,
   tags: tagsSchema,
   description: z.string().optional(),
