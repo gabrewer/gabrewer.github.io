@@ -5,24 +5,16 @@ interface Props {
 }
 
 const { url, title } = Astro.props;
-const canonicalUrl = url.replace(/^http:\/\/localhost:\d+/, 'https://gabrewer.com');
-const isDev = import.meta.env.DEV;
+const canonicalUrl = url.replace(/^https?:\/\/localhost:\d+/, 'https://gabrewer.com');
 ---
 
 <section aria-label="Comments" class="space-y-4">
   <h2 class="text-xl font-semibold">Comments</h2>
-  {isDev ? (
-    <div class="border border-dashed border-base-300 rounded-lg p-6 text-center text-base-content/50 text-sm">
-      Comments unavailable in dev mode (requires HTTPS)
-    </div>
-  ) : (
-    <div id="remark42"></div>
-  )}
+  <div id="remark42"></div>
 </section>
 
-<script define:vars={{ canonicalUrl, title, isDev }}>
-  if (!isDev) {
-    window.remark_config = {
+<script define:vars={{ canonicalUrl, title }}>
+  window.remark_config = {
     host: 'https://comments.gabrewer.com',
     site_id: 'gabrewer',
     url: canonicalUrl,
@@ -37,5 +29,4 @@ const isDev = import.meta.env.DEV;
     script.defer = true;
     document.head.appendChild(script);
   })();
-  }
 </script>
