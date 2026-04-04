@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogContent from '../../components/blog/BlogContent.astro';
+import Comments from '../../components/blog/Comments.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => import.meta.env.DEV || !data.draft);
@@ -54,6 +55,14 @@ const tags = post.data.tags ?? [];
     <BlogContent>
       <Content />
     </BlogContent>
+
+    <!-- Comments -->
+    {post.data.comments && (
+      <Comments
+        url={Astro.url.href}
+        title={post.data.title}
+      />
+    )}
 
     <!-- Footer navigation -->
     <footer class="pt-6 border-t border-base-300 flex items-center justify-between">

@@ -1,0 +1,41 @@
+---
+interface Props {
+  url: string;
+  title: string;
+}
+
+const { url, title } = Astro.props;
+const canonicalUrl = url.replace(/^http:\/\/localhost:\d+/, 'https://gabrewer.com');
+const isDev = import.meta.env.DEV;
+---
+
+<section aria-label="Comments" class="space-y-4">
+  <h2 class="text-xl font-semibold">Comments</h2>
+  {isDev ? (
+    <div class="border border-dashed border-base-300 rounded-lg p-6 text-center text-base-content/50 text-sm">
+      Comments unavailable in dev mode (requires HTTPS)
+    </div>
+  ) : (
+    <div id="remark42"></div>
+  )}
+</section>
+
+<script define:vars={{ canonicalUrl, title, isDev }}>
+  if (!isDev) {
+    window.remark_config = {
+    host: 'https://comments.gabrewer.com',
+    site_id: 'gabrewer',
+    url: canonicalUrl,
+    title: title,
+    components: ['embed'],
+    theme: document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light',
+  };
+
+  (function () {
+    var script = document.createElement('script');
+    script.src = window.remark_config.host + '/web/embed.js';
+    script.defer = true;
+    document.head.appendChild(script);
+  })();
+  }
+</script>
