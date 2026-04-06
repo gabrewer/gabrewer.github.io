@@ -23,7 +23,7 @@ const rendered = await Promise.all(
 );
 
 function formatDate(d: Date) {
-  return d.toLocaleDateString('en-US', {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate()).toLocaleDateString('en-US', {
     weekday: 'long',
     year: 'numeric',
     month: 'long',
