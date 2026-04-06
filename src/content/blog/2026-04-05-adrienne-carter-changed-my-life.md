@@ -1,6 +1,6 @@
 ---
 title: How a Mindset Coach Changed Everything
-date: 2026-04-06T19:30:00 -05:00
+date: 2026-04-05T19:30:00 -05:00
 slug: adrienne-carter-changed-my-life
 draft: false
 author: gabrewer
