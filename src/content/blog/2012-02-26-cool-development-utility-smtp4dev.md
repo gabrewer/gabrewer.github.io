@@ -10,6 +10,8 @@ tags: ["post"]
 
 The other day I needed to test the Mail functionality of an application I was developing on Windows 7 and I realized that the built in SMTP server had been removed.  I initially thought about just installing the free version of SmarterMail and configuring that but I decided to take a look and see what else I could find.  I ran across smtp4dev on CodePlex.  <a href="http://smtp4dev.codeplex.com/">Codeplex Link</a>
 
+<!--more-->
+
 smtp4dev captures emails that are sent to localhost on whatever port you configure smtp4dev to listen on.  You can then inspect the formatting and content by choosing an entry in the list and selecting Inspect or View.
 
 <img class="alignnone size-medium wp-image-141" alt="smtp4dev main screen" src="/images/image_4-300x217.png" width="300" height="217" />

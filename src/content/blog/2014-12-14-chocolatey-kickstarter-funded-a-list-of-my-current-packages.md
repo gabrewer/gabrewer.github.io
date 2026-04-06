@@ -13,6 +13,8 @@ campaign](https://www.kickstarter.com/projects/ferventcoder/chocolatey-the-alter
 was successfully funded.  I always like reading what tools other developers are using so to celebrate, I thought I would
 publish the packages I currently have installed.
 
+<!--more-->
+
 I may have an issue with being obsessed with editors.
 
 #### Editors

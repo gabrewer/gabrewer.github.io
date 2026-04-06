@@ -14,6 +14,8 @@ Get the bits and the initial documentation on the ASP.NET Web API page at <a hr
 
 The team has provided some initial guidance on migrating from the WCF Web API to ASP.NET Web API on the <a href="http://wcf.codeplex.com/wikipage?title=How%20to%20Migrate%20from%20WCF%20Web%20API%20to%20ASP.NET%20Web%20API" target="_blank">WCF CodePlex site</a>.
 
+<!--more-->
+
 ScottGu has an overview on <a href="http://weblogs.asp.net/scottgu/archive/2012/02/19/asp-net-mvc-4-beta.aspx" target="_blank">his blog</a> along with a video of a presentation that he gave at the Belgium and Dutch TechReady events.
 
 Jon Galloway interviewed Brad Wilson about the ASP.NET MVC 4 release.  <a href="http://herdingcode.com/?p=396" target="_blank">Brad Wilson on ASP.NET 4 Beta and ASP.NET Web API</a>

@@ -16,6 +16,8 @@ I've also been incorporating architectural insights and best practices from YouT
 - [Nick Chapsas's YouTube Channel](https://www.youtube.com/@nickchapsas)
 - [Codewrinkles's YouTube Channel](https://www.youtube.com/@Codewrinkles)
 
+<!--more-->
+
 The release of .NET 8 introduced the .NET Aspire 8.0 Preview 1 - an opinionated, cloud-ready stack ideal for building observable, production-ready, distributed applications compatible with Dapr. [View .NET Aspire on GitHub](https://github.com/dotnet/aspire).
 
 Integrating .NET Aspire into my projects was pretty straightforward. However, I encountered a few challenges, especially with Dapr configuration management across projects. I ended up copying the dapr config files into each projects. Aslo .NET Aspire Preview 1 lacked support for deploying Dapr components to Azure.

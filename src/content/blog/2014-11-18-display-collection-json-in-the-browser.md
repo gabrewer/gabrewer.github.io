@@ -10,6 +10,8 @@ tags: ["post"]
 
 In the last year I have become enamored with Hypermedia APIs and the Collection+JSON API in particular that I first came across in [Mike Amundsen’s](https://web.archive.org/web/20150504224635/http://www.amundsen.com/) book [Building Hypermedia APIs with HTML5 and Node](https://web.archive.org/web/20150504224635/http://www.amazon.com/gp/product/1449306578/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1449306578&linkCode=as2&tag=gabrewercom-20&linkId=KMQMXVBUV5L3CBI5)![](https://web.archive.org/web/20150504224635im_/http://ir-na.amazon-adsystem.com/e/ir?t=gabrewercom-20&l=as2&o=1&a=1449306578).  It seems to be a perfect fit for many of the APIs that I have been working on.  Glenn Block created the [CollectionJson.Net](https://web.archive.org/web/20150504224635/https://github.com/WebApiContrib/CollectionJson.Net) library to make it easy to create Collection+JSON based ASP.NET Web APIs.
 
+<!--more-->
+
 However when I browse to a WebAPI endpoint that returns a Collection+JSON result in Internet Explorer or Firefox I get a prompt to download the file.
 
 [![image](/images/collectionjson_thumb1.png "image")](/images/collectionjson_thumb1.png)
