@@ -12,6 +12,8 @@ Well, I finally got around to figuring out why I could not install the Windows 8
 
 Before doing that I installed the latest <a href="http://support.lenovo.com/en_US/downloads/detail.page?&amp;DocID=DS029675" target="_blank">bios from the Lenovo site</a>.
 
+<!--more-->
+
 After upgrading the Bios and backing up the little data I wanted to save, I proceeded to install the OS.  I went through the boot process fine, installed the installation files reboot and then hung at 90% when configuring devices.  After fiddling with the video driver settings Optimus, Integrated and Discrete, I tired disabling the wireless card and the install completed successfully.
 
 After the installation was complete, I installed the <a href="http://support.lenovo.com/en_US/downloads/detail.page?DocID=HT072084" target="_blank">Lenovo Windows 8 beta drivers</a> turned the wireless adapter back on, crossed my fingers and rebooted and I am finally running Windows 8 on my Lenovo W520!

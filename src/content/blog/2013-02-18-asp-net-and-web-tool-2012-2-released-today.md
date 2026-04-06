@@ -14,6 +14,8 @@ The ASP.NET and Web Tools 2012.2 update was released today. There were many upda
 
 "Mobile Emulator support adds extensibility hooks so that third-party emulators can be installed as a VSIX. The installed emulators will show up in the F5 dropdown, so that developers can preview their websites on a variety of mobile devices. Read more about this feature in Scott Hanselman's blog entry on [the new BrowserStack integration with Visual Studio](http://www.hanselman.com/blog/CrossBrowserDebuggingIntegratedIntoVisualStudioWithBrowserStack.aspx)."
 
+<!--more-->
+
 ## ASP.NET Web API OData
 
 ASP.NET Web API OData gives you the flexibility you need to build OData endpoints with rich business logic over any data source.

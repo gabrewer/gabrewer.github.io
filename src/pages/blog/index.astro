@@ -1,15 +1,24 @@
 ---
 import { getCollection } from 'astro:content';
+import { marked } from 'marked';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogContent from '../../components/blog/BlogContent.astro';
 
 const blogPosts = await getCollection('blog', ({ data }) => import.meta.env.DEV || !data.draft);
 const sorted = blogPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
+const MORE_MARKER = '<!--more-->';
+
 const rendered = await Promise.all(
   sorted.map(async (post) => {
+    const hasExcerpt = post.body.includes(MORE_MARKER);
+    if (hasExcerpt) {
+      const excerptMarkdown = post.body.split(MORE_MARKER)[0];
+      const excerptHtml = await marked.parse(excerptMarkdown);
+      return { post, Content: null, excerptHtml };
+    }
     const { Content } = await post.render();
-    return { post, Content };
+    return { post, Content, excerptHtml: null };
   })
 );
 
@@ -37,7 +46,7 @@ function formatDate(d: Date) {
     </header>
 
     <div class="space-y-10">
-      {rendered.map(({ post, Content }) => (
+      {rendered.map(({ post, Content, excerptHtml }) => (
         <article class="bg-base-200 rounded-box p-6 md:p-8">
           <header class="pb-4 mb-6 border-b border-base-300">
             <time
@@ -61,8 +70,20 @@ function formatDate(d: Date) {
           </header>
 
           <BlogContent>
-            <Content />
+            {excerptHtml ? (
+              <Fragment set:html={excerptHtml} />
+            ) : (
+              Content && <Content />
+            )}
           </BlogContent>
+
+          {excerptHtml && (
+            <div class="pt-4">
+              <a href={`/blog/${post.data.slug || post.slug}`} class="btn btn-primary btn-sm">
+                Read more →
+              </a>
+            </div>
+          )}
         </article>
       ))}
     </div>
