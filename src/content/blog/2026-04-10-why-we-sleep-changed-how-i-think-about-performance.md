@@ -1,5 +1,5 @@
 ---
-title: Why We Sleep Changed How I Think About Performance
+title: '"Why We Sleep" Changed How I Think About Performance'
 date: 2026-04-10T20:51:00 -05:00
 slug: why-we-sleep-changed-how-i-think-about-performance
 draft: false
