@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Allow running from inside a Claude Code session
-unset CLAUDECODE 2>/dev/null || true
+# This repository uses pi as the coding-agent harness.
 
 ###############################################################################
 # Team Lead / Coordinator
@@ -105,7 +104,7 @@ EOF
     git commit -m "$(cat <<'MSG'
 Initial commit — project files
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+Co-Authored-By: pi coding agent <noreply@pi.dev>
 MSG
 )"
     log "INFO" "Initialized git repository"
@@ -116,6 +115,11 @@ git_commit() {
   local sprint_slug="$1"
   local phase="$2"  # build, review, or plan
   cd "$PROJECT_DIR"
+
+  if $DRY_RUN; then
+    log "DRY-RUN" "Would commit changes (${FEATURE}/${sprint_slug} / ${phase})"
+    return 0
+  fi
 
   if [[ -z $(git status --porcelain) ]]; then
     log "INFO" "No changes to commit (${FEATURE}/${sprint_slug} / ${phase})"
@@ -138,7 +142,7 @@ Sprint: ${sprint_slug}
 Phase: ${phase}
 Trust level: conservative
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+Co-Authored-By: pi coding agent <noreply@pi.dev>
 EOF
 )"
   log "INFO" "Committed: $msg"
@@ -157,18 +161,32 @@ run_agent() {
   log "INFO" "Agent: $agent_name — $description"
 
   if $DRY_RUN; then
-    log "DRY-RUN" "Would run: claude --agent $agent_name -p '${prompt:0:100}...'"
+    log "DRY-RUN" "Would run: pi with skill $agent_name -p '${prompt:0:100}...'"
     return 0
   fi
+
+  local skill_file="$PROJECT_DIR/.pi/skills/$agent_name/SKILL.md"
+  if [[ ! -f "$skill_file" ]]; then
+    log "ERROR" "pi skill not found for agent '$agent_name': $skill_file"
+    return 1
+  fi
+
+  local system_prompt
+  system_prompt=$(python3 - "$skill_file" <<'PY'
+from pathlib import Path
+import re
+import sys
+text = Path(sys.argv[1]).read_text()
+match = re.match(r"^---\n[\s\S]*?\n---\n([\s\S]*)$", text)
+print((match.group(1) if match else text).strip())
+PY
+)
 
   local start_time=$SECONDS
 
   cd "$PROJECT_DIR"
-  claude --agent "$agent_name" \
-    -p "$prompt" \
-    --max-turns "$MAX_TURNS" \
-    --dangerously-skip-permissions \
-    --output-format text \
+  pi -p "$prompt" \
+    --system-prompt "$system_prompt" \
     > "$log_file" 2>&1 || {
       local exit_code=$?
       log "ERROR" "Agent $agent_name failed (exit $exit_code) — see $log_file"
@@ -402,7 +420,7 @@ phase_briefing() {
 
   cd "$PROJECT_DIR"
 
-  claude -p "$(cat <<PROMPT
+  pi -p "$(cat <<PROMPT
 You are the Team Lead generating the morning briefing for feature '${FEATURE}'.
 
 Read ALL files in breadcrumbs/${FEATURE}/ (recursively) and the Sprint plan at sprints/${FEATURE}/plan.md.
@@ -420,9 +438,6 @@ Write the briefing to logs/${FEATURE}/morning-briefing.md.
 Also run: git log --oneline and include the commit history in the briefing.
 PROMPT
 )" \
-    --max-turns 30 \
-    --dangerously-skip-permissions \
-    --output-format text \
     > "$LOG_DIR/phase3_briefing_${TIMESTAMP}.log" 2>&1 || {
       log "WARN" "Briefing generation had issues — check log"
     }

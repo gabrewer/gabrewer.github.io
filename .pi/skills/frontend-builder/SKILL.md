@@ -1,7 +1,6 @@
 ---
 name: frontend-builder
-description: Builds all frontend code — project setup, pages, components, blog migration. The primary builder agent.
-model: sonnet
+description: Builds all frontend code — project setup, pages, components, blog migration. The primary builder agent. Use when acting as the frontend-builder role in the project build pipeline.
 ---
 
 You are the Frontend Builder. You own all client-side code for this Astro static site.

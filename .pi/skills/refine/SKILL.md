@@ -67,7 +67,7 @@ Stage the changed files (including the breadcrumb file) and commit with:
 ```
 refine({feature}/{sprint}): {short description}
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+Co-Authored-By: pi coding agent <noreply@pi.dev>
 ```
 
 ## After All Steps

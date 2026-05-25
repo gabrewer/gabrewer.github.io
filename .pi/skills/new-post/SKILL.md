@@ -1,6 +1,6 @@
 ---
 name: new-post
-description: Create a new blog post. Provide a topic or draft and Claude creates the post with proper frontmatter and slug.
+description: Create a new blog post. Provide a topic or draft and pi creates the post with proper frontmatter and slug.
 disable-model-invocation: false
 argument-hint: "[topic, title, or draft content]"
 ---
@@ -14,7 +14,7 @@ If Greg hasn't already provided them, ask for:
 2. **Content** — this can be:
    - A full draft to format
    - Bullet points or notes to expand into a post
-   - A topic to write about (Claude will draft, Greg will review)
+   - A topic to write about (pi will draft, Greg will review)
 3. **Categories** — if not provided, suggest based on content. Common categories: Development, AI, Architecture, Leadership, Tools, .Net, Software, Hardware
 
 ## How to Create the Post
@@ -27,7 +27,7 @@ Convert the title to a URL-friendly slug:
 - Remove special characters
 - Keep it concise
 
-Example: "Building Multi-Agent Workflows with Claude" → `building-multi-agent-workflows-with-claude`
+Example: "Building Multi-Agent Workflows with pi" → `building-multi-agent-workflows-with-pi`
 
 ### Step 2: Write the File
 
@@ -70,5 +70,5 @@ Show Greg the post. Walk through it section by section if it's long. Make edits 
 git add src/content/blog/{slug}.md
 git commit -m "blog: {short description of the post}
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+Co-Authored-By: pi coding agent <noreply@pi.dev>"
 ```

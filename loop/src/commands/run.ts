@@ -38,7 +38,7 @@ interface ActiveTaskDisplay {
   startedAt: string
 }
 
-// Claude's analysis of which tasks depend on which
+// pi's analysis of which tasks depend on which
 interface ExecutionPlan {
   dependencies: Record<string, string[]>  // taskId -> taskIds it depends on
   reasoning: string
@@ -279,11 +279,11 @@ interface AgentDef {
 }
 
 async function loadAgentDef(agent: AgentName): Promise<AgentDef> {
-  const filePath = path.join(process.cwd(), '.claude', 'agents', `${agent}.md`)
+  const filePath = path.join(process.cwd(), '.pi', 'skills', agent, 'SKILL.md')
   const content = await Bun.file(filePath).text()
 
   const fmMatch = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/)
-  if (!fmMatch) return { systemPrompt: content.trim(), model: 'sonnet', tools: [] }
+  if (!fmMatch) return { systemPrompt: content.trim(), model: '', tools: [] }
 
   const [, frontmatter, body] = fmMatch
   const modelMatch = frontmatter.match(/^model:\s*(.+)$/m)
@@ -291,8 +291,8 @@ async function loadAgentDef(agent: AgentName): Promise<AgentDef> {
 
   return {
     systemPrompt: body.trim(),
-    model: modelMatch ? modelMatch[1].trim() : 'sonnet',
-    tools: toolsMatch ? toolsMatch[1].split(',').map(t => t.trim()) : [],
+    model: modelMatch ? modelMatch[1].trim() : '',
+    tools: toolsMatch ? toolsMatch[1].split(',').map(t => t.trim().toLowerCase()) : [],
   }
 }
 
@@ -368,37 +368,13 @@ Rules:
     ? `Tasks to plan:\n${taskList}\n\nUser feedback on previous plan: ${feedback}\nRevise the plan accordingly.`
     : `Tasks to plan:\n${taskList}`
 
-  const env = { ...process.env }
-  delete env['CLAUDECODE']
-  delete env['CLAUDE_CODE_SSE_PORT']
-  delete env['CLAUDE_CODE_ENTRYPOINT']
-
   const proc = Bun.spawn([
-    'claude', '-p', userPrompt,
+    'pi', '-p', userPrompt,
     '--system-prompt', systemPrompt,
-    '--output-format', 'stream-json',
-    '--verbose',
-    '--model', 'sonnet',
-    '--dangerously-skip-permissions',
-    '--allowedTools', '',   // no tools — pure reasoning only
-  ], { stdin: 'ignore', stdout: 'pipe', stderr: 'pipe', env })
+    '--no-tools',
+  ], { stdin: 'ignore', stdout: 'pipe', stderr: 'pipe' })
 
-  let resultText = ''
-  const decoder = new TextDecoder()
-  let lineBuffer = ''
-
-  for await (const chunk of proc.stdout) {
-    lineBuffer += decoder.decode(chunk)
-    const lines = lineBuffer.split('\n')
-    lineBuffer = lines.pop() ?? ''
-    for (const line of lines) {
-      if (!line.trim()) continue
-      try {
-        const event = JSON.parse(line)
-        if (event.type === 'result' && event.subtype === 'success') resultText = event.result ?? ''
-      } catch { /* partial */ }
-    }
-  }
+  const resultText = await new Response(proc.stdout).text()
   const stderrText = await new Response(proc.stderr).text()
   await proc.exited
 
@@ -495,68 +471,23 @@ async function runAgent(
   const userPrompt = buildAgentPrompt(task, agent, lastFeedback)
 
   const args = [
-    'claude', '-p', userPrompt,
+    'pi', '-p', userPrompt,
     '--system-prompt', def.systemPrompt,
-    '--output-format', 'stream-json',
-    '--verbose',
-    '--dangerously-skip-permissions',
   ]
-  if (def.tools.length > 0) args.push('--allowedTools', def.tools.join(','))
+  if (def.tools.length > 0) args.push('--tools', def.tools.join(','))
   if (def.model) args.push('--model', def.model)
-
-  // Strip Claude Code session markers so subprocesses aren't blocked as nested sessions
-  const env = { ...process.env }
-  delete env['CLAUDECODE']
-  delete env['CLAUDE_CODE_SSE_PORT']
-  delete env['CLAUDE_CODE_ENTRYPOINT']
 
   const proc = Bun.spawn(args, {
     cwd: process.cwd(),
     stdin: 'ignore',
     stdout: 'pipe',
     stderr: 'pipe',
-    env,
   })
 
-  let rawOutput = ''
-  let resultText = ''
-  const decoder = new TextDecoder()
-  let lineBuffer = ''
-
-  for await (const chunk of proc.stdout) {
-    const text = decoder.decode(chunk)
-    rawOutput += text
-    display.bytesWritten = rawOutput.length
-    lineBuffer += text
-
-    const lines = lineBuffer.split('\n')
-    lineBuffer = lines.pop() ?? ''
-
-    for (const line of lines) {
-      if (!line.trim()) continue
-      try {
-        const event = JSON.parse(line)
-        const status = statusFromEvent(event)
-        if (status) display.status = status
-        if (event.type === 'result' && event.subtype === 'success') {
-          resultText = event.result ?? ''
-        }
-      } catch { /* partial line */ }
-    }
-  }
-
-  // drain any final partial line
-  if (lineBuffer.trim()) {
-    try {
-      const event = JSON.parse(lineBuffer)
-      const status = statusFromEvent(event)
-      if (status) display.status = status
-      if (event.type === 'result' && event.subtype === 'success') {
-        resultText = event.result ?? ''
-      }
-    } catch { /* incomplete */ }
-  }
-
+  const rawOutput = await new Response(proc.stdout).text()
+  display.bytesWritten = rawOutput.length
+  display.status = rawOutput.trim().split('\n').find(Boolean)?.slice(0, 70) || 'Completed'
+  const resultText = rawOutput
   const stderrText = await new Response(proc.stderr).text()
   await proc.exited
   const combined = rawOutput + (stderrText ? `\n--- STDERR ---\n${stderrText}` : '')

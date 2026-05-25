@@ -1,6 +1,6 @@
 ---
 name: new-links
-description: Create a new daily Useful Links post. Paste URLs and Claude organizes them into categories with a Quote of the Day.
+description: Create a new daily Useful Links post. Paste URLs and pi organizes them into categories with a Quote of the Day.
 disable-model-invocation: false
 argument-hint: "[paste URLs or describe what you have]"
 ---
@@ -90,5 +90,5 @@ Show Greg the post and ask if he wants to adjust categories, add/remove links, o
 git add src/content/links/YYYY-MM-DD.md
 git commit -m "links: YYYY-MM-DD daily useful links
 
-Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>"
+Co-Authored-By: pi coding agent <noreply@pi.dev>"
 ```
