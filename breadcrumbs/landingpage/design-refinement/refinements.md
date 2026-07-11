@@ -104,3 +104,12 @@ These changes were made outside the automated pipeline during a design review wi
 - **Files changed**: `src/components/blog/BlogContent.astro` (new), `src/pages/blog/index.astro`, `src/pages/blog/[...slug].astro`
 - **Alternatives considered**: Prose modifier classes only (insufficient — can't target legacy HTML table attributes or override Shiki inline styles). Page-level `<style>` block (Astro scoping prevented styles from reaching `<Content />` children — had to use `:global()` in a wrapper component).
 - **Confidence**: high
+
+### Refinement: Add CAMP IT conference talk
+- **Date**: 2026-07-11
+- **Who**: Frontend Builder (interactive)
+- **What**: Added the July 16, 2026 CAMP IT Conferences AI / Data Innovation Strategies session to the Talks & Training section, including the event context, talk title, summary, date, type badge, and external event link.
+- **Why**: Greg asked to add the new CAMP IT talk to the Talks & Training section so the landing page reflects the upcoming speaking engagement.
+- **Files changed**: `src/components/landing/Speaking.astro`
+- **Alternatives considered**: Add only a plain text event without a link (rejected because Greg provided the event URL and the talk title is useful as a direct outbound link).
+- **Confidence**: high
