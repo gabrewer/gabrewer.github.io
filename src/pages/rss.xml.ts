@@ -2,6 +2,10 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
 
+function getSlug(post: { id: string; data: { slug?: string } }) {
+  return post.data.slug || post.id.replace(/\.mdx?$/, '');
+}
+
 export async function GET(context: APIContext) {
   const posts = await getCollection('blog', ({ data }) => import.meta.env.DEV || !data.draft);
 
@@ -18,7 +22,7 @@ export async function GET(context: APIContext) {
       title: post.data.title,
       pubDate: post.data.date,
       description: post.data.description ?? post.data.title,
-      link: `/blog/${post.data.slug || post.slug}/`,
+      link: `/blog/${getSlug(post)}/`,
     })),
     customData: '<language>en-us</language>',
   });

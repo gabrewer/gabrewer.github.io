@@ -1,9 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import LinksContent from '../../components/links/LinksContent.astro';
 
 const POSTS_PER_PAGE = 10;
+
+function getSlug(post: { id: string; data: { slug?: string } }) {
+  return post.data.slug || post.id.replace(/\.mdx?$/, '');
+}
 
 export async function getStaticPaths() {
   const postsPerPage = 10;
@@ -25,7 +29,7 @@ const paged = sorted.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
 
 const rendered = await Promise.all(
   paged.map(async (post) => {
-    const { Content } = await post.render();
+    const { Content } = await render(post);
     return { post, Content };
   })
 );
@@ -67,7 +71,7 @@ const newerHref = page === 2 ? '/links' : `/links/${page - 1}`;
               {formatDate(post.data.date)}
             </time>
             <h2 class="text-xl font-bold">
-              <a href={`/links/${post.slug}`} class="hover:text-primary transition-colors">
+              <a href={`/links/${getSlug(post)}`} class="hover:text-primary transition-colors">
                 {post.data.title}
               </a>
             </h2>

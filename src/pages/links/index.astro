@@ -1,9 +1,13 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import LinksContent from '../../components/links/LinksContent.astro';
 
 const POSTS_PER_PAGE = 10;
+
+function getSlug(post: { id: string; data: { slug?: string } }) {
+  return post.data.slug || post.id.replace(/\.mdx?$/, '');
+}
 
 const posts = await getCollection('links', ({ data }) => import.meta.env.DEV || !data.draft);
 const sorted = posts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
@@ -14,7 +18,7 @@ const paged = sorted.slice(0, POSTS_PER_PAGE);
 // Render content for each post on this page
 const rendered = await Promise.all(
   paged.map(async (post) => {
-    const { Content } = await post.render();
+    const { Content } = await render(post);
     return { post, Content };
   })
 );
@@ -54,7 +58,7 @@ function formatDate(d: Date) {
               {formatDate(post.data.date)}
             </time>
             <h2 class="text-xl font-bold">
-              <a href={`/links/${post.slug}`} class="hover:text-primary transition-colors">
+              <a href={`/links/${getSlug(post)}`} class="hover:text-primary transition-colors">
                 {post.data.title}
               </a>
             </h2>

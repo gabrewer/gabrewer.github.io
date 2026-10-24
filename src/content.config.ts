@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 // Flexible tags: string or array of strings (11ty posts used both formats)
 const tagsSchema = z.union([
@@ -26,12 +27,12 @@ const blogSchema = z.object({
 });
 
 const blog = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
   schema: blogSchema,
 });
 
 const links = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/*.md', base: './src/content/links' }),
   schema: blogSchema,
 });
 

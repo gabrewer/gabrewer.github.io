@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { marked } from 'marked';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogContent from '../../components/blog/BlogContent.astro';
@@ -9,6 +9,10 @@ const sorted = blogPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getT
 
 const MORE_MARKER = '<!--more-->';
 
+function getSlug(post: { id: string; data: { slug?: string } }) {
+  return post.data.slug || post.id.replace(/\.mdx?$/, '');
+}
+
 const rendered = await Promise.all(
   sorted.map(async (post) => {
     const hasExcerpt = post.body.includes(MORE_MARKER);
@@ -17,7 +21,7 @@ const rendered = await Promise.all(
       const excerptHtml = await marked.parse(excerptMarkdown);
       return { post, Content: null, excerptHtml };
     }
-    const { Content } = await post.render();
+    const { Content } = await render(post);
     return { post, Content, excerptHtml: null };
   })
 );
@@ -56,7 +60,7 @@ function formatDate(d: Date) {
               {formatDate(post.data.date)}
             </time>
             <h2 class="text-2xl font-bold leading-tight">
-              <a href={`/blog/${post.data.slug || post.slug}`} class="hover:text-primary transition-colors">
+              <a href={`/blog/${getSlug(post)}`} class="hover:text-primary transition-colors">
                 {post.data.title}
               </a>
             </h2>
@@ -79,7 +83,7 @@ function formatDate(d: Date) {
 
           {excerptHtml && (
             <div class="pt-4">
-              <a href={`/blog/${post.data.slug || post.slug}`} class="btn btn-primary btn-sm">
+              <a href={`/blog/${getSlug(post)}`} class="btn btn-primary btn-sm">
                 Read more →
               </a>
             </div>

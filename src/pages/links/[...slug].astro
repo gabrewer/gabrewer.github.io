@@ -1,18 +1,22 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import LinksContent from '../../components/links/LinksContent.astro';
+
+function getSlug(post: { id: string; data: { slug?: string } }) {
+  return post.data.slug || post.id.replace(/\.mdx?$/, '');
+}
 
 export async function getStaticPaths() {
   const posts = await getCollection('links', ({ data }) => import.meta.env.DEV || !data.draft);
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.data.slug || post.id.replace(/\.mdx?$/, '') },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 
 const date = post.data.date;
 const formattedDate = date.toLocaleDateString('en-US', {
