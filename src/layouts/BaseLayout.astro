@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import PostHog from '../components/posthog.astro';
 import ThemeSwitcher from '../components/ThemeSwitcher.astro';
 
 interface Props {
@@ -55,6 +56,8 @@ const pathname = Astro.url.pathname;
 
     <!-- Sitemap -->
     <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <PostHog />
 
     <!-- Prevent theme flash: read localStorage before page renders -->
     <script is:inline>
@@ -125,15 +128,30 @@ const pathname = Astro.url.pathname;
       (function() {
         var btn = document.getElementById('mobile-menu-btn');
         var dropdown = document.getElementById('mobile-menu-dropdown');
-        if (!btn || !dropdown) return;
-        btn.addEventListener('click', function() {
-          var expanded = btn.getAttribute('aria-expanded') === 'true';
-          btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-        });
-        dropdown.addEventListener('focusout', function(e) {
-          if (!dropdown.contains(e.relatedTarget)) {
-            btn.setAttribute('aria-expanded', 'false');
-          }
+        if (btn && dropdown) {
+          btn.addEventListener('click', function() {
+            var expanded = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+          });
+          dropdown.addEventListener('focusout', function(e) {
+            if (!dropdown.contains(e.relatedTarget)) {
+              btn.setAttribute('aria-expanded', 'false');
+            }
+          });
+        }
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+          if (!(target instanceof Element)) return;
+          var cta = target.closest('[data-posthog-event]');
+          if (!cta) return;
+          var eventName = cta.getAttribute('data-posthog-event');
+          var placement = cta.getAttribute('data-posthog-placement');
+          window.posthog?.capture(eventName, { placement: placement });
+          window.posthog?.logger?.info('conversion CTA selected', {
+            event_name: eventName,
+            placement: placement,
+          });
         });
       })();
     </script>

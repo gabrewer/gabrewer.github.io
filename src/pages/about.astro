@@ -218,12 +218,19 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         the future of software &mdash; reach out.
       </p>
       <div class="flex flex-wrap justify-center gap-3">
-        <a href="mailto:greg@gabrewer.com" class="btn btn-primary">Email Me</a>
+        <a
+          href="mailto:greg@gabrewer.com"
+          class="btn btn-primary"
+          data-posthog-event="contact_email_clicked"
+          data-posthog-placement="about"
+        >Email Me</a>
         <a
           href="https://outlook-sdf.office.com/bookwithme/user/9eb0e58935e84f68a9faccb3732b0077@lessi.ai?anonymous&ep=signature"
           target="_blank"
           rel="noopener noreferrer"
           class="btn btn-outline"
+          data-posthog-event="meeting_booking_clicked"
+          data-posthog-placement="about"
         >Book a Call</a>
       </div>
     </section>
