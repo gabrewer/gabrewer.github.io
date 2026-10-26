@@ -1,7 +1,7 @@
 ---
 title: "AI Development Is Made of People!"
 date: 2026-10-24T19:49:20-04:00
-slug: ai-assisted-development-beyond-engineering
+slug: ai-development-is-made-of-people
 draft: true
 author: gabrewer
 comments: true
