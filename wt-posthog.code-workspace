@@ -1,0 +1,11 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "peacock.color": "#68217A",
+        "window.title": "wt-posthog — ${rootName}"
+    }
+}
