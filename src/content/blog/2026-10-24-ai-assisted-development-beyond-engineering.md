@@ -21,7 +21,7 @@ In my [previous post](/blog/ai-engineering-orchestration-making-the-shift-real),
 
 As BAs participate more directly in shaping the software, engineers bring their technical judgment into more of those conversations. Connecting business intent to technical decisions, guiding agent execution, and evaluating the result expand their impact beyond the code they personally write. That's what I want from this process: more meaningful work between people, not fewer reasons to interact.
 
-### Start with the People Who Understand the Problem
+### The Business Knows a Thing or Two
 
 A business analyst brings something a coding agent doesn't have on its own: an understanding of the business, the people using the application, and why a change matters.
 
@@ -31,7 +31,9 @@ Instead of describing a change in isolation, BAs can examine how the application
 
 That gives us a better basis for acceptance criteria: observable behavior in a defined context, including cases where the new behavior should not apply. Code provides evidence about the current system; BAs and developers then discuss what that evidence means for the proposed change.
 
-### The PRD Is a Shared Understanding
+### Whose PRD Is It, Anyway?
+
+We started with developers creating the PRDs and reviewing them with BAs. The documents got reviewed, but the BAs didn't really feel ownership of the issues. That helped us see why BAs needed to lead discovery and PRD creation, with developers contributing technical context rather than handing over a document for agreement.
 
 BAs and developers review the PRD together to agree on the problem, intended behavior, scope, and acceptance criteria. The PRD defines what we intend to build and why; the sprint plan describes how we will deliver it.
 
@@ -41,7 +43,7 @@ That's what I want us to catch in the review. Does this describe the intended bu
 
 For me, the value isn't simply a faster PRD. It's how much deeper business and engineering can go together before implementation starts. Assumptions are there to question. Edge cases have been explored. Requirements are grounded in the existing application, with acceptance criteria to test and open questions to resolve.
 
-### We Code Review the Sprint Plan
+### Code Review with No Code!
 
 Once BAs and developers agree on the requirements and acceptance criteria and resolve any blocking questions, the focus shifts from what to build to how to build it. Developers use AI planning skills to create sprint plans as GitHub issues.
 
@@ -55,11 +57,13 @@ Developers review the plan much as they would review code, challenging the appro
 - Will the proposed tests demonstrate the intended behavior?
 - Has the plan added complexity or scope we never agreed to?
 
+We're still learning what to look for in these reviews, and this is where engineering expertise matters. A detailed plan can look convincing while missing a dependency, overlooking an existing workflow, or proposing the wrong approach. Engineers bring the system knowledge and technical judgment to challenge those gaps before agents turn the plan into code.
+
 This is engineering work, before the code exists.
 
 We can catch gaps and shape the implementation while changing direction is still relatively cheap. As agents make execution faster, the judgment we apply to their instructions matters even more.
 
-### Execute with a Team of Agents
+### Cry Havoc and Let Slip the Agents of Code!
 
 After the plan is approved, a team of agents executes it. Builders implement the work. A destroyer challenges the result through adversarial testing and inspection. A reviewer evaluates the implementation and findings, routes fixes, and identifies decisions that need human attention.
 
@@ -67,11 +71,13 @@ Separating those roles matters. The agent that built something shouldn't be the 
 
 The agents use skills tailored to the existing system—its architecture, conventions, and established patterns—alongside general skills for implementation, testing, and review. Different skills can also use different models, chosen for the work involved rather than assuming one model is the best fit for every task.
 
+We're also figuring out how to let developers experiment with new AI tools without losing the collaboration benefits of shared agents and skills. We want people to bring new ideas back to the team, but we don't want individual experimentation to fragment the way we work together. We haven't settled that balance yet.
+
 Verification depends on the change. A documentation update doesn't need the same checks as a change to permissions, persistence, or a user-facing workflow. GitHub issues hold the plan, progress, findings, and verification evidence so developers can inspect what the agent team did during implementation.
 
 When agents encounter a requirement gap or an architectural choice the plan doesn't address, they bring it back to the developer. The developer applies their judgment, and the agents incorporate that guidance into the implementation and continue the work.
 
-### Review the Implementation and the Evidence
+### Show Me the Evidence
 
 The completed work becomes a pull request reviewed by AI and the developer. The review connects the implementation back to the original intent: Does it meet the acceptance criteria? Did it preserve behavior we said would remain unchanged? What do the tests prove, and what hasn't been checked?
 
@@ -81,17 +87,21 @@ Developers still need to inspect consequential decisions, sensitive boundaries, 
 
 The decision to move forward is still theirs.
 
+Our PR reviews are sometimes spotty. Having a review step in the workflow doesn't guarantee a thorough review, and making that practice consistent is still work we need to do.
+
 We're putting more emphasis on whether the running software behaves as intended. Code review and automated checks help assess the implementation; testing the application against the agreed acceptance criteria helps establish whether it delivers what we set out to build.
 
-### Engineering Tests in Dev Before BAs Test in QA
+### It Runs. But Does It Work?
 
 After deployment to our Dev instance, the engineering team peer reviews and tests the running application. Engineers check the delivered behavior against the requirements and acceptance criteria—not leaving that judgment to agents or relying on BAs to discover gaps we should have caught.
+
+Reviewing the running application in Dev still isn't a natural part of the process for every developer. We're working to make it a habit, not just a checkpoint on paper.
 
 Does the workflow make sense? Does it behave as the BA and developer understood it would? Did we miss something that wasn't obvious from the plan or code?
 
 Engineering addresses defects and missing behavior and decides when the change is ready for deployment to the QA instance. BAs then test it against the business requirements and acceptance criteria. That business perspective builds on engineering verification rather than substituting for it. The agreed criteria carry through both stages.
 
-### From PRD to Dev in Hours or Days
+### Are We There Already?
 
 We've seen changes move from an agreed PRD to a Dev deployment in hours or days, sometimes within the same day. That's what we're seeing in practice, not a turnaround time we can promise for every change. Scope, existing complexity, unresolved decisions, and verification needs all affect the timeline.
 
@@ -99,11 +109,11 @@ Human availability can also be the bottleneck. Someone still needs to review the
 
 What matters to me is getting working software into the hands of the business sooner. After engineering verifies the change in Dev, deployment to the QA instance gives BAs an earlier opportunity to show us where the implementation missed the mark. That shortens the cycle between implementation, feedback, and correction.
 
-### The Process Needs Review, Too
+### Who’s Running This Asylum?
 
 The skills, agent instructions, and review gates are part of the system we're building. They need feedback from everyone participating in it—not just engineering.
 
-A BA might notice that the brainstorming skill skips an important business question. A developer might find that the planning agent repeatedly misses a dependency. Testing in Dev or QA might reveal a gap our acceptance criteria that automated checks never addressed.
+The ownership gaps, uneven reviews, and experimentation questions aren't separate from that work. They're feedback about where the process needs to improve.
 
 We need to trace that feedback through the process. Was the intent unclear in the PRD? Did the sprint plan lose a requirement? Did implementation miss something the plan specified? Did review fail to challenge the right behavior?
 
@@ -111,7 +121,7 @@ The answer determines what we refine: a skill, an agent's instructions, a handof
 
 I don't want us to fix the defect and stop there. What would help the next team member or agent avoid it? We need to update the shared instructions and check whether the change actually helps. The goal is clearer guidance, not a longer list of instructions.
 
-### Beyond the Engineering Team
+### We’re Going to Need a Bigger Team
 
 Listening to the HBR podcast episode “Why Great Teams Don’t Need to Like Each Other,” I was struck by a concern about AI pulling us away from human interaction.
 
