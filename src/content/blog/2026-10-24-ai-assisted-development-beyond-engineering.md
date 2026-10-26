@@ -1,5 +1,5 @@
 ---
-title: "AI-Assisted Development Is Moving Beyond the Engineering Team"
+title: "AI Development Is Made of People!"
 date: 2026-10-24T19:49:20-04:00
 slug: ai-assisted-development-beyond-engineering
 draft: true
