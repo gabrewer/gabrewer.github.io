@@ -123,7 +123,7 @@ I don't want us to fix the defect and stop there. What would help the next team 
 
 ### We’re Going to Need a Bigger Team
 
-Listening to the HBR podcast episode “Why Great Teams Don’t Need to Like Each Other,” I was struck by a concern about AI pulling us away from human interaction.
+Listening to the HBR podcast episode [“Why Great Teams Don’t Need to Like Each Other”](https://hbr.org/podcast/2026/10/why-great-teams-dont-need-to-like-each-other), I was struck by a concern about AI pulling us away from human interaction.
 
 I want this process to take us in the opposite direction.
 
