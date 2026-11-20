@@ -11,7 +11,7 @@ tags: ["post"]
 
 Most conversations about AI in software development start with developers writing code faster.
 
-At [Lessi AI](https://www.lessi.ai) and the [American Board of Emergency Medicine](https://www.abem.org), we're pushing that boundary outward. Business analysts are using AI to explore requirements, develop product requirements documents (PRDs), and define acceptance criteria before implementation begins.
+I'm working with teams where business analysts are using AI to explore requirements, develop product requirements documents (PRDs), and define acceptance criteria before implementation begins.
 
 The goal isn't to turn business analysts into developers. It's to help them shape the software with the business knowledge they already bring—and help business and engineering agree on what to build.
 
